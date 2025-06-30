@@ -1,0 +1,6 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Main_Category,Sub_Category,Detail_Category,Net CO2 (kt),CH4,N2O,Year
+International bunkers,Total national emissions and removals,International bunkers,International bunkers,26756.47342960094,0.34796712575219,0.98572963008135,1993
+Aviation,Total national emissions and removals,International bunkers,Aviation,17959.13205968148,0.21693632810608,0.57019307502949,1993
+Navigation,Total national emissions and removals,International bunkers,Navigation,8797.34136991946,0.13103079764611,0.41553655505186,1993
+CO2 emissions from biomass,Total national emissions and removals,CO2 emissions from biomass,CO2 emissions from biomass,4368.916794738579,,,1993
+Indirect N2O,Total national emissions and removals,Indirect N2O,Indirect N2O,,,12.5886546559784,1993

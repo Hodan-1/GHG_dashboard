@@ -1,0 +1,9 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4,N2O,HFCs(1) (kt CO2 equivalent),PFCs(1),Unspecified mix of HFCs and PFCs(1),SF6 (kt),NF3,NOx,CO,NMVOC,UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND SO2,Year,Level,Parent_Sector
+A.  Mineral industry,9026.264373546564,,,,,,,,NO,4.57816914090432,3.02231273177344,18.3661039886401,2006,Subsector,2.  Industrial processes and product use
+B.  Chemical industry,5952.015142199488,3.43501293396053,7.63861019339605,393.65208525,111.9658918176859,NO,NO,NO,6.0111835192307,37.21066259145982,33.04115021426252,5.79562584921995,2006,Subsector,2.  Industrial processes and product use
+C.  Metal industry,21037.654038338864,1.17679210566445,0.05278889856645,NO,133.11553090574344,,0.012011154,,13.2785505375875,371.49282600597536,3.52704585008873,20.37468192591828,2006,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,521.5430152372323,"NO,IE","NO,NE,IE",,,,,,"NO,IE","NO,IE",394.17843881875405,1.7649254343688,2006,Subsector,2.  Industrial processes and product use
+E.  Electronic industry ,,,,18.78715774976547,"NO,NE,IE","NO,NE","NO,NE,IE",2.210571764e-05,,,,,2006,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,9109.533731739477,2.28425379747406,,,,,,,,2006,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,NO,NO,2.76337744154084,,114.67411985823314,,0.02514585628218,,0.0963774,2.9502193,0.25914812,NO,2006,Subsector,2.  Industrial processes and product use
+H.  Other(3),"IE,NE,NO",0.83487609725239,NO,,,,,,1.56862316517343,8.62742740845389,90.32587783673463,3.13724633034687,2006,Subsector,2.  Industrial processes and product use

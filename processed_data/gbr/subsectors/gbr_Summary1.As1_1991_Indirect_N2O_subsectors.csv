@@ -1,0 +1,22 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4,N2O,HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Country,Year,Level,Parent_Sector
+Total national emissions and removals,614363.2203847475,5419.626362665269,168.1944723172287,12582.825728160471,1243.0533429827867,0.05545701674504,GBR,1991,Subsector,Indirect N2O
+1. Energy,567624.8351479645,1517.5810701402088,12.25304941615515,,,,GBR,1991,Subsector,Indirect N2O
+A. Fuel combustion     Reference approach(2),561819.3001640907,,,,,,GBR,1991,Subsector,Indirect N2O
+                                           Sectoral approach(2),561364.4952109663,134.666319636846,12.10733110536919,,,,GBR,1991,Subsector,Indirect N2O
+1.  Energy industries,235358.61786855172,9.29721397493072,4.77340798677118,,,,GBR,1991,Subsector,Indirect N2O
+2.  Manufacturing industries and construction                          ,78754.59302728824,4.23589645258032,0.9826184811337,,,,GBR,1991,Subsector,Indirect N2O
+3.  Transport,119332.13441367378,50.23476220136224,4.78927414518554,,,,GBR,1991,Subsector,Indirect N2O
+4.  Other sectors,123617.75115968891,70.79002096943812,1.40432149937559,,,,GBR,1991,Subsector,Indirect N2O
+5.  Other,4301.39874176371,0.10842603853459,0.15770899290318,,,,GBR,1991,Subsector,Indirect N2O
+B. Fugitive emissions from fuels,6260.33993699822,1382.9147505033627,0.14571831078596,,,,GBR,1991,Subsector,Indirect N2O
+1.  Solid fuels,1312.1340809408694,897.8325295255721,0.000122796,,,,GBR,1991,Subsector,Indirect N2O
+2.  Oil and natural gas and other emissions from energy production,4948.2058560573505,485.0822209777906,0.14559551478596,,,,GBR,1991,Subsector,Indirect N2O
+2.  Industrial processes and product use,40751.71190583415,11.36160980369315,82.50653222248519,12582.825728160471,1243.0533429827867,0.05545701674504,GBR,1991,Subsector,Indirect N2O
+A.  Mineral industry,8516.932429211069,,,,,,GBR,1991,Subsector,Indirect N2O
+B.  Chemical industry,7493.080241436179,8.87472921355697,80.42189158861585,12549.850247320996,16.07851391469603,,GBR,1991,Subsector,Indirect N2O
+C.  Metal industry,24232.3036309544,1.47780118282677,0.06383472581813,,1148.136025095774,0.01698125,GBR,1991,Subsector,Indirect N2O
+D.  Non-energy products from fuels and solvent use ,509.39560423250276,,,,,,GBR,1991,Subsector,Indirect N2O
+E.  Electronic industry ,,,,5.5085797132203,,,GBR,1991,Subsector,Indirect N2O
+F.  Product uses as substitutes for ODS,,,,27.46690112625593,,,GBR,1991,Subsector,Indirect N2O
+G.  Other product manufacture and use ,,,2.02080590805121,,78.83880397231675,0.03847576674504,GBR,1991,Subsector,Indirect N2O
+H.  Other(3),,1.00907940730941,,,,,GBR,1991,Subsector,Indirect N2O

@@ -1,0 +1,22 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4,N2O,HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Year,Level,Parent_Sector
+Total national emissions and removals,570567.3833893036,3973.2327193620517,89.62835714034085,8797.697475213592,321.2956096285321,0.0565918238966,2003,Subsector,Multilateral operations
+1. Energy,535489.7215550286,580.4150288224063,10.84964287709032,,,,2003,Subsector,Multilateral operations
+A. Fuel combustion     Reference approach(2),527053.0209008344,,,,,,2003,Subsector,Multilateral operations
+                                           Sectoral approach(2),529926.5187706075,64.1498736107826,10.72326136474208,,,,2003,Subsector,Multilateral operations
+1.  Energy industries,215329.63571973558,13.51090362555113,4.06804755845403,,,,2003,Subsector,Multilateral operations
+2.  Manufacturing industries and construction                          ,66739.73236305067,3.00355019432007,0.79993566110594,,,,2003,Subsector,Multilateral operations
+3.  Transport,129888.02739598167,19.39640850072307,5.01471255514444,,,,2003,Subsector,Multilateral operations
+4.  Other sectors,114802.59102218092,28.15471365827981,0.7274012477657,,,,2003,Subsector,Multilateral operations
+5.  Other,3166.5322696586522,0.08429763190853,0.11316434227197,,,,2003,Subsector,Multilateral operations
+B. Fugitive emissions from fuels,5563.202784421118,516.2651552116237,0.12638151234824,,,,2003,Subsector,Multilateral operations
+1.  Solid fuels,185.4220100464746,233.3197148838864,0.000148068,,,,2003,Subsector,Multilateral operations
+2.  Oil and natural gas and other emissions from energy production,5377.780774374643,282.9454403277373,0.12623344434824,,,,2003,Subsector,Multilateral operations
+2.  Industrial processes and product use,35973.581220554006,6.77772284233984,11.49272387900357,8797.697475213592,321.2956096285321,0.0565918238966,2003,Subsector,Multilateral operations
+A.  Mineral industry,8755.38977855664,,,,,,2003,Subsector,Multilateral operations
+B.  Chemical industry,6528.977953824418,4.89410478982462,9.39120180971151,2069.5187332,69.13449510647553,,2003,Subsector,Multilateral operations
+C.  Metal industry,19617.068326759472,1.266079752277,0.0559244752277,,116.31441728488196,0.0267698144,2003,Subsector,Multilateral operations
+D.  Non-energy products from fuels and solvent use ,1072.1451614134724,,,,,,2003,Subsector,Multilateral operations
+E.  Electronic industry ,,,,14.02703195186846,,,2003,Subsector,Multilateral operations
+F.  Product uses as substitutes for ODS,,,,6714.151710061723,4.7391121176303,,2003,Subsector,Multilateral operations
+G.  Other product manufacture and use ,,,2.04559759406436,,131.10758511954432,0.0298220094966,2003,Subsector,Multilateral operations
+H.  Other(3),,0.61753830023822,,,,,2003,Subsector,Multilateral operations

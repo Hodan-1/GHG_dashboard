@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),Unspecified mix of HFCs and PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),5727725.446515601,,,,,,,Summary1.As1,USA,2000,Subsector,1. Energy
+                                           Sectoral approach(2),5743954.001076498,507.49498134793396,283.7189104070963,,,,,Summary1.As1,USA,2000,Subsector,1. Energy
+1.  Energy industries,2445003.4244880527,26.68654426454339,85.47315373429414,,,,,Summary1.As1,USA,2000,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,719762.5399394959,72.73985182359168,10.1054706376238,,,,,Summary1.As1,USA,2000,Subsector,1. Energy
+3.  Transport,1761934.685954169,199.1425756811295,181.55814079097982,,,,,Summary1.As1,USA,2000,Subsector,1. Energy
+4.  Other sectors,608539.8943485012,205.99891251860694,4.1359177747896,,,,,Summary1.As1,USA,2000,Subsector,1. Energy
+5.  Other,208713.45634627948,2.92709706006243,2.44622746940893,,,,,Summary1.As1,USA,2000,Subsector,1. Energy
+B. Fugitive emissions from fuels,38914.65748678751,12517.864338758778,0.08272913524897,,,,,Summary1.As1,USA,2000,Subsector,1. Energy
+1.  Solid fuels,4165.172234992755,3080.6321980195567,,,,,,Summary1.As1,USA,2000,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,34749.48525179476,9437.232140739223,0.08272913524897,,,,,Summary1.As1,USA,2000,Subsector,1. Energy

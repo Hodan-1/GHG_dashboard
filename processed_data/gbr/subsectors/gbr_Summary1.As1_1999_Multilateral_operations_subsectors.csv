@@ -1,0 +1,22 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4,N2O,HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Country,Year,Level,Parent_Sector
+Total national emissions and removals,562016.9034296797,4656.257970000691,103.80261191427914,8525.733722629047,412.3438056658791,0.06525650286023,GBR,1999,Subsector,Multilateral operations
+1. Energy,519744.62527999846,807.1017395896392,11.46416195832012,,,,GBR,1999,Subsector,Multilateral operations
+A. Fuel combustion     Reference approach(2),515422.28828670253,,,,,,GBR,1999,Subsector,Multilateral operations
+                                           Sectoral approach(2),513572.28588555823,89.40190912354566,11.30967318448843,,,,GBR,1999,Subsector,Multilateral operations
+1.  Energy industries,188957.708937961,12.19062134217741,3.55134318842492,,,,GBR,1999,Subsector,Multilateral operations
+2.  Manufacturing industries and construction                          ,72135.22991343876,3.27378933702107,0.82099533542578,,,,GBR,1999,Subsector,Multilateral operations
+3.  Transport,129465.27910168156,30.28693779722261,5.85316214750689,,,,GBR,1999,Subsector,Multilateral operations
+4.  Other sectors,119859.68292135996,43.56840656291769,0.97022187807442,,,,GBR,1999,Subsector,Multilateral operations
+5.  Other,3154.3850111169822,0.08215408420689,0.11395063505642,,,,GBR,1999,Subsector,Multilateral operations
+B. Fugitive emissions from fuels,6172.339394440237,717.6998304660935,0.15448877383169,,,,GBR,1999,Subsector,Multilateral operations
+1.  Solid fuels,214.3218541169522,377.11750761338266,5.6052e-05,,,,GBR,1999,Subsector,Multilateral operations
+2.  Oil and natural gas and other emissions from energy production,5958.017540323285,340.5823228527109,0.15443272183169,,,,GBR,1999,Subsector,Multilateral operations
+2.  Industrial processes and product use,41305.65919924143,6.53065777245524,19.3398714066861,8525.733722629047,412.3438056658791,0.06525650286023,GBR,1999,Subsector,Multilateral operations
+A.  Mineral industry,9289.969602125286,,,,,,GBR,1999,Subsector,Multilateral operations
+B.  Chemical industry,7432.99320865499,4.39442352437566,17.28890421755205,5133.11832,23.4159743453958,,GBR,1999,Subsector,Multilateral operations
+C.  Metal industry,24060.56152101584,1.55208783736777,0.06777811309458,,196.46209856561492,0.02736,GBR,1999,Subsector,Multilateral operations
+D.  Non-energy products from fuels and solvent use ,522.1348674453151,,,,,,GBR,1999,Subsector,Multilateral operations
+E.  Electronic industry ,,,,20.12082155381327,,,GBR,1999,Subsector,Multilateral operations
+F.  Product uses as substitutes for ODS,,,,3372.4945810752342,4.70092338922304,,GBR,1999,Subsector,Multilateral operations
+G.  Other product manufacture and use ,,,1.98318907603947,,187.76480936564533,0.03789650286023,GBR,1999,Subsector,Multilateral operations
+H.  Other(3),,0.58414641071181,,,,,GBR,1999,Subsector,Multilateral operations

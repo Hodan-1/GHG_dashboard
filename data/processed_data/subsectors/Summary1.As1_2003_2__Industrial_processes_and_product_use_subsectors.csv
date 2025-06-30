@@ -1,0 +1,9 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4,N2O,HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Year,Level,Parent_Sector
+A.  Mineral industry,8755.38977855664,,,,,,2003,Subsector,2.  Industrial processes and product use
+B.  Chemical industry,6528.977953824418,4.89410478982462,9.39120180971151,2069.5187332,69.13449510647553,,2003,Subsector,2.  Industrial processes and product use
+C.  Metal industry,19617.068326759472,1.266079752277,0.0559244752277,,116.31441728488196,0.0267698144,2003,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,1072.1451614134724,,,,,,2003,Subsector,2.  Industrial processes and product use
+E.  Electronic industry ,,,,14.02703195186846,,,2003,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,6714.151710061723,4.7391121176303,,2003,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,,,2.04559759406436,,131.10758511954432,0.0298220094966,2003,Subsector,2.  Industrial processes and product use
+H.  Other(3),,0.61753830023822,,,,,2003,Subsector,2.  Industrial processes and product use

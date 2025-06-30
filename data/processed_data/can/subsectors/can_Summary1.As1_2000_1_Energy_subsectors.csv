@@ -1,0 +1,12 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),506359.45688562456,,,,,,Summary1.As1,CAN,2000,Subsector,1. Energy
+                                           Sectoral approach(2),508207.5838143956,229.40012126445254,30.48253679821612,,,,Summary1.As1,CAN,2000,Subsector,1. Energy
+1.  Energy industries,199138.2911851228,103.60124669131125,3.77653348993048,,,,Summary1.As1,CAN,2000,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,78017.77573293354,7.50712115709054,2.06690122002413,,,,Summary1.As1,CAN,2000,Subsector,1. Energy
+3.  Transport,137254.34090475444,40.86220817697063,22.17635832165923,,,,Summary1.As1,CAN,2000,Subsector,1. Energy
+4.  Other sectors,93506.40790480259,77.4231976812694,2.45467657033952,,,,Summary1.As1,CAN,2000,Subsector,1. Energy
+5.  Other,290.7680867822195,0.00634755781072,0.00806719626276,,,,Summary1.As1,CAN,2000,Subsector,1. Energy
+B. Fugitive emissions from fuels,16248.496594672708,2151.495879929614,0.34185726984435,,,,Summary1.As1,CAN,2000,Subsector,1. Energy
+1.  Solid fuels,,68.76550217061116,,,,,Summary1.As1,CAN,2000,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,16248.496594672708,2082.7303777590027,0.34185726984435,,,,Summary1.As1,CAN,2000,Subsector,1. Energy
+C. CO2 Transport and storage,0.0854,,,,,,Summary1.As1,CAN,2000,Subsector,1. Energy

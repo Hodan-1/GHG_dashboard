@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),47874.47346967926,,,,,,Summary1.As1,BLR,2002,Subsector,1. Energy
+                                           Sectoral approach(2),49435.0369605,14.3088746495,1.497823054,,,,Summary1.As1,BLR,2002,Subsector,1. Energy
+1.  Energy industries,31928.58156,0.9812118,0.147084472,,,,Summary1.As1,BLR,2002,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,3121.061356,0.1295219,0.018249526,,,,Summary1.As1,BLR,2002,Subsector,1. Energy
+3.  Transport,6751.0600755000005,1.5899927645,0.534224976,,,,Summary1.As1,BLR,2002,Subsector,1. Energy
+4.  Other sectors,6384.6624225000005,11.131723585,0.789883552,,,,Summary1.As1,BLR,2002,Subsector,1. Energy
+5.  Other,1249.6715465,0.4764246,0.008380528,,,,Summary1.As1,BLR,2002,Subsector,1. Energy
+B. Fugitive emissions from fuels,6.44371855473401,109.78813771697247,9.12e-07,,,,Summary1.As1,BLR,2002,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,6.44371855473401,109.78813771697247,9.12e-07,,,,Summary1.As1,BLR,2002,Subsector,1. Energy
+A.  Mineral industry,1660.9028231746288,,,,,,Summary1.As1,BLR,2002,Subsector,1. Energy

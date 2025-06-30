@@ -1,0 +1,22 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Main_Category,Sub_Category,Detail_Category,Net CO2 emissions/removals (kt),CH4,N2O,HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Year
+Total national emissions and removals,Total national emissions and removals,Total,Total national emissions and removals,571948.500800855,3792.249823994491,91.36188886184772,7917.718776473689,407.081950631323,0.04750396522097,2004
+1. Energy,Total national emissions and removals,Energy,1. Energy,535874.7025984254,565.2589187571984,10.54871559463337,,,,2004
+A. Fuel combustion     Reference approach(2),Total national emissions and removals,Energy,A. Fuel combustion     Reference approach(2),528838.4949048988,,,,,,2004
+                                           Sectoral approach(2),Total national emissions and removals,Energy,                                           Sectoral approach(2),530255.8261122069,61.24799655714571,10.41824552321753,,,,2004
+1.  Energy industries,Total national emissions and removals,Energy,1.  Energy industries,213547.9715601416,13.66764653347398,3.94483157846815,,,,2004
+2.  Manufacturing industries and construction                          ,Total national emissions and removals,Energy,2.  Manufacturing industries and construction                          ,65104.96295712645,3.10407884876896,0.83266088367871,,,,2004
+3.  Transport,Total national emissions and removals,Energy,3.  Transport,131251.35397829188,17.41127983779829,4.80194142934535,,,,2004
+4.  Other sectors,Total national emissions and removals,Energy,4.  Other sectors,117293.96665281379,26.98635758556226,0.72774931363555,,,,2004
+5.  Other,Total national emissions and removals,Energy,5.  Other,3057.57096383321,0.07863375154222,0.11106231808977,,,,2004
+B. Fugitive emissions from fuels,Total national emissions and removals,Energy,B. Fugitive emissions from fuels,5618.876486218556,504.0109222000527,0.13047007141584,,,,2004
+1.  Solid fuels,Total national emissions and removals,Energy,1.  Solid fuels,227.727799444994,209.56127845179378,0.000253692,,,,2004
+2.  Oil and natural gas and other emissions from energy production,Total national emissions and removals,Energy,2.  Oil and natural gas and other emissions from energy production,5391.148686773562,294.4496437482589,0.13021637941584,,,,2004
+2.  Industrial processes and product use,Total national emissions and removals,Other,2.  Industrial processes and product use,37405.59760832267,6.20504703382807,14.56326623839524,7917.718776473689,407.081950631323,0.04750396522097,2004
+A.  Mineral industry,Total national emissions and removals,Other,A.  Mineral industry,9062.972208091227,,,,,,2004
+B.  Chemical industry,Total national emissions and removals,Other,B.  Chemical industry,6594.918539923172,4.33681530982506,12.08990160698251,442.0548908,111.9658918176859,,2004
+C.  Metal industry,Total national emissions and removals,Other,C.  Metal industry,20007.67740154801,1.26058072771011,0.05818107277101,,160.50066999851563,0.01547043992,2004
+D.  Non-energy products from fuels and solvent use ,Total national emissions and removals,Other,D.  Non-energy products from fuels and solvent use ,1740.029458760258,,,,,,2004
+E.  Electronic industry ,Total national emissions and removals,Other,E.  Electronic industry ,,,,13.93945840139448,,,2004
+F.  Product uses as substitutes for ODS,Total national emissions and removals,Other,F.  Product uses as substitutes for ODS,,,,7461.724427272295,4.11760907625297,,2004
+G.  Other product manufacture and use ,Total national emissions and removals,Other,G.  Other product manufacture and use ,,,2.41518355864172,,130.4977797388685,0.03203352530097,2004
+H.  Other(3),Total national emissions and removals,Other,H.  Other(3),,0.6076509962929,,,,,2004

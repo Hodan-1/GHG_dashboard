@@ -1,0 +1,7 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4,N2O,HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),527053.0209008344,,,,,,GBR,2003,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,66739.73236305067,3.00355019432007,0.79993566110594,,,,GBR,2003,Subsector,1. Energy
+3.  Transport,129888.02739598167,19.39640850072307,5.01471255514444,,,,GBR,2003,Subsector,1. Energy
+4.  Other sectors,114802.59102218092,28.15471365827981,0.7274012477657,,,,GBR,2003,Subsector,1. Energy
+5.  Other,3166.5322696586522,0.08429763190853,0.11316434227197,,,,GBR,2003,Subsector,1. Energy
+B. Fugitive emissions from fuels,5563.202784421118,516.2651552116237,0.12638151234824,,,,GBR,2003,Subsector,1. Energy

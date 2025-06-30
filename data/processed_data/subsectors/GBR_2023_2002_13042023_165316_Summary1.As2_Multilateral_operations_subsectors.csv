@@ -1,0 +1,29 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,CO2 (kt),CH4,N2O,HFCs (1) (kt CO2 equivalent),PFCs(1),Unspecified mix of HFCs and PFCs(1),SF6 (kt),NF3,NOx,CO,NMVOC,UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND SO2,Year,Level,Parent_Sector
+3.  Agriculture,769.2899208997696,1062.2275793345361,57.35390208837542,,,,,,32.74637966623892,"NO,NE,NA",114.80585420030214,NO,2002,Subsector,Multilateral operations
+A.  Enteric fermentation,,895.733414530225,,,,,,,,,,,2002,Subsector,Multilateral operations
+B.  Manure management,,156.24934808649644,10.52977738072676,,,,,,,,73.6433465783204,,2002,Subsector,Multilateral operations
+C.  Rice cultivation,,NO,,,,,,,,,NO,,2002,Subsector,Multilateral operations
+D.  Agricultural soils,,NE,46.32372626049393,,,,,,30.96791154138773,NE,41.16250762198172,,2002,Subsector,Multilateral operations
+E.  Prescribed burning of savannas,,NO,NO,,,,,,NO,NO,NO,,2002,Subsector,Multilateral operations
+F.  Field burning of agricultural residues,,NO,NO,,,,,,NO,NO,NO,,2002,Subsector,Multilateral operations
+G. Liming,540.709542313458,,,,,,,,,,,,2002,Subsector,Multilateral operations
+H. Urea application,225.5166151429262,,,,,,,,,,,,2002,Subsector,Multilateral operations
+I.  Other carbon-contining fertilizers,NO,,,,,,,,,,,,2002,Subsector,Multilateral operations
+J.  Other ,3.06376344338543,10.24481671781481,0.50039844715473,,,,,,1.77846812485119,"NO,NE,NA","NO,NE,NA",NO,2002,Subsector,Multilateral operations
+"4.  Land use, land-use change and forestry  (4)",-2299.876610017459,197.74573666425604,6.08127070357783,,,,,,1.12839610310241,32.51521892736182,NO,NO,2002,Subsector,Multilateral operations
+A. Forest land (4),-17607.858793852836,3.96373994075783,1.70291557825219,,,,,,0.12447583185026,4.54385171417026,NO,,2002,Subsector,Multilateral operations
+B. Cropland (4),13885.607257277734,11.69379158349054,1.87757166176888,,,,,,0.0025496345578,0.09225377091797,NO,,2002,Subsector,Multilateral operations
+C. Grassland (4),-637.8679418942104,98.32842195678872,0.10493857152656,,,,,,0.89159535696108,23.96379513178709,NO,,2002,Subsector,Multilateral operations
+D. Wetlands (4),530.5245648820734,83.16866025141336,0.073583806749,,,,,,0.05737192118327,2.04626518887001,NO,,2002,Subsector,Multilateral operations
+E. Settlements (4),4090.0640643465317,0.08209859506166,1.12094846333167,,,,,,0.05240335855,1.86905312161649,NO,,2002,Subsector,Multilateral operations
+F. Other land (4),NO,NO,NO,,,,,,NO,NO,NO,,2002,Subsector,Multilateral operations
+G. Harvested wood products ,-2560.3457607767523,,,,,,,,,,,,2002,Subsector,Multilateral operations
+H. Other  (4),"NO,IE",0.50902433674393,0.40898897795844,,,,,,NO,NO,NO,NO,2002,Subsector,Multilateral operations
+5.  Waste,632.5699765241154,2258.5890759076888,4.19274949116647,,,,,,2.49081221548908,35.29381670135348,16.903337415442,1.02812117086273,2002,Subsector,Multilateral operations
+A.  Solid waste disposal (5),"NO,NE",2185.7607251356903,,,,,,,"NO,NE","NO,NE",8.08232770993331,,2002,Subsector,Multilateral operations
+B.  Biological treatment of solid waste (5),,12.10596616833846,0.72273567980444,,,,,,NE,NE,NE,,2002,Subsector,Multilateral operations
+C.  Incineration and open burning of waste (5),632.5699765241154,2.98258439770096,0.2910632544381,,,,,,2.49081221548908,35.29381670135348,8.4759830837938,1.02812117086273,2002,Subsector,Multilateral operations
+D.  Wastewater treatment and discharge,,57.73980020595909,3.17895055692393,,,,,,"NO,NE","NO,NE",0.34502662171489,,2002,Subsector,Multilateral operations
+E.  Other (5),NO,NO,NO,,,,,,NO,NO,NO,NO,2002,Subsector,Multilateral operations
+6.  Other   (please specify)(6),NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,2002,Subsector,Multilateral operations
+Note: All footnotes for this table are given at the end of the table on sheet 3.,,,,,,,,,,,,,2002,Subsector,Multilateral operations

@@ -1,0 +1,29 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,CO2 (kt),CH4,N2O,HFCs (1) (kt CO2 equivalent),PFCs(1),Unspecified mix of HFCs and PFCs(1),SF6 (kt),NF3,NOx,CO,NMVOC,UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND SO2,Year,Level,Parent_Sector
+3.  Agriculture,972.7244192167443,1135.3312487707701,59.65839795831264,,,,,,34.75152198900019,"NO,NE,NA",119.37914963355807,NO,2000,Subsector,Indirect N2O
+A.  Enteric fermentation,,961.2429804953747,,,,,,,,,,,2000,Subsector,Indirect N2O
+B.  Manure management,,163.22545804680806,11.22586829166089,,,,,,,,75.63684000023439,,2000,Subsector,Indirect N2O
+C.  Rice cultivation,,NO,,,,,,,,,NO,,2000,Subsector,Indirect N2O
+D.  Agricultural soils,,NE,47.89173855553407,,,,,,32.85041382330336,NE,43.74230963332369,,2000,Subsector,Indirect N2O
+E.  Prescribed burning of savannas,,NO,NO,,,,,,NO,NO,NO,,2000,Subsector,Indirect N2O
+F.  Field burning of agricultural residues,,NO,NO,,,,,,NO,NO,NO,,2000,Subsector,Indirect N2O
+G. Liming,827.425445409049,,,,,,,,,,,,2000,Subsector,Indirect N2O
+H. Urea application,142.29494956550886,,,,,,,,,,,,2000,Subsector,Indirect N2O
+I.  Other carbon-contining fertilizers,NO,,,,,,,,,,,,2000,Subsector,Indirect N2O
+J.  Other ,3.00402424218649,10.86281022858742,0.54079111111768,,,,,,1.90110816569683,"NO,NE,NA","NO,NE,NA",NO,2000,Subsector,Indirect N2O
+"4.  Land use, land-use change and forestry  (4)",-881.9565978461866,197.43298536900156,6.341672087864,,,,,,1.2585235589586,33.12555816503257,NO,NO,2000,Subsector,Indirect N2O
+A. Forest land (4),-16792.195128512816,3.91219633874828,1.68836774165767,,,,,,0.10606392908622,3.88751917363688,NO,,2000,Subsector,Indirect N2O
+B. Cropland (4),14127.289291634956,11.73367703341898,2.03293880953541,,,,,,0.00313875371331,0.11404122133963,NO,,2000,Subsector,Indirect N2O
+C. Grassland (4),-478.72410798537567,98.21186716258342,0.1058951843825,,,,,,1.0449420035822,25.40115131481439,NO,,2000,Subsector,Indirect N2O
+D. Wetlands (4),693.1241603683898,82.9817296139997,0.07368827012673,,,,,,0.05366514013634,1.91405666486267,NO,,2000,Subsector,Indirect N2O
+E. Settlements (4),4344.7836294110375,0.07945151415683,1.1871696126875,,,,,,0.05071373244053,1.808789790379,NO,,2000,Subsector,Indirect N2O
+F. Other land (4),NO,NO,NO,,,,,,NO,NO,NO,,2000,Subsector,Indirect N2O
+G. Harvested wood products ,-2776.2344427623766,,,,,,,,,,,,2000,Subsector,Indirect N2O
+H. Other  (4),"NO,IE",0.51406370609434,0.41311328287149,,,,,,NO,NO,NO,NO,2000,Subsector,Indirect N2O
+5.  Waste,709.6248054484236,2369.6580134540804,4.12757377325753,,,,,,2.5452020915428,34.66461901825445,17.13804395607938,1.36597189526083,2000,Subsector,Indirect N2O
+A.  Solid waste disposal (5),"NO,NE",2281.3947577472604,,,,,,,"NO,NE","NO,NE",8.41294214268742,,2000,Subsector,Indirect N2O
+B.  Biological treatment of solid waste (5),,9.96816115550442,0.5976222988727,,,,,,NE,NE,NE,,2000,Subsector,Indirect N2O
+C.  Incineration and open burning of waste (5),709.6248054484236,2.99776458608076,0.28214563794894,,,,,,2.5452020915428,34.66461901825445,8.37574069073755,1.36597189526083,2000,Subsector,Indirect N2O
+D.  Wastewater treatment and discharge,,75.29732996523482,3.24780583643589,,,,,,"NO,NE","NO,NE",0.34936112265441,,2000,Subsector,Indirect N2O
+E.  Other (5),NO,NO,NO,,,,,,NO,NO,NO,NO,2000,Subsector,Indirect N2O
+6.  Other   (please specify)(6),NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,2000,Subsector,Indirect N2O
+Note: All footnotes for this table are given at the end of the table on sheet 3.,,,,,,,,,,,,,2000,Subsector,Indirect N2O

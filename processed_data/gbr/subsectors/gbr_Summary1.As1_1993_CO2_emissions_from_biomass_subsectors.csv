@@ -1,0 +1,22 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4,N2O,HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Country,Year,Level,Parent_Sector
+Total national emissions and removals,583385.0584462105,5355.291009471564,137.0323899641951,13764.685728208276,538.7008464761537,0.05098350085002,GBR,1993,Subsector,CO2 emissions from biomass
+1. Energy,539546.6466957834,1421.4490128672583,11.93485266144121,,,,GBR,1993,Subsector,CO2 emissions from biomass
+A. Fuel combustion     Reference approach(2),532929.7716399181,,,,,,GBR,1993,Subsector,CO2 emissions from biomass
+                                           Sectoral approach(2),532911.0132782923,130.22307370108547,11.77998993307841,,,,GBR,1993,Subsector,CO2 emissions from biomass
+1.  Energy industries,208802.33370831798,9.9220225132317,4.17113417539241,,,,GBR,1993,Subsector,CO2 emissions from biomass
+2.  Manufacturing industries and construction                          ,74066.51052749823,3.87727939512361,0.94357307204029,,,,GBR,1993,Subsector,CO2 emissions from biomass
+3.  Transport,121998.99797121914,47.43329870075394,5.15263705709781,,,,GBR,1993,Subsector,CO2 emissions from biomass
+4.  Other sectors,123894.8655016057,68.88126185088214,1.36356188539343,,,,GBR,1993,Subsector,CO2 emissions from biomass
+5.  Other,4148.30556965114,0.10921124109409,0.14908374315447,,,,GBR,1993,Subsector,CO2 emissions from biomass
+B. Fugitive emissions from fuels,6635.633417491165,1291.2259391661726,0.1548627283628,,,,GBR,1993,Subsector,CO2 emissions from biomass
+1.  Solid fuels,1022.2091415743453,829.103641348178,0.000150336,,,,GBR,1993,Subsector,CO2 emissions from biomass
+2.  Oil and natural gas and other emissions from energy production,5613.42427591682,462.12229781799465,0.1547123923628,,,,GBR,1993,Subsector,CO2 emissions from biomass
+2.  Industrial processes and product use,39558.08022770985,11.32405954341662,55.18191231177258,13764.685728208276,538.7008464761537,0.05098350085002,GBR,1993,Subsector,CO2 emissions from biomass
+A.  Mineral industry,7965.099800860758,,,,,,GBR,1993,Subsector,CO2 emissions from biomass
+B.  Chemical industry,7425.547412528549,9.0199110173254,53.10217161017811,13543.531817589494,40.13152254223736,,GBR,1993,Subsector,CO2 emissions from biomass
+C.  Metal industry,22471.20406027026,1.54417119849717,0.06689214313789,,399.0121039510152,0.01698125,GBR,1993,Subsector,CO2 emissions from biomass
+D.  Non-energy products from fuels and solvent use ,1696.2289540502811,,,,,,GBR,1993,Subsector,CO2 emissions from biomass
+E.  Electronic industry ,,,,7.7287590579815,,,GBR,1993,Subsector,CO2 emissions from biomass
+F.  Product uses as substitutes for ODS,,,,213.42515156080225,,,GBR,1993,Subsector,CO2 emissions from biomass
+G.  Other product manufacture and use ,,,2.01284855845658,,99.55721998290115,0.03400225085002,GBR,1993,Subsector,CO2 emissions from biomass
+H.  Other(3),,0.75997732759405,,,,,GBR,1993,Subsector,CO2 emissions from biomass

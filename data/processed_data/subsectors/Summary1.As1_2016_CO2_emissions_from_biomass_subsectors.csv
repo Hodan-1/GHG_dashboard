@@ -1,0 +1,22 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4,N2O,HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Year,Level,Parent_Sector
+Total national emissions and removals,394833.8305490154,2176.2411266065988,74.01543319186187,13359.726126137777,267.2317828235167,0.01907751794551,2016,Subsector,CO2 emissions from biomass
+1. Energy,375956.3334537399,267.5684148820002,7.97942301700532,,,,2016,Subsector,CO2 emissions from biomass
+A. Fuel combustion     Reference approach(2),372276.4634470655,,,,,,2016,Subsector,CO2 emissions from biomass
+                                           Sectoral approach(2),371398.3620202012,45.41513734105338,7.8560690064118,,,,2016,Subsector,CO2 emissions from biomass
+1.  Energy industries,111623.03405732426,14.12576858989607,2.54743046966084,,,,2016,Subsector,CO2 emissions from biomass
+2.  Manufacturing industries and construction                          ,42444.10024794802,3.63859960837871,0.71988118612946,,,,2016,Subsector,CO2 emissions from biomass
+3.  Transport,124200.48072972012,4.29413913087488,3.88674001315878,,,,2016,Subsector,CO2 emissions from biomass
+4.  Other sectors,91583.27144632538,23.3158151676057,0.64707495532378,,,,2016,Subsector,CO2 emissions from biomass
+5.  Other,1547.475538883465,0.04081484429802,0.05494238213894,,,,2016,Subsector,CO2 emissions from biomass
+B. Fugitive emissions from fuels,4557.971433538639,222.1532775409468,0.12335401059352,,,,2016,Subsector,CO2 emissions from biomass
+1.  Solid fuels,349.000939350977,20.26299947312328,6.590808e-05,,,,2016,Subsector,CO2 emissions from biomass
+2.  Oil and natural gas and other emissions from energy production,4208.970494187662,201.89027806782352,0.12328810251352,,,,2016,Subsector,CO2 emissions from biomass
+2.  Industrial processes and product use,22988.30675371613,3.70016644719673,2.91422849892715,13359.726126137777,267.2317828235167,0.01907751794551,2016,Subsector,CO2 emissions from biomass
+A.  Mineral industry,6442.683099813368,,,,,,2016,Subsector,CO2 emissions from biomass
+B.  Chemical industry,4666.93409514041,2.97589747491305,0.08919391436513,1.984,168.837455915557,,2016,Subsector,CO2 emissions from biomass
+C.  Metal industry,11329.297413733699,0.48459419701526,0.02548710122153,2.00122,12.83507443559186,0.00319485,2016,Subsector,CO2 emissions from biomass
+D.  Non-energy products from fuels and solvent use ,549.3921450286517,,,,,,2016,Subsector,CO2 emissions from biomass
+E.  Electronic industry ,,,,24.50123146498609,,,2016,Subsector,CO2 emissions from biomass
+F.  Product uses as substitutes for ODS,,,,13331.23967467279,,,2016,Subsector,CO2 emissions from biomass
+G.  Other product manufacture and use ,,,2.79954748334049,,85.55925247236787,0.01588266794551,2016,Subsector,CO2 emissions from biomass
+H.  Other(3),,0.23967477526842,,,,,2016,Subsector,CO2 emissions from biomass

@@ -1,0 +1,19 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 (kt),CH4,N2O,HFCs(1) (kt CO2 equivalent),PFCs(1),Unspecified mix of HFCs and PFCs(1),SF6 (kt),NF3,NOx,CO,NMVOC,UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND SO2,Year,Level,Parent_Sector
+Memo items:(7),,,,,,,,,,,,,2001,Subsector,CO2 captured
+International bunkers,37985.43023138007,0.26244370192817,1.34031660810677,,,,,,339.01937347943283,29.83115865249071,9.72419713558972,107.9326821277235,2001,Subsector,CO2 captured
+Aviation,29196.766091916157,0.13859476277494,0.92697983805428,,,,,,135.28569572421526,20.9763209468052,3.50146114808862,7.42202740093274,2001,Subsector,CO2 captured
+Navigation,8788.664139463914,0.12384893915323,0.41333677005249,,,,,,203.73367775521757,8.85483770568551,6.2227359875011,100.51065472679076,2001,Subsector,CO2 captured
+Multilateral operations,NE,NE,NE,,,,,,NE,NE,NE,NE,2001,Subsector,CO2 captured
+CO2 emissions from biomass,7129.692558756659,,,,,,,,,,,,2001,Subsector,CO2 captured
+CO2 captured,NO,,,,,,,,,,,,2001,Subsector,CO2 captured
+Long-term storage of C in waste disposal sites,NE,,,,,,,,,,,,2001,Subsector,CO2 captured
+Indirect N2O,,,9.70468885470936,,,,,,,,,,2001,Subsector,CO2 captured
+Indirect CO2,"NO,NE",,,,,,,,,,,,2001,Subsector,CO2 captured
+"(1)   The emissions of hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), unspecified mix of HFCs and PFCs and other fluorinated gases are to be expressed as carbon dioxide (CO2) equivalent emissions. Data on disaggregated emissions of HFCs and PFCs are to be provided in table 2(II) of this common reporting format.",,,,,,,,,,,,,2001,Subsector,CO2 captured
+"(2)   For verification purposes, Parties are requested to report the results of their calculations using the Reference approach and to explain any differences with the Sectoral approach in the documentation box to table 1.A(c). For estimating national total emissions, the results from the Sectoral approach should be used.",,,,,,,,,,,,,2001,Subsector,CO2 captured
+(3)   2.H. Other includes pulp and paper and food and beverages industry.,,,,,,,,,,,,,2001,Subsector,CO2 captured
+"(4)  For the purposes of reporting, the signs for removals are always negative (-) and for emissions positive (+). ",,,,,,,,,,,,,2001,Subsector,CO2 captured
+(5)   CO2 from categories solid waste disposal on land and waste incineration should only be included if it stems from non-biogenic or inorganic waste streams. Only emissions from  ,,,,,,,,,,,,,2001,Subsector,CO2 captured
+"waste incineration without energy recovery are to be reported in the waste sector, whereas emissions from incineration with energy recovery are to be reported in the energy sector.",,,,,,,,,,,,,2001,Subsector,CO2 captured
+"(6)   If reporting any country-specific category under sector ""6. Other"", detailed explanations should be provided in Chapter 8: Other (CRF sector 6) of the national inventory report (NIR).",,,,,,,,,,,,,2001,Subsector,CO2 captured
+"(7)   Parties are asked to report emissions from international aviation and international navigation and multilateral operations, as well as CO2 emissions from biomass and CO2 captured, under Memo Items.  These emissions should not be included in the national total emissions from the energy sector.  Amounts of biomass used as fuel are included in the national energy consumption but the corresponding CO2 emissions  are not included in the national total as it is assumed that the biomass is produced in a sustainable manner.  If the biomass is harvested at an unsustainable rate, net CO2 emissions  are accounted for as a loss of biomass stocks in the Land Use, Land-use Change and Forestry sector. ",,,,,,,,,,,,,2001,Subsector,CO2 captured

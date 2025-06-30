@@ -1,0 +1,22 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4,N2O,HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Country,Year,Level,Parent_Sector
+Total national emissions and removals,559951.8059813032,4169.075637858351,91.1035318049333,8021.329617994803,365.481826428161,0.06436908062207,GBR,2002,Subsector,Indirect CO2
+1. Energy,527861.3651179292,644.4903622895367,11.20957958687282,,,,GBR,2002,Subsector,Indirect CO2
+A. Fuel combustion     Reference approach(2),518588.9671302894,,,,,,GBR,2002,Subsector,Indirect CO2
+                                           Sectoral approach(2),521682.63134939066,69.76018624749861,11.05979313374212,,,,GBR,2002,Subsector,Indirect CO2
+1.  Energy industries,207587.69669332812,13.60747424925809,4.05969146991157,,,,GBR,2002,Subsector,Indirect CO2
+2.  Manufacturing industries and construction                          ,66210.13241942822,2.86303081210538,0.7850135232252,,,,GBR,2002,Subsector,Indirect CO2
+3.  Transport,130503.27977901371,21.96195023282594,5.33089900396497,,,,GBR,2002,Subsector,Indirect CO2
+4.  Other sectors,114320.99807339314,31.2448316930597,0.7757402042473,,,,GBR,2002,Subsector,Indirect CO2
+5.  Other,3060.524384227503,0.0828992602495,0.10844893239308,,,,GBR,2002,Subsector,Indirect CO2
+B. Fugitive emissions from fuels,6178.7337685385,574.7301760420381,0.1497864531307,,,,GBR,2002,Subsector,Indirect CO2
+1.  Solid fuels,194.3148078825769,283.2029809917305,0.00012530376,,,,GBR,2002,Subsector,Indirect CO2
+2.  Oil and natural gas and other emissions from energy production,5984.418960655923,291.5271950503076,0.1496611493707,,,,GBR,2002,Subsector,Indirect CO2
+2.  Industrial processes and product use,32988.457575967564,6.02288366233288,12.26602993494076,8021.329617994803,365.481826428161,0.06436908062207,GBR,2002,Subsector,Indirect CO2
+A.  Mineral industry,8678.057784277655,,,,,,GBR,2002,Subsector,Indirect CO2
+B.  Chemical industry,6261.419239880947,4.24211581677519,10.16832053363855,2124.91009472,70.7958183156942,,GBR,2002,Subsector,Indirect CO2
+C.  Metal industry,16939.65363881376,1.19439225141266,0.05157485649906,,157.81945655966456,0.03371075,GBR,2002,Subsector,Indirect CO2
+D.  Non-energy products from fuels and solvent use ,1109.3269129952007,,,,,,GBR,2002,Subsector,Indirect CO2
+E.  Electronic industry ,,,,14.11475632,,,GBR,2002,Subsector,Indirect CO2
+F.  Product uses as substitutes for ODS,,,,5882.304766954802,5.14953778280228,,GBR,2002,Subsector,Indirect CO2
+G.  Other product manufacture and use ,,,2.04613454480315,,131.71701377,0.03065833062207,GBR,2002,Subsector,Indirect CO2
+H.  Other(3),,0.58637559414503,,,,,GBR,2002,Subsector,Indirect CO2

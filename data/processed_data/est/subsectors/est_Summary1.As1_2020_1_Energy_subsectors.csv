@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),12806.686614902248,,,,,Summary1.As1,EST,2020,Subsector,1. Energy
+                                           Sectoral approach(2),9118.89072478563,1.33557786209483,0.21296304705934,,,Summary1.As1,EST,2020,Subsector,1. Energy
+1.  Energy industries,5714.02130936708,0.51856325225218,0.08658090022959,,,Summary1.As1,EST,2020,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,508.5141536556659,0.06012476282171,0.00981791430885,,,Summary1.As1,EST,2020,Subsector,1. Energy
+3.  Transport,2215.44160332932,0.1218546901003,0.08675268300685,,,Summary1.As1,EST,2020,Subsector,1. Energy
+4.  Other sectors,680.9136584335646,0.63503515692064,0.02981154951405,,,Summary1.As1,EST,2020,Subsector,1. Energy
+B. Fugitive emissions from fuels,0.02766340550857,0.72856695482738,,,,Summary1.As1,EST,2020,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,0.02766340550857,0.72856695482738,,,,Summary1.As1,EST,2020,Subsector,1. Energy
+A.  Mineral industry,70.3144130579302,,,,,Summary1.As1,EST,2020,Subsector,1. Energy
+C.  Metal industry,2.90049328345148,,,,,Summary1.As1,EST,2020,Subsector,1. Energy

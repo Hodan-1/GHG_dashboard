@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,6997.673102989318,,Summary1.As2,USA,2017,Subsector,3.  Agriculture
+B.  Manure management,,2300.198439445451,63.7593502080436,Summary1.As2,USA,2017,Subsector,3.  Agriculture
+C.  Rice cultivation,,595.6671399997964,,Summary1.As2,USA,2017,Subsector,3.  Agriculture
+D.  Agricultural soils,,,1172.0733714032317,Summary1.As2,USA,2017,Subsector,3.  Agriculture
+F.  Field burning of agricultural residues,,17.16793744400554,0.64117038495651,Summary1.As2,USA,2017,Subsector,3.  Agriculture
+G. Liming,3069.018757746684,,,Summary1.As2,USA,2017,Subsector,3.  Agriculture
+H. Urea application,4862.222628346229,,,Summary1.As2,USA,2017,Subsector,3.  Agriculture
+J.  Other ,,,,Summary1.As2,USA,2017,Subsector,3.  Agriculture
+A. Forest land (4),-708745.4831210955,342.084699252802,21.85856698245425,Summary1.As2,USA,2017,Subsector,3.  Agriculture

@@ -1,0 +1,29 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,CO2 (kt),CH4,N2O,HFCs (1) (kt CO2 equivalent),PFCs(1),Unspecified mix of HFCs and PFCs(1),SF6 (kt),NF3,NOx,CO,NMVOC,UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND SO2,Year,Level,Parent_Sector
+3.  Agriculture,1112.3078198511855,1167.9954749871033,61.46111013501815,,,,,,37.37803430862759,"NO,NE,NA",115.81349095222633,NO,1994,Subsector,CO2 captured
+A.  Enteric fermentation,,986.8828240738336,,,,,,,,,,,1994,Subsector,CO2 captured
+B.  Manure management,,170.27113370271204,11.4598945082763,,,,,,,,73.7796665603956,,1994,Subsector,CO2 captured
+C.  Rice cultivation,,NO,,,,,,,,,NO,,1994,Subsector,CO2 captured
+D.  Agricultural soils,,NE,49.42064659652281,,,,,,35.44985074911332,NE,42.03382439183073,,1994,Subsector,CO2 captured
+E.  Prescribed burning of savannas,,NO,NO,,,,,,NO,NO,NO,,1994,Subsector,CO2 captured
+F.  Field burning of agricultural residues,,NO,NO,,,,,,NO,NO,NO,,1994,Subsector,CO2 captured
+G. Liming,890.6279511511387,,,,,,,,,,,,1994,Subsector,CO2 captured
+H. Urea application,218.43227507866808,,,,,,,,,,,,1994,Subsector,CO2 captured
+I.  Other carbon-contining fertilizers,NO,,,,,,,,,,,,1994,Subsector,CO2 captured
+J.  Other ,3.24759362137874,10.84151721055771,0.58056903021904,,,,,,1.92818355951427,"NO,NE,NA","NO,NE,NA",NO,1994,Subsector,CO2 captured
+"4.  Land use, land-use change and forestry  (4)",1427.8593689810348,197.84947075569613,6.92214208076699,,,,,,0.82159730443418,17.54297883433755,NO,NO,1994,Subsector,CO2 captured
+A. Forest land (4),-15336.225273423004,3.6585712735602,1.62291433856009,,,,,,0.06052228299016,2.26448962773064,NO,,1994,Subsector,CO2 captured
+B. Cropland (4),14325.319961073013,11.82387847452392,2.38961724135211,,,,,,0.00366918715759,0.13296001418558,NO,,1994,Subsector,CO2 captured
+C. Grassland (4),-1134.5017252780513,98.99123323767037,0.07919828709115,,,,,,0.66981373902648,12.02141112814968,NO,,1994,Subsector,CO2 captured
+D. Wetlands (4),739.4394465041241,82.71388289004078,0.07039436836406,,,,,,NO,NO,NO,,1994,Subsector,CO2 captured
+E. Settlements (4),5038.654028895878,0.13722761590726,1.37632539822753,,,,,,0.08759209525995,3.12411806427165,NO,,1994,Subsector,CO2 captured
+F. Other land (4),NO,NO,NO,,,,,,NO,NO,NO,,1994,Subsector,CO2 captured
+G. Harvested wood products ,-2204.827068790923,,,,,,,,,,,,1994,Subsector,CO2 captured
+H. Other  (4),"NO,IE",0.52467726399359,0.41907777772059,,,,,,NO,NO,NO,NO,1994,Subsector,CO2 captured
+5.  Waste,1163.283836442643,2583.721209193771,3.55290797548022,,,,,,4.96030967078212,34.71086785897597,18.39394042222417,4.81600650240018,1994,Subsector,CO2 captured
+A.  Solid waste disposal (5),"NO,NE",2485.76101426558,,,,,,,"NO,NE","NO,NE",9.16027241609921,,1994,Subsector,CO2 captured
+B.  Biological treatment of solid waste (5),,4.45694115606957,0.26697915488458,,,,,,NE,NE,NE,,1994,Subsector,CO2 captured
+C.  Incineration and open burning of waste (5),1163.283836442643,5.54357836460628,0.19851815468029,,,,,,4.96030967078212,34.71086785897597,8.85487891135195,4.81600650240018,1994,Subsector,CO2 captured
+D.  Wastewater treatment and discharge,,87.95967540751506,3.08741066591535,,,,,,"NO,NE","NO,NE",0.37878909477301,,1994,Subsector,CO2 captured
+E.  Other (5),NO,NO,NO,,,,,,NO,NO,NO,NO,1994,Subsector,CO2 captured
+6.  Other   (please specify)(6),NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,1994,Subsector,CO2 captured
+Note: All footnotes for this table are given at the end of the table on sheet 3.,,,,,,,,,,,,,1994,Subsector,CO2 captured

@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),338050.27984242694,,,,,,Summary1.As1,GBR,2019,Subsector,1. Energy
+                                           Sectoral approach(2),339123.05732153676,48.03738405558216,7.82749956491882,,,,Summary1.As1,GBR,2019,Subsector,1. Energy
+1.  Energy industries,86446.96075571397,15.62069573098977,2.41044881847036,,,,Summary1.As1,GBR,2019,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,42027.41553413392,4.25107863049819,0.79538594079001,,,,Summary1.As1,GBR,2019,Subsector,1. Energy
+3.  Transport,120750.87501428394,3.85794933307986,3.92395050577274,,,,Summary1.As1,GBR,2019,Subsector,1. Energy
+4.  Other sectors,88265.12584558982,24.2646229946712,0.6397458814187,,,,Summary1.As1,GBR,2019,Subsector,1. Energy
+5.  Other,1632.6801718150687,0.04303736634314,0.05796841846701,,,,Summary1.As1,GBR,2019,Subsector,1. Energy
+B. Fugitive emissions from fuels,4283.404491192525,207.91738913126542,0.12405870238301,,,,Summary1.As1,GBR,2019,Subsector,1. Energy
+1.  Solid fuels,163.11390127287888,19.55890796246231,5.243292e-05,,,,Summary1.As1,GBR,2019,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,4120.290589919646,188.3584811688031,0.12400626946301,,,,Summary1.As1,GBR,2019,Subsector,1. Energy

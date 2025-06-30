@@ -1,0 +1,21 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Main_Category,Sub_Category,Detail_Category,CO2 (kt),CH4,N2O,Year
+3.  Agriculture,Total national emissions and removals,Agriculture,3.  Agriculture,1112.3078198511855,1167.9954749871033,61.46111013501815,1994
+A.  Enteric fermentation,Total national emissions and removals,Agriculture,A.  Enteric fermentation,,986.8828240738336,,1994
+B.  Manure management,Total national emissions and removals,Agriculture,B.  Manure management,,170.27113370271204,11.4598945082763,1994
+D.  Agricultural soils,Total national emissions and removals,Agriculture,D.  Agricultural soils,,,49.42064659652281,1994
+G. Liming,Total national emissions and removals,Agriculture,G. Liming,890.6279511511387,,,1994
+H. Urea application,Total national emissions and removals,Agriculture,H. Urea application,218.43227507866808,,,1994
+J.  Other ,Total national emissions and removals,Agriculture,J.  Other ,3.24759362137874,10.84151721055771,0.58056903021904,1994
+"4.  Land use, land-use change and forestry  (4)",Total national emissions and removals,"Land use, land-use change and forestry","4.  Land use, land-use change and forestry  (4)",1427.8593689810348,197.84947075569613,6.92214208076699,1994
+A. Forest land (4),Total national emissions and removals,"Land use, land-use change and forestry",A. Forest land (4),-15336.225273423004,3.6585712735602,1.62291433856009,1994
+B. Cropland (4),Total national emissions and removals,"Land use, land-use change and forestry",B. Cropland (4),14325.319961073013,11.82387847452392,2.38961724135211,1994
+C. Grassland (4),Total national emissions and removals,"Land use, land-use change and forestry",C. Grassland (4),-1134.5017252780513,98.99123323767037,0.07919828709115,1994
+D. Wetlands (4),Total national emissions and removals,"Land use, land-use change and forestry",D. Wetlands (4),739.4394465041241,82.71388289004078,0.07039436836406,1994
+E. Settlements (4),Total national emissions and removals,"Land use, land-use change and forestry",E. Settlements (4),5038.654028895878,0.13722761590726,1.37632539822753,1994
+G. Harvested wood products ,Total national emissions and removals,"Land use, land-use change and forestry",G. Harvested wood products ,-2204.827068790923,,,1994
+H. Other  (4),Total national emissions and removals,"Land use, land-use change and forestry",H. Other  (4),,0.52467726399359,0.41907777772059,1994
+5.  Waste,Total national emissions and removals,Waste,5.  Waste,1163.283836442643,2583.721209193771,3.55290797548022,1994
+A.  Solid waste disposal (5),Total national emissions and removals,Waste,A.  Solid waste disposal (5),,2485.76101426558,,1994
+B.  Biological treatment of solid waste (5),Total national emissions and removals,Waste,B.  Biological treatment of solid waste (5),,4.45694115606957,0.26697915488458,1994
+C.  Incineration and open burning of waste (5),Total national emissions and removals,Waste,C.  Incineration and open burning of waste (5),1163.283836442643,5.54357836460628,0.19851815468029,1994
+D.  Wastewater treatment and discharge,Total national emissions and removals,Waste,D.  Wastewater treatment and discharge,,87.95967540751506,3.08741066591535,1994

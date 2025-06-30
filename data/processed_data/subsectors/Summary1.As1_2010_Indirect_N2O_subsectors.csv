@@ -1,0 +1,22 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4,N2O,HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Year,Level,Parent_Sector
+Total national emissions and removals,508588.672878558,2704.6006281120312,78.20812912634254,11503.328448886346,257.10069799553,0.02887383599001,2010,Subsector,Indirect N2O
+1. Energy,485406.0617491702,404.68186757038455,8.2819389229078,,,,2010,Subsector,Indirect N2O
+A. Fuel combustion     Reference approach(2),477579.2060240535,,,,,,2010,Subsector,Indirect N2O
+                                           Sectoral approach(2),480667.9110033992,47.78543735373182,8.15284627161509,,,,2010,Subsector,Indirect N2O
+1.  Energy industries,193378.97106549604,13.15473301817238,3.42655646983758,,,,2010,Subsector,Indirect N2O
+2.  Manufacturing industries and construction                          ,51280.76945169474,2.82860238108052,0.67593304799131,,,,2010,Subsector,Indirect N2O
+3.  Transport,121363.69127239336,7.59053688121538,3.2528161868798,,,,2010,Subsector,Indirect N2O
+4.  Other sectors,111740.41089562468,24.13606518542091,0.69257639639384,,,,2010,Subsector,Indirect N2O
+5.  Other,2904.0683181904105,0.07549988784263,0.10496417051256,,,,2010,Subsector,Indirect N2O
+B. Fugitive emissions from fuels,4738.150745770998,356.89643021665273,0.12909265129271,,,,2010,Subsector,Indirect N2O
+1.  Solid fuels,296.7394861311165,102.27143627663403,0.00020002464,,,,2010,Subsector,Indirect N2O
+2.  Oil and natural gas and other emissions from energy production,4441.411259639881,254.6249939400187,0.12889262665271,,,,2010,Subsector,Indirect N2O
+2.  Industrial processes and product use,26553.465040629388,5.02966506515596,7.04736794375131,11503.328448886346,257.10069799553,0.02887383599001,2010,Subsector,Indirect N2O
+A.  Mineral industry,6178.648156222963,,,,,,2010,Subsector,Indirect N2O
+B.  Chemical industry,5393.110209211618,4.15025828183504,4.25404307970082,74.3653,48.0742440264824,,2010,Subsector,Indirect N2O
+C.  Metal industry,13802.517782576528,0.60978012074407,0.03636697921557,2.72038,118.67667,0.007795757,2010,Subsector,Indirect N2O
+D.  Non-energy products from fuels and solvent use ,1179.1888926182778,,,,,,2010,Subsector,Indirect N2O
+E.  Electronic industry ,,,,25.95070285771226,,,2010,Subsector,Indirect N2O
+F.  Product uses as substitutes for ODS,,,,11400.292066028635,,,2010,Subsector,Indirect N2O
+G.  Other product manufacture and use ,,,2.75695788483492,,90.34978396904762,0.02107807899001,2010,Subsector,Indirect N2O
+H.  Other(3),,0.26962666257685,,,,,2010,Subsector,Indirect N2O

@@ -1,0 +1,22 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4,N2O,HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Year,Level,Parent_Sector
+Total national emissions and removals,569664.5188886405,4440.300650440893,101.53920045003953,6964.333102360221,518.6561076267035,0.07923086141182,2000,Subsector,Long-term storage of C in waste disposal sites
+1. Energy,530267.7790463596,731.8201935180994,11.44070877720902,,,,2000,Subsector,Long-term storage of C in waste disposal sites
+A. Fuel combustion     Reference approach(2),527321.7105883645,,,,,,2000,Subsector,Long-term storage of C in waste disposal sites
+                                           Sectoral approach(2),523821.67389332934,80.76434465991672,11.27668139945518,,,,2000,Subsector,Long-term storage of C in waste disposal sites
+1.  Energy industries,199771.1788528182,12.50142542732767,3.75241055947662,,,,2000,Subsector,Long-term storage of C in waste disposal sites
+2.  Manufacturing industries and construction                          ,74377.10037203801,3.14162359929254,0.79455247987781,,,,2000,Subsector,Long-term storage of C in waste disposal sites
+3.  Transport,127852.28142772304,27.35192628658909,5.75004230077489,,,,2000,Subsector,Long-term storage of C in waste disposal sites
+4.  Other sectors,118900.14777841058,37.69443510083424,0.87343237347857,,,,2000,Subsector,Long-term storage of C in waste disposal sites
+5.  Other,2920.965462339494,0.07493424587318,0.10624368584729,,,,2000,Subsector,Long-term storage of C in waste disposal sites
+B. Fugitive emissions from fuels,6446.105153030183,651.0558488581827,0.16402737775384,,,,2000,Subsector,Long-term storage of C in waste disposal sites
+1.  Solid fuels,190.25651419344,324.4417334500996,0.0001053,,,,2000,Subsector,Long-term storage of C in waste disposal sites
+2.  Oil and natural gas and other emissions from energy production,6255.848638836743,326.614115408083,0.16392207775384,,,,2000,Subsector,Long-term storage of C in waste disposal sites
+2.  Industrial processes and product use,38596.34721546193,6.05820932894135,19.97084785339634,6964.333102360221,518.6561076267035,0.07923086141182,2000,Subsector,Long-term storage of C in waste disposal sites
+A.  Mineral industry,9141.075330266223,,,,,,2000,Subsector,Long-term storage of C in waste disposal sites
+B.  Chemical industry,6816.267125032734,4.11728164551534,17.88239429383521,2761.719046,27.61732950475711,,2000,Subsector,Long-term storage of C in waste disposal sites
+C.  Metal industry,22059.7130667931,1.35536714094042,0.06273504345184,,269.90159278947334,0.0435005,2000,Subsector,Long-term storage of C in waste disposal sites
+D.  Non-energy products from fuels and solvent use ,579.2916933698668,,,,,,2000,Subsector,Long-term storage of C in waste disposal sites
+E.  Electronic industry ,,,,23.13894478688525,,,2000,Subsector,Long-term storage of C in waste disposal sites
+F.  Product uses as substitutes for ODS,,,,4179.475111573336,5.20765456198175,,2000,Subsector,Long-term storage of C in waste disposal sites
+G.  Other product manufacture and use ,,,2.02571851610929,,215.9295307704913,0.03573036141182,2000,Subsector,Long-term storage of C in waste disposal sites
+H.  Other(3),,0.58556054248559,,,,,2000,Subsector,Long-term storage of C in waste disposal sites

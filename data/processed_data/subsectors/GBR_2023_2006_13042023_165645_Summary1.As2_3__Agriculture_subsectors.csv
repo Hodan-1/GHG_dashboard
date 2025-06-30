@@ -1,0 +1,9 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,CO2 (kt),CH4,N2O,HFCs (1) (kt CO2 equivalent),PFCs(1),Unspecified mix of HFCs and PFCs(1),SF6 (kt),NF3,NOx,CO,NMVOC,UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND SO2,Year,Level,Parent_Sector
+A.  Enteric fermentation,,894.3913285238912,,,,,,,,,,,2006,Subsector,3.  Agriculture
+B.  Manure management,,155.46588184397783,10.50731803692006,,,,,,,,74.98877144700602,,2006,Subsector,3.  Agriculture
+C.  Rice cultivation,,NO,,,,,,,,,NO,,2006,Subsector,3.  Agriculture
+D.  Agricultural soils,,NE,42.47977649803328,,,,,,27.42492085350748,NE,40.61262659167806,,2006,Subsector,3.  Agriculture
+E.  Prescribed burning of savannas,,NO,NO,,,,,,NO,NO,NO,,2006,Subsector,3.  Agriculture
+F.  Field burning of agricultural residues,,NO,NO,,,,,,NO,NO,NO,,2006,Subsector,3.  Agriculture
+G. Liming,1392.3436535723122,,,,,,,,,,,,2006,Subsector,3.  Agriculture
+H. Urea application,189.16649435033455,,,,,,,,,,,,2006,Subsector,3.  Agriculture

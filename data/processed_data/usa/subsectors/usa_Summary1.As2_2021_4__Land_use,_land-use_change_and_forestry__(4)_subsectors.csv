@@ -1,0 +1,8 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+C. Grassland (4),-14663.905706589081,11.9844921595699,1.09448073872033,Summary1.As2,USA,2021,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D. Wetlands (4),-7838.311819173419,1789.6454196562436,0.50596984,Summary1.As2,USA,2021,Subsector,"4.  Land use, land-use change and forestry  (4)"
+E. Settlements (4),-53499.596194043566,,3.67651643735619,Summary1.As2,USA,2021,Subsector,"4.  Land use, land-use change and forestry  (4)"
+G. Harvested wood products ,-102831.07193333388,,,Summary1.As2,USA,2021,Subsector,"4.  Land use, land-use change and forestry  (4)"
+H. Other  (4),,,2.80929920423194,Summary1.As2,USA,2021,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,4379.064627682818,,Summary1.As2,USA,2021,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,97.90360853490682,6.88370964000548,Summary1.As2,USA,2021,Subsector,"4.  Land use, land-use change and forestry  (4)"
