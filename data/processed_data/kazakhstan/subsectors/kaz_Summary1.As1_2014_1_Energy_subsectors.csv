@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),227692.26858026022,,,,,,Summary1.As1,KAZAKHSTAN,2014,Subsector,1. Energy
+                                           Sectoral approach(2),237244.62284526578,54.69765557878539,4.66862552014381,,,,Summary1.As1,KAZAKHSTAN,2014,Subsector,1. Energy
+1.  Energy industries,114078.667,1.549846,1.459131,,,,Summary1.As1,KAZAKHSTAN,2014,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,34681.202,3.125581,0.514111,,,,Summary1.As1,KAZAKHSTAN,2014,Subsector,1. Energy
+3.  Transport,23689.586207885794,6.69167599085039,1.93638455876981,,,,Summary1.As1,KAZAKHSTAN,2014,Subsector,1. Energy
+4.  Other sectors,24551.89863738,39.217952587935,0.340598961374,,,,Summary1.As1,KAZAKHSTAN,2014,Subsector,1. Energy
+5.  Other,40243.269,4.1126,0.4184,,,,Summary1.As1,KAZAKHSTAN,2014,Subsector,1. Energy
+B. Fugitive emissions from fuels,14895.668321435016,1051.0691783477018,0.12518205728176,,,,Summary1.As1,KAZAKHSTAN,2014,Subsector,1. Energy
+1.  Solid fuels,2089.958198236501,373.3746248772,0.0286025658,,,,Summary1.As1,KAZAKHSTAN,2014,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,12805.710123198514,677.6945534705018,0.09657949148176,,,,Summary1.As1,KAZAKHSTAN,2014,Subsector,1. Energy

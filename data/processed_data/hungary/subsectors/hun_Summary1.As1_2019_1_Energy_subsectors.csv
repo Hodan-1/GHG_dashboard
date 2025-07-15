@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),43753.41617450798,,,,,,Summary1.As1,HUNGARY,2019,Subsector,1. Energy
+                                           Sectoral approach(2),43737.526036917734,20.79888276481802,1.12886784309837,,,,Summary1.As1,HUNGARY,2019,Subsector,1. Energy
+1.  Energy industries,12504.852835688247,0.9855881389404,0.18431854145201,,,,Summary1.As1,HUNGARY,2019,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,5102.425783368018,0.54547510902708,0.10597237129172,,,,Summary1.As1,HUNGARY,2019,Subsector,1. Energy
+3.  Transport,14594.6334663047,0.95751686396386,0.53842741644758,,,,Summary1.As1,HUNGARY,2019,Subsector,1. Energy
+4.  Other sectors,11467.882438223438,18.30647647288668,0.29936242390706,,,,Summary1.As1,HUNGARY,2019,Subsector,1. Energy
+5.  Other,67.73151333333333,0.00382618,0.00078709,,,,Summary1.As1,HUNGARY,2019,Subsector,1. Energy
+B. Fugitive emissions from fuels,149.4434460755135,67.18486640345681,0.00117435214017,,,,Summary1.As1,HUNGARY,2019,Subsector,1. Energy
+1.  Solid fuels,9.0191052,1.2694870375,1.392796e-08,,,,Summary1.As1,HUNGARY,2019,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,140.42434087551348,65.91537936595681,0.00117433821221,,,,Summary1.As1,HUNGARY,2019,Subsector,1. Energy

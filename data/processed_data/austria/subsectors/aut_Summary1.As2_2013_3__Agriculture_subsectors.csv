@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,153.52504485082204,,Summary1.As2,AUSTRIA,2013,Subsector,3.  Agriculture
+B.  Manure management,,21.00081091237794,1.71244882206729,Summary1.As2,AUSTRIA,2013,Subsector,3.  Agriculture
+D.  Agricultural soils,,,6.57816765912862,Summary1.As2,AUSTRIA,2013,Subsector,3.  Agriculture
+F.  Field burning of agricultural residues,,0.00629687894424,0.00016325241708,Summary1.As2,AUSTRIA,2013,Subsector,3.  Agriculture
+G. Liming,75.337625,,,Summary1.As2,AUSTRIA,2013,Subsector,3.  Agriculture
+H. Urea application,30.27564721088436,,,Summary1.As2,AUSTRIA,2013,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,21.59650379608635,,,Summary1.As2,AUSTRIA,2013,Subsector,3.  Agriculture
+J.  Other ,,,,Summary1.As2,AUSTRIA,2013,Subsector,3.  Agriculture
+A. Forest land (4),-6851.926654764148,0.008412624,0.06858621189989,Summary1.As2,AUSTRIA,2013,Subsector,3.  Agriculture

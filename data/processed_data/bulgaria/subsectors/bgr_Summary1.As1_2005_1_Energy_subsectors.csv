@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),48156.1292109619,,,,,Summary1.As1,BULGARIA,2005,Subsector,1. Energy
+                                           Sectoral approach(2),43887.87169137033,12.88932347329824,1.06721160352539,,,Summary1.As1,BULGARIA,2005,Subsector,1. Energy
+1.  Energy industries,26985.095011939964,0.300119889,0.3570360816,,,Summary1.As1,BULGARIA,2005,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,7045.4143670090225,0.42192675705166,0.0894295473071,,,Summary1.As1,BULGARIA,2005,Subsector,1. Energy
+3.  Transport,7715.605645769088,1.30794848341945,0.23933833170978,,,Summary1.As1,BULGARIA,2005,Subsector,1. Energy
+4.  Other sectors,2118.435307572911,10.8591652574,0.3807552972,,,Summary1.As1,BULGARIA,2005,Subsector,1. Energy
+5.  Other,23.32135907934673,0.00016308642713,0.00065234570851,,,Summary1.As1,BULGARIA,2005,Subsector,1. Energy
+B. Fugitive emissions from fuels,124.12781296335012,47.67923983873303,0.0007514120606,,,Summary1.As1,BULGARIA,2005,Subsector,1. Energy
+1.  Solid fuels,25.870216,38.36447724649488,,,,Summary1.As1,BULGARIA,2005,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,98.25759696335012,9.31476259223815,0.0007514120606,,,Summary1.As1,BULGARIA,2005,Subsector,1. Energy

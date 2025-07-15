@@ -1,0 +1,6 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+G. Harvested wood products ,0.12558805949869,,,Summary1.As2,LIECHTENSTEIN,2009,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,0.00653748064112,,Summary1.As2,LIECHTENSTEIN,2009,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.00175729494,8.7864747e-05,Summary1.As2,LIECHTENSTEIN,2009,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),0.01094471646816,0.000256806,6.42015e-06,Summary1.As2,LIECHTENSTEIN,2009,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,0.03223448627308,0.00200343908973,Summary1.As2,LIECHTENSTEIN,2009,Subsector,"4.  Land use, land-use change and forestry  (4)"

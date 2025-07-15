@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,13.98758294624111,,Summary1.As2,LUXEMBOURG,2006,Subsector,3.  Agriculture
+B.  Manure management,,2.38933561607906,0.12185684617652,Summary1.As2,LUXEMBOURG,2006,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.46482741800531,Summary1.As2,LUXEMBOURG,2006,Subsector,3.  Agriculture
+G. Liming,3.3033,,,Summary1.As2,LUXEMBOURG,2006,Subsector,3.  Agriculture
+H. Urea application,0.42058397081341,,,Summary1.As2,LUXEMBOURG,2006,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,4.15015006079012,,,Summary1.As2,LUXEMBOURG,2006,Subsector,3.  Agriculture
+A. Forest land (4),-558.5404101760822,,,Summary1.As2,LUXEMBOURG,2006,Subsector,3.  Agriculture
+B. Cropland (4),67.17025624124503,,0.02042948997767,Summary1.As2,LUXEMBOURG,2006,Subsector,3.  Agriculture
+C. Grassland (4),-49.27028538092346,,0.0006094249628,Summary1.As2,LUXEMBOURG,2006,Subsector,3.  Agriculture

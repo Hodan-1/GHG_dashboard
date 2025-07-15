@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),Unspecified mix of HFCs and PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),320637.24991943775,,,,,,,Summary1.As1,ITALY,2014,Subsector,1. Energy
+                                           Sectoral approach(2),331371.26214577287,112.14389807702072,15.23509338541134,,,,,Summary1.As1,ITALY,2014,Subsector,1. Energy
+1.  Energy industries,99915.56968593477,5.34659537621348,1.61190222486759,,,,,Summary1.As1,ITALY,2014,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,51524.262836809154,12.19316655553364,2.71986529108919,,,,,Summary1.As1,ITALY,2014,Subsector,1. Energy
+3.  Transport,108130.60632268165,9.67861912411676,3.27306622206823,,,,,Summary1.As1,ITALY,2014,Subsector,1. Energy
+4.  Other sectors,71227.50229439123,84.8598140705686,7.54844610503339,,,,,Summary1.As1,ITALY,2014,Subsector,1. Energy
+5.  Other,573.3210059560654,0.06570295058824,0.08181354235294,,,,,Summary1.As1,ITALY,2014,Subsector,1. Energy
+B. Fugitive emissions from fuels,2501.1447526613106,235.42613648526563,0.03044271297069,,,,,Summary1.As1,ITALY,2014,Subsector,1. Energy
+1.  Solid fuels,0.24303221651324,2.27421,,,,,,Summary1.As1,ITALY,2014,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,2500.9017204447973,233.15192648526562,0.03044271297069,,,,,Summary1.As1,ITALY,2014,Subsector,1. Energy

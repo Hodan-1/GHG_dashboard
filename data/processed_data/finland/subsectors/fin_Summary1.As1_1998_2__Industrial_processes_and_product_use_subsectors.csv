@@ -1,0 +1,6 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+C.  Metal industry,2419.6581879083997,9.12e-05,,,,,Summary1.As1,FINLAND,1998,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,146.28752679016,0.00755,0.003775,,,,Summary1.As1,FINLAND,1998,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,431.82333406543256,1.2862581888,,Summary1.As1,FINLAND,1998,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,,,0.2168865019641,,,0.0006410600752,Summary1.As1,FINLAND,1998,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,0.03106699435646,0.58621251477741,0.001053,Summary1.As1,FINLAND,1998,Subsector,2.  Industrial processes and product use

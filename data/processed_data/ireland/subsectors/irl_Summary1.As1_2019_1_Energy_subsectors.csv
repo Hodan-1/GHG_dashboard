@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),35154.88697344184,,,,,,Summary1.As1,IRELAND,2019,Subsector,1. Energy
+                                           Sectoral approach(2),34629.5245407324,7.1068202708168,1.23697546867793,,,,Summary1.As1,IRELAND,2019,Subsector,1. Energy
+1.  Energy industries,9199.647052250462,0.4328780918376,0.46704221934708,,,,Summary1.As1,IRELAND,2019,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,4604.138783516625,0.31865692751472,0.04426903785401,,,,Summary1.As1,IRELAND,2019,Subsector,1. Energy
+3.  Transport,12064.774929949412,0.3687571463155,0.45830223874272,,,,Summary1.As1,IRELAND,2019,Subsector,1. Energy
+4.  Other sectors,8760.963775015896,5.98652810514898,0.26736197273412,,,,Summary1.As1,IRELAND,2019,Subsector,1. Energy
+B. Fugitive emissions from fuels,0.28565237586234,3.61905035591255,4.4e-13,,,,Summary1.As1,IRELAND,2019,Subsector,1. Energy
+1.  Solid fuels,,0.7150307,,,,,Summary1.As1,IRELAND,2019,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,0.28565237586234,2.90401965591255,4.4e-13,,,,Summary1.As1,IRELAND,2019,Subsector,1. Energy
+A.  Mineral industry,2057.8652228793626,,,,,,Summary1.As1,IRELAND,2019,Subsector,1. Energy

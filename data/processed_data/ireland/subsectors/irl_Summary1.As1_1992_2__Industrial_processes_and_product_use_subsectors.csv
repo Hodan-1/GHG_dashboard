@@ -1,0 +1,6 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+C.  Metal industry,20.56,,,,,,Summary1.As1,IRELAND,1992,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,82.79834636536714,,,,,,Summary1.As1,IRELAND,1992,Subsector,2.  Industrial processes and product use
+E.  Electronic industry ,,,,0.78368,17.812368,0.000376,Summary1.As1,IRELAND,1992,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.076625347898,,0.106635,,,0.00154755585298,Summary1.As1,IRELAND,1992,Subsector,2.  Industrial processes and product use
+H.  Other(3),21.79524462028472,,,,,,Summary1.As1,IRELAND,1992,Subsector,2.  Industrial processes and product use

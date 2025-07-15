@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),79106.9268229314,,,,,,Summary1.As1,BELGIUM,2019,Subsector,1. Energy
+                                           Sectoral approach(2),83664.7748584387,20.81258862723839,2.17379347176464,,,,Summary1.As1,BELGIUM,2019,Subsector,1. Energy
+1.  Energy industries,20773.370345424402,1.48318464902637,0.56345066528025,,,,Summary1.As1,BELGIUM,2019,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,13757.107534030629,1.93394254445995,0.31233767712092,,,,Summary1.As1,BELGIUM,2019,Subsector,1. Energy
+3.  Transport,25728.74174422228,0.77577284836235,0.91804671768299,,,,Summary1.As1,BELGIUM,2019,Subsector,1. Energy
+4.  Other sectors,23310.07562253766,16.61474406467241,0.37663531396981,,,,Summary1.As1,BELGIUM,2019,Subsector,1. Energy
+5.  Other,95.47961222372882,0.00494452071731,0.00332309771067,,,,Summary1.As1,BELGIUM,2019,Subsector,1. Energy
+B. Fugitive emissions from fuels,116.10413618639792,21.54368243471624,,,,,Summary1.As1,BELGIUM,2019,Subsector,1. Energy
+1.  Solid fuels,,1.61135,,,,,Summary1.As1,BELGIUM,2019,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,116.10413618639792,19.93233243471624,,,,,Summary1.As1,BELGIUM,2019,Subsector,1. Energy

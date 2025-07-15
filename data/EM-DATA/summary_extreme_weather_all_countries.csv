@@ -1,318 +1,2450 @@
-ISO,year,Disaster Type,Total Deaths,Total Affected,Total Damage ('000 US$)
-AUT,1990,Storm,3.0,0.0,250000.0
-AUT,1991,Flood,5.0,0.0,82000.0
-AUT,1991,Storm,0.0,0.0,28000.0
-AUT,1993,Storm,0.0,0.0,1000.0
-AUT,1994,Storm,0.0,0.0,2000.0
-AUT,1995,Flood,2.0,0.0,200.0
-AUT,1996,Flood,0.0,0.0,5000.0
-AUT,1997,Flood,3.0,0.0,175000.0
-AUT,1999,Flood,3.0,0.0,32000.0
-AUT,2000,Storm,0.0,0.0,20000.0
-AUT,2002,Flood,9.0,60000.0,2400000.0
-AUT,2002,Storm,3.0,300.0,5000.0
-AUT,2003,Extreme temperature,345.0,0.0,280000.0
-AUT,2005,Extreme temperature,0.0,0.0,0.0
-AUT,2005,Flood,4.0,900.0,700000.0
-AUT,2006,Flood,0.0,516.0,0.0
-AUT,2007,Extreme temperature,5.0,0.0,0.0
-AUT,2007,Storm,0.0,0.0,400000.0
-AUT,2008,Storm,4.0,0.0,500000.0
-AUT,2009,Extreme temperature,2.0,0.0,0.0
-AUT,2009,Flood,1.0,0.0,200000.0
-AUT,2009,Storm,0.0,0.0,500000.0
-AUT,2012,Extreme temperature,5.0,0.0,0.0
-AUT,2013,Flood,4.0,200.0,1000000.0
-AUT,2016,Flood,0.0,0.0,0.0
-AUT,2017,Storm,5.0,330.0,118000.0
-AUT,2019,Extreme temperature,1.0,0.0,0.0
-AUT,2019,Storm,11.0,0.0,0.0
-AUT,2021,Flood,1.0,0.0,0.0
-AUT,2022,Extreme temperature,419.0,0.0,0.0
-AUT,2022,Storm,5.0,13.0,0.0
-AUT,2023,Extreme temperature,486.0,0.0,0.0
-AUT,2024,Storm,5.0,2220.0,0.0
-BLR,1993,Flood,0.0,40000.0,100000.0
-BLR,1996,Flood,0.0,0.0,0.0
-BLR,1997,Storm,5.0,21390.0,33000.0
-BLR,1999,Flood,2.0,2000.0,4380.0
-BLR,2000,Extreme temperature,0.0,0.0,30300.0
-BLR,2006,Extreme temperature,5.0,1820.0,0.0
-BLR,2007,Storm,0.0,0.0,10000.0
-BLR,2012,Extreme temperature,0.0,130.0,0.0
-BLR,2013,Extreme temperature,4.0,11325.0,0.0
-BLR,2014,Extreme temperature,2.0,31500.0,0.0
-BLR,2017,Extreme temperature,43.0,50539.0,0.0
-BLR,2018,Flood,0.0,50000.0,0.0
-BLR,2023,Flood,0.0,420.0,0.0
-CAN,1990,Flood,8.0,0.0,8500.0
-CAN,1991,Storm,0.0,0.0,500000.0
-CAN,1992,Extreme temperature,0.0,0.0,2000000.0
-CAN,1992,Wildfire,0.0,0.0,120000.0
-CAN,1993,Flood,0.0,200.0,0.0
-CAN,1994,Storm,0.0,1304.0,3000.0
-CAN,1994,Wildfire,0.0,3000.0,0.0
-CAN,1995,Flood,0.0,5600.0,73300.0
-CAN,1995,Storm,2.0,0.0,100000.0
-CAN,1995,Wildfire,0.0,6500.0,89500.0
-CAN,1996,Flood,10.0,12000.0,729600.0
-CAN,1996,Storm,0.0,0.0,100.0
-CAN,1997,Flood,4.0,29000.0,120000.0
-CAN,1997,Storm,1.0,0.0,10000.0
-CAN,1997,Wildfire,0.0,1600.0,0.0
-CAN,1998,Flood,3.0,3100.0,0.0
-CAN,1998,Storm,28.0,2000.0,1500000.0
-CAN,1998,Wildfire,0.0,8000.0,0.0
-CAN,1999,Storm,7.0,4200.0,100.0
-CAN,1999,Wildfire,0.0,1500.0,0.0
-CAN,2000,Storm,11.0,840.0,13000.0
-CAN,2001,Storm,11.0,30.0,0.0
-CAN,2001,Wildfire,0.0,1200.0,0.0
-CAN,2002,Flood,0.0,0.0,0.0
-CAN,2002,Wildfire,0.0,600.0,0.0
-CAN,2003,Flood,4.0,2470.0,35000.0
-CAN,2003,Storm,2.0,200.0,110000.0
-CAN,2003,Wildfire,1.0,0.0,545000.0
-CAN,2004,Flood,0.0,1000.0,200000.0
-CAN,2004,Storm,0.0,0.0,100000.0
-CAN,2005,Flood,4.0,5600.0,357000.0
-CAN,2005,Storm,0.0,300.0,0.0
-CAN,2005,Wildfire,0.0,0.0,0.0
-CAN,2006,Flood,1.0,3900.0,0.0
-CAN,2007,Flood,0.0,500.0,0.0
-CAN,2007,Storm,6.0,0.0,0.0
-CAN,2008,Flood,0.0,2400.0,0.0
-CAN,2009,Flood,0.0,200.0,0.0
-CAN,2009,Storm,2.0,3.0,500000.0
-CAN,2011,Flood,5.0,2000.0,800000.0
-CAN,2011,Storm,1.0,0.0,0.0
-CAN,2011,Wildfire,1.0,7000.0,1500000.0
-CAN,2012,Flood,0.0,1500.0,34000.0
-CAN,2012,Storm,0.0,0.0,1050000.0
-CAN,2013,Extreme temperature,10.0,0.0,200000.0
-CAN,2013,Flood,4.0,100000.0,5700000.0
-CAN,2013,Storm,0.0,0.0,1410000.0
-CAN,2014,Extreme temperature,0.0,0.0,0.0
-CAN,2014,Flood,0.0,6904.0,129000.0
-CAN,2015,Wildfire,0.0,13036.0,0.0
-CAN,2016,Flood,0.0,300.0,0.0
-CAN,2016,Wildfire,0.0,88000.0,4000000.0
-CAN,2017,Flood,2.0,19113.0,200000.0
-CAN,2017,Wildfire,0.0,43441.0,0.0
-CAN,2018,Extreme temperature,70.0,0.0,0.0
-CAN,2018,Flood,0.0,4000.0,0.0
-CAN,2018,Storm,0.0,930.0,325000.0
-CAN,2018,Wildfire,0.0,3000.0,0.0
-CAN,2019,Flood,1.0,19500.0,800000.0
-CAN,2019,Storm,1.0,0.0,275000.0
-CAN,2020,Flood,1.0,12936.0,1300000.0
-CAN,2020,Storm,0.0,60000.0,1200000.0
-CAN,2021,Extreme temperature,815.0,0.0,0.0
-CAN,2021,Flood,4.0,15000.0,2000000.0
-CAN,2021,Storm,1.0,302.0,25000.0
-CAN,2021,Wildfire,2.0,250.0,80912.0
-CAN,2022,Flood,0.0,2000.0,36000.0
-CAN,2022,Storm,17.0,4000.0,179000.0
-CAN,2023,Extreme temperature,2.0,0.0,165000.0
-CAN,2023,Flood,6.0,1450.0,0.0
-CAN,2023,Wildfire,2.0,30000.0,200000.0
-CAN,2024,Storm,2.0,20.0,7950000.0
-CAN,2024,Wildfire,1.0,3500.0,1000000.0
-EST,2005,Storm,0.0,100.0,130000.0
-EST,2006,Extreme temperature,3.0,0.0,0.0
-EST,2012,Extreme temperature,1.0,0.0,0.0
-EST,2018,Extreme temperature,7.0,0.0,0.0
-EST,2022,Extreme temperature,167.0,0.0,0.0
-EST,2023,Extreme temperature,103.0,0.0,0.0
-GBR,1990,Storm,83.0,0.0,4790000.0
-GBR,1991,Extreme temperature,0.0,0.0,0.0
-GBR,1991,Storm,48.0,0.0,900000.0
-GBR,1993,Flood,4.0,6000.0,187000.0
-GBR,1994,Flood,7.0,700.0,236000.0
-GBR,1995,Storm,9.0,0.0,650000.0
-GBR,1996,Storm,5.0,12000.0,300000.0
-GBR,1997,Extreme temperature,14.0,0.0,0.0
-GBR,1997,Flood,1.0,1200.0,248400.0
-GBR,1998,Flood,4.0,18000.0,500000.0
-GBR,1998,Storm,35.0,253000.0,1365400.0
-GBR,1999,Flood,0.0,800.0,32584.0
-GBR,1999,Storm,11.0,200.0,101000.0
-GBR,2000,Flood,3.0,40440.0,5918150.0
-GBR,2000,Storm,16.0,20104.0,1500000.0
-GBR,2001,Flood,0.0,240.0,0.0
-GBR,2002,Flood,1.0,750.0,0.0
-GBR,2002,Storm,7.0,0.0,400000.0
-GBR,2003,Extreme temperature,301.0,0.0,0.0
-GBR,2004,Flood,0.0,1008.0,96000.0
-GBR,2005,Extreme temperature,1.0,0.0,0.0
-GBR,2005,Storm,10.0,3000.0,700000.0
-GBR,2007,Flood,14.0,370200.0,8448000.0
-GBR,2007,Storm,13.0,0.0,1200000.0
-GBR,2008,Flood,8.0,3300.0,50000.0
-GBR,2009,Extreme temperature,3.0,47.0,0.0
-GBR,2009,Flood,3.0,3900.0,484000.0
-GBR,2009,Storm,2.0,180.0,0.0
-GBR,2010,Extreme temperature,0.0,0.0,0.0
-GBR,2010,Storm,0.0,0.0,500.0
-GBR,2012,Flood,8.0,3785.0,2946000.0
-GBR,2013,Extreme temperature,760.0,0.0,0.0
-GBR,2013,Flood,2.0,600.0,1500000.0
-GBR,2013,Storm,11.0,4200.0,0.0
-GBR,2014,Flood,0.0,540.0,624000.0
-GBR,2014,Storm,5.0,18000.0,100000.0
-GBR,2015,Flood,0.0,48000.0,1200000.0
-GBR,2015,Storm,3.0,15600.0,1200000.0
-GBR,2017,Flood,0.0,70.0,0.0
-GBR,2018,Extreme temperature,820.0,0.0,0.0
-GBR,2018,Storm,0.0,4.0,0.0
-GBR,2019,Extreme temperature,166.0,0.0,0.0
-GBR,2019,Flood,1.0,100.0,0.0
-GBR,2020,Extreme temperature,2556.0,0.0,0.0
-GBR,2020,Flood,0.0,480.0,0.0
-GBR,2020,Storm,2.0,0.0,0.0
-GBR,2021,Storm,1.0,0.0,0.0
-GBR,2022,Drought,0.0,0.0,0.0
-GBR,2022,Extreme temperature,3469.0,0.0,0.0
-GBR,2022,Storm,6.0,0.0,491342.0
-GBR,2023,Extreme temperature,1851.0,0.0,0.0
-GBR,2023,Storm,0.0,0.0,0.0
-GBR,2024,Storm,5.0,750.0,0.0
-USA,1990,Extreme temperature,11.0,0.0,40000.0
-USA,1990,Flood,38.0,3350.0,45000.0
-USA,1990,Storm,162.0,10668.0,635000.0
-USA,1991,Drought,0.0,0.0,1335000.0
-USA,1991,Flood,15.0,0.0,850000.0
-USA,1991,Storm,87.0,3000.0,2560000.0
-USA,1991,Wildfire,28.0,300.0,2500000.0
-USA,1992,Storm,97.0,295055.0,34500000.0
-USA,1992,Wildfire,0.0,990.0,175000.0
-USA,1993,Extreme temperature,48.0,0.0,0.0
-USA,1993,Flood,98.0,43900.0,12290000.0
-USA,1993,Storm,291.0,600.0,5125000.0
-USA,1993,Wildfire,3.0,130.0,1000000.0
-USA,1994,Flood,37.0,14070.0,700000.0
-USA,1994,Storm,165.0,21750.0,850000.0
-USA,1994,Wildfire,13.0,1432.0,2000.0
-USA,1995,Extreme temperature,710.0,0.0,0.0
-USA,1995,Flood,11.0,115300.0,3120000.0
-USA,1995,Storm,150.0,92160.0,13645000.0
-USA,1996,Flood,72.0,243115.0,2720000.0
-USA,1996,Storm,287.0,4131.0,3400000.0
-USA,1996,Wildfire,1.0,50.0,0.0
-USA,1997,Flood,72.0,191374.0,7345000.0
-USA,1997,Storm,180.0,4892.0,2242000.0
-USA,1997,Wildfire,0.0,1000.0,2500.0
-USA,1998,Extreme temperature,130.0,0.0,4275000.0
-USA,1998,Flood,31.0,37000.0,1062000.0
-USA,1998,Storm,203.0,153621.0,12348500.0
-USA,1998,Wildfire,2.0,41221.0,281100.0
-USA,1999,Drought,0.0,0.0,1100000.0
-USA,1999,Extreme temperature,257.0,0.0,1000000.0
-USA,1999,Flood,0.0,100.0,300.0
-USA,1999,Storm,227.0,3058870.0,12600500.0
-USA,1999,Wildfire,1.0,1019.0,92000.0
-USA,2000,Drought,0.0,0.0,1100000.0
-USA,2000,Extreme temperature,35.0,0.0,0.0
-USA,2000,Flood,8.0,3646.0,286000.0
-USA,2000,Storm,105.0,23154.0,1855600.0
-USA,2000,Wildfire,14.0,36087.0,2500000.0
-USA,2001,Extreme temperature,56.0,0.0,0.0
-USA,2001,Flood,12.0,23800.0,33000.0
-USA,2001,Storm,82.0,181053.0,6328800.0
-USA,2001,Wildfire,2.0,139.0,0.0
-USA,2002,Drought,0.0,0.0,3300000.0
-USA,2002,Extreme temperature,14.0,0.0,0.0
-USA,2002,Flood,26.0,147750.0,1089000.0
-USA,2002,Storm,190.0,18899.0,6275000.0
-USA,2002,Wildfire,0.0,6488.0,232100.0
-USA,2003,Flood,24.0,3200.0,123000.0
-USA,2003,Storm,172.0,243647.0,15145000.0
-USA,2003,Wildfire,18.0,27894.0,3500000.0
-USA,2004,Extreme temperature,3.0,0.0,0.0
-USA,2004,Flood,1.0,5340.0,505500.0
-USA,2004,Storm,215.0,5079710.0,55224770.0
-USA,2004,Wildfire,0.0,15487.0,0.0
-USA,2005,Extreme temperature,33.0,31.0,0.0
-USA,2005,Flood,53.0,18258.0,730330.0
-USA,2005,Storm,1882.0,830305.0,158230000.0
-USA,2005,Wildfire,5.0,1410.0,100000.0
-USA,2006,Extreme temperature,188.0,0.0,0.0
-USA,2006,Flood,40.0,74060.0,1478500.0
-USA,2006,Storm,93.0,5663.0,4727860.0
-USA,2006,Wildfire,17.0,585.0,216000.0
-USA,2007,Drought,0.0,0.0,300000.0
-USA,2007,Flood,80.0,8810.0,728000.0
-USA,2007,Storm,264.0,8317.0,6068000.0
-USA,2007,Wildfire,8.0,650991.0,2815000.0
-USA,2008,Extreme temperature,0.0,0.0,0.0
-USA,2008,Flood,44.0,11032648.0,10002000.0
-USA,2008,Storm,258.0,2301147.0,45760000.0
-USA,2008,Wildfire,1.0,55320.0,2102000.0
-USA,2009,Extreme temperature,58.0,0.0,1100000.0
-USA,2009,Flood,11.0,9960.0,666000.0
-USA,2009,Storm,74.0,908.0,10390000.0
-USA,2009,Wildfire,2.0,455.0,100000.0
-USA,2010,Flood,20.0,1000.0,0.0
-USA,2010,Storm,118.0,10941.0,9390000.0
-USA,2011,Drought,0.0,0.0,8000000.0
-USA,2011,Extreme temperature,22.0,0.0,0.0
-USA,2011,Flood,17.0,36100.0,6600000.0
-USA,2011,Storm,756.0,389193.0,43450000.0
-USA,2011,Wildfire,8.0,6105.0,1383000.0
-USA,2012,Drought,0.0,0.0,20000000.0
-USA,2012,Extreme temperature,123.0,0.0,0.0
-USA,2012,Flood,2.0,300.0,174000.0
-USA,2012,Storm,190.0,90404.0,77547000.0
-USA,2012,Wildfire,3.0,2847.0,800000.0
-USA,2013,Extreme temperature,19.0,0.0,200000.0
-USA,2013,Flood,31.0,34725.0,2277000.0
-USA,2013,Storm,140.0,177474.0,14602000.0
-USA,2013,Wildfire,22.0,2375.0,708400.0
-USA,2014,Drought,0.0,0.0,2200000.0
-USA,2014,Extreme temperature,21.0,0.0,2500000.0
-USA,2014,Flood,2.0,102040.0,1690000.0
-USA,2014,Storm,136.0,1215.0,9568000.0
-USA,2014,Wildfire,2.0,429.0,100000.0
-USA,2015,Drought,0.0,0.0,4500000.0
-USA,2015,Flood,98.0,28650.0,3402000.0
-USA,2015,Storm,218.0,4576.0,15720000.0
-USA,2015,Wildfire,12.0,13364.0,1952000.0
-USA,2016,Flood,54.0,91000.0,15150000.0
-USA,2016,Storm,199.0,85019468.0,28050000.0
-USA,2016,Wildfire,16.0,8452.0,1500000.0
-USA,2017,Drought,0.0,0.0,2500000.0
-USA,2017,Flood,30.0,370.0,1700000.0
-USA,2017,Storm,263.0,854401.0,171110000.0
-USA,2017,Wildfire,45.0,12304.0,15200000.0
-USA,2018,Drought,0.0,0.0,3000000.0
-USA,2018,Flood,7.0,1596.0,775000.0
-USA,2018,Storm,158.0,1505093.0,38875000.0
-USA,2018,Wildfire,104.0,253240.0,22700000.0
-USA,2019,Flood,10.0,16600.0,10000000.0
-USA,2019,Storm,139.0,1486.0,11325000.0
-USA,2019,Wildfire,3.0,1265.0,1625000.0
-USA,2020,Drought,45.0,0.0,4500000.0
-USA,2020,Flood,1.0,13000.0,2275000.0
-USA,2020,Storm,175.0,28431.0,60075000.0
-USA,2020,Wildfire,32.0,0.0,11000000.0
-USA,2021,Drought,0.0,0.0,9000000.0
-USA,2021,Extreme temperature,229.0,0.0,0.0
-USA,2021,Flood,58.0,1876.0,3800000.0
-USA,2021,Storm,494.0,15236.0,121580000.0
-USA,2021,Wildfire,5.0,61857.0,8135000.0
-USA,2022,Drought,136.0,0.0,22000000.0
-USA,2022,Flood,42.0,1075.0,1500000.0
-USA,2022,Storm,322.0,3445.0,123380000.0
-USA,2022,Wildfire,6.0,2402.0,306000.0
-USA,2023,Drought,247.0,0.0,14500000.0
-USA,2023,Extreme temperature,24.0,25.0,385000.0
-USA,2023,Flood,13.0,2126.0,3300000.0
-USA,2023,Storm,126.0,17385.0,44475000.0
-USA,2023,Wildfire,130.0,8497.0,5500000.0
-USA,2024,Drought,0.0,0.0,5400000.0
-USA,2024,Extreme temperature,1006.0,0.0,0.0
-USA,2024,Flood,7.0,6564.0,3800000.0
-USA,2024,Storm,447.0,3733.0,144825000.0
-USA,2024,Wildfire,4.0,3239.0,1910000.0
-USA,2025,Storm,118.0,20253.0,7850000.0
-USA,2025,Wildfire,30.0,0.0,52500000.0
+Country,Year,Disaster Type,Total Deaths,Total Affected,Total Damage ('000 US$)
+Albania,1992,Flood,11,35000,7000
+Albania,1995,Flood,4,3500,0
+Albania,1997,Flood,0,6000,0
+Albania,2002,Flood,1,66884,17500
+Albania,2002,Storm,6,125000,0
+Albania,2004,Extreme temperature,3,0,0
+Albania,2004,Flood,0,2500,173
+Albania,2005,Flood,3,500,0
+Albania,2005,Storm,2,400000,0
+Albania,2007,Extreme temperature,0,150,0
+Albania,2007,Wildfire,0,75,0
+Albania,2009,Flood,0,6600,0
+Albania,2010,Flood,0,14000,0
+Albania,2012,Extreme temperature,5,230000,0
+Albania,2015,Flood,2,50300,0
+Albania,2016,Flood,2,4500,0
+Albania,2017,Extreme temperature,6,0,0
+Albania,2017,Flood,1,21002,8900
+Albania,2018,Flood,0,800,0
+Albania,2021,Flood,0,84,0
+Albania,2022,Extreme temperature,352,0,0
+Albania,2023,Extreme temperature,363,0,0
+Anguilla,1999,Storm,0,150,50
+Anguilla,2017,Storm,4,15000,200000
+Antigua and Barbuda,1990,Storm,0,0,0
+Antigua and Barbuda,1995,Storm,2,3702,350000
+Antigua and Barbuda,1998,Storm,2,2025,100000
+Antigua and Barbuda,1999,Storm,2,5957,0
+Antigua and Barbuda,2008,Storm,0,25800,0
+Antigua and Barbuda,2010,Storm,0,5000,12600
+Antigua and Barbuda,2017,Storm,1,1800,250000
+Argentina,1990,Flood,21,2000,0
+Argentina,1992,Flood,45,88074,510000
+Argentina,1993,Flood,0,0,1092000
+Argentina,1993,Storm,15,8000,50000
+Argentina,1994,Wildfire,24,0,0
+Argentina,1995,Extreme temperature,0,25000,0
+Argentina,1995,Flood,0,2500,0
+Argentina,1995,Storm,6,6000,0
+Argentina,1997,Flood,0,12500,0
+Argentina,1998,Flood,19,360000,1100000
+Argentina,1998,Storm,0,4000,0
+Argentina,1999,Wildfire,0,0,0
+Argentina,2000,Extreme temperature,15,300,0
+Argentina,2000,Flood,13,37840,300000
+Argentina,2000,Storm,1,430,0
+Argentina,2000,Wildfire,8,0,0
+Argentina,2001,Extreme temperature,14,3000,0
+Argentina,2001,Flood,1,251300,750000
+Argentina,2001,Storm,20,2650,15000
+Argentina,2001,Wildfire,0,0,0
+Argentina,2002,Extreme temperature,0,200,0
+Argentina,2002,Flood,4,6000,0
+Argentina,2002,Storm,3,5000,0
+Argentina,2003,Drought,0,0,120000
+Argentina,2003,Flood,27,163000,1028210
+Argentina,2003,Storm,12,900,0
+Argentina,2004,Extreme temperature,5,0,0
+Argentina,2004,Flood,5,6307,0
+Argentina,2005,Storm,11,252,0
+Argentina,2006,Flood,0,4500,0
+Argentina,2007,Extreme temperature,9,0,0
+Argentina,2007,Flood,10,135000,40000
+Argentina,2008,Flood,0,85000,0
+Argentina,2009,Drought,0,0,0
+Argentina,2009,Flood,9,34128,0
+Argentina,2009,Storm,10,24,0
+Argentina,2010,Extreme temperature,42,0,0
+Argentina,2012,Flood,6,10000,0
+Argentina,2012,Storm,19,9530,12000
+Argentina,2013,Flood,52,350000,1300000
+Argentina,2013,Storm,4,12,2000
+Argentina,2014,Flood,3,7203,62000
+Argentina,2015,Flood,11,141133,0
+Argentina,2015,Storm,8,4500,17200
+Argentina,2016,Flood,0,85769,1002000
+Argentina,2017,Flood,1,51777,0
+Argentina,2018,Drought,0,0,3400000
+Argentina,2018,Flood,0,63420,0
+Argentina,2018,Storm,2,1200,0
+Argentina,2019,Drought,8,35032,0
+Argentina,2019,Flood,6,35351,0
+Argentina,2020,Flood,3,3000,10000
+Argentina,2020,Storm,0,250,0
+Argentina,2021,Flood,0,90,0
+Argentina,2021,Wildfire,15,1207,0
+Argentina,2022,Wildfire,0,124085,770000
+Argentina,2023,Flood,0,38000,0
+Argentina,2023,Storm,13,14020,125000
+Argentina,2023,Wildfire,0,800,0
+Argentina,2024,Flood,0,402400,0
+Argentina,2024,Storm,1,400006,250000
+Argentina,2025,Flood,125,236700,375000
+Argentina,2025,Wildfire,1,1500,0
+Austria,1990,Storm,3,0,250000
+Austria,1991,Flood,5,0,82000
+Austria,1991,Storm,0,0,28000
+Austria,1993,Storm,0,0,1000
+Austria,1994,Storm,0,0,2000
+Austria,1995,Flood,2,0,200
+Austria,1996,Flood,0,0,5000
+Austria,1997,Flood,3,0,175000
+Austria,1999,Flood,3,0,32000
+Austria,2000,Storm,0,0,20000
+Austria,2002,Flood,9,60000,2400000
+Austria,2002,Storm,3,300,5000
+Austria,2003,Extreme temperature,345,0,280000
+Austria,2005,Extreme temperature,0,0,0
+Austria,2005,Flood,4,900,700000
+Austria,2006,Flood,0,516,0
+Austria,2007,Extreme temperature,5,0,0
+Austria,2007,Storm,0,0,400000
+Austria,2008,Storm,4,0,500000
+Austria,2009,Extreme temperature,2,0,0
+Austria,2009,Flood,1,0,200000
+Austria,2009,Storm,0,0,500000
+Austria,2012,Extreme temperature,5,0,0
+Austria,2013,Flood,4,200,1000000
+Austria,2016,Flood,0,0,0
+Austria,2017,Storm,5,330,118000
+Austria,2019,Extreme temperature,1,0,0
+Austria,2019,Storm,11,0,0
+Austria,2021,Flood,1,0,0
+Austria,2022,Extreme temperature,419,0,0
+Austria,2022,Storm,5,13,0
+Austria,2023,Extreme temperature,486,0,0
+Austria,2024,Storm,5,2220,0
+Azores Islands,1996,Storm,0,60,66000
+Bahamas,1990,Storm,0,0,0
+Bahamas,1992,Storm,4,1700,250000
+Bahamas,1995,Storm,0,0,400
+Bahamas,1999,Storm,1,0,450000
+Bahamas,2001,Storm,0,0,300000
+Bahamas,2004,Storm,12,9000,1550000
+Bahamas,2005,Storm,1,1500,0
+Bahamas,2007,Storm,1,7000,0
+Bahamas,2008,Storm,0,3000,0
+Bahamas,2011,Storm,0,10000,40000
+Bahamas,2012,Storm,1,0,0
+Bahamas,2013,Flood,0,1000,45000
+Bahamas,2015,Storm,33,6710,90000
+Bahamas,2016,Storm,0,0,600000
+Bahamas,2017,Storm,0,0,2000
+Bahamas,2019,Storm,356,14940,3400000
+Barbados,1995,Storm,0,0,0
+Barbados,2002,Storm,0,2000,200
+Barbados,2004,Storm,1,880,5000
+Barbados,2010,Drought,0,0,0
+Barbados,2010,Storm,0,2500,0
+Barbados,2017,Storm,1,0,0
+Barbados,2021,Storm,0,3300,0
+Barbados,2023,Storm,0,179,0
+Barbados,2024,Storm,0,2500,0
+Belarus,1993,Flood,0,40000,100000
+Belarus,1996,Flood,0,0,0
+Belarus,1997,Storm,5,21390,33000
+Belarus,1999,Flood,2,2000,4380
+Belarus,2000,Extreme temperature,0,0,30300
+Belarus,2006,Extreme temperature,5,1820,0
+Belarus,2007,Storm,0,0,10000
+Belarus,2012,Extreme temperature,0,130,0
+Belarus,2013,Extreme temperature,4,11325,0
+Belarus,2014,Extreme temperature,2,31500,0
+Belarus,2017,Extreme temperature,43,50539,0
+Belarus,2018,Flood,0,50000,0
+Belarus,2023,Flood,0,420,0
+Belgium,1990,Storm,16,0,980000
+Belgium,1993,Flood,1,3100,17000
+Belgium,1994,Flood,0,150,0
+Belgium,1995,Storm,6,800,100000
+Belgium,1998,Flood,1,140,10000
+Belgium,1998,Storm,0,0,500
+Belgium,1999,Storm,2,905,50486
+Belgium,2002,Flood,0,2400,0
+Belgium,2002,Storm,5,0,5000
+Belgium,2003,Extreme temperature,1175,0,0
+Belgium,2003,Flood,0,0,0
+Belgium,2005,Extreme temperature,2,0,0
+Belgium,2005,Flood,0,210,0
+Belgium,2006,Extreme temperature,940,0,0
+Belgium,2007,Storm,2,2,450000
+Belgium,2008,Storm,0,0,0
+Belgium,2009,Extreme temperature,1,0,0
+Belgium,2010,Flood,3,690,238146
+Belgium,2010,Storm,1,0,160000
+Belgium,2011,Storm,5,71,99000
+Belgium,2012,Extreme temperature,3,0,0
+Belgium,2013,Storm,0,0,0
+Belgium,2014,Storm,0,0,0
+Belgium,2015,Extreme temperature,410,0,0
+Belgium,2016,Flood,1,0,0
+Belgium,2016,Storm,1,0,0
+Belgium,2018,Extreme temperature,0,0,0
+Belgium,2018,Storm,1,0,0
+Belgium,2019,Extreme temperature,716,0,0
+Belgium,2020,Extreme temperature,1687,0,0
+Belgium,2020,Storm,0,0,0
+Belgium,2021,Flood,39,101950,2000000
+Belgium,2021,Storm,0,0,0
+Belgium,2022,Extreme temperature,434,0,0
+Belgium,2022,Storm,2,0,0
+Belgium,2023,Extreme temperature,324,0,0
+Belgium,2023,Flood,0,3000,0
+Belgium,2023,Storm,2,0,0
+Belize,1990,Extreme temperature,0,0,2250
+Belize,1990,Flood,0,0,2200
+Belize,1995,Flood,0,2600,500
+Belize,1998,Storm,9,60000,50
+Belize,2000,Storm,14,62570,277460
+Belize,2001,Storm,30,20000,250000
+Belize,2005,Storm,3,0,0
+Belize,2007,Storm,0,20000,14847
+Belize,2008,Flood,1,38000,9697
+Belize,2008,Storm,7,10000,0
+Belize,2010,Storm,0,0,0
+Belize,2015,Flood,0,20000,0
+Belize,2016,Storm,0,10355,0
+Belize,2020,Storm,0,60000,0
+Belize,2022,Storm,0,172150,100000
+Belize,2024,Storm,0,162,0
+Belize,2024,Wildfire,0,800,0
+Bermuda,2003,Storm,4,0,300000
+Bolivia (Plurinational State of),1990,Drought,0,283160,0
+Bolivia (Plurinational State of),1992,Flood,4,40050,200000
+Bolivia (Plurinational State of),1994,Drought,0,50000,0
+Bolivia (Plurinational State of),1997,Flood,56,190000,70000
+Bolivia (Plurinational State of),1999,Flood,0,1600,0
+Bolivia (Plurinational State of),1999,Wildfire,3,6300,0
+Bolivia (Plurinational State of),2000,Drought,0,20000,0
+Bolivia (Plurinational State of),2000,Extreme temperature,6,25277,0
+Bolivia (Plurinational State of),2000,Flood,30,7010,0
+Bolivia (Plurinational State of),2001,Flood,41,357250,121000
+Bolivia (Plurinational State of),2002,Flood,76,5146,100000
+Bolivia (Plurinational State of),2002,Storm,20,12085,0
+Bolivia (Plurinational State of),2003,Flood,74,57529,1000
+Bolivia (Plurinational State of),2004,Drought,0,55000,0
+Bolivia (Plurinational State of),2005,Wildfire,0,3000,0
+Bolivia (Plurinational State of),2006,Flood,25,126600,35000
+Bolivia (Plurinational State of),2007,Extreme temperature,0,0,0
+Bolivia (Plurinational State of),2007,Flood,115,824519,590000
+Bolivia (Plurinational State of),2008,Drought,0,27500,0
+Bolivia (Plurinational State of),2008,Storm,0,6655,0
+Bolivia (Plurinational State of),2009,Flood,0,63000,0
+Bolivia (Plurinational State of),2010,Drought,0,62500,100000
+Bolivia (Plurinational State of),2010,Extreme temperature,4,0,0
+Bolivia (Plurinational State of),2010,Flood,26,227860,0
+Bolivia (Plurinational State of),2010,Wildfire,0,300,0
+Bolivia (Plurinational State of),2011,Flood,52,88825,20000
+Bolivia (Plurinational State of),2012,Flood,13,69085,0
+Bolivia (Plurinational State of),2013,Drought,0,340355,0
+Bolivia (Plurinational State of),2013,Extreme temperature,18,17490,0
+Bolivia (Plurinational State of),2013,Flood,99,483995,2500
+Bolivia (Plurinational State of),2014,Drought,0,51180,0
+Bolivia (Plurinational State of),2014,Flood,38,185120,0
+Bolivia (Plurinational State of),2015,Flood,25,96890,0
+Bolivia (Plurinational State of),2016,Drought,0,665000,450000
+Bolivia (Plurinational State of),2016,Flood,4,5420,0
+Bolivia (Plurinational State of),2018,Flood,6,12186,0
+Bolivia (Plurinational State of),2019,Flood,60,349540,0
+Bolivia (Plurinational State of),2019,Wildfire,0,36000,0
+Bolivia (Plurinational State of),2020,Flood,26,37611,10000
+Bolivia (Plurinational State of),2020,Wildfire,5,126000,0
+Bolivia (Plurinational State of),2021,Flood,50,303597,0
+Bolivia (Plurinational State of),2022,Flood,60,375000,0
+Bolivia (Plurinational State of),2023,Drought,10,2050000,0
+Bolivia (Plurinational State of),2023,Flood,22,208970,0
+Bolivia (Plurinational State of),2023,Wildfire,12,0,0
+Bolivia (Plurinational State of),2024,Flood,4,7022,0
+Bolivia (Plurinational State of),2024,Wildfire,2,25335,100000
+Bolivia (Plurinational State of),2025,Flood,63,2965115,0
+Bosnia and Herzegovina,1999,Storm,0,1090,0
+Bosnia and Herzegovina,2000,Drought,0,0,158000
+Bosnia and Herzegovina,2001,Flood,0,9000,0
+Bosnia and Herzegovina,2003,Drought,0,62575,140000
+Bosnia and Herzegovina,2004,Flood,0,278000,0
+Bosnia and Herzegovina,2005,Flood,0,3100,0
+Bosnia and Herzegovina,2005,Storm,4,0,0
+Bosnia and Herzegovina,2007,Extreme temperature,0,0,0
+Bosnia and Herzegovina,2009,Extreme temperature,1,10000,0
+Bosnia and Herzegovina,2009,Flood,0,3730,0
+Bosnia and Herzegovina,2010,Flood,3,34910,87000
+Bosnia and Herzegovina,2012,Extreme temperature,4,10347,0
+Bosnia and Herzegovina,2014,Flood,26,1000600,436580
+Bosnia and Herzegovina,2015,Flood,0,0,0
+Bosnia and Herzegovina,2019,Flood,1,759,0
+Bosnia and Herzegovina,2020,Flood,0,15000,0
+Bosnia and Herzegovina,2021,Flood,0,250000,0
+Bosnia and Herzegovina,2022,Flood,1,3000,0
+Bosnia and Herzegovina,2023,Flood,0,10000,0
+Bosnia and Herzegovina,2023,Storm,1,20,0
+Bosnia and Herzegovina,2024,Flood,27,5000,10000
+Bosnia and Herzegovina,2025,Flood,0,3000,0
+Brazil,1990,Flood,24,2800,0
+Brazil,1991,Flood,20,17000,2000
+Brazil,1992,Flood,107,147493,25800
+Brazil,1994,Extreme temperature,0,0,475000
+Brazil,1994,Storm,0,1000,70000
+Brazil,1995,Flood,110,33800,3000
+Brazil,1996,Flood,15,7000,0
+Brazil,1997,Flood,90,62200,0
+Brazil,1997,Storm,3,676,0
+Brazil,1998,Drought,0,10000000,122000
+Brazil,1998,Flood,13,47500,1000
+Brazil,1998,Wildfire,1,12000,36000
+Brazil,1999,Flood,7,0,0
+Brazil,1999,Wildfire,0,0,0
+Brazil,2000,Flood,48,87000,0
+Brazil,2001,Drought,0,1000000,0
+Brazil,2001,Flood,85,11046,45000
+Brazil,2001,Storm,13,3400,0
+Brazil,2002,Drought,0,0,0
+Brazil,2002,Flood,17,3500,0
+Brazil,2003,Flood,255,205981,303000
+Brazil,2004,Drought,0,0,1650000
+Brazil,2004,Extreme temperature,0,0,0
+Brazil,2004,Flood,35,5254,370
+Brazil,2004,Storm,4,150060,350000
+Brazil,2005,Drought,0,0,0
+Brazil,2005,Flood,47,41000,0
+Brazil,2005,Storm,2,344,0
+Brazil,2006,Flood,20,116000,0
+Brazil,2007,Drought,0,1000000,0
+Brazil,2007,Flood,69,206352,125000
+Brazil,2008,Flood,200,1752391,1110000
+Brazil,2008,Storm,3,1600,0
+Brazil,2009,Flood,90,1862648,600000
+Brazil,2009,Storm,4,2364,0
+Brazil,2010,Drought,0,62000,0
+Brazil,2010,Extreme temperature,32,0,0
+Brazil,2010,Flood,363,244938,802000
+Brazil,2011,Flood,978,1215600,1002000
+Brazil,2012,Drought,0,4000000,1460000
+Brazil,2012,Flood,3,299000,171000
+Brazil,2013,Flood,119,247410,545500
+Brazil,2013,Storm,2,13864,90000
+Brazil,2014,Drought,0,27000000,5000000
+Brazil,2014,Flood,41,618152,200000
+Brazil,2015,Flood,11,298510,2000
+Brazil,2015,Storm,2,11037,2000
+Brazil,2016,Flood,33,50500,200000
+Brazil,2017,Flood,14,104140,100000
+Brazil,2018,Flood,7,1250,53000
+Brazil,2019,Flood,47,46778,0
+Brazil,2019,Wildfire,0,10002195,0
+Brazil,2020,Drought,0,0,3000000
+Brazil,2020,Flood,151,17161,500000
+Brazil,2020,Storm,12,1119,100000
+Brazil,2021,Drought,0,0,3000000
+Brazil,2021,Flood,62,1608050,543000
+Brazil,2022,Drought,0,0,4000000
+Brazil,2022,Flood,528,224081,1141000
+Brazil,2023,Drought,0,608000,2500000
+Brazil,2023,Flood,124,288246,411200
+Brazil,2023,Storm,47,343274,940000
+Brazil,2024,Drought,0,0,6050000
+Brazil,2024,Flood,244,2588933,7560000
+Brazil,2024,Storm,4,29655,0
+Brazil,2025,Flood,0,780,0
+Brazil,2025,Storm,9,130,0
+British Virgin Islands,1996,Storm,0,3,2000
+British Virgin Islands,2017,Storm,9,0,3000000
+Bulgaria,1993,Storm,0,5000,0
+Bulgaria,1997,Flood,1,200,0
+Bulgaria,1998,Extreme temperature,3,323,0
+Bulgaria,1999,Storm,0,850,0
+Bulgaria,2000,Drought,0,0,0
+Bulgaria,2000,Extreme temperature,7,0,50
+Bulgaria,2000,Wildfire,7,167,17600
+Bulgaria,2001,Storm,2,0,0
+Bulgaria,2001,Wildfire,0,0,0
+Bulgaria,2002,Flood,1,0,1000
+Bulgaria,2005,Flood,39,12200,457000
+Bulgaria,2005,Storm,0,0,0
+Bulgaria,2006,Extreme temperature,18,20,0
+Bulgaria,2006,Flood,0,0,0
+Bulgaria,2007,Extreme temperature,2,50,0
+Bulgaria,2007,Flood,12,1070,0
+Bulgaria,2007,Wildfire,3,9,2454
+Bulgaria,2008,Extreme temperature,10,0,0
+Bulgaria,2010,Extreme temperature,3,0,0
+Bulgaria,2010,Flood,0,90,0
+Bulgaria,2012,Extreme temperature,33,0,0
+Bulgaria,2012,Flood,5,37950,4400
+Bulgaria,2014,Flood,20,8507,387000
+Bulgaria,2014,Storm,1,40,545000
+Bulgaria,2015,Flood,5,0,5800
+Bulgaria,2018,Flood,0,600,0
+Bulgaria,2021,Flood,0,25,0
+Bulgaria,2021,Wildfire,0,500,0
+Bulgaria,2022,Extreme temperature,1277,0,0
+Bulgaria,2022,Flood,0,10937,47000
+Bulgaria,2023,Extreme temperature,1670,0,0
+Bulgaria,2023,Flood,4,4000,0
+Bulgaria,2023,Storm,4,36,0
+Canada,1990,Flood,8,0,8500
+Canada,1991,Storm,0,0,500000
+Canada,1992,Extreme temperature,0,0,2000000
+Canada,1992,Wildfire,0,0,120000
+Canada,1993,Flood,0,200,0
+Canada,1994,Storm,0,1304,3000
+Canada,1994,Wildfire,0,3000,0
+Canada,1995,Flood,0,5600,73300
+Canada,1995,Storm,2,0,100000
+Canada,1995,Wildfire,0,6500,89500
+Canada,1996,Flood,10,12000,729600
+Canada,1996,Storm,0,0,100
+Canada,1997,Flood,4,29000,120000
+Canada,1997,Storm,1,0,10000
+Canada,1997,Wildfire,0,1600,0
+Canada,1998,Flood,3,3100,0
+Canada,1998,Storm,28,2000,1500000
+Canada,1998,Wildfire,0,8000,0
+Canada,1999,Storm,7,4200,100
+Canada,1999,Wildfire,0,1500,0
+Canada,2000,Storm,11,840,13000
+Canada,2001,Storm,11,30,0
+Canada,2001,Wildfire,0,1200,0
+Canada,2002,Flood,0,0,0
+Canada,2002,Wildfire,0,600,0
+Canada,2003,Flood,4,2470,35000
+Canada,2003,Storm,2,200,110000
+Canada,2003,Wildfire,1,0,545000
+Canada,2004,Flood,0,1000,200000
+Canada,2004,Storm,0,0,100000
+Canada,2005,Flood,4,5600,357000
+Canada,2005,Storm,0,300,0
+Canada,2005,Wildfire,0,0,0
+Canada,2006,Flood,1,3900,0
+Canada,2007,Flood,0,500,0
+Canada,2007,Storm,6,0,0
+Canada,2008,Flood,0,2400,0
+Canada,2009,Flood,0,200,0
+Canada,2009,Storm,2,3,500000
+Canada,2011,Flood,5,2000,800000
+Canada,2011,Storm,1,0,0
+Canada,2011,Wildfire,1,7000,1500000
+Canada,2012,Flood,0,1500,34000
+Canada,2012,Storm,0,0,1050000
+Canada,2013,Extreme temperature,10,0,200000
+Canada,2013,Flood,4,100000,5700000
+Canada,2013,Storm,0,0,1410000
+Canada,2014,Extreme temperature,0,0,0
+Canada,2014,Flood,0,6904,129000
+Canada,2015,Wildfire,0,13036,0
+Canada,2016,Flood,0,300,0
+Canada,2016,Wildfire,0,88000,4000000
+Canada,2017,Flood,2,19113,200000
+Canada,2017,Wildfire,0,43441,0
+Canada,2018,Extreme temperature,70,0,0
+Canada,2018,Flood,0,4000,0
+Canada,2018,Storm,0,930,325000
+Canada,2018,Wildfire,0,3000,0
+Canada,2019,Flood,1,19500,800000
+Canada,2019,Storm,1,0,275000
+Canada,2020,Flood,1,12936,1300000
+Canada,2020,Storm,0,60000,1200000
+Canada,2021,Extreme temperature,815,0,0
+Canada,2021,Flood,4,15000,2000000
+Canada,2021,Storm,1,302,25000
+Canada,2021,Wildfire,2,250,80912
+Canada,2022,Flood,0,2000,36000
+Canada,2022,Storm,17,4000,179000
+Canada,2023,Extreme temperature,2,0,165000
+Canada,2023,Flood,6,1450,0
+Canada,2023,Wildfire,2,30000,200000
+Canada,2024,Storm,2,20,7950000
+Canada,2024,Wildfire,1,3500,1000000
+Cayman Islands,2001,Storm,0,0,60000
+Cayman Islands,2002,Storm,0,300,1500
+Cayman Islands,2004,Storm,2,0,3435080
+Cayman Islands,2008,Storm,0,0,0
+Chile,1990,Flood,0,2500,0
+Chile,1991,Drought,0,0,200000
+Chile,1992,Storm,0,38000,0
+Chile,1992,Wildfire,0,0,120000
+Chile,1993,Flood,109,3276,34000
+Chile,1993,Wildfire,0,0,0
+Chile,1995,Extreme temperature,2,10000,10000
+Chile,1995,Flood,28,0,0
+Chile,1997,Flood,22,76800,182400
+Chile,1997,Storm,4,2250,0
+Chile,1997,Wildfire,10,300,0
+Chile,1999,Wildfire,0,1000,280000
+Chile,2000,Extreme temperature,0,0,10000
+Chile,2000,Flood,16,181667,30000
+Chile,2001,Flood,0,12559,8900
+Chile,2001,Storm,2,2400,0
+Chile,2002,Extreme temperature,0,25000,0
+Chile,2002,Flood,19,230642,200000
+Chile,2002,Wildfire,0,0,80000
+Chile,2003,Wildfire,0,285,0
+Chile,2004,Extreme temperature,0,0,0
+Chile,2004,Flood,3,9000,0
+Chile,2005,Flood,5,1348,0
+Chile,2005,Storm,45,112,0
+Chile,2006,Flood,18,95862,0
+Chile,2007,Extreme temperature,6,0,0
+Chile,2008,Flood,9,144755,23000
+Chile,2010,Extreme temperature,0,150,0
+Chile,2011,Extreme temperature,0,25475,0
+Chile,2011,Wildfire,1,1482,200000
+Chile,2012,Flood,0,4300,3100
+Chile,2012,Wildfire,7,1082,200000
+Chile,2013,Extreme temperature,0,0,1000000
+Chile,2014,Flood,0,12555,0
+Chile,2014,Wildfire,12,13000,34000
+Chile,2015,Flood,178,193997,1500000
+Chile,2015,Storm,6,938,0
+Chile,2015,Wildfire,1,32,0
+Chile,2016,Flood,12,100,100000
+Chile,2017,Flood,9,7224,2000
+Chile,2017,Wildfire,11,19608,550000
+Chile,2019,Flood,6,600,0
+Chile,2019,Wildfire,0,747,0
+Chile,2021,Flood,0,610,0
+Chile,2021,Storm,0,521,175000
+Chile,2022,Wildfire,3,13051,0
+Chile,2023,Flood,7,53673,1865000
+Chile,2023,Wildfire,26,10916,900000
+Chile,2024,Flood,1,6393,540000
+Chile,2024,Storm,1,26820,540000
+Chile,2024,Wildfire,135,40904,1000000
+Chile,2025,Wildfire,0,500,0
+Colombia,1990,Flood,10,20625,0
+Colombia,1991,Wildfire,0,0,0
+Colombia,1993,Flood,63,80283,0
+Colombia,1994,Flood,37,17969,0
+Colombia,1995,Flood,69,86000,0
+Colombia,1996,Flood,12,180200,0
+Colombia,1997,Flood,2,15000,3000
+Colombia,1998,Drought,0,100000,0
+Colombia,1999,Flood,41,151390,3
+Colombia,1999,Storm,2,0,500
+Colombia,2000,Flood,113,79000,0
+Colombia,2001,Flood,0,6000,0
+Colombia,2001,Storm,5,7700,0
+Colombia,2001,Wildfire,0,0,0
+Colombia,2002,Flood,65,124538,0
+Colombia,2003,Flood,80,39752,0
+Colombia,2004,Flood,115,531482,0
+Colombia,2005,Flood,180,601866,10000
+Colombia,2005,Storm,0,3074,0
+Colombia,2006,Flood,150,221465,0
+Colombia,2007,Flood,218,2671487,0
+Colombia,2008,Flood,87,1200091,0
+Colombia,2009,Flood,23,31250,0
+Colombia,2010,Flood,418,2796560,1000000
+Colombia,2010,Wildfire,31,200,0
+Colombia,2011,Flood,273,1487523,2320000
+Colombia,2012,Flood,77,81518,102000
+Colombia,2013,Flood,7,51781,2000
+Colombia,2014,Flood,77,72214,8000
+Colombia,2014,Storm,11,18,0
+Colombia,2015,Drought,0,0,0
+Colombia,2015,Flood,0,8105,0
+Colombia,2015,Wildfire,11,119000,0
+Colombia,2016,Flood,10,2272,0
+Colombia,2017,Flood,35,30853,2000
+Colombia,2017,Storm,0,0,0
+Colombia,2018,Flood,26,60000,0
+Colombia,2019,Flood,52,39897,0
+Colombia,2020,Flood,25,56617,35000
+Colombia,2020,Storm,23,277800,125000
+Colombia,2021,Flood,22,50457,0
+Colombia,2022,Flood,81,231810,11000
+Colombia,2022,Storm,0,5002,0
+Colombia,2023,Flood,1,45588,0
+Colombia,2024,Drought,0,1143043,0
+Colombia,2024,Storm,1,262059,150000
+Colombia,2025,Storm,2,20000,0
+Costa Rica,1991,Flood,1,185021,0
+Costa Rica,1992,Wildfire,0,1200,0
+Costa Rica,1993,Flood,9,38451,0
+Costa Rica,1994,Drought,0,0,1000
+Costa Rica,1994,Flood,2,2556,3000
+Costa Rica,1995,Storm,0,8062,6300
+Costa Rica,1996,Flood,6,20000,250000
+Costa Rica,1996,Storm,54,716000,200000
+Costa Rica,1998,Drought,0,0,23000
+Costa Rica,1998,Storm,8,16700,91090
+Costa Rica,1999,Flood,9,9993,1000
+Costa Rica,2001,Flood,0,1437,0
+Costa Rica,2002,Flood,10,95040,1000
+Costa Rica,2003,Flood,1,2500,0
+Costa Rica,2004,Flood,2,3056,0
+Costa Rica,2005,Flood,5,2998,25000
+Costa Rica,2005,Storm,1,1074,20000
+Costa Rica,2007,Flood,19,24500,80000
+Costa Rica,2008,Flood,7,154498,22000
+Costa Rica,2008,Storm,4,55000,0
+Costa Rica,2010,Flood,27,3106,0
+Costa Rica,2011,Flood,4,46695,0
+Costa Rica,2012,Flood,6,9523,0
+Costa Rica,2015,Drought,0,0,0
+Costa Rica,2015,Flood,0,9666,0
+Costa Rica,2016,Storm,9,50000,0
+Costa Rica,2017,Storm,13,11500,185000
+Costa Rica,2018,Flood,1,125190,0
+Costa Rica,2019,Drought,0,0,0
+Costa Rica,2020,Storm,0,25000,0
+Costa Rica,2021,Flood,3,200000,0
+Costa Rica,2022,Storm,0,300000,0
+Costa Rica,2024,Flood,0,1098668,0
+Costa Rica,2024,Storm,0,3418,980
+Croatia,1997,Wildfire,0,0,0
+Croatia,2000,Extreme temperature,40,200,240000
+Croatia,2000,Flood,0,600,0
+Croatia,2000,Wildfire,1,0,17750
+Croatia,2001,Flood,0,1200,0
+Croatia,2003,Drought,0,0,330000
+Croatia,2003,Extreme temperature,788,0,0
+Croatia,2003,Wildfire,0,0,20000
+Croatia,2005,Extreme temperature,5,0,0
+Croatia,2005,Flood,0,250,0
+Croatia,2005,Storm,2,0,0
+Croatia,2006,Flood,0,0,0
+Croatia,2007,Wildfire,12,26,0
+Croatia,2010,Flood,0,1110,80000
+Croatia,2012,Extreme temperature,7,0,0
+Croatia,2012,Flood,0,1500,0
+Croatia,2014,Flood,3,9116,0
+Croatia,2015,Flood,0,1200,0
+Croatia,2017,Storm,0,3500,161000
+Croatia,2017,Wildfire,0,80,0
+Croatia,2018,Flood,0,471,0
+Croatia,2019,Flood,1,65,0
+Croatia,2022,Extreme temperature,731,0,0
+Croatia,2022,Flood,0,0,0
+Croatia,2023,Extreme temperature,561,0,0
+Croatia,2023,Flood,0,177,0
+Croatia,2023,Storm,1,6100,0
+Croatia,2025,Flood,0,0,0
+Cuba,1990,Flood,4,11000,0
+Cuba,1992,Flood,0,9127,2590
+Cuba,1993,Flood,46,572000,140000
+Cuba,1993,Storm,5,149775,1000000
+Cuba,1994,Flood,12,38600,0
+Cuba,1994,Storm,2,110558,101968
+Cuba,1995,Flood,0,33180,0
+Cuba,1995,Storm,2,163,2000
+Cuba,1996,Flood,3,10866,0
+Cuba,1996,Storm,0,336676,13000
+Cuba,1997,Flood,0,35000,0
+Cuba,1998,Drought,0,820000,180000
+Cuba,1998,Storm,6,147000,2000000
+Cuba,1999,Storm,4,254990,0
+Cuba,1999,Wildfire,0,0,0
+Cuba,2000,Drought,0,0,0
+Cuba,2000,Flood,2,675,0
+Cuba,2001,Storm,5,5900012,100000
+Cuba,2002,Flood,0,35000,0
+Cuba,2002,Storm,3,323970,46000
+Cuba,2003,Flood,0,600,0
+Cuba,2004,Drought,0,0,3139
+Cuba,2004,Storm,4,247250,1200000
+Cuba,2005,Storm,20,2600000,2100000
+Cuba,2006,Flood,2,1500,0
+Cuba,2006,Storm,0,268,0
+Cuba,2007,Flood,0,18000,0
+Cuba,2007,Storm,1,192488,500000
+Cuba,2008,Flood,0,20000,0
+Cuba,2008,Storm,7,499464,3572000
+Cuba,2012,Flood,2,3000,0
+Cuba,2012,Storm,12,208101,0
+Cuba,2013,Flood,2,227,0
+Cuba,2015,Drought,0,100000,0
+Cuba,2015,Flood,3,10089,0
+Cuba,2016,Storm,0,190000,2600000
+Cuba,2017,Storm,10,10000000,540000
+Cuba,2018,Storm,9,40540,0
+Cuba,2019,Storm,6,10111,0
+Cuba,2020,Storm,0,4333,0
+Cuba,2021,Storm,0,0,100000
+Cuba,2022,Flood,3,2300,25000
+Cuba,2022,Storm,6,3206780,25000
+Cuba,2023,Flood,6,18500,0
+Cuba,2023,Storm,0,0,0
+Cuba,2024,Storm,10,4590000,1130000
+Czechia,1996,Flood,1,60,36000
+Czechia,1997,Flood,49,102107,1850000
+Czechia,1998,Flood,6,5380,52000
+Czechia,2000,Flood,0,0,80000
+Czechia,2002,Flood,18,200000,2400000
+Czechia,2002,Storm,2,0,20000
+Czechia,2003,Extreme temperature,418,0,0
+Czechia,2005,Extreme temperature,15,0,0
+Czechia,2005,Flood,1,0,0
+Czechia,2005,Storm,0,3,0
+Czechia,2006,Flood,6,4315,0
+Czechia,2007,Storm,4,0,150000
+Czechia,2008,Storm,2,0,50000
+Czechia,2009,Flood,13,14450,150000
+Czechia,2009,Storm,2,12,0
+Czechia,2010,Extreme temperature,12,0,0
+Czechia,2010,Flood,11,1400,347560
+Czechia,2012,Extreme temperature,32,0,0
+Czechia,2013,Flood,15,1300000,828552
+Czechia,2017,Storm,0,600,2900
+Czechia,2018,Extreme temperature,3,0,0
+Czechia,2020,Storm,1,5,0
+Czechia,2021,Flood,0,0,0
+Czechia,2021,Storm,6,3815,701000
+Czechia,2022,Extreme temperature,279,0,0
+Czechia,2022,Storm,1,3,0
+Czechia,2023,Extreme temperature,361,0,0
+Czechia,2023,Flood,0,0,0
+Czechia,2024,Storm,13,250000,3000000
+Denmark,1990,Storm,1,0,190000
+Denmark,1992,Drought,0,0,751700
+Denmark,1999,Storm,7,0,2604939
+Denmark,2002,Storm,1,0,0
+Denmark,2005,Storm,4,0,1300000
+Denmark,2007,Storm,0,0,100000
+Denmark,2010,Storm,0,0,0
+Denmark,2013,Storm,2,0,0
+Denmark,2022,Extreme temperature,252,0,0
+Denmark,2022,Storm,1,3,0
+Denmark,2023,Extreme temperature,189,0,0
+Dominica,1995,Storm,2,5001,195000
+Dominica,1999,Storm,0,715,0
+Dominica,2007,Storm,2,7530,20000
+Dominica,2011,Storm,0,240,0
+Dominica,2015,Storm,30,28594,482810
+Dominica,2017,Storm,64,71393,1456000
+Dominican Republic,1991,Flood,10,0,0
+Dominican Republic,1993,Flood,30,20000,0
+Dominican Republic,1995,Storm,11,2830,0
+Dominican Republic,1996,Flood,3,1000,0
+Dominican Republic,1996,Storm,24,25000,0
+Dominican Republic,1998,Storm,347,975595,1981500
+Dominican Republic,2001,Storm,3,175,10
+Dominican Republic,2002,Flood,3,1750,500
+Dominican Republic,2003,Flood,10,65463,44720
+Dominican Republic,2003,Storm,8,10000,0
+Dominican Republic,2004,Flood,688,10002,0
+Dominican Republic,2004,Storm,15,14259,297000
+Dominican Republic,2005,Flood,3,1450,0
+Dominican Republic,2005,Storm,9,1000,0
+Dominican Republic,2005,Wildfire,0,0,0
+Dominican Republic,2007,Flood,12,19830,0
+Dominican Republic,2007,Storm,163,142933,162700
+Dominican Republic,2008,Storm,13,17002,0
+Dominican Republic,2009,Flood,7,14565,52403
+Dominican Republic,2010,Flood,7,35200,0
+Dominican Republic,2010,Storm,0,12000,0
+Dominican Republic,2011,Flood,4,11200,0
+Dominican Republic,2011,Storm,7,44000,30000
+Dominican Republic,2012,Flood,0,14570,0
+Dominican Republic,2012,Storm,8,42515,30000
+Dominican Republic,2013,Flood,0,0,102
+Dominican Republic,2014,Flood,1,300,0
+Dominican Republic,2015,Flood,2,21200,0
+Dominican Republic,2015,Storm,0,2133,0
+Dominican Republic,2016,Flood,15,2795400,0
+Dominican Republic,2016,Storm,6,48,0
+Dominican Republic,2017,Storm,5,42587,63000
+Dominican Republic,2018,Flood,0,7390,0
+Dominican Republic,2018,Storm,0,8000,0
+Dominican Republic,2020,Storm,6,15595,165000
+Dominican Republic,2021,Storm,2,4178,0
+Dominican Republic,2022,Flood,0,467,0
+Dominican Republic,2022,Storm,2,1434802,0
+Dominican Republic,2023,Flood,35,311319,17500
+Dominican Republic,2023,Storm,3,289083,0
+Dominican Republic,2024,Flood,0,15000,0
+Dominican Republic,2024,Storm,2,0,0
+Ecuador,1992,Flood,22,205000,20000
+Ecuador,1994,Wildfire,0,0,0
+Ecuador,1997,Drought,0,34000,0
+Ecuador,1997,Flood,245,49007,271000
+Ecuador,2000,Flood,34,32,0
+Ecuador,2001,Flood,58,9530,0
+Ecuador,2002,Flood,31,54633,16000
+Ecuador,2003,Flood,0,7905,0
+Ecuador,2006,Flood,16,57670,2800
+Ecuador,2008,Flood,41,289122,1000000
+Ecuador,2009,Drought,0,107500,1700
+Ecuador,2009,Flood,3,11807,0
+Ecuador,2010,Flood,14,6940,0
+Ecuador,2011,Flood,0,3600,0
+Ecuador,2012,Flood,29,71860,0
+Ecuador,2012,Wildfire,5,1945,0
+Ecuador,2013,Drought,0,3165,0
+Ecuador,2013,Flood,0,25567,0
+Ecuador,2015,Flood,12,1185,0
+Ecuador,2016,Flood,9,33955,10000
+Ecuador,2019,Flood,14,3000,0
+Ecuador,2020,Flood,0,290,0
+Ecuador,2021,Flood,6,18464,0
+Ecuador,2022,Flood,76,35379,53000
+Ecuador,2023,Flood,30,80950,205000
+Ecuador,2024,Flood,6,117498,100000
+Ecuador,2025,Storm,97,346961,0
+El Salvador,1992,Flood,2,8000,0
+El Salvador,1994,Drought,0,0,1000
+El Salvador,1995,Flood,8,1500,0
+El Salvador,1996,Storm,12,0,10
+El Salvador,1997,Storm,4,2000,0
+El Salvador,1998,Drought,0,0,170000
+El Salvador,1998,Storm,475,84000,388100
+El Salvador,1999,Flood,7,5450,1500
+El Salvador,2000,Flood,2,400,0
+El Salvador,2000,Storm,1,100,0
+El Salvador,2001,Drought,0,400000,22400
+El Salvador,2001,Flood,0,1000,0
+El Salvador,2002,Flood,1,100,0
+El Salvador,2002,Storm,0,500,0
+El Salvador,2005,Flood,48,2332,0
+El Salvador,2005,Storm,69,72141,355700
+El Salvador,2006,Extreme temperature,1,0,0
+El Salvador,2007,Flood,2,500,0
+El Salvador,2007,Storm,0,2800,0
+El Salvador,2008,Flood,30,3000,0
+El Salvador,2009,Drought,0,0,27000
+El Salvador,2009,Storm,275,90000,939000
+El Salvador,2010,Storm,18,11753,20000
+El Salvador,2011,Flood,35,300000,1000000
+El Salvador,2015,Drought,0,700000,100000
+El Salvador,2015,Flood,1,0,0
+El Salvador,2015,Storm,12,20000,0
+El Salvador,2017,Storm,10,584,0
+El Salvador,2018,Drought,0,386610,37000
+El Salvador,2018,Flood,4,7099,0
+El Salvador,2020,Storm,33,149840,220000
+El Salvador,2021,Flood,5,300,0
+El Salvador,2022,Storm,11,9373,17000
+El Salvador,2023,Storm,3,500,0
+El Salvador,2024,Storm,19,9050,0
+Estonia,2005,Storm,0,100,130000
+Estonia,2006,Extreme temperature,3,0,0
+Estonia,2012,Extreme temperature,1,0,0
+Estonia,2018,Extreme temperature,7,0,0
+Estonia,2022,Extreme temperature,167,0,0
+Estonia,2023,Extreme temperature,103,0,0
+Finland,1990,Storm,0,0,10000
+Finland,2005,Flood,0,400,0
+Finland,2022,Extreme temperature,225,0,0
+Finland,2023,Extreme temperature,138,0,0
+France,1990,Extreme temperature,5,0,0
+France,1990,Storm,43,0,1910000
+France,1991,Extreme temperature,20,0,772000
+France,1992,Flood,6,5000,0
+France,1992,Storm,48,2000,400000
+France,1993,Flood,4,8000,600000
+France,1993,Storm,12,1720,550000
+France,1994,Flood,13,1210,100000
+France,1995,Storm,16,5000,700000
+France,1996,Flood,4,1380,6000
+France,1996,Storm,1,0,10
+France,1997,Drought,0,0,10000
+France,1997,Extreme temperature,23,10000,0
+France,1997,Wildfire,0,1259,0
+France,1998,Storm,6,690,150000
+France,1999,Flood,36,4105,500000
+France,1999,Storm,99,3500031,12000000
+France,1999,Wildfire,0,6,0
+France,2000,Flood,5,1712,0
+France,2000,Storm,6,207,0
+France,2001,Flood,3,16882,132350
+France,2001,Storm,14,420,0
+France,2002,Flood,23,3480,1190000
+France,2002,Storm,5,253,1000
+France,2003,Extreme temperature,19490,0,4400000
+France,2003,Flood,10,27000,1500000
+France,2003,Storm,6,70,50
+France,2003,Wildfire,5,3004,0
+France,2004,Storm,11,0,0
+France,2005,Extreme temperature,8,0,0
+France,2005,Flood,3,4000,0
+France,2005,Wildfire,2,0,10000
+France,2006,Extreme temperature,1388,0,0
+France,2006,Storm,5,602,0
+France,2007,Storm,5,900,250000
+France,2008,Storm,3,2706,80000
+France,2009,Extreme temperature,7,200,0
+France,2009,Storm,11,0,3200000
+France,2009,Wildfire,0,0,0
+France,2010,Extreme temperature,3,0,0
+France,2010,Flood,25,0,1500000
+France,2010,Storm,53,500079,4230000
+France,2011,Flood,6,2300,0
+France,2011,Storm,0,0,0
+France,2012,Extreme temperature,12,0,0
+France,2013,Flood,2,2000,655000
+France,2013,Storm,2,0,0
+France,2014,Flood,14,4000,303000
+France,2014,Storm,8,0,182000
+France,2015,Extreme temperature,3275,0,0
+France,2015,Flood,20,0,924000
+France,2015,Storm,3,750,0
+France,2016,Flood,5,24,2400000
+France,2017,Flood,1,160,0
+France,2017,Storm,2,11,550000
+France,2017,Wildfire,0,12012,0
+France,2018,Extreme temperature,3,0,0
+France,2018,Flood,14,4226,712000
+France,2018,Storm,6,30,200000
+France,2019,Extreme temperature,1435,0,0
+France,2019,Flood,8,1102,0
+France,2019,Storm,8,1386,415000
+France,2020,Extreme temperature,1924,0,0
+France,2020,Flood,2,906,53000
+France,2020,Storm,18,14761,967000
+France,2021,Extreme temperature,0,0,5600000
+France,2021,Flood,2,2147,33000
+France,2021,Storm,0,255,0
+France,2022,Drought,0,0,0
+France,2022,Extreme temperature,4807,0,0
+France,2022,Storm,6,60378,0
+France,2023,Extreme temperature,2734,0,0
+France,2023,Flood,1,9550,1650000
+France,2023,Storm,2,517066,40000
+France,2023,Wildfire,0,141,0
+France,2024,Flood,1,3235,0
+France,2024,Storm,8,27,0
+France,2025,Storm,0,1902,0
+French Guiana,1996,Flood,0,70000,0
+French Guiana,2020,Flood,0,139,0
+Germany,1990,Storm,64,0,4440000
+Germany,1991,Storm,0,0,5000
+Germany,1992,Flood,0,0,30100
+Germany,1993,Flood,5,100000,600000
+Germany,1993,Storm,6,0,410000
+Germany,1994,Flood,2,0,393500
+Germany,1994,Storm,11,0,1045200
+Germany,1995,Storm,5,30000,529600
+Germany,1996,Storm,0,0,500
+Germany,1997,Extreme temperature,30,0,0
+Germany,1997,Flood,1,6500,360000
+Germany,1998,Storm,3,15,150000
+Germany,1999,Flood,7,100000,430000
+Germany,1999,Storm,18,0,1750000
+Germany,2001,Storm,6,0,300000
+Germany,2002,Flood,27,330108,11600000
+Germany,2002,Storm,22,19,2050000
+Germany,2003,Extreme temperature,9355,0,1650000
+Germany,2003,Storm,15,0,300000
+Germany,2004,Storm,2,0,130000
+Germany,2005,Extreme temperature,1,165,300000
+Germany,2005,Flood,1,450,220000
+Germany,2005,Storm,2,2,270000
+Germany,2006,Extreme temperature,12,0,0
+Germany,2006,Flood,0,1000,0
+Germany,2006,Storm,11,300,0
+Germany,2007,Flood,1,0,0
+Germany,2007,Storm,18,130,5500000
+Germany,2008,Storm,8,0,2700000
+Germany,2009,Extreme temperature,15,0,0
+Germany,2009,Flood,0,0,20000
+Germany,2009,Storm,1,0,50000
+Germany,2010,Extreme temperature,1,0,0
+Germany,2010,Flood,3,0,0
+Germany,2010,Storm,4,0,1000000
+Germany,2012,Extreme temperature,6,0,0
+Germany,2013,Flood,4,6350,12900000
+Germany,2013,Storm,7,2,4800000
+Germany,2014,Storm,8,1,400000
+Germany,2016,Flood,7,0,2000000
+Germany,2017,Flood,0,600,0
+Germany,2017,Storm,5,24,899000
+Germany,2018,Extreme temperature,0,0,0
+Germany,2018,Storm,5,12,588475
+Germany,2019,Extreme temperature,4,0,0
+Germany,2019,Storm,1,0,0
+Germany,2020,Storm,0,33,0
+Germany,2021,Flood,226,1000,40000000
+Germany,2021,Storm,1,604,0
+Germany,2022,Extreme temperature,8173,0,0
+Germany,2022,Storm,7,2,1023156
+Germany,2023,Extreme temperature,6376,0,0
+Germany,2023,Storm,4,0,0
+Germany,2024,Flood,12,3407,4500000
+Germany Federal Republic,1991,Flood,5,0,56000
+Greece,1990,Drought,0,0,1000000
+Greece,1990,Storm,3,0,0
+Greece,1991,Extreme temperature,5,0,0
+Greece,1994,Flood,14,1000,437700
+Greece,1995,Wildfire,0,2014,0
+Greece,1997,Flood,9,0,160000
+Greece,1998,Flood,3,900,0
+Greece,1998,Wildfire,14,300,675000
+Greece,2000,Extreme temperature,27,176,3000
+Greece,2000,Flood,1,6600,0
+Greece,2000,Wildfire,9,109,0
+Greece,2001,Flood,11,1050,0
+Greece,2002,Flood,0,390,0
+Greece,2002,Storm,2,12,0
+Greece,2003,Flood,0,450,600000
+Greece,2004,Storm,0,0,340000
+Greece,2006,Flood,1,3090,5659
+Greece,2006,Storm,3,600,0
+Greece,2007,Extreme temperature,16,0,0
+Greece,2007,Flood,2,600,0
+Greece,2007,Wildfire,65,5392,1750000
+Greece,2009,Wildfire,0,1040,0
+Greece,2010,Flood,1,150,0
+Greece,2012,Extreme temperature,5,0,0
+Greece,2012,Flood,1,200,0
+Greece,2014,Flood,0,0,0
+Greece,2015,Flood,3,500,0
+Greece,2016,Flood,4,200,56000
+Greece,2017,Extreme temperature,0,0,0
+Greece,2017,Flood,23,6024,0
+Greece,2018,Wildfire,100,4718,0
+Greece,2019,Storm,7,123,0
+Greece,2020,Flood,8,1170,30000
+Greece,2021,Wildfire,2,7500,580000
+Greece,2022,Extreme temperature,3092,0,0
+Greece,2022,Wildfire,0,55000,0
+Greece,2023,Extreme temperature,4339,0,0
+Greece,2023,Flood,17,5260,0
+Greece,2023,Storm,0,250,0
+Greece,2023,Wildfire,23,19011,200000
+Greece,2024,Flood,0,0,0
+Greece,2024,Wildfire,1,900,60000
+Grenada,1990,Storm,0,1000,0
+Grenada,1999,Storm,0,210,5500
+Grenada,2002,Storm,0,75,0
+Grenada,2004,Storm,39,60000,889000
+Grenada,2010,Drought,0,0,0
+Grenada,2024,Drought,0,100000,0
+Grenada,2024,Storm,8,7008,430000
+Guadeloupe,1990,Storm,0,0,0
+Guadeloupe,1995,Storm,0,0,50000
+Guadeloupe,1998,Storm,0,0,5000
+Guadeloupe,1999,Storm,4,899,0
+Guadeloupe,2007,Storm,0,0,300000
+Guadeloupe,2017,Storm,4,80002,120000
+Guadeloupe,2022,Storm,1,0,0
+Guatemala,1994,Drought,0,0,10000
+Guatemala,1994,Flood,10,600,0
+Guatemala,1995,Flood,31,7435,0
+Guatemala,1996,Storm,0,0,500
+Guatemala,1998,Storm,384,105700,748000
+Guatemala,1999,Flood,12,6023,1000
+Guatemala,2000,Flood,36,2986,0
+Guatemala,2001,Drought,41,113596,14000
+Guatemala,2001,Extreme temperature,0,1850,0
+Guatemala,2001,Storm,8,6446,100
+Guatemala,2002,Flood,0,98740,0
+Guatemala,2002,Storm,2,1500,100
+Guatemala,2003,Wildfire,0,0,0
+Guatemala,2005,Flood,0,0,0
+Guatemala,2005,Storm,1513,475314,988300
+Guatemala,2006,Extreme temperature,6,0,0
+Guatemala,2007,Flood,11,2096,0
+Guatemala,2007,Storm,0,3905,0
+Guatemala,2008,Flood,30,197300,0
+Guatemala,2008,Storm,17,0,0
+Guatemala,2009,Drought,0,2500000,0
+Guatemala,2009,Flood,0,10800,0
+Guatemala,2010,Flood,0,3270,0
+Guatemala,2010,Storm,174,400142,650000
+Guatemala,2011,Extreme temperature,0,2643,0
+Guatemala,2011,Flood,59,534828,61913
+Guatemala,2011,Storm,5,0,0
+Guatemala,2012,Drought,0,266485,0
+Guatemala,2014,Drought,0,1300000,58000
+Guatemala,2014,Extreme temperature,0,8141,0
+Guatemala,2014,Flood,6,87500,0
+Guatemala,2014,Storm,5,100000,0
+Guatemala,2015,Flood,8,65136,0
+Guatemala,2016,Storm,0,55,0
+Guatemala,2017,Flood,1,42559,0
+Guatemala,2017,Storm,8,3175,0
+Guatemala,2018,Drought,0,1500000,44669
+Guatemala,2018,Flood,2,76945,0
+Guatemala,2019,Storm,4,78453,0
+Guatemala,2020,Flood,3,20070,0
+Guatemala,2020,Storm,164,2854072,386000
+Guatemala,2021,Flood,2,24616,0
+Guatemala,2022,Flood,48,2890023,204000
+Guatemala,2022,Storm,4,457311,0
+Guatemala,2023,Flood,78,4400005,0
+Guatemala,2024,Flood,18,606115,0
+Guatemala,2024,Storm,10,64640,0
+Guatemala,2024,Wildfire,0,200,0
+Guyana,1996,Flood,0,38000,0
+Guyana,1997,Drought,0,607200,29000
+Guyana,2005,Flood,34,274774,465100
+Guyana,2006,Flood,0,35000,169000
+Guyana,2008,Flood,0,100000,0
+Guyana,2010,Drought,0,0,14700
+Guyana,2015,Flood,0,199000,0
+Guyana,2017,Flood,0,3274,0
+Guyana,2021,Flood,0,34500,0
+Guyana,2022,Flood,0,500,0
+Haiti,1990,Storm,0,0,0
+Haiti,1992,Drought,0,1000000,0
+Haiti,1993,Drought,0,0,0
+Haiti,1993,Flood,13,5000,0
+Haiti,1994,Storm,1122,1587000,50000
+Haiti,1996,Flood,18,40,0
+Haiti,1996,Storm,66,115,100
+Haiti,1998,Storm,190,12029,180000
+Haiti,1999,Flood,13,50,0
+Haiti,2000,Flood,12,1200,0
+Haiti,2001,Flood,26,5081,0
+Haiti,2001,Storm,0,0,20
+Haiti,2002,Flood,31,38339,1000
+Haiti,2002,Storm,4,250,0
+Haiti,2003,Drought,0,35000,0
+Haiti,2003,Flood,62,162390,0
+Haiti,2003,Storm,26,155,0
+Haiti,2004,Flood,2665,31283,0
+Haiti,2004,Storm,2757,322094,51000
+Haiti,2005,Flood,17,14083,0
+Haiti,2005,Storm,71,27978,50500
+Haiti,2006,Flood,11,24700,0
+Haiti,2006,Storm,5,15000,0
+Haiti,2007,Flood,61,104961,0
+Haiti,2007,Storm,102,115081,0
+Haiti,2008,Storm,698,246276,0
+Haiti,2009,Flood,21,12706,0
+Haiti,2010,Flood,44,22087,0
+Haiti,2010,Storm,27,78142,0
+Haiti,2011,Flood,36,4438,0
+Haiti,2011,Storm,3,3044,0
+Haiti,2012,Flood,42,26465,0
+Haiti,2012,Storm,88,209857,254000
+Haiti,2013,Flood,6,33265,0
+Haiti,2014,Drought,0,1000000,2000
+Haiti,2014,Flood,12,30000,0
+Haiti,2015,Flood,6,45000,0
+Haiti,2015,Storm,5,1969,0
+Haiti,2016,Drought,0,3600000,84000
+Haiti,2016,Flood,53,94505,2000
+Haiti,2016,Storm,546,2100439,2000000
+Haiti,2017,Flood,31,50342,0
+Haiti,2017,Storm,4,40092,0
+Haiti,2019,Flood,14,4433,0
+Haiti,2020,Storm,39,44175,0
+Haiti,2021,Flood,7,13380,0
+Haiti,2021,Storm,0,3,0
+Haiti,2022,Flood,7,13000,0
+Haiti,2023,Flood,80,225143,420000
+Haiti,2024,Flood,30,173830,0
+Haiti,2024,Storm,1,0,0
+Honduras,1990,Flood,5,48000,100000
+Honduras,1993,Flood,413,82447,114300
+Honduras,1994,Drought,0,0,10000
+Honduras,1994,Flood,151,15500,0
+Honduras,1995,Flood,14,25000,4000
+Honduras,1995,Storm,18,22,0
+Honduras,1996,Flood,7,75000,31000
+Honduras,1996,Storm,1,0,1500
+Honduras,1997,Drought,0,0,0
+Honduras,1998,Storm,14600,2112000,3793600
+Honduras,1999,Flood,34,503001,1500
+Honduras,2000,Drought,0,1125,0
+Honduras,2000,Wildfire,0,0,0
+Honduras,2001,Drought,0,195000,0
+Honduras,2001,Storm,21,86321,5000
+Honduras,2002,Drought,0,220000,0
+Honduras,2002,Flood,10,2689,100000
+Honduras,2003,Flood,10,3105,20000
+Honduras,2004,Drought,0,137500,0
+Honduras,2005,Flood,8,800,0
+Honduras,2005,Storm,53,103869,115500
+Honduras,2006,Flood,4,1500,8000
+Honduras,2007,Flood,6,15500,0
+Honduras,2007,Storm,1,19500,6579
+Honduras,2008,Flood,67,313357,0
+Honduras,2008,Storm,0,0,0
+Honduras,2009,Drought,0,45000,0
+Honduras,2010,Flood,122,5010,0
+Honduras,2010,Storm,22,24675,90000
+Honduras,2011,Flood,33,69798,0
+Honduras,2012,Drought,0,125000,0
+Honduras,2014,Drought,0,2023000,0
+Honduras,2014,Flood,4,23000,1400
+Honduras,2016,Flood,6,450000,0
+Honduras,2016,Storm,1,151,0
+Honduras,2017,Flood,18,48020,0
+Honduras,2017,Storm,3,120,0
+Honduras,2018,Drought,0,360000,0
+Honduras,2018,Flood,6,6948,0
+Honduras,2020,Flood,3,17700,0
+Honduras,2020,Storm,129,5145784,0
+Honduras,2021,Wildfire,0,2503,0
+Honduras,2022,Flood,9,78457,0
+Honduras,2022,Storm,5,144000,0
+Honduras,2023,Drought,0,10300,0
+Honduras,2023,Storm,5,46658,0
+Honduras,2024,Storm,3,129216,0
+Hungary,1992,Drought,0,0,384000
+Hungary,1996,Flood,0,200,0
+Hungary,1997,Flood,0,0,10000
+Hungary,1999,Flood,10,133495,293400
+Hungary,1999,Storm,40,0,0
+Hungary,2000,Flood,1,2000,55000
+Hungary,2001,Extreme temperature,81,0,0
+Hungary,2001,Flood,0,10000,5000
+Hungary,2002,Flood,0,1430,30000
+Hungary,2003,Drought,0,0,100000
+Hungary,2004,Flood,0,393,0
+Hungary,2005,Extreme temperature,48,0,0
+Hungary,2005,Flood,0,0,48000
+Hungary,2005,Storm,4,0,0
+Hungary,2006,Flood,0,32000,0
+Hungary,2006,Storm,5,300,10000
+Hungary,2007,Extreme temperature,500,0,0
+Hungary,2008,Extreme temperature,17,500,0
+Hungary,2010,Flood,1,2000,440000
+Hungary,2012,Extreme temperature,16,0,0
+Hungary,2013,Flood,0,48565,0
+Hungary,2013,Storm,0,14000,0
+Hungary,2014,Flood,0,6500,0
+Hungary,2016,Flood,0,2282,0
+Hungary,2017,Storm,0,1298,0
+Hungary,2018,Extreme temperature,179,0,0
+Hungary,2019,Storm,0,150000,0
+Hungary,2022,Extreme temperature,513,0,0
+Hungary,2023,Extreme temperature,294,0,0
+Iceland,2023,Extreme temperature,0,0,0
+Ireland,1990,Storm,2,0,110000
+Ireland,1991,Storm,0,0,4000
+Ireland,1993,Flood,3,3500,38000
+Ireland,1996,Storm,2,0,1000
+Ireland,1998,Storm,2,0,50
+Ireland,1999,Storm,8,290,100000
+Ireland,2000,Storm,1,0,100000
+Ireland,2002,Flood,0,300,0
+Ireland,2004,Storm,0,200,0
+Ireland,2005,Storm,0,0,0
+Ireland,2009,Flood,0,0,0
+Ireland,2011,Flood,2,600,325000
+Ireland,2014,Storm,1,0,0
+Ireland,2015,Storm,1,0,0
+Ireland,2017,Flood,0,300,0
+Ireland,2018,Storm,2,0,0
+Ireland,2021,Storm,0,0,0
+Ireland,2022,Extreme temperature,26,0,0
+Ireland,2022,Storm,1,0,0
+Ireland,2023,Extreme temperature,60,0,0
+Ireland,2024,Storm,0,0,0
+Italy,1990,Storm,6,0,20000
+Italy,1990,Wildfire,0,0,1585000
+Italy,1992,Flood,5,3530,697300
+Italy,1993,Storm,9,1500,625000
+Italy,1994,Flood,68,17300,9300000
+Italy,1994,Storm,3,100,0
+Italy,1994,Wildfire,1,300,0
+Italy,1996,Flood,19,500,32000
+Italy,1997,Drought,0,0,800000
+Italy,1997,Storm,22,0,0
+Italy,1998,Extreme temperature,10,0,0
+Italy,1999,Wildfire,0,0,0
+Italy,2000,Flood,44,50322,8050000
+Italy,2001,Flood,2,0,100000
+Italy,2001,Storm,0,0,175000
+Italy,2002,Drought,0,0,0
+Italy,2002,Flood,2,10020,646000
+Italy,2003,Extreme temperature,20089,0,4400000
+Italy,2003,Flood,3,1350,805000
+Italy,2004,Storm,2,200,0
+Italy,2005,Extreme temperature,9,0,0
+Italy,2006,Storm,1,0,0
+Italy,2007,Extreme temperature,6,0,0
+Italy,2007,Wildfire,11,0,0
+Italy,2008,Flood,9,300,278000
+Italy,2009,Extreme temperature,0,0,0
+Italy,2009,Flood,35,5140,20000
+Italy,2009,Storm,3,0,0
+Italy,2009,Wildfire,2,0,115000
+Italy,2010,Extreme temperature,0,0,0
+Italy,2010,Flood,0,300,0
+Italy,2010,Storm,3,5,872000
+Italy,2011,Extreme temperature,10,0,0
+Italy,2011,Flood,16,0,545000
+Italy,2012,Drought,0,0,1190000
+Italy,2012,Extreme temperature,45,0,132601
+Italy,2012,Flood,4,1200,15000
+Italy,2013,Flood,18,2700,780000
+Italy,2014,Flood,10,9691,837000
+Italy,2014,Storm,5,0,250000
+Italy,2015,Flood,6,550,274000
+Italy,2015,Storm,3,0,869000
+Italy,2016,Flood,2,400,100000
+Italy,2017,Drought,0,0,2300000
+Italy,2017,Flood,0,1000,125000
+Italy,2017,Storm,13,1000,219500
+Italy,2018,Extreme temperature,1,0,0
+Italy,2018,Flood,10,23,0
+Italy,2018,Storm,12,2200,1100000
+Italy,2019,Extreme temperature,3,0,0
+Italy,2019,Flood,0,1200,0
+Italy,2019,Storm,2,212,0
+Italy,2020,Flood,5,903,70000
+Italy,2020,Storm,11,1014,60000
+Italy,2021,Flood,1,0,0
+Italy,2021,Wildfire,0,11600,59000
+Italy,2022,Drought,0,0,0
+Italy,2022,Extreme temperature,18010,0,0
+Italy,2022,Flood,12,33,0
+Italy,2022,Storm,2,65,0
+Italy,2023,Drought,0,0,0
+Italy,2023,Extreme temperature,12743,0,0
+Italy,2023,Flood,17,46500,9750000
+Italy,2023,Storm,10,1310,100000
+Italy,2024,Storm,4,1003,0
+Italy,2025,Flood,0,250,0
+Italy,2025,Storm,0,0,0
+Jamaica,1991,Flood,15,551340,30000
+Jamaica,1993,Flood,9,4372,11000
+Jamaica,1994,Storm,4,0,1000
+Jamaica,1996,Storm,0,800,3000
+Jamaica,2000,Drought,0,0,6000
+Jamaica,2001,Storm,1,200,55487
+Jamaica,2002,Flood,9,25000,20000
+Jamaica,2002,Storm,4,1500,1030
+Jamaica,2004,Storm,16,350126,895000
+Jamaica,2005,Storm,6,10396,34500
+Jamaica,2006,Flood,1,5000,0
+Jamaica,2007,Storm,5,33188,300000
+Jamaica,2008,Storm,13,4000,66198
+Jamaica,2010,Storm,15,2506,150000
+Jamaica,2012,Storm,1,215850,16542
+Jamaica,2014,Drought,0,91545,10000
+Jamaica,2016,Storm,0,125000,0
+Jamaica,2017,Storm,0,5000,0
+Jamaica,2024,Storm,5,160060,1008000
+Latvia,1999,Storm,6,0,500
+Latvia,2001,Extreme temperature,21,0,0
+Latvia,2003,Extreme temperature,15,0,0
+Latvia,2005,Storm,0,0,325000
+Latvia,2006,Extreme temperature,40,0,0
+Latvia,2012,Extreme temperature,10,0,0
+Latvia,2018,Wildfire,0,0,0
+Latvia,2022,Extreme temperature,105,0,0
+Latvia,2023,Extreme temperature,58,0,0
+Latvia,2023,Flood,0,200,0
+Liechtenstein,2023,Extreme temperature,1,0,0
+Lithuania,1992,Drought,0,0,52900
+Lithuania,1993,Storm,6,780000,4600
+Lithuania,1999,Extreme temperature,32,0,0
+Lithuania,1999,Storm,2,0,500
+Lithuania,2001,Extreme temperature,20,0,0
+Lithuania,2005,Flood,0,0,0
+Lithuania,2005,Storm,0,0,30000
+Lithuania,2006,Drought,0,0,225573
+Lithuania,2010,Extreme temperature,5,0,0
+Lithuania,2010,Flood,4,0,0
+Lithuania,2012,Extreme temperature,30,0,0
+Lithuania,2018,Drought,0,0,0
+Lithuania,2018,Extreme temperature,5,0,0
+Lithuania,2022,Extreme temperature,381,0,0
+Lithuania,2023,Extreme temperature,247,0,0
+Luxembourg,1990,Storm,0,0,370000
+Luxembourg,1993,Flood,0,0,10000
+Luxembourg,1995,Storm,0,0,10000
+Luxembourg,2003,Extreme temperature,170,0,0
+Luxembourg,2010,Storm,0,0,31000
+Luxembourg,2019,Storm,0,1519,0
+Luxembourg,2021,Flood,0,0,0
+Luxembourg,2022,Extreme temperature,44,0,0
+Luxembourg,2023,Extreme temperature,33,0,0
+Malta,2022,Extreme temperature,76,0,0
+Malta,2023,Extreme temperature,70,0,0
+Martinique,1990,Storm,8,1500,0
+Martinique,1993,Storm,2,3010,0
+Martinique,1995,Storm,0,0,160000
+Martinique,1996,Storm,0,0,10
+Martinique,1999,Storm,0,600,0
+Martinique,2007,Storm,1,6,300000
+Martinique,2011,Storm,1,0,0
+Martinique,2017,Storm,0,2,44000
+Mexico,1990,Extreme temperature,380,0,0
+Mexico,1990,Flood,45,17900,44000
+Mexico,1990,Storm,38,0,90700
+Mexico,1991,Flood,23,44000,2000
+Mexico,1991,Storm,13,10000,0
+Mexico,1992,Extreme temperature,80,16000,78000
+Mexico,1992,Storm,3,10000,3000
+Mexico,1993,Flood,65,261290,95400
+Mexico,1993,Storm,38,77000,1672500
+Mexico,1995,Drought,0,0,100000
+Mexico,1995,Extreme temperature,49,0,0
+Mexico,1995,Storm,170,66800,2424700
+Mexico,1996,Drought,0,0,1200000
+Mexico,1996,Flood,0,9000,0
+Mexico,1996,Storm,16,19830,10
+Mexico,1997,Extreme temperature,292,0,4000
+Mexico,1997,Storm,242,804755,447800
+Mexico,1998,Extreme temperature,100,0,0
+Mexico,1998,Flood,432,30000,602700
+Mexico,1998,Storm,255,5460,1000
+Mexico,1998,Wildfire,50,0,8000
+Mexico,1999,Drought,0,65000,100000
+Mexico,1999,Extreme temperature,15,0,0
+Mexico,1999,Flood,654,618360,451300
+Mexico,1999,Storm,9,4000,0
+Mexico,2000,Extreme temperature,66,0,0
+Mexico,2000,Flood,139,2000,0
+Mexico,2000,Storm,31,30300,1000
+Mexico,2001,Flood,21,0,0
+Mexico,2001,Storm,5,6400,401000
+Mexico,2002,Drought,0,0,210000
+Mexico,2002,Extreme temperature,50,0,0
+Mexico,2002,Flood,37,7000,0
+Mexico,2002,Storm,16,509530,840000
+Mexico,2003,Extreme temperature,21,0,0
+Mexico,2003,Flood,6,53850,0
+Mexico,2003,Storm,4,9000,100000
+Mexico,2003,Wildfire,0,0,0
+Mexico,2004,Extreme temperature,14,0,0
+Mexico,2004,Flood,38,4090,3600
+Mexico,2005,Flood,41,14000,0
+Mexico,2005,Storm,47,2969571,7910000
+Mexico,2006,Extreme temperature,5,0,0
+Mexico,2006,Flood,0,0,0
+Mexico,2006,Storm,15,270700,2700
+Mexico,2007,Flood,22,1655000,3000000
+Mexico,2007,Storm,20,203000,600000
+Mexico,2008,Flood,12,20000,0
+Mexico,2008,Storm,2,500000,75000
+Mexico,2009,Flood,28,140184,0
+Mexico,2009,Storm,4,112000,40000
+Mexico,2010,Flood,66,1020000,16000
+Mexico,2010,Storm,43,555075,5900000
+Mexico,2011,Drought,0,2500000,0
+Mexico,2011,Extreme temperature,3,120000,500000
+Mexico,2011,Flood,77,480000,0
+Mexico,2011,Storm,43,550450,97700
+Mexico,2011,Wildfire,0,0,0
+Mexico,2012,Storm,19,87000,855000
+Mexico,2013,Flood,13,0,0
+Mexico,2013,Storm,210,172000,5702000
+Mexico,2014,Storm,19,144135,2541500
+Mexico,2015,Flood,0,3000,0
+Mexico,2015,Storm,42,18791,825000
+Mexico,2016,Flood,25,53000,25000
+Mexico,2016,Storm,65,21500,50000
+Mexico,2017,Flood,2,800,0
+Mexico,2017,Storm,29,3010,2000
+Mexico,2018,Flood,20,120,0
+Mexico,2018,Storm,20,10000,543805
+Mexico,2019,Flood,12,3642,0
+Mexico,2019,Storm,4,1200,383000
+Mexico,2020,Flood,30,95100,0
+Mexico,2020,Storm,42,4106,335000
+Mexico,2021,Flood,30,12520,60000
+Mexico,2021,Storm,32,2874,810000
+Mexico,2022,Flood,13,3150,0
+Mexico,2022,Storm,38,16000,51000
+Mexico,2023,Flood,11,0,0
+Mexico,2023,Storm,104,988000,12000000
+Mexico,2024,Extreme temperature,155,2567,0
+Mexico,2024,Storm,46,27050,2590000
+Montenegro,2007,Flood,0,1086,0
+Montenegro,2009,Flood,0,450,0
+Montenegro,2010,Flood,0,6350,0
+Montenegro,2012,Extreme temperature,1,4500,0
+Montenegro,2017,Wildfire,0,200,0
+Montenegro,2022,Extreme temperature,50,0,0
+Montenegro,2023,Extreme temperature,41,0,0
+Montserrat,1990,Storm,0,0,0
+Montserrat,1995,Storm,0,0,20000
+Netherlands (Kingdom of the),1990,Storm,20,0,1750000
+Netherlands (Kingdom of the),1992,Flood,0,0,27600
+Netherlands (Kingdom of the),1993,Flood,1,13000,53000
+Netherlands (Kingdom of the),1994,Storm,0,0,2000
+Netherlands (Kingdom of the),1995,Storm,1,200000,1180000
+Netherlands (Kingdom of the),1997,Storm,2,100,0
+Netherlands (Kingdom of the),1998,Flood,0,2000,530000
+Netherlands (Kingdom of the),1998,Storm,0,0,100
+Netherlands (Kingdom of the),2002,Storm,4,0,300000
+Netherlands (Kingdom of the),2003,Extreme temperature,965,0,0
+Netherlands (Kingdom of the),2005,Extreme temperature,0,0,100000
+Netherlands (Kingdom of the),2005,Storm,0,1,0
+Netherlands (Kingdom of the),2006,Extreme temperature,1000,0,0
+Netherlands (Kingdom of the),2007,Storm,7,0,550000
+Netherlands (Kingdom of the),2008,Storm,0,0,0
+Netherlands (Kingdom of the),2010,Storm,0,0,28000
+Netherlands (Kingdom of the),2012,Extreme temperature,1,0,0
+Netherlands (Kingdom of the),2013,Storm,2,0,10000
+Netherlands (Kingdom of the),2016,Storm,0,0,844000
+Netherlands (Kingdom of the),2018,Extreme temperature,100,0,0
+Netherlands (Kingdom of the),2018,Storm,3,0,110011
+Netherlands (Kingdom of the),2019,Extreme temperature,400,0,0
+Netherlands (Kingdom of the),2020,Extreme temperature,400,0,0
+Netherlands (Kingdom of the),2021,Flood,0,0,0
+Netherlands (Kingdom of the),2021,Storm,0,4,0
+Netherlands (Kingdom of the),2022,Extreme temperature,469,0,0
+Netherlands (Kingdom of the),2022,Storm,4,0,568420
+Netherlands (Kingdom of the),2023,Extreme temperature,368,0,0
+Netherlands (Kingdom of the),2023,Storm,1,0,0
+Netherlands (Kingdom of the),2024,Storm,1,0,50000
+Netherlands Antilles,1995,Storm,2,40000,1000000
+Nicaragua,1990,Flood,4,106411,0
+Nicaragua,1991,Wildfire,0,0,80000
+Nicaragua,1993,Storm,37,123000,0
+Nicaragua,1994,Drought,0,75000,16000
+Nicaragua,1995,Storm,38,15085,0
+Nicaragua,1996,Storm,44,10724,10100
+Nicaragua,1997,Drought,0,290000,2000
+Nicaragua,1998,Storm,3332,868228,987700
+Nicaragua,1999,Flood,11,107105,500
+Nicaragua,1999,Wildfire,0,0,0
+Nicaragua,2000,Drought,0,0,0
+Nicaragua,2000,Flood,0,5500,0
+Nicaragua,2000,Storm,2,2510,1000
+Nicaragua,2001,Drought,0,188000,0
+Nicaragua,2001,Storm,16,24866,1000
+Nicaragua,2002,Flood,0,13546,50
+Nicaragua,2002,Storm,2,300,1000
+Nicaragua,2002,Wildfire,0,16000,0
+Nicaragua,2004,Storm,0,200,0
+Nicaragua,2005,Storm,7,13643,0
+Nicaragua,2007,Flood,10,24000,0
+Nicaragua,2007,Storm,177,188726,0
+Nicaragua,2008,Flood,17,14188,0
+Nicaragua,2008,Storm,13,25000,0
+Nicaragua,2009,Flood,0,6885,0
+Nicaragua,2009,Storm,0,19897,0
+Nicaragua,2010,Flood,66,75860,0
+Nicaragua,2010,Storm,5,0,0
+Nicaragua,2011,Flood,17,143018,0
+Nicaragua,2012,Flood,9,29500,0
+Nicaragua,2013,Flood,27,14149,0
+Nicaragua,2014,Drought,0,460000,0
+Nicaragua,2014,Flood,0,60345,0
+Nicaragua,2015,Flood,2,3750,0
+Nicaragua,2016,Storm,0,10570,0
+Nicaragua,2017,Flood,7,13715,0
+Nicaragua,2017,Storm,15,39200,0
+Nicaragua,2018,Drought,0,300000,0
+Nicaragua,2018,Flood,4,13000,0
+Nicaragua,2020,Storm,20,930000,919000
+Nicaragua,2022,Storm,5,50112,180000
+Nicaragua,2024,Storm,2,0,0
+North Macedonia,1993,Drought,0,10000,0
+North Macedonia,1995,Flood,0,1500,245000
+North Macedonia,2000,Wildfire,0,0,13563
+North Macedonia,2001,Extreme temperature,15,0,0
+North Macedonia,2002,Flood,0,1650,0
+North Macedonia,2003,Flood,2,4750,0
+North Macedonia,2004,Extreme temperature,15,0,0
+North Macedonia,2004,Flood,0,100000,3600
+North Macedonia,2005,Flood,0,2000,0
+North Macedonia,2005,Storm,1,3,0
+North Macedonia,2006,Flood,0,1500,0
+North Macedonia,2007,Extreme temperature,0,202,0
+North Macedonia,2007,Wildfire,1,1000000,0
+North Macedonia,2012,Extreme temperature,1,5100,0
+North Macedonia,2013,Flood,1,4911,0
+North Macedonia,2014,Extreme temperature,0,8800,0
+North Macedonia,2015,Flood,7,105030,87000
+North Macedonia,2016,Flood,22,33582,50000
+North Macedonia,2017,Extreme temperature,3,2220,0
+North Macedonia,2021,Wildfire,1,80000,0
+Norway,1990,Storm,0,0,130000
+Norway,1992,Storm,0,0,0
+Norway,1993,Storm,0,0,3000
+Norway,1995,Flood,1,4000,300000
+Norway,2000,Flood,0,600,0
+Norway,2001,Flood,0,1500,0
+Norway,2005,Storm,0,0,130000
+Norway,2008,Storm,0,100,0
+Norway,2011,Storm,4,500,0
+Norway,2022,Extreme temperature,30,0,0
+Norway,2022,Storm,0,0,0
+Norway,2023,Extreme temperature,29,0,0
+Panama,1991,Flood,12,20061,0
+Panama,1992,Storm,12,50,10000
+Panama,1995,Flood,1,500,7000
+Panama,1998,Storm,3,7500,50
+Panama,1999,Flood,1,895,0
+Panama,2000,Flood,1,1000,1300
+Panama,2001,Flood,0,775,0
+Panama,2002,Flood,5,26500,500
+Panama,2003,Flood,0,1000,0
+Panama,2004,Flood,16,22748,0
+Panama,2005,Flood,3,7000,7000
+Panama,2006,Flood,11,6430,0
+Panama,2006,Wildfire,0,1436,0
+Panama,2007,Flood,2,129,0
+Panama,2008,Flood,28,23837,10000
+Panama,2009,Flood,0,4248,0
+Panama,2010,Flood,15,32941,0
+Panama,2011,Flood,0,4000,0
+Panama,2012,Flood,6,9448,2000
+Panama,2013,Drought,0,0,200000
+Panama,2014,Flood,9,116,0
+Panama,2015,Drought,0,0,0
+Panama,2015,Flood,0,3500,0
+Panama,2016,Storm,7,12000,0
+Panama,2017,Storm,7,12000,0
+Panama,2018,Drought,0,0,72000
+Panama,2020,Flood,11,150,0
+Panama,2020,Storm,83,5000,11000
+Panama,2021,Flood,1,30190,0
+Panama,2022,Flood,0,150,0
+Panama,2024,Storm,7,3895,110000
+Paraguay,1990,Flood,0,15000,0
+Paraguay,1992,Flood,0,65575,0
+Paraguay,1995,Flood,0,275000,0
+Paraguay,1997,Flood,0,75000,1687
+Paraguay,1997,Storm,33,77,0
+Paraguay,1998,Flood,55,0,5000
+Paraguay,1999,Drought,12,40000,0
+Paraguay,2000,Extreme temperature,8,0,0
+Paraguay,2002,Flood,0,2765,0
+Paraguay,2002,Storm,0,12500,0
+Paraguay,2004,Extreme temperature,0,0,0
+Paraguay,2005,Drought,0,52990,0
+Paraguay,2007,Wildfire,8,125000,30000
+Paraguay,2008,Drought,4,18000,0
+Paraguay,2008,Storm,0,47655,0
+Paraguay,2009,Drought,0,200000,0
+Paraguay,2009,Flood,0,12035,820
+Paraguay,2009,Storm,0,700,0
+Paraguay,2010,Extreme temperature,12,0,0
+Paraguay,2011,Storm,0,2000,0
+Paraguay,2012,Drought,0,1391900,0
+Paraguay,2012,Flood,0,78945,4000
+Paraguay,2012,Storm,5,25100,2000
+Paraguay,2013,Drought,0,75000,0
+Paraguay,2013,Flood,0,61400,0
+Paraguay,2013,Storm,0,50000,25000
+Paraguay,2014,Flood,0,233360,0
+Paraguay,2015,Flood,12,140150,0
+Paraguay,2015,Storm,2,10025,0
+Paraguay,2016,Drought,0,0,0
+Paraguay,2018,Flood,0,46300,0
+Paraguay,2019,Flood,40,521197,0
+Paraguay,2019,Wildfire,0,4000,0
+Paraguay,2021,Flood,10,6000,0
+Paraguay,2023,Flood,6,46675,0
+Peru,1990,Drought,0,2200000,36000
+Peru,1990,Flood,61,2600,0
+Peru,1991,Extreme temperature,25,0,0
+Peru,1992,Drought,0,1100000,250000
+Peru,1992,Flood,0,30000,0
+Peru,1993,Flood,80,219000,0
+Peru,1994,Flood,85,101130,50000
+Peru,1997,Storm,518,580730,12000
+Peru,1997,Wildfire,0,1000,0
+Peru,1999,Flood,74,491200,0
+Peru,2000,Flood,22,50,0
+Peru,2001,Flood,15,66310,0
+Peru,2002,Drought,0,21500,0
+Peru,2002,Flood,23,10868,0
+Peru,2002,Storm,59,86682,0
+Peru,2003,Extreme temperature,339,1839888,0
+Peru,2003,Flood,22,65462,0
+Peru,2004,Drought,0,0,0
+Peru,2004,Extreme temperature,90,2137467,0
+Peru,2004,Flood,0,7500,0
+Peru,2006,Drought,0,0,0
+Peru,2006,Flood,0,15325,0
+Peru,2007,Extreme temperature,67,884572,0
+Peru,2007,Flood,17,47714,0
+Peru,2008,Flood,40,450012,0
+Peru,2009,Extreme temperature,274,24262,0
+Peru,2009,Flood,158,236308,0
+Peru,2010,Extreme temperature,409,57600,0
+Peru,2010,Flood,20,80000,0
+Peru,2011,Extreme temperature,20,13440,0
+Peru,2011,Flood,72,822945,0
+Peru,2011,Storm,16,0,0
+Peru,2012,Extreme temperature,252,30113,0
+Peru,2012,Flood,14,50029,0
+Peru,2013,Extreme temperature,1,92701,0
+Peru,2013,Flood,68,181121,0
+Peru,2014,Extreme temperature,505,109257,0
+Peru,2014,Flood,41,92878,0
+Peru,2015,Extreme temperature,21,200620,94000
+Peru,2015,Flood,9,150640,0
+Peru,2016,Flood,2,10000,2000
+Peru,2017,Flood,200,2188505,3200000
+Peru,2019,Flood,61,9279,0
+Peru,2019,Wildfire,0,0,0
+Peru,2020,Flood,15,7251,10000
+Peru,2021,Flood,23,29204,25000
+Peru,2022,Flood,1,500,0
+Peru,2023,Flood,96,534494,305000
+Peru,2023,Storm,8,45000,705000
+Peru,2024,Flood,0,549,0
+Peru,2024,Storm,0,149,0
+Peru,2024,Wildfire,14,1885,190000
+Peru,2025,Flood,7,65116,0
+Poland,1990,Storm,0,0,50000
+Poland,1992,Wildfire,35,0,0
+Poland,1994,Storm,1,0,1000
+Poland,1997,Extreme temperature,50,0,0
+Poland,1997,Flood,55,224500,3500000
+Poland,1998,Extreme temperature,64,0,0
+Poland,1998,Flood,9,1200,0
+Poland,1999,Extreme temperature,154,0,0
+Poland,1999,Storm,3,0,10000
+Poland,2000,Extreme temperature,84,0,0
+Poland,2001,Extreme temperature,270,0,0
+Poland,2001,Flood,27,15000,700000
+Poland,2002,Extreme temperature,183,0,0
+Poland,2002,Storm,9,0,150
+Poland,2004,Flood,0,600,0
+Poland,2005,Extreme temperature,191,0,0
+Poland,2005,Flood,2,3600,0
+Poland,2005,Storm,0,0,0
+Poland,2006,Flood,0,500,0
+Poland,2007,Storm,19,0,100000
+Poland,2008,Extreme temperature,82,0,0
+Poland,2008,Storm,2,1060,50000
+Poland,2009,Extreme temperature,298,0,0
+Poland,2009,Flood,1,150,100000
+Poland,2009,Storm,8,82,0
+Poland,2010,Extreme temperature,200,0,0
+Poland,2010,Flood,19,100700,3080000
+Poland,2011,Extreme temperature,26,0,0
+Poland,2012,Extreme temperature,273,0,0
+Poland,2012,Storm,1,310,5900
+Poland,2013,Extreme temperature,25,0,0
+Poland,2013,Storm,4,53,0
+Poland,2014,Extreme temperature,78,0,0
+Poland,2015,Extreme temperature,77,0,0
+Poland,2015,Storm,1,1217,0
+Poland,2016,Extreme temperature,21,0,0
+Poland,2016,Flood,2,3,0
+Poland,2017,Storm,6,5844,275000
+Poland,2018,Drought,0,0,0
+Poland,2018,Extreme temperature,9,0,0
+Poland,2019,Storm,4,157,0
+Poland,2020,Flood,0,390,0
+Poland,2020,Storm,3,6,0
+Poland,2021,Flood,0,0,0
+Poland,2021,Storm,4,2015,0
+Poland,2022,Extreme temperature,763,0,0
+Poland,2022,Storm,7,1512,0
+Poland,2023,Extreme temperature,616,0,0
+Poland,2024,Storm,9,57000,156762
+Portugal,1991,Wildfire,0,0,0
+Portugal,1996,Flood,10,3050,13000
+Portugal,1997,Drought,0,0,10000
+Portugal,1997,Storm,11,296,25000
+Portugal,2000,Storm,5,183,0
+Portugal,2001,Flood,6,200,0
+Portugal,2001,Wildfire,0,0,0
+Portugal,2003,Extreme temperature,2696,0,0
+Portugal,2003,Flood,0,36,0
+Portugal,2003,Wildfire,14,150000,1730000
+Portugal,2004,Drought,0,0,1338136
+Portugal,2004,Wildfire,2,0,0
+Portugal,2005,Extreme temperature,462,0,0
+Portugal,2005,Wildfire,15,136,1650000
+Portugal,2006,Extreme temperature,41,0,0
+Portugal,2006,Flood,0,240,0
+Portugal,2008,Flood,2,110,0
+Portugal,2009,Extreme temperature,0,0,0
+Portugal,2010,Extreme temperature,0,0,0
+Portugal,2010,Flood,43,618,1350000
+Portugal,2010,Storm,3,0,270000
+Portugal,2013,Storm,1,3967,0
+Portugal,2013,Wildfire,9,0,0
+Portugal,2014,Storm,1,54,0
+Portugal,2015,Flood,1,0,0
+Portugal,2016,Wildfire,4,1361,157000
+Portugal,2017,Wildfire,109,3475,732000
+Portugal,2018,Extreme temperature,0,0,0
+Portugal,2018,Storm,2,88,115500
+Portugal,2018,Wildfire,0,329,0
+Portugal,2019,Storm,3,51,0
+Portugal,2022,Drought,0,0,0
+Portugal,2022,Extreme temperature,2212,0,0
+Portugal,2022,Wildfire,3,187,0
+Portugal,2023,Extreme temperature,1432,0,0
+Portugal,2023,Wildfire,0,1435,0
+Portugal,2024,Wildfire,9,41499,520000
+Puerto Rico,1992,Flood,18,600,200000
+Puerto Rico,1994,Drought,0,0,2000
+Puerto Rico,1995,Storm,1,98000,300000
+Puerto Rico,1996,Storm,18,57315,500000
+Puerto Rico,1998,Storm,0,0,1750000
+Puerto Rico,1999,Storm,1,0,150000
+Puerto Rico,2001,Flood,2,9480,146000
+Puerto Rico,2003,Flood,2,2405,0
+Puerto Rico,2003,Storm,0,100,0
+Puerto Rico,2004,Flood,0,0,0
+Puerto Rico,2004,Storm,2,3500,100000
+Puerto Rico,2007,Storm,1,0,0
+Puerto Rico,2011,Storm,1,2271,500000
+Puerto Rico,2012,Storm,0,0,0
+Puerto Rico,2014,Flood,1,0,0
+Puerto Rico,2017,Storm,66,750000,68000000
+Puerto Rico,2018,Flood,0,400,0
+Puerto Rico,2018,Storm,0,0,0
+Puerto Rico,2020,Storm,1,0,59800
+Puerto Rico,2022,Flood,0,0,17000
+Puerto Rico,2022,Storm,25,0,2500000
+Republic of Moldova,1994,Flood,47,25000,300000
+Republic of Moldova,1994,Storm,3,25580,0
+Republic of Moldova,1997,Flood,9,2244,50000
+Republic of Moldova,1999,Flood,0,1713,4000
+Republic of Moldova,2000,Drought,2,0,0
+Republic of Moldova,2000,Storm,0,2600000,31600
+Republic of Moldova,2002,Flood,1,500,832
+Republic of Moldova,2005,Flood,0,6500,7752
+Republic of Moldova,2006,Extreme temperature,13,0,0
+Republic of Moldova,2007,Drought,0,210394,406000
+Republic of Moldova,2008,Flood,3,4000,0
+Republic of Moldova,2010,Flood,1,12000,0
+Republic of Moldova,2012,Drought,0,5800,0
+Republic of Moldova,2012,Extreme temperature,10,7374,0
+Republic of Moldova,2019,Extreme temperature,0,5460,0
+Republic of Moldova,2023,Storm,4,10,0
+Romania,1991,Flood,108,15000,50000
+Romania,1993,Storm,3,200,0
+Romania,1994,Extreme temperature,0,0,0
+Romania,1994,Flood,2,0,3000
+Romania,1994,Storm,0,5406,0
+Romania,1995,Flood,2,19000,12000
+Romania,1996,Extreme temperature,16,200,0
+Romania,1997,Flood,20,122320,110000
+Romania,1997,Storm,12,460,0
+Romania,1998,Extreme temperature,80,1700,0
+Romania,1998,Flood,31,12000,150000
+Romania,1999,Flood,34,9033,60000
+Romania,2000,Drought,0,0,500000
+Romania,2000,Extreme temperature,6,100,0
+Romania,2000,Flood,9,63431,100500
+Romania,2000,Storm,14,300,0
+Romania,2001,Extreme temperature,10,0,0
+Romania,2001,Flood,7,14803,135000
+Romania,2002,Extreme temperature,10,0,0
+Romania,2002,Flood,9,8701,290
+Romania,2003,Flood,3,600,0
+Romania,2004,Extreme temperature,27,0,0
+Romania,2004,Flood,10,28128,0
+Romania,2004,Storm,12,2400,0
+Romania,2005,Extreme temperature,13,500,0
+Romania,2005,Flood,79,56571,1313000
+Romania,2005,Storm,3,0,0
+Romania,2006,Extreme temperature,94,200,0
+Romania,2006,Flood,51,24583,0
+Romania,2007,Extreme temperature,68,0,0
+Romania,2007,Flood,12,4260,0
+Romania,2008,Flood,5,11000,0
+Romania,2008,Storm,0,90,0
+Romania,2009,Extreme temperature,54,20,0
+Romania,2009,Flood,11,4,0
+Romania,2010,Extreme temperature,52,0,0
+Romania,2010,Flood,26,12237,1111428
+Romania,2012,Extreme temperature,86,7539,0
+Romania,2013,Flood,9,5400,11000
+Romania,2014,Extreme temperature,13,0,0
+Romania,2014,Flood,4,525,0
+Romania,2015,Flood,1,1500,0
+Romania,2016,Flood,3,300,0
+Romania,2017,Storm,9,137,7300
+Romania,2018,Extreme temperature,2,0,0
+Romania,2018,Flood,0,2700,0
+Romania,2019,Flood,4,362,0
+Romania,2020,Flood,3,1161,85000
+Romania,2021,Flood,1,100,0
+Romania,2022,Extreme temperature,2455,0,0
+Romania,2023,Extreme temperature,2585,0,0
+Romania,2023,Storm,2,0,0
+Romania,2024,Storm,7,15000,0
+Russian Federation,1992,Flood,0,0,48100
+Russian Federation,1992,Wildfire,31,0,0
+Russian Federation,1993,Extreme temperature,41,260,0
+Russian Federation,1993,Flood,138,14753,34000
+Russian Federation,1994,Extreme temperature,42,0,0
+Russian Federation,1994,Flood,46,797633,281000
+Russian Federation,1994,Storm,12,62,65800
+Russian Federation,1995,Extreme temperature,228,108,0
+Russian Federation,1995,Storm,145,2560,44000
+Russian Federation,1996,Flood,4,234000,298400
+Russian Federation,1996,Wildfire,19,600,0
+Russian Federation,1997,Extreme temperature,22,0,0
+Russian Federation,1997,Flood,2,500,174100
+Russian Federation,1997,Wildfire,14,0,0
+Russian Federation,1998,Drought,0,0,0
+Russian Federation,1998,Extreme temperature,69,263,0
+Russian Federation,1998,Flood,14,190100,16500
+Russian Federation,1998,Storm,8,160,160000
+Russian Federation,1998,Wildfire,3,100683,270000
+Russian Federation,1999,Extreme temperature,162,725246,0
+Russian Federation,1999,Flood,0,1200,0
+Russian Federation,1999,Storm,12,0,0
+Russian Federation,1999,Wildfire,0,0,113336
+Russian Federation,2000,Extreme temperature,245,346,0
+Russian Federation,2000,Flood,3,76501,43895
+Russian Federation,2000,Storm,9,0,50
+Russian Federation,2000,Wildfire,0,0,0
+Russian Federation,2001,Extreme temperature,753,6294,100
+Russian Federation,2001,Flood,37,375305,291000
+Russian Federation,2001,Storm,8,12428,17200
+Russian Federation,2001,Wildfire,0,0,0
+Russian Federation,2002,Extreme temperature,242,25062,0
+Russian Federation,2002,Flood,200,384613,546970
+Russian Federation,2002,Storm,8,0,3000
+Russian Federation,2002,Wildfire,0,120,0
+Russian Federation,2003,Drought,0,1000000,0
+Russian Federation,2003,Flood,0,600,0
+Russian Federation,2003,Storm,0,0,0
+Russian Federation,2003,Wildfire,0,0,0
+Russian Federation,2004,Flood,18,6520,56759
+Russian Federation,2004,Storm,9,6062,6000
+Russian Federation,2004,Wildfire,9,1000,0
+Russian Federation,2005,Flood,22,9045,23668
+Russian Federation,2005,Storm,0,2,0
+Russian Federation,2006,Extreme temperature,116,14,1000000
+Russian Federation,2006,Flood,0,7720,132411
+Russian Federation,2007,Flood,0,14000,25752
+Russian Federation,2007,Storm,0,0,0
+Russian Federation,2010,Drought,0,0,1400000
+Russian Federation,2010,Extreme temperature,55760,11,400000
+Russian Federation,2010,Flood,23,48464,66000
+Russian Federation,2010,Wildfire,61,7196,1800000
+Russian Federation,2011,Flood,0,14169,21015
+Russian Federation,2011,Storm,1,14,3000
+Russian Federation,2012,Drought,0,0,1140000
+Russian Federation,2012,Extreme temperature,234,1594,0
+Russian Federation,2012,Flood,179,46807,617000
+Russian Federation,2012,Wildfire,2,598,0
+Russian Federation,2013,Flood,4,35635,1000000
+Russian Federation,2014,Flood,6,24545,8000
+Russian Federation,2015,Flood,1,1500,0
+Russian Federation,2015,Wildfire,30,5977,136820
+Russian Federation,2016,Flood,0,11696,12000
+Russian Federation,2017,Flood,0,15721,0
+Russian Federation,2017,Storm,16,201,2000
+Russian Federation,2018,Flood,10,14975,10000
+Russian Federation,2019,Flood,59,50204,486000
+Russian Federation,2019,Wildfire,0,0,106000
+Russian Federation,2021,Flood,8,28638,200000
+Russian Federation,2021,Wildfire,0,120,0
+Russian Federation,2022,Flood,1,750,0
+Russian Federation,2022,Storm,6,300,0
+Russian Federation,2022,Wildfire,16,2202,0
+Russian Federation,2023,Storm,15,13276,0
+Russian Federation,2023,Wildfire,21,15000,50000
+Russian Federation,2024,Flood,3,38400,227000
+Saint Barthélemy,2017,Storm,4,0,0
+Saint Kitts and Nevis,1990,Storm,0,0,0
+Saint Kitts and Nevis,1995,Storm,0,1800,197000
+Saint Kitts and Nevis,1998,Storm,5,10000,400000
+Saint Kitts and Nevis,1999,Storm,0,1180,41400
+Saint Kitts and Nevis,2008,Storm,0,0,0
+Saint Kitts and Nevis,2017,Storm,0,500,20000
+Saint Lucia,1994,Storm,4,750,0
+Saint Lucia,1999,Storm,0,200,0
+Saint Lucia,2004,Storm,0,0,500
+Saint Lucia,2007,Storm,1,0,40000
+Saint Lucia,2010,Drought,0,0,0
+Saint Lucia,2010,Flood,0,2000,0
+Saint Lucia,2010,Storm,14,181000,500
+Saint Lucia,2013,Flood,6,19984,0
+Saint Lucia,2016,Storm,0,25000,0
+Saint Lucia,2021,Storm,1,0,34000
+Saint Lucia,2022,Flood,0,5500,0
+Saint Martin (French Part),2017,Storm,12,110,4100000
+Saint Vincent and the Grenadines,1992,Flood,3,200,0
+Saint Vincent and the Grenadines,1999,Storm,0,100,0
+Saint Vincent and the Grenadines,2002,Storm,4,0,11000
+Saint Vincent and the Grenadines,2004,Storm,0,1004,5000
+Saint Vincent and the Grenadines,2005,Storm,0,530,0
+Saint Vincent and the Grenadines,2010,Drought,0,0,0
+Saint Vincent and the Grenadines,2010,Storm,0,6100,25000
+Saint Vincent and the Grenadines,2011,Flood,0,275,0
+Saint Vincent and the Grenadines,2013,Flood,12,17422,108000
+Saint Vincent and the Grenadines,2016,Flood,0,25000,6500
+Saint Vincent and the Grenadines,2016,Storm,1,0,0
+Saint Vincent and the Grenadines,2021,Storm,0,129,0
+Saint Vincent and the Grenadines,2023,Storm,0,150,0
+Saint Vincent and the Grenadines,2024,Storm,3,15000,0
+Serbia,2007,Extreme temperature,0,0,0
+Serbia,2007,Flood,0,12370,0
+Serbia,2009,Extreme temperature,0,500,0
+Serbia,2009,Flood,0,3210,0
+Serbia,2010,Extreme temperature,3,0,0
+Serbia,2010,Flood,2,4900,0
+Serbia,2012,Extreme temperature,25,88234,0
+Serbia,2013,Flood,0,3000,0
+Serbia,2014,Extreme temperature,0,3000,0
+Serbia,2014,Flood,56,59600,2048262
+Serbia,2016,Flood,0,8655,100000
+Serbia,2017,Extreme temperature,6,0,0
+Serbia,2018,Flood,0,231,0
+Serbia,2019,Flood,0,11650,0
+Serbia,2020,Flood,0,2100,28000
+Serbia,2021,Flood,0,22,0
+Serbia,2022,Extreme temperature,574,0,0
+Serbia,2023,Extreme temperature,464,0,0
+Serbia,2023,Flood,2,15642,0
+Serbia,2023,Storm,1,20,0
+Serbia Montenegro,1992,Flood,1,6000,0
+Serbia Montenegro,1999,Flood,11,71008,0
+Serbia Montenegro,2000,Extreme temperature,3,70,0
+Serbia Montenegro,2000,Flood,0,6000,0
+Serbia Montenegro,2002,Flood,0,2400,0
+Serbia Montenegro,2005,Flood,2,3790,0
+Serbia Montenegro,2005,Storm,0,8750,0
+Serbia Montenegro,2006,Extreme temperature,3,0,0
+Serbia Montenegro,2006,Flood,0,36200,0
+Sint Maarten (Dutch part),2017,Storm,4,5040,2500000
+Slovakia,1997,Flood,1,10000,60000
+Slovakia,1998,Flood,54,11667,45000
+Slovakia,1999,Flood,2,36148,113300
+Slovakia,2000,Wildfire,6,0,0
+Slovakia,2001,Flood,1,0,6000
+Slovakia,2002,Flood,0,0,3000
+Slovakia,2003,Extreme temperature,0,0,150000
+Slovakia,2004,Flood,1,230,0
+Slovakia,2004,Storm,2,10324,383300
+Slovakia,2005,Extreme temperature,0,0,0
+Slovakia,2005,Flood,1,0,0
+Slovakia,2006,Flood,1,100,0
+Slovakia,2007,Extreme temperature,1,89,0
+Slovakia,2010,Extreme temperature,122,0,0
+Slovakia,2010,Flood,4,850,25000
+Slovakia,2012,Extreme temperature,5,0,0
+Slovakia,2013,Flood,1,0,0
+Slovakia,2017,Storm,0,0,0
+Slovakia,2019,Storm,1,0,0
+Slovakia,2020,Flood,1,250,0
+Slovakia,2021,Flood,1,0,0
+Slovakia,2022,Extreme temperature,365,0,0
+Slovakia,2023,Extreme temperature,247,0,0
+Slovakia,2023,Storm,0,0,0
+Slovakia,2024,Storm,1,0,16700
+Slovenia,2003,Extreme temperature,289,0,80000
+Slovenia,2005,Flood,0,0,5000
+Slovenia,2007,Storm,6,1050,392000
+Slovenia,2012,Flood,0,12000,265000
+Slovenia,2014,Extreme temperature,1,50000,0
+Slovenia,2014,Flood,3,2550,0
+Slovenia,2020,Storm,1,0,0
+Slovenia,2021,Flood,0,1500,0
+Slovenia,2022,Extreme temperature,154,0,0
+Slovenia,2023,Extreme temperature,95,0,0
+Slovenia,2023,Flood,6,1500120,500000
+Slovenia,2023,Storm,1,3003,0
+Soviet Union,1990,Flood,19,23488,177900
+Soviet Union,1991,Flood,2,42000,2022000
+Soviet Union,1991,Storm,41,0,24000
+Spain,1990,Drought,0,6000000,4500000
+Spain,1990,Storm,9,0,0
+Spain,1991,Wildfire,0,0,0
+Spain,1994,Flood,10,0,0
+Spain,1994,Storm,12,0,0
+Spain,1994,Wildfire,20,16520,0
+Spain,1995,Extreme temperature,30,70,824300
+Spain,1996,Flood,13,5000,1080000
+Spain,1997,Flood,5,400,0
+Spain,1997,Storm,25,9500,5000
+Spain,1998,Storm,0,0,1000
+Spain,1998,Wildfire,0,600,42108
+Spain,1999,Drought,0,0,3200000
+Spain,1999,Storm,6,0,100000
+Spain,2000,Flood,26,8500,75000
+Spain,2000,Wildfire,0,0,0
+Spain,2001,Storm,10,0,72000
+Spain,2002,Flood,6,50,87000
+Spain,2003,Extreme temperature,15090,0,880000
+Spain,2003,Wildfire,5,200,0
+Spain,2004,Extreme temperature,26,0,0
+Spain,2004,Flood,0,600,14285
+Spain,2004,Wildfire,3,1100,3000
+Spain,2005,Extreme temperature,9,0,0
+Spain,2005,Wildfire,11,1,2050000
+Spain,2006,Extreme temperature,21,0,0
+Spain,2006,Flood,0,0,0
+Spain,2006,Wildfire,4,0,659000
+Spain,2007,Flood,5,4430,400000
+Spain,2007,Storm,1,0,0
+Spain,2009,Storm,14,0,1900000
+Spain,2009,Wildfire,6,0,0
+Spain,2010,Flood,2,30,0
+Spain,2010,Storm,3,0,340000
+Spain,2011,Flood,1,2400,0
+Spain,2012,Flood,10,635,395000
+Spain,2012,Wildfire,4,6,0
+Spain,2013,Flood,0,600,0
+Spain,2013,Storm,0,0,0
+Spain,2014,Storm,3,0,0
+Spain,2015,Flood,8,150,2000
+Spain,2016,Flood,5,150,50000
+Spain,2017,Wildfire,4,1500,0
+Spain,2018,Extreme temperature,9,0,0
+Spain,2018,Flood,13,200,150000
+Spain,2018,Storm,2,0,0
+Spain,2018,Wildfire,0,0,0
+Spain,2019,Extreme temperature,2,0,0
+Spain,2019,Flood,17,3573,2558000
+Spain,2019,Storm,8,320,0
+Spain,2020,Storm,17,2000,315000
+Spain,2021,Flood,3,250,141000
+Spain,2021,Storm,5,0,1900000
+Spain,2022,Extreme temperature,11324,0,0
+Spain,2022,Wildfire,0,3500,0
+Spain,2023,Drought,0,26000,2400000
+Spain,2023,Extreme temperature,8352,0,0
+Spain,2023,Flood,3,6000,370000
+Spain,2023,Storm,1,0,0
+Spain,2023,Wildfire,0,800,0
+Spain,2024,Flood,232,36615,11050000
+Spain,2024,Storm,1,0,0
+Spain,2025,Storm,1,0,0
+Suriname,2006,Flood,3,25000,0
+Suriname,2008,Flood,2,6548,0
+Suriname,2021,Flood,0,10100,0
+Suriname,2022,Flood,0,9000,21000
+Sweden,1990,Storm,0,0,10000
+Sweden,1999,Storm,3,0,160000
+Sweden,2002,Storm,1,0,0
+Sweden,2005,Extreme temperature,0,0,0
+Sweden,2005,Storm,7,0,2800000
+Sweden,2013,Storm,7,0,0
+Sweden,2018,Wildfire,0,0,102000
+Sweden,2020,Storm,1,0,0
+Sweden,2021,Flood,0,13500,70000
+Sweden,2022,Extreme temperature,40,0,0
+Sweden,2023,Extreme temperature,13,0,0
+Switzerland,1990,Storm,5,0,280000
+Switzerland,1993,Storm,2,0,443760
+Switzerland,1994,Storm,0,0,5000
+Switzerland,1997,Flood,0,0,68500
+Switzerland,1998,Storm,0,0,1000
+Switzerland,1999,Flood,3,0,330000
+Switzerland,1999,Storm,12,0,1500000
+Switzerland,2002,Storm,1,2,0
+Switzerland,2003,Extreme temperature,1039,0,280000
+Switzerland,2003,Storm,0,7,5000
+Switzerland,2005,Extreme temperature,0,0,0
+Switzerland,2005,Flood,6,2500,2100000
+Switzerland,2006,Flood,0,3000,0
+Switzerland,2006,Storm,1,0,0
+Switzerland,2007,Flood,1,101,350000
+Switzerland,2007,Storm,0,0,100000
+Switzerland,2009,Storm,0,0,1000000
+Switzerland,2010,Extreme temperature,0,0,0
+Switzerland,2010,Storm,0,0,14000
+Switzerland,2011,Storm,0,3,0
+Switzerland,2012,Extreme temperature,11,0,0
+Switzerland,2013,Storm,0,84,250000
+Switzerland,2014,Storm,2,0,0
+Switzerland,2018,Storm,0,16,0
+Switzerland,2019,Storm,4,0,0
+Switzerland,2020,Storm,0,13,0
+Switzerland,2021,Flood,0,0,0
+Switzerland,2021,Storm,0,5,0
+Switzerland,2022,Extreme temperature,302,0,0
+Switzerland,2023,Extreme temperature,294,0,0
+Switzerland,2023,Storm,2,15040,0
+Switzerland,2024,Storm,6,0,0
+Trinidad and Tobago,1990,Storm,0,1000,0
+Trinidad and Tobago,1993,Flood,5,10,70
+Trinidad and Tobago,1996,Flood,0,200,0
+Trinidad and Tobago,2004,Storm,1,560,1000
+Trinidad and Tobago,2005,Storm,0,0,0
+Trinidad and Tobago,2010,Drought,0,0,0
+Trinidad and Tobago,2018,Flood,0,150000,3700
+Trinidad and Tobago,2022,Flood,0,100000,0
+Turks and Caicos Islands,1990,Storm,0,0,0
+Turks and Caicos Islands,2004,Storm,0,200,0
+Turks and Caicos Islands,2008,Storm,4,1500,500000
+Turks and Caicos Islands,2017,Storm,0,0,500000
+Ukraine,1992,Storm,0,1000,1600
+Ukraine,1993,Flood,9,325000,239000
+Ukraine,1995,Flood,0,1700000,0
+Ukraine,1996,Flood,0,10000,0
+Ukraine,1997,Flood,0,0,17000
+Ukraine,1997,Storm,11,0,34000
+Ukraine,1998,Flood,18,24570,1259
+Ukraine,2000,Extreme temperature,0,0,85000
+Ukraine,2000,Storm,10,48110,120000
+Ukraine,2001,Flood,9,300000,15000
+Ukraine,2003,Flood,0,600,0
+Ukraine,2005,Flood,0,8340,0
+Ukraine,2006,Extreme temperature,801,59600,0
+Ukraine,2006,Flood,2,5000,23855
+Ukraine,2007,Storm,0,7552,100000
+Ukraine,2008,Flood,38,224725,1000000
+Ukraine,2009,Extreme temperature,32,0,0
+Ukraine,2010,Flood,6,40059,1900
+Ukraine,2012,Drought,0,0,1690000
+Ukraine,2012,Extreme temperature,195,88026,0
+Ukraine,2013,Flood,2,2260,21000
+Ukraine,2016,Extreme temperature,37,0,0
+Ukraine,2016,Flood,3,200,0
+Ukraine,2017,Extreme temperature,37,0,0
+Ukraine,2018,Storm,0,600,0
+Ukraine,2020,Flood,3,55000,153861
+Ukraine,2020,Wildfire,16,1968,162000
+Ukraine,2021,Storm,1,1700,170000
+Ukraine,2023,Flood,0,2850,0
+Ukraine,2023,Storm,12,23,0
+United Kingdom of Great Britain and Northern Ireland,1990,Storm,83,0,4790000
+United Kingdom of Great Britain and Northern Ireland,1991,Extreme temperature,0,0,0
+United Kingdom of Great Britain and Northern Ireland,1991,Storm,48,0,900000
+United Kingdom of Great Britain and Northern Ireland,1993,Flood,4,6000,187000
+United Kingdom of Great Britain and Northern Ireland,1994,Flood,7,700,236000
+United Kingdom of Great Britain and Northern Ireland,1995,Storm,9,0,650000
+United Kingdom of Great Britain and Northern Ireland,1996,Storm,5,12000,300000
+United Kingdom of Great Britain and Northern Ireland,1997,Extreme temperature,14,0,0
+United Kingdom of Great Britain and Northern Ireland,1997,Flood,1,1200,248400
+United Kingdom of Great Britain and Northern Ireland,1998,Flood,4,18000,500000
+United Kingdom of Great Britain and Northern Ireland,1998,Storm,35,253000,1365400
+United Kingdom of Great Britain and Northern Ireland,1999,Flood,0,800,32584
+United Kingdom of Great Britain and Northern Ireland,1999,Storm,11,200,101000
+United Kingdom of Great Britain and Northern Ireland,2000,Flood,3,40440,5918150
+United Kingdom of Great Britain and Northern Ireland,2000,Storm,16,20104,1500000
+United Kingdom of Great Britain and Northern Ireland,2001,Flood,0,240,0
+United Kingdom of Great Britain and Northern Ireland,2002,Flood,1,750,0
+United Kingdom of Great Britain and Northern Ireland,2002,Storm,7,0,400000
+United Kingdom of Great Britain and Northern Ireland,2003,Extreme temperature,301,0,0
+United Kingdom of Great Britain and Northern Ireland,2004,Flood,0,1008,96000
+United Kingdom of Great Britain and Northern Ireland,2005,Extreme temperature,1,0,0
+United Kingdom of Great Britain and Northern Ireland,2005,Storm,10,3000,700000
+United Kingdom of Great Britain and Northern Ireland,2007,Flood,14,370200,8448000
+United Kingdom of Great Britain and Northern Ireland,2007,Storm,13,0,1200000
+United Kingdom of Great Britain and Northern Ireland,2008,Flood,8,3300,50000
+United Kingdom of Great Britain and Northern Ireland,2009,Extreme temperature,3,47,0
+United Kingdom of Great Britain and Northern Ireland,2009,Flood,3,3900,484000
+United Kingdom of Great Britain and Northern Ireland,2009,Storm,2,180,0
+United Kingdom of Great Britain and Northern Ireland,2010,Extreme temperature,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2010,Storm,0,0,500
+United Kingdom of Great Britain and Northern Ireland,2012,Flood,8,3785,2946000
+United Kingdom of Great Britain and Northern Ireland,2013,Extreme temperature,760,0,0
+United Kingdom of Great Britain and Northern Ireland,2013,Flood,2,600,1500000
+United Kingdom of Great Britain and Northern Ireland,2013,Storm,11,4200,0
+United Kingdom of Great Britain and Northern Ireland,2014,Flood,0,540,624000
+United Kingdom of Great Britain and Northern Ireland,2014,Storm,5,18000,100000
+United Kingdom of Great Britain and Northern Ireland,2015,Flood,0,48000,1200000
+United Kingdom of Great Britain and Northern Ireland,2015,Storm,3,15600,1200000
+United Kingdom of Great Britain and Northern Ireland,2017,Flood,0,70,0
+United Kingdom of Great Britain and Northern Ireland,2018,Extreme temperature,820,0,0
+United Kingdom of Great Britain and Northern Ireland,2018,Storm,0,4,0
+United Kingdom of Great Britain and Northern Ireland,2019,Extreme temperature,166,0,0
+United Kingdom of Great Britain and Northern Ireland,2019,Flood,1,100,0
+United Kingdom of Great Britain and Northern Ireland,2020,Extreme temperature,2556,0,0
+United Kingdom of Great Britain and Northern Ireland,2020,Flood,0,480,0
+United Kingdom of Great Britain and Northern Ireland,2020,Storm,2,0,0
+United Kingdom of Great Britain and Northern Ireland,2021,Storm,1,0,0
+United Kingdom of Great Britain and Northern Ireland,2022,Drought,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2022,Extreme temperature,3469,0,0
+United Kingdom of Great Britain and Northern Ireland,2022,Storm,6,0,491342
+United Kingdom of Great Britain and Northern Ireland,2023,Extreme temperature,1851,0,0
+United Kingdom of Great Britain and Northern Ireland,2023,Storm,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2024,Storm,5,750,0
+United States Virgin Islands,1995,Storm,7,10000,936000
+United States Virgin Islands,1998,Storm,0,0,100000
+United States Virgin Islands,1999,Storm,3,0,180000
+United States Virgin Islands,2004,Storm,0,0,0
+United States Virgin Islands,2017,Storm,7,0,0
+United States of America,1990,Extreme temperature,11,0,40000
+United States of America,1990,Flood,38,3350,45000
+United States of America,1990,Storm,162,10668,635000
+United States of America,1991,Drought,0,0,1335000
+United States of America,1991,Flood,15,0,850000
+United States of America,1991,Storm,87,3000,2560000
+United States of America,1991,Wildfire,28,300,2500000
+United States of America,1992,Storm,97,295055,34500000
+United States of America,1992,Wildfire,0,990,175000
+United States of America,1993,Extreme temperature,48,0,0
+United States of America,1993,Flood,98,43900,12290000
+United States of America,1993,Storm,291,600,5125000
+United States of America,1993,Wildfire,3,130,1000000
+United States of America,1994,Flood,37,14070,700000
+United States of America,1994,Storm,165,21750,850000
+United States of America,1994,Wildfire,13,1432,2000
+United States of America,1995,Extreme temperature,710,0,0
+United States of America,1995,Flood,11,115300,3120000
+United States of America,1995,Storm,150,92160,13645000
+United States of America,1996,Flood,72,243115,2720000
+United States of America,1996,Storm,287,4131,3400000
+United States of America,1996,Wildfire,1,50,0
+United States of America,1997,Flood,72,191374,7345000
+United States of America,1997,Storm,180,4892,2242000
+United States of America,1997,Wildfire,0,1000,2500
+United States of America,1998,Extreme temperature,130,0,4275000
+United States of America,1998,Flood,31,37000,1062000
+United States of America,1998,Storm,203,153621,12348500
+United States of America,1998,Wildfire,2,41221,281100
+United States of America,1999,Drought,0,0,1100000
+United States of America,1999,Extreme temperature,257,0,1000000
+United States of America,1999,Flood,0,100,300
+United States of America,1999,Storm,227,3058870,12600500
+United States of America,1999,Wildfire,1,1019,92000
+United States of America,2000,Drought,0,0,1100000
+United States of America,2000,Extreme temperature,35,0,0
+United States of America,2000,Flood,8,3646,286000
+United States of America,2000,Storm,105,23154,1855600
+United States of America,2000,Wildfire,14,36087,2500000
+United States of America,2001,Extreme temperature,56,0,0
+United States of America,2001,Flood,12,23800,33000
+United States of America,2001,Storm,82,181053,6328800
+United States of America,2001,Wildfire,2,139,0
+United States of America,2002,Drought,0,0,3300000
+United States of America,2002,Extreme temperature,14,0,0
+United States of America,2002,Flood,26,147750,1089000
+United States of America,2002,Storm,190,18899,6275000
+United States of America,2002,Wildfire,0,6488,232100
+United States of America,2003,Flood,24,3200,123000
+United States of America,2003,Storm,172,243647,15145000
+United States of America,2003,Wildfire,18,27894,3500000
+United States of America,2004,Extreme temperature,3,0,0
+United States of America,2004,Flood,1,5340,505500
+United States of America,2004,Storm,215,5079710,55224770
+United States of America,2004,Wildfire,0,15487,0
+United States of America,2005,Extreme temperature,33,31,0
+United States of America,2005,Flood,53,18258,730330
+United States of America,2005,Storm,1882,830305,158230000
+United States of America,2005,Wildfire,5,1410,100000
+United States of America,2006,Extreme temperature,188,0,0
+United States of America,2006,Flood,40,74060,1478500
+United States of America,2006,Storm,93,5663,4727860
+United States of America,2006,Wildfire,17,585,216000
+United States of America,2007,Drought,0,0,300000
+United States of America,2007,Flood,80,8810,728000
+United States of America,2007,Storm,264,8317,6068000
+United States of America,2007,Wildfire,8,650991,2815000
+United States of America,2008,Extreme temperature,0,0,0
+United States of America,2008,Flood,44,11032648,10002000
+United States of America,2008,Storm,258,2301147,45760000
+United States of America,2008,Wildfire,1,55320,2102000
+United States of America,2009,Extreme temperature,58,0,1100000
+United States of America,2009,Flood,11,9960,666000
+United States of America,2009,Storm,74,908,10390000
+United States of America,2009,Wildfire,2,455,100000
+United States of America,2010,Flood,20,1000,0
+United States of America,2010,Storm,118,10941,9390000
+United States of America,2011,Drought,0,0,8000000
+United States of America,2011,Extreme temperature,22,0,0
+United States of America,2011,Flood,17,36100,6600000
+United States of America,2011,Storm,756,389193,43450000
+United States of America,2011,Wildfire,8,6105,1383000
+United States of America,2012,Drought,0,0,20000000
+United States of America,2012,Extreme temperature,123,0,0
+United States of America,2012,Flood,2,300,174000
+United States of America,2012,Storm,190,90404,77547000
+United States of America,2012,Wildfire,3,2847,800000
+United States of America,2013,Extreme temperature,19,0,200000
+United States of America,2013,Flood,31,34725,2277000
+United States of America,2013,Storm,140,177474,14602000
+United States of America,2013,Wildfire,22,2375,708400
+United States of America,2014,Drought,0,0,2200000
+United States of America,2014,Extreme temperature,21,0,2500000
+United States of America,2014,Flood,2,102040,1690000
+United States of America,2014,Storm,136,1215,9568000
+United States of America,2014,Wildfire,2,429,100000
+United States of America,2015,Drought,0,0,4500000
+United States of America,2015,Flood,98,28650,3402000
+United States of America,2015,Storm,218,4576,15720000
+United States of America,2015,Wildfire,12,13364,1952000
+United States of America,2016,Flood,54,91000,15150000
+United States of America,2016,Storm,199,85019468,28050000
+United States of America,2016,Wildfire,16,8452,1500000
+United States of America,2017,Drought,0,0,2500000
+United States of America,2017,Flood,30,370,1700000
+United States of America,2017,Storm,263,854401,171110000
+United States of America,2017,Wildfire,45,12304,15200000
+United States of America,2018,Drought,0,0,3000000
+United States of America,2018,Flood,7,1596,775000
+United States of America,2018,Storm,158,1505093,38875000
+United States of America,2018,Wildfire,104,253240,22700000
+United States of America,2019,Flood,10,16600,10000000
+United States of America,2019,Storm,139,1486,11325000
+United States of America,2019,Wildfire,3,1265,1625000
+United States of America,2020,Drought,45,0,4500000
+United States of America,2020,Flood,1,13000,2275000
+United States of America,2020,Storm,175,28431,60075000
+United States of America,2020,Wildfire,32,0,11000000
+United States of America,2021,Drought,0,0,9000000
+United States of America,2021,Extreme temperature,229,0,0
+United States of America,2021,Flood,58,1876,3800000
+United States of America,2021,Storm,494,15236,121580000
+United States of America,2021,Wildfire,5,61857,8135000
+United States of America,2022,Drought,136,0,22000000
+United States of America,2022,Flood,42,1075,1500000
+United States of America,2022,Storm,322,3445,123380000
+United States of America,2022,Wildfire,6,2402,306000
+United States of America,2023,Drought,247,0,14500000
+United States of America,2023,Extreme temperature,24,25,385000
+United States of America,2023,Flood,13,2126,3300000
+United States of America,2023,Storm,126,17385,44475000
+United States of America,2023,Wildfire,130,8497,5500000
+United States of America,2024,Drought,0,0,5400000
+United States of America,2024,Extreme temperature,1006,0,0
+United States of America,2024,Flood,7,6564,3800000
+United States of America,2024,Storm,447,3733,144825000
+United States of America,2024,Wildfire,4,3239,1910000
+United States of America,2025,Storm,118,20253,7850000
+United States of America,2025,Wildfire,30,0,52500000
+Uruguay,1991,Flood,0,1500,0
+Uruguay,1992,Flood,0,4700,0
+Uruguay,1993,Storm,0,2000,0
+Uruguay,1997,Storm,1,500,0
+Uruguay,1998,Flood,1,9300,5000
+Uruguay,1999,Drought,0,0,250000
+Uruguay,1999,Storm,1,1000,0
+Uruguay,2000,Extreme temperature,7,400,0
+Uruguay,2000,Flood,0,5000,0
+Uruguay,2000,Storm,0,100,0
+Uruguay,2001,Flood,0,5000,0
+Uruguay,2002,Flood,0,2500,0
+Uruguay,2002,Storm,2,1500,25000
+Uruguay,2003,Flood,0,200,0
+Uruguay,2004,Extreme temperature,0,2000,0
+Uruguay,2005,Storm,7,12,0
+Uruguay,2007,Extreme temperature,0,0,0
+Uruguay,2007,Flood,2,120000,45000
+Uruguay,2009,Flood,1,4000,0
+Uruguay,2010,Extreme temperature,4,0,0
+Uruguay,2015,Flood,2,35326,0
+Uruguay,2016,Flood,8,10605,3000
+Uruguay,2017,Flood,0,6639,0
+Uruguay,2018,Drought,0,75000,500000
+Uruguay,2019,Flood,0,13103,0
+Uruguay,2020,Flood,0,360,0
+Uruguay,2020,Storm,0,360,0
+Uruguay,2022,Drought,0,409115,0
+Uruguay,2022,Flood,0,160,0
+Uruguay,2023,Drought,0,409115,0
+Uruguay,2023,Flood,0,3472,0
+Uruguay,2023,Storm,2,0,0
+Uruguay,2024,Flood,0,103588,0
+Venezuela (Bolivarian Republic of),1993,Storm,100,5900,4500
+Venezuela (Bolivarian Republic of),1994,Flood,26,0,0
+Venezuela (Bolivarian Republic of),1996,Flood,0,51500,0
+Venezuela (Bolivarian Republic of),1997,Flood,3,18000,0
+Venezuela (Bolivarian Republic of),1999,Flood,30005,543503,3160000
+Venezuela (Bolivarian Republic of),2000,Flood,15,27004,0
+Venezuela (Bolivarian Republic of),2002,Flood,4,55376,3000
+Venezuela (Bolivarian Republic of),2003,Flood,1,650,0
+Venezuela (Bolivarian Republic of),2004,Flood,35,4000,0
+Venezuela (Bolivarian Republic of),2004,Storm,5,1730,0
+Venezuela (Bolivarian Republic of),2005,Flood,97,45797,51000
+Venezuela (Bolivarian Republic of),2006,Flood,0,135,0
+Venezuela (Bolivarian Republic of),2008,Flood,8,1500,0
+Venezuela (Bolivarian Republic of),2009,Drought,0,0,0
+Venezuela (Bolivarian Republic of),2010,Flood,41,94800,170000
+Venezuela (Bolivarian Republic of),2010,Storm,8,0,0
+Venezuela (Bolivarian Republic of),2011,Flood,17,3668,16000
+Venezuela (Bolivarian Republic of),2012,Flood,0,11000,93000
+Venezuela (Bolivarian Republic of),2015,Flood,0,45297,0
+Venezuela (Bolivarian Republic of),2016,Flood,0,0,0
+Venezuela (Bolivarian Republic of),2018,Flood,2,10700,0
+Venezuela (Bolivarian Republic of),2019,Flood,6,2000,0
+Venezuela (Bolivarian Republic of),2020,Flood,3,3690,30000
+Venezuela (Bolivarian Republic of),2021,Flood,46,1401300,0
+Venezuela (Bolivarian Republic of),2022,Flood,33,91700,0
+Venezuela (Bolivarian Republic of),2022,Storm,0,30000,0
+Venezuela (Bolivarian Republic of),2023,Flood,12,112,0
+Venezuela (Bolivarian Republic of),2024,Storm,8,29000,0
+Yugoslavia,1990,Drought,0,0,1000000
+Yugoslavia,1990,Flood,0,0,766100

@@ -1,0 +1,5 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+C.  Metal industry,30.467,,,0.0013,Summary1.As1,DENMARK,1991,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,182.17847925651813,0.01247164521637,0.00020917499674,,Summary1.As1,DENMARK,1991,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.0732123025,0.07722254735,0.0646666085505,0.00137825,Summary1.As1,DENMARK,1991,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,Summary1.As1,DENMARK,1991,Subsector,2.  Industrial processes and product use

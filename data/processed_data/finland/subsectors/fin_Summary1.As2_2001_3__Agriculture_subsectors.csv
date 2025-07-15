@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,83.65732269280731,,Summary1.As2,FINLAND,2001,Subsector,3.  Agriculture
+B.  Manure management,,17.16827913225501,0.84740869635782,Summary1.As2,FINLAND,2001,Subsector,3.  Agriculture
+D.  Agricultural soils,,,10.98865142045671,Summary1.As2,FINLAND,2001,Subsector,3.  Agriculture
+F.  Field burning of agricultural residues,,0.09586187,0.00248531,Summary1.As2,FINLAND,2001,Subsector,3.  Agriculture
+G. Liming,418.92097499999994,,,Summary1.As2,FINLAND,2001,Subsector,3.  Agriculture
+H. Urea application,0.92748650665144,,,Summary1.As2,FINLAND,2001,Subsector,3.  Agriculture
+A. Forest land (4),-35614.564333333365,50.35006,6.499712,Summary1.As2,FINLAND,2001,Subsector,3.  Agriculture
+B. Cropland (4),7177.340500000007,,0.0217,Summary1.As2,FINLAND,2001,Subsector,3.  Agriculture
+C. Grassland (4),856.1025440000008,0.000489,0.002545,Summary1.As2,FINLAND,2001,Subsector,3.  Agriculture

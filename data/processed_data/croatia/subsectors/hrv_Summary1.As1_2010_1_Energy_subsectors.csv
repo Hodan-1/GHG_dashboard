@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),18439.409662194113,,,,,Summary1.As1,CROATIA,2010,Subsector,1. Energy
+                                           Sectoral approach(2),18265.12114533169,16.43486850726085,0.79121809059767,,,Summary1.As1,CROATIA,2010,Subsector,1. Energy
+1.  Energy industries,5877.3368218236765,0.17371362018047,0.0728921528,,,Summary1.As1,CROATIA,2010,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,3015.7995985000002,0.208506901,0.0305150509,,,Summary1.As1,CROATIA,2010,Subsector,1. Energy
+3.  Transport,5865.7754471566905,0.73326783827549,0.23409344252118,,,Summary1.As1,CROATIA,2010,Subsector,1. Energy
+4.  Other sectors,3506.209277851322,15.31938014780489,0.45371744437649,,,Summary1.As1,CROATIA,2010,Subsector,1. Energy
+B. Fugitive emissions from fuels,541.5222311876097,10.28654823434011,0.00074034228838,,,Summary1.As1,CROATIA,2010,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,541.5222311876097,10.28654823434011,0.00074034228838,,,Summary1.As1,CROATIA,2010,Subsector,1. Energy
+A.  Mineral industry,1403.713160938044,,,,,Summary1.As1,CROATIA,2010,Subsector,1. Energy
+B.  Chemical industry,615.3570200890666,0.108813,2.56710135,,,Summary1.As1,CROATIA,2010,Subsector,1. Energy

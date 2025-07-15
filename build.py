@@ -49,7 +49,17 @@ def load_temperature_data():
         return temp_data
     except:
         return None   
-     
+
+def load_global_emission():
+    """
+    Load global emissions data
+    """
+    try:
+        global_emissions = pd.read_csv("data/EM-DATA/global_emissions.csv")
+        return global_emissions
+    except:
+        return None
+
 # Sidebar country selector
 available_countries = ['GBR', 'AUT', 'BLR', 'CAN', 'USA', 'EST']
 selected_country = st.sidebar.selectbox(
@@ -205,7 +215,7 @@ if total_emissions_df is not None:
         
         if weather_data is not None:
             # Filter for selected country
-            country_weather = weather_data[weather_data['ISO'] == selected_country]
+            country_weather = weather_data[weather_data['Country'] == selected_country]
             
             # 1. Overview Metrics 
             st.subheader("Overview Statistics")
@@ -231,18 +241,18 @@ if total_emissions_df is not None:
             )
             
             if chart_type == "Annual Frequency":
-                yearly_events = country_weather.groupby('year').size().reset_index(name='Number of Events')
+                yearly_events = country_weather.groupby('Year').size().reset_index(name='Number of Events')
                 fig_temporal = px.bar(
                     yearly_events,
-                    x='year',
+                    x='Year',
                     y='Number of Events',
                     title=f'Annual Frequency of Extreme Weather Events in {selected_country}'
                 )
             else:
-                hazard_yearly = country_weather.groupby(['year', 'Disaster Type']).size().reset_index(name='count')
+                hazard_yearly = country_weather.groupby(['Year', 'Disaster Type']).size().reset_index(name='count')
                 fig_temporal = px.bar(
                     hazard_yearly,
-                    x='year',
+                    x='Year',
                     y='count',
                     color='Disaster Type',
                     title=f'Distribution of Event Types by Year in {selected_country}',
@@ -279,7 +289,7 @@ if total_emissions_df is not None:
                 ['Total Deaths', 'Total Affected', "Total Damage ('000 US$)"]
             )
             
-            yearly_trends = country_weather.groupby('year').agg({
+            yearly_trends = country_weather.groupby('Year').agg({
                 'Total Deaths': 'sum',
                 'Total Affected': 'sum',
                 "Total Damage ('000 US$)": 'sum'
@@ -287,7 +297,7 @@ if total_emissions_df is not None:
             
             fig_trends = px.line(
                 yearly_trends,
-                x='year',
+                x='Year',
                 y=impact_metric,
                 title=f'Yearly {impact_metric} from Extreme Weather Events'
             )
@@ -297,15 +307,15 @@ if total_emissions_df is not None:
             st.subheader("Compare with Other Countries")
             countries_to_compare = st.multiselect(
                 "Select countries to compare",
-                weather_data['ISO'].unique(),
+                weather_data['Country'].unique(),
                 default=[selected_country]
             )
             
-            comparison_data = weather_data[weather_data['ISO'].isin(countries_to_compare)]
+            comparison_data = weather_data[weather_data['Country'].isin(countries_to_compare)]
             
             fig_comparison = px.bar(
-                comparison_data.groupby(['ISO', 'Disaster Type']).size().reset_index(name='count'),
-                x='ISO',
+                comparison_data.groupby(['Country', 'Disaster Type']).size().reset_index(name='count'),
+                x='Country',
                 y='count',
                 color='Disaster Type',
                 title='Event Frequency by Country and Type',
@@ -316,7 +326,7 @@ if total_emissions_df is not None:
             # 6. Key Insights Box
             st.subheader("Key Insights")
             most_common_disaster = country_weather['Disaster Type'].mode().iloc[0]
-            worst_year = country_weather.groupby('year')['Total Affected'].sum().idxmax()
+            worst_year = country_weather.groupby('Year')['Total Affected'].sum().idxmax()
             deadliest_event = country_weather.loc[country_weather['Total Deaths'].idxmax()]
             
             st.info(f"""
@@ -336,6 +346,7 @@ if total_emissions_df is not None:
         # Load temperature data
         temp_data = load_temperature_data()
         
+        emissions_data = load_global_emission()
         if temp_data is not None:
             # Filter temperature data for selected year range
             filtered_temp_data = temp_data[temp_data['Year'].between(year_range[0], year_range[1])]
@@ -358,7 +369,7 @@ if total_emissions_df is not None:
             # Create combined dataset
             combined_data = pd.merge(
                 filtered_temp_data,
-                filtered_total_df[['Year', co2_column]],
+                emissions_data[['Year', 'CO2']],
                 on='Year',
                 how='inner'
             )
@@ -367,11 +378,11 @@ if total_emissions_df is not None:
             fig_combined = px.line(
                 combined_data,
                 x='Year',
-                y=['Temperature_Anomaly', co2_column],
+                y=['Temperature_Anomaly', 'CO2'],
                 title='Temperature Anomalies vs CO2 Emissions',
                 labels={
                     'Temperature_Anomaly': 'Temperature Anomaly (°C)',
-                    co2_column: 'CO2 Emissions (kt)',
+                    'CO2': 'CO2 Emissions (kt)',
                     'value': 'Value',
                     'variable': 'Metric'
                 }
@@ -382,11 +393,11 @@ if total_emissions_df is not None:
             st.subheader("Temperature vs CO2 Correlation")
             fig_scatter = px.scatter(
                 combined_data,
-                x=co2_column,
+                x='CO2',
                 y='Temperature_Anomaly',
                 title='Temperature Anomaly vs CO2 Emissions',
                 labels={
-                    co2_column: 'CO2 Emissions (kt)',
+                    'CO2': 'CO2 Emissions (kt)',
                     'Temperature_Anomaly': 'Temperature Anomaly (°C)'
                 }
             )
@@ -420,7 +431,7 @@ if total_emissions_df is not None:
                 )
 
             # 5. Correlation Analysis
-            correlation = combined_data['Temperature_Anomaly'].corr(combined_data[co2_column])
+            correlation = combined_data['Temperature_Anomaly'].corr(combined_data['CO2'])
             
             # Key findings box
             st.info(f"""

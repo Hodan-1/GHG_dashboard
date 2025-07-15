@@ -1,0 +1,5 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Solid waste disposal (5),,5.24838631139962,,Summary1.As2,MALTA,2017,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.08733552,,Summary1.As2,MALTA,2017,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),0.50802590666667,1.044004e-06,0.000477938439,Summary1.As2,MALTA,2017,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,0.1422033244204,0.02133161294032,Summary1.As2,MALTA,2017,Subsector,"4.  Land use, land-use change and forestry  (4)"

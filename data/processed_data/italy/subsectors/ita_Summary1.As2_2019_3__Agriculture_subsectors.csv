@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,520.8409705152566,,Summary1.As2,ITALY,2019,Subsector,3.  Agriculture
+B.  Manure management,,173.8410655606639,6.91206867341655,Summary1.As2,ITALY,2019,Subsector,3.  Agriculture
+C.  Rice cultivation,,63.42073689109356,,Summary1.As2,ITALY,2019,Subsector,3.  Agriculture
+D.  Agricultural soils,,,32.76528669255251,Summary1.As2,ITALY,2019,Subsector,3.  Agriculture
+F.  Field burning of agricultural residues,,0.56892211865181,0.0128401613934,Summary1.As2,ITALY,2019,Subsector,3.  Agriculture
+G. Liming,16.244096,,,Summary1.As2,ITALY,2019,Subsector,3.  Agriculture
+H. Urea application,396.4532000000001,,,Summary1.As2,ITALY,2019,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,16.88385763975155,,,Summary1.As2,ITALY,2019,Subsector,3.  Agriculture
+J.  Other ,,,,Summary1.As2,ITALY,2019,Subsector,3.  Agriculture

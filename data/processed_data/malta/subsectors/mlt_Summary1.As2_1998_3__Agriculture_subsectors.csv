@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,2.0671450453334,,Summary1.As2,MALTA,1998,Subsector,3.  Agriculture
+B.  Manure management,,0.36039649732124,0.06344092192416,Summary1.As2,MALTA,1998,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.08641144865946,Summary1.As2,MALTA,1998,Subsector,3.  Agriculture
+F.  Field burning of agricultural residues,,,,Summary1.As2,MALTA,1998,Subsector,3.  Agriculture
+A. Forest land (4),-0.00922512888,,,Summary1.As2,MALTA,1998,Subsector,3.  Agriculture
+B. Cropland (4),-0.93698089310224,,1.839900332e-05,Summary1.As2,MALTA,1998,Subsector,3.  Agriculture
+C. Grassland (4),-5.47461048801561,,0.00032706055387,Summary1.As2,MALTA,1998,Subsector,3.  Agriculture
+D. Wetlands (4),-0.04253323158333,0.000969,,Summary1.As2,MALTA,1998,Subsector,3.  Agriculture
+E. Settlements (4),1.40283421548714,,0.00038451882421,Summary1.As2,MALTA,1998,Subsector,3.  Agriculture

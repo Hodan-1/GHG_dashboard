@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),96.74385808576488,,,,Summary1.As1,MONACCO,1990,Subsector,1. Energy
+                                           Sectoral approach(2),97.90351696159664,0.01190811137498,0.00545999053393,,Summary1.As1,MONACCO,1990,Subsector,1. Energy
+1.  Energy industries,17.04882724563133,2.376422137e-05,0.00244621498851,,Summary1.As1,MONACCO,1990,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,3.57724479835963,0.00015760314432,0.00098701916252,,Summary1.As1,MONACCO,1990,Subsector,1. Energy
+3.  Transport,34.45142861020944,0.01120860364376,0.0016069793649,,Summary1.As1,MONACCO,1990,Subsector,1. Energy
+4.  Other sectors,42.82601630739624,0.00051814036553,0.000419777018,,Summary1.As1,MONACCO,1990,Subsector,1. Energy
+B. Fugitive emissions from fuels,0.005132102,0.0708197553,,,Summary1.As1,MONACCO,1990,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,0.005132102,0.0708197553,,,Summary1.As1,MONACCO,1990,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,0.03933476166977,1.393311163e-05,1.82745668e-06,,Summary1.As1,MONACCO,1990,Subsector,1. Energy
+G.  Other product manufacture and use ,,,7.978123973e-05,3.5995201e-06,Summary1.As1,MONACCO,1990,Subsector,1. Energy

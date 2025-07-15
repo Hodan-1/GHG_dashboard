@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,148.12745727135646,,Summary1.As2,DENMARK,2001,Subsector,3.  Agriculture
+B.  Manure management,,122.24410241942319,3.35414300825828,Summary1.As2,DENMARK,2001,Subsector,3.  Agriculture
+D.  Agricultural soils,,,15.74879870855943,Summary1.As2,DENMARK,2001,Subsector,3.  Agriculture
+F.  Field burning of agricultural residues,,0.086782671,0.0013702527,Summary1.As2,DENMARK,2001,Subsector,3.  Agriculture
+G. Liming,200.76711898091082,,,Summary1.As2,DENMARK,2001,Subsector,3.  Agriculture
+H. Urea application,1.68666666666667,,,Summary1.As2,DENMARK,2001,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,3.718,,,Summary1.As2,DENMARK,2001,Subsector,3.  Agriculture
+J.  Other ,,,,Summary1.As2,DENMARK,2001,Subsector,3.  Agriculture
+A. Forest land (4),-1267.1296360620775,0.66294935637,0.084375439482,Summary1.As2,DENMARK,2001,Subsector,3.  Agriculture

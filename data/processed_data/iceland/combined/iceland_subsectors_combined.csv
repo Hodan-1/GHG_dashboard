@@ -1,0 +1,941 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),1767.1120866666683,,,,,,Summary1.As1,ICELAND,1990,Subsector,1. Energy
+                                           Sectoral approach(2),1745.8360748303137,0.32140488044041,0.08897146636616,,,,Summary1.As1,ICELAND,1990,Subsector,1. Energy
+1.  Energy industries,13.4590528807,0.0005299668,0.0001059934,,,,Summary1.As1,ICELAND,1990,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,294.8979996671,0.0154913074,0.0245734597,,,,Summary1.As1,ICELAND,1990,Subsector,1. Energy
+3.  Transport,607.3442802904685,0.22724223306041,0.02776945602616,,,,Summary1.As1,ICELAND,1990,Subsector,1. Energy
+4.  Other sectors,830.012843072045,0.07813664638,0.03652161184,,,,Summary1.As1,ICELAND,1990,Subsector,1. Energy
+5.  Other,0.12189892,4.7268e-06,9.454e-07,,,,Summary1.As1,ICELAND,1990,Subsector,1. Energy
+B. Fugitive emissions from fuels,61.358244785636,0.027292976464,,,,,Summary1.As1,ICELAND,1990,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,61.358244785636,0.027292976464,,,,,Summary1.As1,ICELAND,1990,Subsector,1. Energy
+A.  Mineral industry,52.2563396873,,,,,,Summary1.As1,ICELAND,1990,Subsector,1. Energy
+C.  Metal industry,348.0071320779,0.06279169,,,444.815895079545,,Summary1.As1,ICELAND,1990,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,7.20677623119413,,,,,,Summary1.As1,ICELAND,1990,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,0.31364363459,,,Summary1.As1,ICELAND,1990,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.00492595875,0.001881478374,0.020443773453,,,4.80875e-05,Summary1.As1,ICELAND,1990,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,1990,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1550.1751100000015,,,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+                                           Sectoral approach(2),1652.8108870883332,0.32056737801107,0.08653582184536,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+1.  Energy industries,15.0540898592,0.0005924376,0.0001184875,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,221.3049505102,0.0123046824,0.0229622403,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+3.  Transport,613.2420966902711,0.23243753693107,0.02835331202536,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+4.  Other sectors,803.072223041962,0.07522738828,0.03510071542,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+5.  Other,0.1375269867,5.3328e-06,1.0666e-06,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+B. Fugitive emissions from fuels,69.949995725808,0.023798030749,,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,69.949995725808,0.023798030749,,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+A.  Mineral industry,48.6277779459,,,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+C.  Metal industry,317.4232635131,0.05030464,,,369.24743678661,,Summary1.As1,ICELAND,1991,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,7.06306605536033,,,,,,Summary1.As1,ICELAND,1991,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,0.62991539767,,,Summary1.As1,ICELAND,1991,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.00391589825,0.001959510434,0.01858240468301,,,5.455e-05,Summary1.As1,ICELAND,1991,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,1991,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1660.631536666668,,,,,,Summary1.As1,ICELAND,1992,Subsector,1. Energy
+                                           Sectoral approach(2),1798.3142124829717,0.33005621057561,0.08755302335398,,,,Summary1.As1,ICELAND,1992,Subsector,1. Energy
+1.  Energy industries,14.0591706407,0.0005532372,0.0001106474,,,,Summary1.As1,ICELAND,1992,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,280.7139008319,0.0137130188,0.0219003896,,,,Summary1.As1,ICELAND,1992,Subsector,1. Energy
+3.  Transport,623.9781116382088,0.23325779531561,0.02935019294398,,,,Summary1.As1,ICELAND,1992,Subsector,1. Energy
+4.  Other sectors,878.769123585463,0.08250137446,0.03618563641,,,,Summary1.As1,ICELAND,1992,Subsector,1. Energy
+5.  Other,0.7939057867,3.07848e-05,6.157e-06,,,,Summary1.As1,ICELAND,1992,Subsector,1. Energy
+B. Fugitive emissions from fuels,67.616905562221,0.025971203048,,,,,Summary1.As1,ICELAND,1992,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,67.616905562221,0.025971203048,,,,,Summary1.As1,ICELAND,1992,Subsector,1. Energy
+A.  Mineral industry,45.6701259735,,,,,,Summary1.As1,ICELAND,1992,Subsector,1. Energy
+C.  Metal industry,323.5470805699,0.05441307,,,164.597827826004,,Summary1.As1,ICELAND,1992,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,7.21710504958253,,,,,,Summary1.As1,ICELAND,1992,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,0.63747209916,,,Summary1.As1,ICELAND,1992,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.0066792705,0.002063985413,0.016744818426,,,5.455e-05,Summary1.As1,ICELAND,1992,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,1992,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1821.0209042991185,,,,,,Summary1.As1,ICELAND,1993,Subsector,1. Energy
+                                           Sectoral approach(2),1883.484933929572,0.32863568399791,0.09436751507265,,,,Summary1.As1,ICELAND,1993,Subsector,1. Energy
+1.  Energy industries,14.4214828866,0.0013690428,0.0003197986,,,,Summary1.As1,ICELAND,1993,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,303.4897408477,0.0149457696,0.0236630322,,,,Summary1.As1,ICELAND,1993,Subsector,1. Energy
+3.  Transport,627.1749886090579,0.22432679819791,0.03149125797265,,,,Summary1.As1,ICELAND,1993,Subsector,1. Energy
+4.  Other sectors,936.960939452914,0.0879383214,0.0388822759,,,,Summary1.As1,ICELAND,1993,Subsector,1. Energy
+5.  Other,1.4377821333,5.5752e-05,1.11504e-05,,,,Summary1.As1,ICELAND,1993,Subsector,1. Energy
+B. Fugitive emissions from fuels,85.377449551869,0.026354461715,,,,,Summary1.As1,ICELAND,1993,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,85.377449551869,0.026354461715,,,,,Summary1.As1,ICELAND,1993,Subsector,1. Energy
+A.  Mineral industry,39.6546771622,,,,,,Summary1.As1,ICELAND,1993,Subsector,1. Energy
+C.  Metal industry,378.2717065533,0.06737419,,,79.351429820436,,Summary1.As1,ICELAND,1993,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,7.46722723586433,,,,,,Summary1.As1,ICELAND,1993,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,1.43536060187,,,Summary1.As1,ICELAND,1993,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.00616221675,0.001780521775,0.016474965865,,,5.455e-05,Summary1.As1,ICELAND,1993,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,1993,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1798.466430965785,,,,,,Summary1.As1,ICELAND,1994,Subsector,1. Energy
+                                           Sectoral approach(2),1847.2700012623568,0.31964072088157,0.09646369903341,,,,Summary1.As1,ICELAND,1994,Subsector,1. Energy
+1.  Energy industries,14.2808302866,0.0013635888,0.0003187078,,,,Summary1.As1,ICELAND,1994,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,284.0512411754,0.0141568138,0.0239093168,,,,Summary1.As1,ICELAND,1994,Subsector,1. Energy
+3.  Transport,628.3103420926097,0.21777888404157,0.03350972132341,,,,Summary1.As1,ICELAND,1994,Subsector,1. Energy
+4.  Other sectors,920.524442467747,0.08633743464,0.03872515321,,,,Summary1.As1,ICELAND,1994,Subsector,1. Energy
+5.  Other,0.10314524,3.9996e-06,7.999e-07,,,,Summary1.As1,ICELAND,1994,Subsector,1. Energy
+B. Fugitive emissions from fuels,70.1208922793,0.026695422571,,,,,Summary1.As1,ICELAND,1994,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,70.1208922793,0.026695422571,,,,,Summary1.As1,ICELAND,1994,Subsector,1. Energy
+A.  Mineral industry,37.3530683415,,,,,,Summary1.As1,ICELAND,1994,Subsector,1. Energy
+C.  Metal industry,381.6389353773,0.066003,,,47.241737491419,,Summary1.As1,ICELAND,1994,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,7.38828904119993,,,,,,Summary1.As1,ICELAND,1994,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,1.84891720435,,,Summary1.As1,ICELAND,1994,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.00578166,0.001855907884,0.015018436848,,,5.455e-05,Summary1.As1,ICELAND,1994,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,1994,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1756.75176217686,,,,,,Summary1.As1,ICELAND,1995,Subsector,1. Energy
+                                           Sectoral approach(2),1935.64680036606,0.31503834666011,0.11212098162644,,,,Summary1.As1,ICELAND,1995,Subsector,1. Energy
+1.  Energy industries,15.096794278,0.0016159638,0.0003817828,,,,Summary1.As1,ICELAND,1995,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,286.6593231969,0.0137938401,0.0293687703,,,,Summary1.As1,ICELAND,1995,Subsector,1. Energy
+3.  Transport,639.4545897687125,0.20680732489011,0.03794179030644,,,,Summary1.As1,ICELAND,1995,Subsector,1. Energy
+4.  Other sectors,992.823253275747,0.09275583347,0.04441556132,,,,Summary1.As1,ICELAND,1995,Subsector,1. Energy
+5.  Other,1.6128398467,6.53844e-05,1.30769e-05,,,,Summary1.As1,ICELAND,1995,Subsector,1. Energy
+B. Fugitive emissions from fuels,82.236292009956,0.027854626611,,,,,Summary1.As1,ICELAND,1995,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,82.236292009956,0.027854626611,,,,,Summary1.As1,ICELAND,1995,Subsector,1. Energy
+A.  Mineral industry,37.8420611646,,,,,,Summary1.As1,ICELAND,1995,Subsector,1. Energy
+C.  Metal industry,397.9327486291,0.07141,,,62.37562987269,,Summary1.As1,ICELAND,1995,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,7.90661340568273,,,,,,Summary1.As1,ICELAND,1995,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,3.148353757446,,,Summary1.As1,ICELAND,1995,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.00610633775,0.001830521176,0.015038644917,,,5.455e-05,Summary1.As1,ICELAND,1995,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,1995,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1987.69506453916,,,,,,Summary1.As1,ICELAND,1996,Subsector,1. Energy
+                                           Sectoral approach(2),1991.604864902939,0.3080937933101,0.11422313055113,,,,Summary1.As1,ICELAND,1996,Subsector,1. Energy
+1.  Energy industries,12.1134615508,0.0018096588,0.0004381618,,,,Summary1.As1,ICELAND,1996,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,331.4892831167,0.015145436,0.0288587052,,,,Summary1.As1,ICELAND,1996,Subsector,1. Energy
+3.  Transport,629.6179234195919,0.1954848871301,0.04045241391113,,,,Summary1.As1,ICELAND,1996,Subsector,1. Energy
+4.  Other sectors,1018.000043132847,0.09563848678,0.04447078474,,,,Summary1.As1,ICELAND,1996,Subsector,1. Energy
+5.  Other,0.384153683,1.53246e-05,3.0649e-06,,,,Summary1.As1,ICELAND,1996,Subsector,1. Energy
+B. Fugitive emissions from fuels,81.267702766967,0.031121111944,,,,,Summary1.As1,ICELAND,1996,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,81.267702766967,0.031121111944,,,,,Summary1.As1,ICELAND,1996,Subsector,1. Energy
+A.  Mineral industry,41.7556405603,,,,,,Summary1.As1,ICELAND,1996,Subsector,1. Energy
+C.  Metal industry,393.4741996645,0.072478,,,26.658043535334,,Summary1.As1,ICELAND,1996,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,7.86441837247873,,,,,,Summary1.As1,ICELAND,1996,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,10.087963492376,,,Summary1.As1,ICELAND,1996,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.007695732,0.001895456295,0.0164636834,,,5.455e-05,Summary1.As1,ICELAND,1996,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,1996,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1916.0230612058267,,,,,,Summary1.As1,ICELAND,1997,Subsector,1. Energy
+                                           Sectoral approach(2),2042.440783455802,0.29816550391685,0.12835831794498,,,,Summary1.As1,ICELAND,1997,Subsector,1. Energy
+1.  Energy industries,6.9963777234,0.0016076922,0.0003977684,,,,Summary1.As1,ICELAND,1997,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,383.6845921759,0.018078319,0.0347012024,,,,Summary1.As1,ICELAND,1997,Subsector,1. Energy
+3.  Transport,646.2570199174891,0.18472803119685,0.04530689471498,,,,Summary1.As1,ICELAND,1997,Subsector,1. Energy
+4.  Other sectors,1005.464794304013,0.09374991352,0.04795214283,,,,Summary1.As1,ICELAND,1997,Subsector,1. Energy
+5.  Other,0.037999335,1.548e-06,3.096e-07,,,,Summary1.As1,ICELAND,1997,Subsector,1. Energy
+B. Fugitive emissions from fuels,66.851918924764,0.031962849291,,,,,Summary1.As1,ICELAND,1997,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,66.851918924764,0.031962849291,,,,,Summary1.As1,ICELAND,1997,Subsector,1. Energy
+A.  Mineral industry,46.5190685041,,,,,,Summary1.As1,ICELAND,1997,Subsector,1. Energy
+C.  Metal industry,448.0007719141,0.0714,,,87.301129472373,,Summary1.As1,ICELAND,1997,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,7.75010270502862,,,,,,Summary1.As1,ICELAND,1997,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,16.137108341974,,,Summary1.As1,ICELAND,1997,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.00912622575,0.00195292406,0.016534612405,,,5.455e-05,Summary1.As1,ICELAND,1997,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,1997,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1868.0089412058269,,,,,,Summary1.As1,ICELAND,1998,Subsector,1. Energy
+                                           Sectoral approach(2),2018.2860383391155,0.28609104795027,0.1320825447585,,,,Summary1.As1,ICELAND,1998,Subsector,1. Energy
+1.  Energy industries,9.0284051428,0.0016919832,0.0004146266,,,,Summary1.As1,ICELAND,1998,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,355.4033719399,0.0175107556,0.0349024678,,,,Summary1.As1,ICELAND,1998,Subsector,1. Energy
+3.  Transport,649.9834214785682,0.17328074996027,0.0488452409785,,,,Summary1.As1,ICELAND,1998,Subsector,1. Energy
+4.  Other sectors,998.901354829947,0.09340921539,0.04788054058,,,,Summary1.As1,ICELAND,1998,Subsector,1. Energy
+5.  Other,4.9694849479,0.0001983438,3.96688e-05,,,,Summary1.As1,ICELAND,1998,Subsector,1. Energy
+B. Fugitive emissions from fuels,83.718870087948,0.040558196873,,,,,Summary1.As1,ICELAND,1998,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,83.718870087948,0.040558196873,,,,,Summary1.As1,ICELAND,1998,Subsector,1. Energy
+A.  Mineral industry,54.3587459673,,,,,,Summary1.As1,ICELAND,1998,Subsector,1. Energy
+C.  Metal industry,467.8999251976,0.062465,,,190.943906648385,,Summary1.As1,ICELAND,1998,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,7.89343301971353,,,,,,Summary1.As1,ICELAND,1998,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,25.465406809238,,,Summary1.As1,ICELAND,1998,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.01176585975,0.001692131837,0.017054734169,,,5.455e-05,Summary1.As1,ICELAND,1998,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,1998,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1876.7104804965932,,,,,,Summary1.As1,ICELAND,1999,Subsector,1. Energy
+                                           Sectoral approach(2),2044.9552020616293,0.27836875596401,0.13962236621515,,,,Summary1.As1,ICELAND,1999,Subsector,1. Energy
+1.  Energy industries,6.6790625434,0.0015979032,0.0003958106,,,,Summary1.As1,ICELAND,1999,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,370.5830211965,0.0181085254,0.0380661568,,,,Summary1.As1,ICELAND,1999,Subsector,1. Energy
+3.  Transport,674.5304244950495,0.16586525716401,0.05136402380515,,,,Summary1.As1,ICELAND,1999,Subsector,1. Energy
+4.  Other sectors,988.79951541268,0.0926212804,0.04976121701,,,,Summary1.As1,ICELAND,1999,Subsector,1. Energy
+5.  Other,4.363178414,0.0001757898,3.5158e-05,,,,Summary1.As1,ICELAND,1999,Subsector,1. Energy
+B. Fugitive emissions from fuels,111.274775877178,0.054854724132,,,,,Summary1.As1,ICELAND,1999,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,111.274775877178,0.054854724132,,,,,Summary1.As1,ICELAND,1999,Subsector,1. Energy
+A.  Mineral industry,61.4052469059,,,,,,Summary1.As1,ICELAND,1999,Subsector,1. Energy
+C.  Metal industry,610.1300207808,0.072327,,,183.606241689087,,Summary1.As1,ICELAND,1999,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,7.44795040126309,,,,,,Summary1.As1,ICELAND,1999,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,36.9988970870346,,,Summary1.As1,ICELAND,1999,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.02364213675,0.002116777457,0.017549547969,,,5.455e-05,Summary1.As1,ICELAND,1999,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,1999,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1798.71589716326,,,,,,Summary1.As1,ICELAND,2000,Subsector,1. Energy
+                                           Sectoral approach(2),1985.2437984324208,0.26337461204472,0.14080482799584,,,,Summary1.As1,ICELAND,2000,Subsector,1. Energy
+1.  Energy industries,6.3796713134,0.0015860214,0.0003934343,,,,Summary1.As1,ICELAND,2000,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,318.91681636,0.0162207546,0.0384540605,,,,Summary1.As1,ICELAND,2000,Subsector,1. Energy
+3.  Transport,677.6983906121405,0.15430810772472,0.05182625490584,,,,Summary1.As1,ICELAND,2000,Subsector,1. Energy
+4.  Other sectors,977.65058085848,0.09107281392,0.05009369539,,,,Summary1.As1,ICELAND,2000,Subsector,1. Energy
+5.  Other,4.5983392884,0.0001869144,3.73829e-05,,,,Summary1.As1,ICELAND,2000,Subsector,1. Energy
+B. Fugitive emissions from fuels,153.146030356331,0.060509498791,,,,,Summary1.As1,ICELAND,2000,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,153.146030356331,0.060509498791,,,,,Summary1.As1,ICELAND,2000,Subsector,1. Energy
+A.  Mineral industry,65.449830022,,,,,,Summary1.As1,ICELAND,2000,Subsector,1. Energy
+C.  Metal industry,715.5572052496,0.1087,,,134.794913997225,,Summary1.As1,ICELAND,2000,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,7.824134497114,,,,,,Summary1.As1,ICELAND,2000,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,42.9882725468099,,,Summary1.As1,ICELAND,2000,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.01633850925,0.001812621693,0.016530486411,,,5.7525e-05,Summary1.As1,ICELAND,2000,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2000,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1765.48049716326,,,,,,Summary1.As1,ICELAND,2001,Subsector,1. Energy
+                                           Sectoral approach(2),1884.8766632683223,0.24278384504329,0.13735316180451,,,,Summary1.As1,ICELAND,2001,Subsector,1. Energy
+1.  Energy industries,5.9727051564,0.0015691974,0.0003900695,,,,Summary1.As1,ICELAND,2001,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,353.7608602447,0.0181990036,0.0380252377,,,,Summary1.As1,ICELAND,2001,Subsector,1. Energy
+3.  Transport,687.7252593876732,0.14649010746329,0.05348858313451,,,,Summary1.As1,ICELAND,2001,Subsector,1. Energy
+4.  Other sectors,817.669108620049,0.07575153598,0.04529447137,,,,Summary1.As1,ICELAND,2001,Subsector,1. Energy
+5.  Other,19.7487298595,0.0007740006,0.0001548001,,,,Summary1.As1,ICELAND,2001,Subsector,1. Energy
+B. Fugitive emissions from fuels,143.76975028821,0.061281205504,,,,,Summary1.As1,ICELAND,2001,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,143.76975028821,0.061281205504,,,,,Summary1.As1,ICELAND,2001,Subsector,1. Energy
+A.  Mineral industry,58.6594453628,,,,,,Summary1.As1,ICELAND,2001,Subsector,1. Energy
+C.  Metal industry,765.373868879,0.112935,,,97.156085598423,,Summary1.As1,ICELAND,2001,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,6.93445317357623,,,,,,Summary1.As1,ICELAND,2001,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,39.8262150475428,0.00071928,,Summary1.As1,ICELAND,2001,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.02082258275,0.001820262576,0.015695268717,,,5.7525e-05,Summary1.As1,ICELAND,2001,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2001,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1842.7524538299267,,,,,,Summary1.As1,ICELAND,2002,Subsector,1. Energy
+                                           Sectoral approach(2),1991.3932560922408,0.24164966575062,0.13659557269548,,,,Summary1.As1,ICELAND,2002,Subsector,1. Energy
+1.  Energy industries,6.8535658289,0.0016048686,0.0003972037,,,,Summary1.As1,ICELAND,2002,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,364.0333557433,0.0177961512,0.0358032079,,,,Summary1.As1,ICELAND,2002,Subsector,1. Energy
+3.  Transport,689.2184804963575,0.13675091377062,0.05388062779548,,,,Summary1.As1,ICELAND,2002,Subsector,1. Energy
+4.  Other sectors,908.686805717283,0.08461665018,0.0463383169,,,,Summary1.As1,ICELAND,2002,Subsector,1. Energy
+5.  Other,22.6010483064,0.000881082,0.0001762164,,,,Summary1.As1,ICELAND,2002,Subsector,1. Energy
+B. Fugitive emissions from fuels,147.41237227298,0.061617408983,,,,,Summary1.As1,ICELAND,2002,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,147.41237227298,0.061617408983,,,,,Summary1.As1,ICELAND,2002,Subsector,1. Energy
+A.  Mineral industry,39.3136779568,,,,,,Summary1.As1,ICELAND,2002,Subsector,1. Energy
+C.  Metal industry,801.8305796693,0.11881,,,76.890799639008,,Summary1.As1,ICELAND,2002,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,7.17619089721892,,,,,,Summary1.As1,ICELAND,2002,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,44.6470728028209,0.00943260018,,Summary1.As1,ICELAND,2002,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.0143808845,0.001995405808,0.014623658786,,,5.7525e-05,Summary1.As1,ICELAND,2002,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2002,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1851.2270290236268,,,,,,Summary1.As1,ICELAND,2003,Subsector,1. Energy
+                                           Sectoral approach(2),1993.124085051764,0.23356611954312,0.13192794300968,,,,Summary1.As1,ICELAND,2003,Subsector,1. Energy
+1.  Energy industries,4.9928595767,0.0015387526,0.0003830603,,,,Summary1.As1,ICELAND,2003,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,335.3631831803,0.0164103902,0.0328298643,,,,Summary1.As1,ICELAND,2003,Subsector,1. Energy
+3.  Transport,780.6356554760445,0.13485286319312,0.05522924817968,,,,Summary1.As1,ICELAND,2003,Subsector,1. Energy
+4.  Other sectors,864.852477072019,0.08042210875,0.04342675123,,,,Summary1.As1,ICELAND,2003,Subsector,1. Energy
+5.  Other,7.2799097467,0.0003420048,5.9019e-05,,,,Summary1.As1,ICELAND,2003,Subsector,1. Energy
+B. Fugitive emissions from fuels,136.343811495902,0.059772100047,,,,,Summary1.As1,ICELAND,2003,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,136.343811495902,0.059772100047,,,,,Summary1.As1,ICELAND,2003,Subsector,1. Energy
+A.  Mineral industry,32.9758096998,,,,,,Summary1.As1,ICELAND,2003,Subsector,1. Energy
+C.  Metal industry,809.3383407324,0.11907,,,63.37050173799,,Summary1.As1,ICELAND,2003,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,6.84770390623147,,,,,,Summary1.As1,ICELAND,2003,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,45.1354746608285,0.00614258793,,Summary1.As1,ICELAND,2003,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.0225746835,0.001713290427,0.014487701174,,,5.7525e-05,Summary1.As1,ICELAND,2003,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2003,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1885.4472008108933,,,,,,Summary1.As1,ICELAND,2004,Subsector,1. Energy
+                                           Sectoral approach(2),2101.283540273297,0.23518087622177,0.14680025139473,,,,Summary1.As1,ICELAND,2004,Subsector,1. Energy
+1.  Energy industries,3.1565443785,0.0014924764,0.0003758016,,,,Summary1.As1,ICELAND,2004,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,333.0554093529,0.0175931391,0.0389367462,,,,Summary1.As1,ICELAND,2004,Subsector,1. Energy
+3.  Transport,838.8387651095272,0.13159959381177,0.05889672969473,,,,Summary1.As1,ICELAND,2004,Subsector,1. Energy
+4.  Other sectors,900.03195986257,0.08338153291,0.0483774064,,,,Summary1.As1,ICELAND,2004,Subsector,1. Energy
+5.  Other,26.2008615698,0.001114134,0.0002135675,,,,Summary1.As1,ICELAND,2004,Subsector,1. Energy
+B. Fugitive emissions from fuels,122.900710897946,0.065120319497,,,,,Summary1.As1,ICELAND,2004,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,122.900710897946,0.065120319497,,,,,Summary1.As1,ICELAND,2004,Subsector,1. Energy
+A.  Mineral industry,50.8139665608,,,,,,Summary1.As1,ICELAND,2004,Subsector,1. Energy
+C.  Metal industry,814.5416291866,0.118521,,,40.892717107962,,Summary1.As1,ICELAND,2004,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,7.63103877023471,,,,,,Summary1.As1,ICELAND,2004,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,52.1723742786578,0.00415715868,,Summary1.As1,ICELAND,2004,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.02442496175,0.001876753144,0.013579982933,,,5.76625e-05,Summary1.As1,ICELAND,2004,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2004,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1840.3526710421436,,,,,,Summary1.As1,ICELAND,2005,Subsector,1. Energy
+                                           Sectoral approach(2),1992.9595735251144,0.21584320101608,0.14808509339071,,,,Summary1.As1,ICELAND,2005,Subsector,1. Energy
+1.  Energy industries,3.2584955431,0.001449135,0.0003635328,,,,Summary1.As1,ICELAND,2005,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,287.0348904445,0.0143966293,0.0415033303,,,,Summary1.As1,ICELAND,2005,Subsector,1. Energy
+3.  Transport,847.7592791543934,0.12294877998608,0.05756070278071,,,,Summary1.As1,ICELAND,2005,Subsector,1. Energy
+4.  Other sectors,826.160091366821,0.07583080673,0.04842321681,,,,Summary1.As1,ICELAND,2005,Subsector,1. Energy
+5.  Other,28.7468170163,0.00121785,0.0002343107,,,,Summary1.As1,ICELAND,2005,Subsector,1. Energy
+B. Fugitive emissions from fuels,118.158643124495,0.069584907679,,,,,Summary1.As1,ICELAND,2005,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,118.158643124495,0.069584907679,,,,,Summary1.As1,ICELAND,2005,Subsector,1. Energy
+A.  Mineral industry,54.98128889,,,,,,Summary1.As1,ICELAND,2005,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,7.35194204978629,,,,,,Summary1.As1,ICELAND,2005,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,57.2375457648722,0.00292380216,,Summary1.As1,ICELAND,2005,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.0275909915,0.001752204009,0.013030839918,,,0.0001104194413,Summary1.As1,ICELAND,2005,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2005,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1965.8807252502932,,,,,,Summary1.As1,ICELAND,2006,Subsector,1. Energy
+                                           Sectoral approach(2),2052.6075725596497,0.21356434634561,0.12449259445824,,,,Summary1.As1,ICELAND,2006,Subsector,1. Energy
+1.  Energy industries,9.0312071514,0.0027371362,0.0006826893,,,,Summary1.As1,ICELAND,2006,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,281.3943375694,0.0145794918,0.0378043476,,,,Summary1.As1,ICELAND,2006,Subsector,1. Energy
+3.  Transport,987.2415719402028,0.12675080584561,0.04191914699824,,,,Summary1.As1,ICELAND,2006,Subsector,1. Energy
+4.  Other sectors,748.289369993547,0.0683737305,0.04386919386,,,,Summary1.As1,ICELAND,2006,Subsector,1. Energy
+5.  Other,26.6510859051,0.001123182,0.0002172167,,,,Summary1.As1,ICELAND,2006,Subsector,1. Energy
+B. Fugitive emissions from fuels,127.426412753366,0.096667196808,,,,,Summary1.As1,ICELAND,2006,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,127.426412753366,0.096667196808,,,,,Summary1.As1,ICELAND,2006,Subsector,1. Energy
+A.  Mineral industry,62.168088455,,,,,,Summary1.As1,ICELAND,2006,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,8.12805474541572,,,,,,Summary1.As1,ICELAND,2006,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,66.3089070458212,0.00213422808,,Summary1.As1,ICELAND,2006,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.04442012875,0.002065512881,0.013843454957,,,0.0001144194413,Summary1.As1,ICELAND,2006,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2006,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1965.7865520953017,,,,,,Summary1.As1,ICELAND,2007,Subsector,1. Energy
+                                           Sectoral approach(2),2172.202987606987,0.21917188907244,0.12765444500002,,,,Summary1.As1,ICELAND,2007,Subsector,1. Energy
+1.  Energy industries,24.9400153445,0.0035743007,0.0008656211,,,,Summary1.As1,ICELAND,2007,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,276.3202236387,0.0187858621,0.0385074835,,,,Summary1.As1,ICELAND,2007,Subsector,1. Energy
+3.  Transport,1023.2924520177068,0.11976820679244,0.04183999048002,,,,Summary1.As1,ICELAND,2007,Subsector,1. Energy
+4.  Other sectors,840.85472789108,0.07674558648,0.04638599442,,,,Summary1.As1,ICELAND,2007,Subsector,1. Energy
+5.  Other,6.795568715,0.000297933,5.53555e-05,,,,Summary1.As1,ICELAND,2007,Subsector,1. Energy
+B. Fugitive emissions from fuels,147.372605644313,0.12368365041,,,,,Summary1.As1,ICELAND,2007,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,147.372605644313,0.12368365041,,,,,Summary1.As1,ICELAND,2007,Subsector,1. Energy
+A.  Mineral industry,64.3316518676,,,,,,Summary1.As1,ICELAND,2007,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,7.65906590558867,,,,,,Summary1.As1,ICELAND,2007,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,66.9835276147672,0.00161274564,,Summary1.As1,ICELAND,2007,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.04702974725,0.002227461383,0.015398138831,,,0.0001269194413,Summary1.As1,ICELAND,2007,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2007,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1756.8778044886767,,,,,,Summary1.As1,ICELAND,2008,Subsector,1. Energy
+                                           Sectoral approach(2),2007.8486768111136,0.19758635097927,0.12099799199631,,,,Summary1.As1,ICELAND,2008,Subsector,1. Energy
+1.  Energy industries,10.1560750808,0.0026356696,0.0006570038,,,,Summary1.As1,ICELAND,2008,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,249.1734710026,0.017035526,0.0366926569,,,,Summary1.As1,ICELAND,2008,Subsector,1. Energy
+3.  Transport,969.2450763153006,0.10729613516927,0.03998410623631,,,,Summary1.As1,ICELAND,2008,Subsector,1. Energy
+4.  Other sectors,772.186629046613,0.07033558261,0.04360759886,,,,Summary1.As1,ICELAND,2008,Subsector,1. Energy
+5.  Other,7.0874253658,0.0002834376,5.66262e-05,,,,Summary1.As1,ICELAND,2008,Subsector,1. Energy
+B. Fugitive emissions from fuels,185.939706327062,0.124802534727,,,,,Summary1.As1,ICELAND,2008,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,185.939706327062,0.124802534727,,,,,Summary1.As1,ICELAND,2008,Subsector,1. Energy
+A.  Mineral industry,61.804693555,,,,,,Summary1.As1,ICELAND,2008,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,6.91966020218254,,,,,,Summary1.As1,ICELAND,2008,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,68.572581947606,0.00125712717,,Summary1.As1,ICELAND,2008,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.0213507085,0.001698617941,0.013732175282,,,0.0001318654413,Summary1.As1,ICELAND,2008,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2008,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1728.045111158577,,,,,,Summary1.As1,ICELAND,2009,Subsector,1. Energy
+                                           Sectoral approach(2),1932.5582519899724,0.1869949347019,0.09773682970932,,,,Summary1.As1,ICELAND,2009,Subsector,1. Energy
+1.  Energy industries,7.7465223796,0.0020110776,0.0005034187,,,,Summary1.As1,ICELAND,2009,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,177.7833208501,0.0104588709,0.025146117,,,,Summary1.As1,ICELAND,2009,Subsector,1. Energy
+3.  Transport,932.7464745339264,0.0998517136419,0.03467667671932,,,,Summary1.As1,ICELAND,2009,Subsector,1. Energy
+4.  Other sectors,809.469080999846,0.07447070356,0.03737139119,,,,Summary1.As1,ICELAND,2009,Subsector,1. Energy
+5.  Other,4.8128532265,0.000202569,3.92261e-05,,,,Summary1.As1,ICELAND,2009,Subsector,1. Energy
+B. Fugitive emissions from fuels,170.111197028125,0.113985033247,,,,,Summary1.As1,ICELAND,2009,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,170.111197028125,0.113985033247,,,,,Summary1.As1,ICELAND,2009,Subsector,1. Energy
+A.  Mineral industry,28.6852830753,,,,,,Summary1.As1,ICELAND,2009,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,5.45714762425986,,,,,,Summary1.As1,ICELAND,2009,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,81.822478436647,0.0026621025,,Summary1.As1,ICELAND,2009,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.01822516075,0.001549124266,0.012060933537,,,0.0001331783933,Summary1.As1,ICELAND,2009,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2009,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1599.9180550654598,,,,,,Summary1.As1,ICELAND,2010,Subsector,1. Energy
+                                           Sectoral approach(2),1804.1295264635237,0.16941320941068,0.08492512636938,,,,Summary1.As1,ICELAND,2010,Subsector,1. Energy
+1.  Energy industries,8.3582431713,0.0020516463,0.0005124636,,,,Summary1.As1,ICELAND,2010,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,132.8308614833,0.008059205,0.0198765755,,,,Summary1.As1,ICELAND,2010,Subsector,1. Energy
+3.  Transport,884.5550438926775,0.08820816156068,0.03157520309938,,,,Summary1.As1,ICELAND,2010,Subsector,1. Energy
+4.  Other sectors,764.507293581246,0.07052426375,0.03284977967,,,,Summary1.As1,ICELAND,2010,Subsector,1. Energy
+5.  Other,13.878084335,0.0005699328,0.0001111045,,,,Summary1.As1,ICELAND,2010,Subsector,1. Energy
+B. Fugitive emissions from fuels,189.643892310354,0.202633011095,,,,,Summary1.As1,ICELAND,2010,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,189.643892310354,0.202633011095,,,,,Summary1.As1,ICELAND,2010,Subsector,1. Energy
+A.  Mineral industry,10.3999726921,,,,,,Summary1.As1,ICELAND,2010,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,5.67275964854529,,,,,,Summary1.As1,ICELAND,2010,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,109.9186944407367,0.00175221295,,Summary1.As1,ICELAND,2010,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.0212095405,0.001506062803,0.013022711006,,,0.000204567755,Summary1.As1,ICELAND,2010,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2010,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1520.8220706593763,,,,,,Summary1.As1,ICELAND,2011,Subsector,1. Energy
+                                           Sectoral approach(2),1696.005085873689,0.15400489502603,0.07816139301944,,,,Summary1.As1,ICELAND,2011,Subsector,1. Energy
+1.  Energy industries,6.4196949687,0.001598982,0.0004001214,,,,Summary1.As1,ICELAND,2011,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,140.1520516568,0.0084863297,0.0173242206,,,,Summary1.As1,ICELAND,2011,Subsector,1. Energy
+3.  Transport,852.156307458243,0.07980407329603,0.03129285104944,,,,Summary1.As1,ICELAND,2011,Subsector,1. Energy
+4.  Other sectors,690.401825207846,0.06375865613,0.02908903187,,,,Summary1.As1,ICELAND,2011,Subsector,1. Energy
+5.  Other,6.8752065821,0.0003568539,5.51681e-05,,,,Summary1.As1,ICELAND,2011,Subsector,1. Energy
+B. Fugitive emissions from fuels,179.511878773229,0.160429133323,,,,,Summary1.As1,ICELAND,2011,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,179.511878773229,0.160429133323,,,,,Summary1.As1,ICELAND,2011,Subsector,1. Energy
+A.  Mineral industry,20.1435804623,,,,,,Summary1.As1,ICELAND,2011,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,5.89693279226457,,,,,,Summary1.As1,ICELAND,2011,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,134.7219031002423,0.00563405981,,Summary1.As1,ICELAND,2011,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.0238268575,0.001506258555,0.01339452341,,,0.0001335700688,Summary1.As1,ICELAND,2011,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2011,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1477.9150563184346,,,,,,Summary1.As1,ICELAND,2012,Subsector,1. Energy
+                                           Sectoral approach(2),1656.0935745361269,0.14592811370906,0.0754245584993,,,,Summary1.As1,ICELAND,2012,Subsector,1. Energy
+1.  Energy industries,7.7077633854,0.001475868,0.000366162,,,,Summary1.As1,ICELAND,2012,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,127.6795232851,0.0070094283,0.0180650409,,,,Summary1.As1,ICELAND,2012,Subsector,1. Energy
+3.  Transport,834.913727308347,0.07408809875906,0.0273369831793,,,,Summary1.As1,ICELAND,2012,Subsector,1. Energy
+4.  Other sectors,685.7012566659797,0.06333544065,0.02965423382,,,,Summary1.As1,ICELAND,2012,Subsector,1. Energy
+5.  Other,0.0913038913,1.9278e-05,2.1386e-06,,,,Summary1.As1,ICELAND,2012,Subsector,1. Energy
+B. Fugitive emissions from fuels,172.049925900669,0.13105356424,,,,,Summary1.As1,ICELAND,2012,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,172.049925900669,0.13105356424,,,,,Summary1.As1,ICELAND,2012,Subsector,1. Energy
+A.  Mineral industry,0.5093624765,,,,,,Summary1.As1,ICELAND,2012,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,5.84561301469837,,,,,,Summary1.As1,ICELAND,2012,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,140.1614116444271,0.00432268755,,Summary1.As1,ICELAND,2012,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.02716182175,0.001601341918,0.013078067161,,,0.0002344598453,Summary1.As1,ICELAND,2012,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2012,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1538.4869361995848,,,,,,Summary1.As1,ICELAND,2013,Subsector,1. Energy
+                                           Sectoral approach(2),1619.7402142349615,0.13949045012757,0.07270116331465,,,,Summary1.As1,ICELAND,2013,Subsector,1. Energy
+1.  Energy industries,4.3721824421,0.000375486,8.6727e-05,,,,Summary1.As1,ICELAND,2013,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,117.0487281827,0.007575185,0.0174625666,,,,Summary1.As1,ICELAND,2013,Subsector,1. Energy
+3.  Transport,849.5541930303151,0.07175577990757,0.02697067442465,,,,Summary1.As1,ICELAND,2013,Subsector,1. Energy
+4.  Other sectors,648.0069133319466,0.05973001692,0.02817054169,,,,Summary1.As1,ICELAND,2013,Subsector,1. Energy
+5.  Other,0.7581972479,5.39823e-05,1.06536e-05,,,,Summary1.As1,ICELAND,2013,Subsector,1. Energy
+B. Fugitive emissions from fuels,173.138333702772,0.159567895464,,,,,Summary1.As1,ICELAND,2013,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,173.138333702772,0.159567895464,,,,,Summary1.As1,ICELAND,2013,Subsector,1. Energy
+A.  Mineral industry,0.5527238864,,,,,,Summary1.As1,ICELAND,2013,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,5.79651972069476,,,,,,Summary1.As1,ICELAND,2013,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,170.5403393698384,0.00357648315,,Summary1.As1,ICELAND,2013,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.01720186575,0.001278042108,0.011558813361,,,0.0001414718258,Summary1.As1,ICELAND,2013,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2013,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1594.5132133333348,,,,,,Summary1.As1,ICELAND,2014,Subsector,1. Energy
+                                           Sectoral approach(2),1596.389414010917,0.13533012209307,0.07806672668185,,,,Summary1.As1,ICELAND,2014,Subsector,1. Energy
+1.  Energy industries,5.103079958,0.0002067162,4.13432e-05,,,,Summary1.As1,ICELAND,2014,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,82.4175658549,0.0049681758,0.0200496277,,,,Summary1.As1,ICELAND,2014,Subsector,1. Energy
+3.  Transport,856.5352795895041,0.07006772217307,0.02779124331185,,,,Summary1.As1,ICELAND,2014,Subsector,1. Energy
+4.  Other sectors,649.6821882806133,0.05978527592,0.03016251367,,,,Summary1.As1,ICELAND,2014,Subsector,1. Energy
+5.  Other,2.6513003279,0.000302232,2.19988e-05,,,,Summary1.As1,ICELAND,2014,Subsector,1. Energy
+B. Fugitive emissions from fuels,182.953897382647,0.181749691615,,,,,Summary1.As1,ICELAND,2014,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,182.953897382647,0.181749691615,,,,,Summary1.As1,ICELAND,2014,Subsector,1. Energy
+A.  Mineral industry,0.5474945124,,,,,,Summary1.As1,ICELAND,2014,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,5.86961879904928,,,,,,Summary1.As1,ICELAND,2014,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,168.563164258772,0.00344640992,,Summary1.As1,ICELAND,2014,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.0221077565,0.001338187866,0.010703717122,,,0.000104611877,Summary1.As1,ICELAND,2014,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2014,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1651.1182600000016,,,,,,Summary1.As1,ICELAND,2015,Subsector,1. Energy
+                                           Sectoral approach(2),1660.5384477561502,0.13992411436786,0.07946492795482,,,,Summary1.As1,ICELAND,2015,Subsector,1. Energy
+1.  Energy industries,4.1806433601,0.0001694694,3.38939e-05,,,,Summary1.As1,ICELAND,2015,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,111.5486552177,0.0069374731,0.0201720113,,,,Summary1.As1,ICELAND,2015,Subsector,1. Energy
+3.  Transport,885.7088700600708,0.07216893102786,0.02884059464482,,,,Summary1.As1,ICELAND,2015,Subsector,1. Energy
+4.  Other sectors,658.9135363715793,0.06063402524,0.03041751461,,,,Summary1.As1,ICELAND,2015,Subsector,1. Energy
+5.  Other,0.1867427467,1.42156e-05,9.135e-07,,,,Summary1.As1,ICELAND,2015,Subsector,1. Energy
+B. Fugitive emissions from fuels,163.135269867694,0.182232121476,,,,,Summary1.As1,ICELAND,2015,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,163.135269867694,0.182232121476,,,,,Summary1.As1,ICELAND,2015,Subsector,1. Energy
+A.  Mineral industry,0.7165401316,,,,,,Summary1.As1,ICELAND,2015,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,6.20830936497852,,,,,,Summary1.As1,ICELAND,2015,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,161.3711704009821,0.007482218,,Summary1.As1,ICELAND,2015,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.0260237845,0.00137758108,0.01084452647,,,6.95530063e-05,Summary1.As1,ICELAND,2015,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2015,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1663.917216133335,,,,,,Summary1.As1,ICELAND,2016,Subsector,1. Energy
+                                           Sectoral approach(2),1649.7832240255605,0.1280185643777,0.08537977857003,,,,Summary1.As1,ICELAND,2016,Subsector,1. Energy
+1.  Energy industries,2.3583464221,9.59568e-05,1.91914e-05,,,,Summary1.As1,ICELAND,2016,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,118.1164160381,0.0064921345,0.0232861244,,,,Summary1.As1,ICELAND,2016,Subsector,1. Energy
+3.  Transport,966.3710884184202,0.0698569697577,0.03201846345003,,,,Summary1.As1,ICELAND,2016,Subsector,1. Energy
+4.  Other sectors,562.7814308402403,0.05156627952,0.03005512962,,,,Summary1.As1,ICELAND,2016,Subsector,1. Energy
+5.  Other,0.1559423067,7.2238e-06,8.697e-07,,,,Summary1.As1,ICELAND,2016,Subsector,1. Energy
+B. Fugitive emissions from fuels,148.960876245965,0.141145807921,,,,,Summary1.As1,ICELAND,2016,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,148.960876245965,0.141145807921,,,,,Summary1.As1,ICELAND,2016,Subsector,1. Energy
+A.  Mineral industry,0.7739715247,,,,,,Summary1.As1,ICELAND,2016,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,6.29617704916637,,,,,,Summary1.As1,ICELAND,2016,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,179.2121876936576,0.02124073163,,Summary1.As1,ICELAND,2016,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.0260332995,0.001300512887,0.008767216574,,,5.8972911e-05,Summary1.As1,ICELAND,2016,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2016,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1642.4914410300014,,,,,,Summary1.As1,ICELAND,2017,Subsector,1. Energy
+                                           Sectoral approach(2),1693.054337489886,0.12403061553173,0.08879971235424,,,,Summary1.As1,ICELAND,2017,Subsector,1. Energy
+1.  Energy industries,2.3101912867,9.68595e-05,1.93719e-05,,,,Summary1.As1,ICELAND,2017,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,90.9091935493,0.0058093082,0.0236804744,,,,Summary1.As1,ICELAND,2017,Subsector,1. Energy
+3.  Transport,1020.3908584707732,0.06486331786573,0.03428925593104,,,,Summary1.As1,ICELAND,2017,Subsector,1. Energy
+4.  Other sectors,579.2758902498126,0.053247895766,0.0308089315232,,,,Summary1.As1,ICELAND,2017,Subsector,1. Energy
+5.  Other,0.1682039333,1.32342e-05,1.6786e-06,,,,Summary1.As1,ICELAND,2017,Subsector,1. Energy
+B. Fugitive emissions from fuels,146.478562018594,0.132326984318,,,,,Summary1.As1,ICELAND,2017,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,146.478562018594,0.132326984318,,,,,Summary1.As1,ICELAND,2017,Subsector,1. Energy
+A.  Mineral industry,0.902322734,,,,,,Summary1.As1,ICELAND,2017,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,6.12701410005,,,,,,Summary1.As1,ICELAND,2017,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,170.4505007060629,0.01334733303,,Summary1.As1,ICELAND,2017,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.026260535,0.00123794912,0.00811024564,,,0.0001196235773,Summary1.As1,ICELAND,2017,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2017,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1616.365153846668,,,,,,Summary1.As1,ICELAND,2018,Subsector,1. Energy
+                                           Sectoral approach(2),1726.0887793128218,0.12201853302088,0.08108404956389,,,,Summary1.As1,ICELAND,2018,Subsector,1. Energy
+1.  Energy industries,2.3496255489,9.74592e-05,1.94918e-05,,,,Summary1.As1,ICELAND,2018,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,85.283231691,0.0054773309,0.019048131,,,,Summary1.As1,ICELAND,2018,Subsector,1. Energy
+3.  Transport,1054.3877952533155,0.06251109830888,0.03410901863929,,,,Summary1.As1,ICELAND,2018,Subsector,1. Energy
+4.  Other sectors,583.544134339606,0.053906861412,0.0279049990246,,,,Summary1.As1,ICELAND,2018,Subsector,1. Energy
+5.  Other,0.52399248,2.57832e-05,2.4091e-06,,,,Summary1.As1,ICELAND,2018,Subsector,1. Energy
+B. Fugitive emissions from fuels,156.461975713556,0.132606242157,,,,,Summary1.As1,ICELAND,2018,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,156.461975713556,0.132606242157,,,,,Summary1.As1,ICELAND,2018,Subsector,1. Energy
+A.  Mineral industry,0.9052121908,,,,,,Summary1.As1,ICELAND,2018,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,6.77227486224436,,,,,,Summary1.As1,ICELAND,2018,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,188.5334350385061,0.0375100392,,Summary1.As1,ICELAND,2018,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.03284504475,0.001382572798,0.009849551161,,,0.0001712912523,Summary1.As1,ICELAND,2018,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2018,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1680.2705186300016,,,,,,Summary1.As1,ICELAND,2019,Subsector,1. Energy
+                                           Sectoral approach(2),1664.1864226647597,0.11061884250802,0.07306228664495,,,,Summary1.As1,ICELAND,2019,Subsector,1. Energy
+1.  Energy industries,4.9507497599,0.0002036084,4.07217e-05,,,,Summary1.As1,ICELAND,2019,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,67.4113056421,0.003993555,0.0154682888,,,,Summary1.As1,ICELAND,2019,Subsector,1. Energy
+3.  Transport,1051.5655446916126,0.05484785384422,0.03695522966315,,,,Summary1.As1,ICELAND,2019,Subsector,1. Energy
+4.  Other sectors,538.583010481047,0.0514798569638,0.0205836054818,,,,Summary1.As1,ICELAND,2019,Subsector,1. Energy
+5.  Other,1.6758120901,9.39683e-05,1.4441e-05,,,,Summary1.As1,ICELAND,2019,Subsector,1. Energy
+B. Fugitive emissions from fuels,163.105976276205,0.151377851834,,,,,Summary1.As1,ICELAND,2019,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,163.105976276205,0.151377851834,,,,,Summary1.As1,ICELAND,2019,Subsector,1. Energy
+A.  Mineral industry,0.9569909901,,,,,,Summary1.As1,ICELAND,2019,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,6.15762002724286,,,,,,Summary1.As1,ICELAND,2019,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,199.6409281513937,0.0453566263,,Summary1.As1,ICELAND,2019,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.02029493275,0.001069347556,0.009414763277,,,9.97652128e-05,Summary1.As1,ICELAND,2019,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2019,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1481.5754305000014,,,,,,Summary1.As1,ICELAND,2020,Subsector,1. Energy
+                                           Sectoral approach(2),1465.4006708669606,0.09585519740227,0.06042798314631,,,,Summary1.As1,ICELAND,2020,Subsector,1. Energy
+1.  Energy industries,1.7806894593,7.1904e-05,1.43808e-05,,,,Summary1.As1,ICELAND,2020,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,52.2307032065,0.0027544739,0.0081311977,,,,Summary1.As1,ICELAND,2020,Subsector,1. Energy
+3.  Transport,874.1591266229487,0.04214615034097,0.02938383560121,,,,Summary1.As1,ICELAND,2020,Subsector,1. Energy
+4.  Other sectors,536.8686153593117,0.0508495029613,0.0228943349451,,,,Summary1.As1,ICELAND,2020,Subsector,1. Energy
+5.  Other,0.3615362189,3.31662e-05,4.2341e-06,,,,Summary1.As1,ICELAND,2020,Subsector,1. Energy
+B. Fugitive emissions from fuels,174.872710702055,0.172023882644,,,,,Summary1.As1,ICELAND,2020,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,174.872710702055,0.172023882644,,,,,Summary1.As1,ICELAND,2020,Subsector,1. Energy
+A.  Mineral industry,0.8949984572,,,,,,Summary1.As1,ICELAND,2020,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,6.30743599570911,,,,,,Summary1.As1,ICELAND,2020,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,195.6120405681644,0.06094985395,,Summary1.As1,ICELAND,2020,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.021361002,0.001180200155,0.00948784872,,,0.0001383682979,Summary1.As1,ICELAND,2020,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2020,Subsector,2.  Industrial processes and product use
+A. Fuel combustion     Reference approach(2),1551.133430421668,,,,,,Summary1.As1,ICELAND,2021,Subsector,1. Energy
+                                           Sectoral approach(2),1566.7397397467937,0.10548000782602,0.06393093909834,,,,Summary1.As1,ICELAND,2021,Subsector,1. Energy
+1.  Energy industries,2.5591205468,0.0001040941,2.08188e-05,,,,Summary1.As1,ICELAND,2021,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,73.0927224077,0.0059489846,0.0127586322,,,,Summary1.As1,ICELAND,2021,Subsector,1. Energy
+3.  Transport,892.5905804272974,0.04208889247602,0.02776289375834,,,,Summary1.As1,ICELAND,2021,Subsector,1. Energy
+4.  Other sectors,595.9679194931963,0.05714097365,0.02336692794,,,,Summary1.As1,ICELAND,2021,Subsector,1. Energy
+5.  Other,2.5293968718,0.000197063,2.16664e-05,,,,Summary1.As1,ICELAND,2021,Subsector,1. Energy
+B. Fugitive emissions from fuels,175.760733219657,0.160362280495,,,,,Summary1.As1,ICELAND,2021,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,175.760733219657,0.160362280495,,,,,Summary1.As1,ICELAND,2021,Subsector,1. Energy
+A.  Mineral industry,0.9306941791,,,,,,Summary1.As1,ICELAND,2021,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,6.54361093009479,,,,,,Summary1.As1,ICELAND,2021,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,157.2481617964441,0.06284975936,,Summary1.As1,ICELAND,2021,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.0227578905,0.00112154595,0.00707725379,,,0.00012658,Summary1.As1,ICELAND,2021,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,2021,Subsector,2.  Industrial processes and product use
+A.  Enteric fermentation,,13.96397554978796,,,,,Summary1.As2,ICELAND,1990,Subsector,3.  Agriculture
+B.  Manure management,,3.02908355955326,0.05443829662114,,,,Summary1.As2,ICELAND,1990,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.77191954691774,,,,Summary1.As2,ICELAND,1990,Subsector,3.  Agriculture
+G. Liming,0.462,,,,,,Summary1.As2,ICELAND,1990,Subsector,3.  Agriculture
+A. Forest land (4),-29.52261262242648,0.00468098571871,0.00043885224123,,,,Summary1.As2,ICELAND,1990,Subsector,3.  Agriculture
+B. Cropland (4),1884.4036484112996,3.79324000000001,,,,,Summary1.As2,ICELAND,1990,Subsector,3.  Agriculture
+C. Grassland (4),5001.48966841604,14.96079822927018,0.00024936111965,,,,Summary1.As2,ICELAND,1990,Subsector,3.  Agriculture
+D. Wetlands (4),-1116.8496004284295,118.67203800918614,,,,,Summary1.As2,ICELAND,1990,Subsector,3.  Agriculture
+E. Settlements (4),21.83577029933055,,,,,,Summary1.As2,ICELAND,1990,Subsector,3.  Agriculture
+A.  Solid waste disposal (5),,5.9892897437,,,,,Summary1.As2,ICELAND,1990,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),7.29557205525,0.243423341191,0.00561746172,,,,Summary1.As2,ICELAND,1990,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,1.999829495075,0.0162198634,,,,Summary1.As2,ICELAND,1990,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,13.55844782813818,,,,,Summary1.As2,ICELAND,1991,Subsector,3.  Agriculture
+B.  Manure management,,2.93168049559798,0.05146660237519,,,,Summary1.As2,ICELAND,1991,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.76060186100833,,,,Summary1.As2,ICELAND,1991,Subsector,3.  Agriculture
+G. Liming,0.1849848,,,,,,Summary1.As2,ICELAND,1991,Subsector,3.  Agriculture
+A. Forest land (4),-30.87120505057368,0.0065295131426,0.0006121529445,,,,Summary1.As2,ICELAND,1991,Subsector,3.  Agriculture
+B. Cropland (4),1885.251713013799,3.7941586615558,,,,,Summary1.As2,ICELAND,1991,Subsector,3.  Agriculture
+C. Grassland (4),4999.857639398382,14.97354422243601,0.00025511432817,,,,Summary1.As2,ICELAND,1991,Subsector,3.  Agriculture
+D. Wetlands (4),-1109.958823256476,118.76502322545362,,,,,Summary1.As2,ICELAND,1991,Subsector,3.  Agriculture
+E. Settlements (4),21.82726632908428,,,,,,Summary1.As2,ICELAND,1991,Subsector,3.  Agriculture
+A.  Solid waste disposal (5),,6.1900622362,,,,,Summary1.As2,ICELAND,1991,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),7.237092677964,0.241693558726,0.005577543663,,,,Summary1.As2,ICELAND,1991,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.114909712525,0.0163522581,,,,Summary1.As2,ICELAND,1991,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,13.30479161845369,,,,,Summary1.As2,ICELAND,1992,Subsector,3.  Agriculture
+B.  Manure management,,2.75326224544026,0.04936260673524,,,,Summary1.As2,ICELAND,1992,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.73783066990154,,,,Summary1.As2,ICELAND,1992,Subsector,3.  Agriculture
+G. Liming,0.4985464,,,,,,Summary1.As2,ICELAND,1992,Subsector,3.  Agriculture
+A. Forest land (4),-35.5156739876142,0.00868072549809,0.00081383127624,,,,Summary1.As2,ICELAND,1992,Subsector,3.  Agriculture
+B. Cropland (4),1885.4770039201044,3.79507067121479,,,,,Summary1.As2,ICELAND,1992,Subsector,3.  Agriculture
+C. Grassland (4),4996.589703651403,14.98629701937889,0.00026091409902,,,,Summary1.As2,ICELAND,1992,Subsector,3.  Agriculture
+D. Wetlands (4),-1109.5694558225834,118.723751783718,,,,,Summary1.As2,ICELAND,1992,Subsector,3.  Agriculture
+E. Settlements (4),21.82726632908428,,,,,,Summary1.As2,ICELAND,1992,Subsector,3.  Agriculture
+A.  Solid waste disposal (5),,6.7259385434,,,,,Summary1.As2,ICELAND,1992,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),7.041909664108,0.235920170389,0.005444311624,,,,Summary1.As2,ICELAND,1992,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.0880480565,0.0166029643,,,,Summary1.As2,ICELAND,1992,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,13.22697742274357,,,,,Summary1.As2,ICELAND,1993,Subsector,3.  Agriculture
+B.  Manure management,,2.72417135786408,0.04950648773664,,,,Summary1.As2,ICELAND,1993,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.75262231175372,,,,Summary1.As2,ICELAND,1993,Subsector,3.  Agriculture
+G. Liming,0.4400968,,,,,,Summary1.As2,ICELAND,1993,Subsector,3.  Agriculture
+A. Forest land (4),-40.6150882747959,0.00918346947046,0.00086096070773,,,,Summary1.As2,ICELAND,1993,Subsector,3.  Agriculture
+B. Cropland (4),1885.7269450764352,3.79597992974192,,,,,Summary1.As2,ICELAND,1993,Subsector,3.  Agriculture
+C. Grassland (4),4994.9765819861495,14.99905263026914,0.00026674780679,,,,Summary1.As2,ICELAND,1993,Subsector,3.  Agriculture
+D. Wetlands (4),-1109.1792083886914,118.68302834198244,,,,,Summary1.As2,ICELAND,1993,Subsector,3.  Agriculture
+E. Settlements (4),21.82726632908428,,,,,,Summary1.As2,ICELAND,1993,Subsector,3.  Agriculture
+A.  Solid waste disposal (5),,7.1875692419,,,,,Summary1.As2,ICELAND,1993,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),5.995754604763,0.204423074855,0.004717455574,,,,Summary1.As2,ICELAND,1993,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.2378769931,0.0167737441,,,,Summary1.As2,ICELAND,1993,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,13.25189912334696,,,,,Summary1.As2,ICELAND,1994,Subsector,3.  Agriculture
+B.  Manure management,,2.67828225708916,0.0497049595514,,,,Summary1.As2,ICELAND,1994,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.76992755564402,,,,Summary1.As2,ICELAND,1994,Subsector,3.  Agriculture
+G. Liming,0.0088,,,,,,Summary1.As2,ICELAND,1994,Subsector,3.  Agriculture
+A. Forest land (4),-43.49274219474449,0.00977928736293,0.00091681610094,,,,Summary1.As2,ICELAND,1994,Subsector,3.  Agriculture
+B. Cropland (4),1885.9879526591224,3.79688644575896,,,,,Summary1.As2,ICELAND,1994,Subsector,3.  Agriculture
+C. Grassland (4),4993.4902208649855,15.02128265450169,0.00027262079745,,,,Summary1.As2,ICELAND,1994,Subsector,3.  Agriculture
+D. Wetlands (4),-1108.5179722790729,118.61379490779724,,,,,Summary1.As2,ICELAND,1994,Subsector,3.  Agriculture
+E. Settlements (4),21.82726632908428,,,,,,Summary1.As2,ICELAND,1994,Subsector,3.  Agriculture
+A.  Solid waste disposal (5),,7.6135676964,,,,,Summary1.As2,ICELAND,1994,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),5.526247205759,0.189723172188,0.00437822705,,,,Summary1.As2,ICELAND,1994,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.0695727601,0.0169427933,,,,Summary1.As2,ICELAND,1994,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.72255791814718,,,,,Summary1.As2,ICELAND,1995,Subsector,3.  Agriculture
+B.  Manure management,,2.61726300049214,0.0479125031841,,,,Summary1.As2,ICELAND,1995,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.75021128898464,,,,Summary1.As2,ICELAND,1995,Subsector,3.  Agriculture
+G. Liming,6.16e-05,,,,,,Summary1.As2,ICELAND,1995,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.43694272691,,,,,,Summary1.As2,ICELAND,1995,Subsector,3.  Agriculture
+A. Forest land (4),-53.48321159890721,0.0113925462818,0.00106805966981,,,,Summary1.As2,ICELAND,1995,Subsector,3.  Agriculture
+B. Cropland (4),1886.2349056226344,3.79779022784722,,,,,Summary1.As2,ICELAND,1995,Subsector,3.  Agriculture
+C. Grassland (4),4993.235018362795,15.05251797841973,0.00027855188963,,,,Summary1.As2,ICELAND,1995,Subsector,3.  Agriculture
+D. Wetlands (4),-1107.6006210183552,118.51655922290875,,,,,Summary1.As2,ICELAND,1995,Subsector,3.  Agriculture
+A.  Solid waste disposal (5),,8.0437961831,,,,,Summary1.As2,ICELAND,1995,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.008,0.00048,,,,Summary1.As2,ICELAND,1995,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),4.87401872662,0.169380259188,0.003908775212,,,,Summary1.As2,ICELAND,1995,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.1521319196,0.0170763771,,,,Summary1.As2,ICELAND,1995,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.87365550143648,,,,,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+B.  Manure management,,2.62726933259209,0.04896803625976,,,,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.77861845417991,,,,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+G. Liming,0.3471204,,,,,,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.63347387654,,,,,,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+A. Forest land (4),-57.58116496728915,0.01198836417426,0.00112391506301,,,,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+B. Cropland (4),1886.4636207841336,3.79869128454779,,,,,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+C. Grassland (4),4991.343890508738,15.0771695382862,0.00028454483577,,,,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+D. Wetlands (4),-1105.253556263594,118.50513006998526,,,,,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+G. Harvested wood products ,0.00051879785421,,,,,,Summary1.As2,ICELAND,1996,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,8.1982493549,,,,,Summary1.As2,ICELAND,1996,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.008,0.00048,,,,Summary1.As2,ICELAND,1996,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),4.366801839864,0.153116613464,0.003533460311,,,,Summary1.As2,ICELAND,1996,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.5966074076,0.0171388139,,,,Summary1.As2,ICELAND,1996,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.72661807648294,,,,,Summary1.As2,ICELAND,1997,Subsector,3.  Agriculture
+B.  Manure management,,2.54888865245125,0.04975766960742,,,,Summary1.As2,ICELAND,1997,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.76877821085174,,,,Summary1.As2,ICELAND,1997,Subsector,3.  Agriculture
+G. Liming,0.6941792,,,,,,Summary1.As2,ICELAND,1997,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.52465264198,,,,,,Summary1.As2,ICELAND,1997,Subsector,3.  Agriculture
+A. Forest land (4),-64.47805794160415,0.01258418206673,0.00117977045622,,,,Summary1.As2,ICELAND,1997,Subsector,3.  Agriculture
+B. Cropland (4),1886.7239261332768,3.79958962436183,,,,,Summary1.As2,ICELAND,1997,Subsector,3.  Agriculture
+C. Grassland (4),4997.386520757254,15.12852256985243,0.00029055574741,,,,Summary1.As2,ICELAND,1997,Subsector,3.  Agriculture
+D. Wetlands (4),-1103.7573152058676,118.34974068901155,,,,,Summary1.As2,ICELAND,1997,Subsector,3.  Agriculture
+G. Harvested wood products ,-0.00728997140484,,,,,,Summary1.As2,ICELAND,1997,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,8.3502497552,,,,,Summary1.As2,ICELAND,1997,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.008,0.00048,,,,Summary1.As2,ICELAND,1997,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),4.208896731639,0.146769422513,0.003386986673,,,,Summary1.As2,ICELAND,1997,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.7540184685,0.0172602779,,,,Summary1.As2,ICELAND,1997,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.98693318987307,,,,,Summary1.As2,ICELAND,1998,Subsector,3.  Agriculture
+B.  Manure management,,2.60793761550789,0.05143894009629,,,,Summary1.As2,ICELAND,1998,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.78213418288965,,,,Summary1.As2,ICELAND,1998,Subsector,3.  Agriculture
+G. Liming,0.0001232,,,,,,Summary1.As2,ICELAND,1998,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.54641688889,,,,,,Summary1.As2,ICELAND,1998,Subsector,3.  Agriculture
+A. Forest land (4),-72.91042920630169,0.01422982759474,0.00133405036771,,,,Summary1.As2,ICELAND,1998,Subsector,3.  Agriculture
+B. Cropland (4),1886.9753176281265,3.80048525575072,,,,,Summary1.As2,ICELAND,1998,Subsector,3.  Agriculture
+C. Grassland (4),5009.939554437779,15.20477874724153,0.00029661285118,,,,Summary1.As2,ICELAND,1998,Subsector,3.  Agriculture
+D. Wetlands (4),-1101.4225559301458,118.1225994776621,,,,,Summary1.As2,ICELAND,1998,Subsector,3.  Agriculture
+G. Harvested wood products ,0.00341184707214,,,,,,Summary1.As2,ICELAND,1998,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,8.5952616974,,,,,Summary1.As2,ICELAND,1998,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.008,0.00048,,,,Summary1.As2,ICELAND,1998,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),3.566270954674,0.126201857275,0.002912350553,,,,Summary1.As2,ICELAND,1998,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.2286566322,0.0174206151,,,,Summary1.As2,ICELAND,1998,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.8081743890913,,,,,Summary1.As2,ICELAND,1999,Subsector,3.  Agriculture
+B.  Manure management,,2.52676110040944,0.05096043080047,,,,Summary1.As2,ICELAND,1999,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.80015267666974,,,,Summary1.As2,ICELAND,1999,Subsector,3.  Agriculture
+G. Liming,0.0221276,,,,,,Summary1.As2,ICELAND,1999,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.76057707852,,,,,,Summary1.As2,ICELAND,1999,Subsector,3.  Agriculture
+A. Forest land (4),-79.13736983797261,0.01506669940312,0.00141250529512,,,,Summary1.As2,ICELAND,1999,Subsector,3.  Agriculture
+B. Cropland (4),1887.2741182344912,3.80137818713647,,,,,Summary1.As2,ICELAND,1999,Subsector,3.  Agriculture
+C. Grassland (4),5026.612733714072,15.28980186961589,0.00030266742949,,,,Summary1.As2,ICELAND,1999,Subsector,3.  Agriculture
+D. Wetlands (4),-1098.968367096168,117.86246495522111,,,,,Summary1.As2,ICELAND,1999,Subsector,3.  Agriculture
+G. Harvested wood products ,0.00043501897029,,,,,,Summary1.As2,ICELAND,1999,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,8.8658604823,,,,,Summary1.As2,ICELAND,1999,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.008,0.00048,,,,Summary1.As2,ICELAND,1999,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),2.9162543339,0.105524813109,0.002435187995,,,,Summary1.As2,ICELAND,1999,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.2891800406,0.0176333577,,,,Summary1.As2,ICELAND,1999,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.3199608053492,,,,,Summary1.As2,ICELAND,2000,Subsector,3.  Agriculture
+B.  Manure management,,2.50319003051673,0.0499947441874,,,,Summary1.As2,ICELAND,2000,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.79356900458089,,,,Summary1.As2,ICELAND,2000,Subsector,3.  Agriculture
+G. Liming,0.044132,,,,,,Summary1.As2,ICELAND,2000,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.75992415111,,,,,,Summary1.As2,ICELAND,2000,Subsector,3.  Agriculture
+A. Forest land (4),-90.267458538462,0.01728857060419,0.00162080810748,,,,Summary1.As2,ICELAND,2000,Subsector,3.  Agriculture
+B. Cropland (4),1887.553587420164,3.80226842690178,,,,,Summary1.As2,ICELAND,2000,Subsector,3.  Agriculture
+C. Grassland (4),5054.865874016503,15.40507440951404,0.00030876699847,,,,Summary1.As2,ICELAND,2000,Subsector,3.  Agriculture
+D. Wetlands (4),-1095.6496566474157,117.5106944859917,,,,,Summary1.As2,ICELAND,2000,Subsector,3.  Agriculture
+G. Harvested wood products ,0.00317013101187,,,,,,Summary1.As2,ICELAND,2000,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,9.0870160151,,,,,Summary1.As2,ICELAND,2000,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.008,0.00048,,,,Summary1.As2,ICELAND,2000,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),2.740924097572,0.103174776468,0.00238095638,,,,Summary1.As2,ICELAND,2000,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.5175600759,0.0178444559,,,,Summary1.As2,ICELAND,2000,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.33077982435023,,,,,Summary1.As2,ICELAND,2001,Subsector,3.  Agriculture
+B.  Manure management,,2.46673304352077,0.04995530250674,,,,Summary1.As2,ICELAND,2001,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.79076420984091,,,,Summary1.As2,ICELAND,2001,Subsector,3.  Agriculture
+G. Liming,0.0223872,,,,,,Summary1.As2,ICELAND,2001,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.69484905284,,,,,,Summary1.As2,ICELAND,2001,Subsector,3.  Agriculture
+A. Forest land (4),-95.7400624511206,0.01871952540048,0.00175496011307,,,,Summary1.As2,ICELAND,2001,Subsector,3.  Agriculture
+B. Cropland (4),1887.8856874277012,3.80315598339042,,,,,Summary1.As2,ICELAND,2001,Subsector,3.  Agriculture
+C. Grassland (4),5074.432671440963,15.48433968061916,0.00031485347675,,,,Summary1.As2,ICELAND,2001,Subsector,3.  Agriculture
+D. Wetlands (4),-1093.337513469726,117.28207568624178,,,,,Summary1.As2,ICELAND,2001,Subsector,3.  Agriculture
+G. Harvested wood products ,0.00227655985867,,,,,,Summary1.As2,ICELAND,2001,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,9.4186944735,,,,,Summary1.As2,ICELAND,2001,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.008,0.00048,,,,Summary1.As2,ICELAND,2001,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),2.58283756890481,0.092368415949,0.00214166213866,,,,Summary1.As2,ICELAND,2001,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.5260597943,0.0181226,,,,Summary1.As2,ICELAND,2001,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.05157454069454,,,,,Summary1.As2,ICELAND,2002,Subsector,3.  Agriculture
+B.  Manure management,,2.39543936564555,0.04942782478305,,,,Summary1.As2,ICELAND,2002,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.76471739013373,,,,Summary1.As2,ICELAND,2002,Subsector,3.  Agriculture
+G. Liming,0.0568392,,,,,,Summary1.As2,ICELAND,2002,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.41256677037,,,,,,Summary1.As2,ICELAND,2002,Subsector,3.  Agriculture
+A. Forest land (4),-104.8512166210758,0.02008131833408,0.00188262798472,,,,Summary1.As2,ICELAND,2002,Subsector,3.  Agriculture
+B. Cropland (4),1888.224359186052,3.80404086490739,,,,,Summary1.As2,ICELAND,2002,Subsector,3.  Agriculture
+C. Grassland (4),5103.467567964105,15.58875230666381,0.00032095571542,,,,Summary1.As2,ICELAND,2002,Subsector,3.  Agriculture
+D. Wetlands (4),-1090.3320458491182,116.96350774502451,,,,,Summary1.As2,ICELAND,2002,Subsector,3.  Agriculture
+G. Harvested wood products ,-0.00117685004397,,,,,,Summary1.As2,ICELAND,2002,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,9.4516598448,,,,,Summary1.As2,ICELAND,2002,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.008,0.00048,,,,Summary1.As2,ICELAND,2002,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),2.40210392443181,0.086107396353,0.00199717707066,,,,Summary1.As2,ICELAND,2002,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,3.003698301075,0.0162003585,,,,Summary1.As2,ICELAND,2002,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,11.87552464560406,,,,,Summary1.As2,ICELAND,2003,Subsector,3.  Agriculture
+B.  Manure management,,2.32892341201565,0.04944777605579,,,,Summary1.As2,ICELAND,2003,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.75234621979887,,,,Summary1.As2,ICELAND,2003,Subsector,3.  Agriculture
+G. Liming,2.520626533333,,,,,,Summary1.As2,ICELAND,2003,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.25129370074,,,,,,Summary1.As2,ICELAND,2003,Subsector,3.  Agriculture
+A. Forest land (4),-115.38953093678634,0.02165260118434,0.0020299361701,,,,Summary1.As2,ICELAND,2003,Subsector,3.  Agriculture
+B. Cropland (4),1888.5651629888816,3.80492307971922,,,,,Summary1.As2,ICELAND,2003,Subsector,3.  Agriculture
+C. Grassland (4),5115.020250839428,15.65274280363157,0.00032707553046,,,,Summary1.As2,ICELAND,2003,Subsector,3.  Agriculture
+D. Wetlands (4),-1088.4803239840048,116.76723239065664,,,,,Summary1.As2,ICELAND,2003,Subsector,3.  Agriculture
+G. Harvested wood products ,0.00042590022112,,,,,,Summary1.As2,ICELAND,2003,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,9.4835511828,,,,,Summary1.As2,ICELAND,2003,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.012,0.00072,,,,Summary1.As2,ICELAND,2003,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),2.05423837758581,0.074948474021,0.00173966347866,,,,Summary1.As2,ICELAND,2003,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.768058317475,0.0163061537,,,,Summary1.As2,ICELAND,2003,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,11.6627733533947,,,,,Summary1.As2,ICELAND,2004,Subsector,3.  Agriculture
+B.  Manure management,,2.2661316324558,0.0502020242631,,,,Summary1.As2,ICELAND,2004,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.74970520863669,,,,Summary1.As2,ICELAND,2004,Subsector,3.  Agriculture
+G. Liming,4.826158186667,,,,,,Summary1.As2,ICELAND,2004,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.15444280198,,,,,,Summary1.As2,ICELAND,2004,Subsector,3.  Agriculture
+A. Forest land (4),-121.59649681459425,0.02222495799333,0.00208359201572,,,,Summary1.As2,ICELAND,2004,Subsector,3.  Agriculture
+B. Cropland (4),1888.8761407491545,3.80580263605417,,,,,Summary1.As2,ICELAND,2004,Subsector,3.  Agriculture
+C. Grassland (4),5124.349995249482,15.72182215422086,0.00033323742228,,,,Summary1.As2,ICELAND,2004,Subsector,3.  Agriculture
+D. Wetlands (4),-1086.4825226240805,116.5554731749432,,,,,Summary1.As2,ICELAND,2004,Subsector,3.  Agriculture
+G. Harvested wood products ,-0.00024757687656,,,,,,Summary1.As2,ICELAND,2004,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,9.7931556638,,,,,Summary1.As2,ICELAND,2004,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.012,0.00072,,,,Summary1.As2,ICELAND,2004,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),5.22785267321043,0.045414007548,0.00158836931628,,,,Summary1.As2,ICELAND,2004,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.487694084025,0.0164255239,,,,Summary1.As2,ICELAND,2004,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,11.74642249787177,,,,,Summary1.As2,ICELAND,2005,Subsector,3.  Agriculture
+B.  Manure management,,2.30849900688366,0.04851996711137,,,,Summary1.As2,ICELAND,2005,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.74779094776738,,,,Summary1.As2,ICELAND,2005,Subsector,3.  Agriculture
+G. Liming,4.09349952,,,,,,Summary1.As2,ICELAND,2005,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.1274551358,,,,,,Summary1.As2,ICELAND,2005,Subsector,3.  Agriculture
+A. Forest land (4),-140.7576062710534,0.02317729583004,0.00217287223277,,,,Summary1.As2,ICELAND,2005,Subsector,3.  Agriculture
+B. Cropland (4),1889.242415585721,3.80667954210249,,,,,Summary1.As2,ICELAND,2005,Subsector,3.  Agriculture
+C. Grassland (4),5146.347480010761,15.81918474005636,0.00033937753843,,,,Summary1.As2,ICELAND,2005,Subsector,3.  Agriculture
+D. Wetlands (4),-1083.6770696493822,116.25810601244127,,,,,Summary1.As2,ICELAND,2005,Subsector,3.  Agriculture
+G. Harvested wood products ,0.00308290522559,,,,,,Summary1.As2,ICELAND,2005,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,9.3751684787,,,,,Summary1.As2,ICELAND,2005,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.02,0.0012,,,,Summary1.As2,ICELAND,2005,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),4.79160062558087,0.017779464334,0.00101097705657,,,,Summary1.As2,ICELAND,2005,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.3719010637,0.0166150127,,,,Summary1.As2,ICELAND,2005,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.00886480551756,,,,,Summary1.As2,ICELAND,2006,Subsector,3.  Agriculture
+B.  Manure management,,2.41313219856064,0.05131482333339,,,,Summary1.As2,ICELAND,2006,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.80551872034667,,,,Summary1.As2,ICELAND,2006,Subsector,3.  Agriculture
+G. Liming,2.76562352,,,,,,Summary1.As2,ICELAND,2006,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.68614335407,,,,,,Summary1.As2,ICELAND,2006,Subsector,3.  Agriculture
+A. Forest land (4),-147.30459354036262,0.02412207985345,0.00226144425694,,,,Summary1.As2,ICELAND,2006,Subsector,3.  Agriculture
+B. Cropland (4),1889.632627597784,3.80813200172617,5.279178218e-05,,,,Summary1.As2,ICELAND,2006,Subsector,3.  Agriculture
+C. Grassland (4),5207.976426264804,16.1869003799816,0.01495434908556,,,,Summary1.As2,ICELAND,2006,Subsector,3.  Agriculture
+D. Wetlands (4),-1078.7288654658926,115.77506239257406,0.00378428049332,,,,Summary1.As2,ICELAND,2006,Subsector,3.  Agriculture
+G. Harvested wood products ,0.00260674792567,,,,,,Summary1.As2,ICELAND,2006,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,10.6129078327,,,,,Summary1.As2,ICELAND,2006,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.032,0.00192,,,,Summary1.As2,ICELAND,2006,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),4.99432256032034,0.017157064195,0.00103794548528,,,,Summary1.As2,ICELAND,2006,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.0787922348,0.0169751679,,,,Summary1.As2,ICELAND,2006,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.22352380719005,,,,,Summary1.As2,ICELAND,2007,Subsector,3.  Agriculture
+B.  Manure management,,2.48221755340585,0.05183159393291,,,,Summary1.As2,ICELAND,2007,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.83945924103562,,,,Summary1.As2,ICELAND,2007,Subsector,3.  Agriculture
+G. Liming,1.403139476251,,,,,,Summary1.As2,ICELAND,2007,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,3.02392446617,,,,,,Summary1.As2,ICELAND,2007,Subsector,3.  Agriculture
+A. Forest land (4),-255.68102208855152,0.02468281782027,0.00231401080095,,,,Summary1.As2,ICELAND,2007,Subsector,3.  Agriculture
+B. Cropland (4),1890.038320345823,3.8084254359114,,,,,Summary1.As2,ICELAND,2007,Subsector,3.  Agriculture
+C. Grassland (4),5235.837758009147,16.16709377091965,0.00037867253481,,,,Summary1.As2,ICELAND,2007,Subsector,3.  Agriculture
+D. Wetlands (4),-1073.2036734323171,115.2199987676948,,,,,Summary1.As2,ICELAND,2007,Subsector,3.  Agriculture
+G. Harvested wood products ,-0.01490391198187,,,,,,Summary1.As2,ICELAND,2007,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,10.496603231,,,,,Summary1.As2,ICELAND,2007,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.04,0.0024,,,,Summary1.As2,ICELAND,2007,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),7.95948860575829,0.01690897135927,0.00112317506271,,,,Summary1.As2,ICELAND,2007,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.1944536756,0.0174169186,,,,Summary1.As2,ICELAND,2007,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.37751116289977,,,,,Summary1.As2,ICELAND,2008,Subsector,3.  Agriculture
+B.  Manure management,,2.50567705386702,0.05168144243466,,,,Summary1.As2,ICELAND,2008,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.8712163855055,,,,Summary1.As2,ICELAND,2008,Subsector,3.  Agriculture
+G. Liming,4.541360594222,,,,,,Summary1.As2,ICELAND,2008,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,3.34538239309,,,,,,Summary1.As2,ICELAND,2008,Subsector,3.  Agriculture
+A. Forest land (4),-259.3084877552296,0.02559155524708,0.0023992033476,,,,Summary1.As2,ICELAND,2008,Subsector,3.  Agriculture
+B. Cropland (4),1890.4669330703364,3.80929443986445,,,,,Summary1.As2,ICELAND,2008,Subsector,3.  Agriculture
+C. Grassland (4),5283.811113955758,16.3296908822587,0.00059391020576,,,,Summary1.As2,ICELAND,2008,Subsector,3.  Agriculture
+D. Wetlands (4),-1068.5985205614031,114.732721017741,7.766708098e-05,,,,Summary1.As2,ICELAND,2008,Subsector,3.  Agriculture
+G. Harvested wood products ,-0.00962321445248,,,,,,Summary1.As2,ICELAND,2008,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,10.0832791821,,,,,Summary1.As2,ICELAND,2008,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.042428,0.00254568,,,,Summary1.As2,ICELAND,2008,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),6.30633678330218,0.01583392532601,0.00101597381519,,,,Summary1.As2,ICELAND,2008,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,1.96281935095,0.0178419536,,,,Summary1.As2,ICELAND,2008,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.58413566970992,,,,,Summary1.As2,ICELAND,2009,Subsector,3.  Agriculture
+B.  Manure management,,2.54072110494803,0.05208798331757,,,,Summary1.As2,ICELAND,2009,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.81244764765614,,,,Summary1.As2,ICELAND,2009,Subsector,3.  Agriculture
+G. Liming,3.239505030984,,,,,,Summary1.As2,ICELAND,2009,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.64914413432,,,,,,Summary1.As2,ICELAND,2009,Subsector,3.  Agriculture
+A. Forest land (4),-272.19257525521937,0.02660642187163,0.00249434582774,,,,Summary1.As2,ICELAND,2009,Subsector,3.  Agriculture
+B. Cropland (4),1890.9209482693227,3.81016082591622,,,,,Summary1.As2,ICELAND,2009,Subsector,3.  Agriculture
+C. Grassland (4),5287.398250580143,16.3594483884364,0.00036512248686,,,,Summary1.As2,ICELAND,2009,Subsector,3.  Agriculture
+D. Wetlands (4),-1067.5291854776524,114.6366246483892,,,,,Summary1.As2,ICELAND,2009,Subsector,3.  Agriculture
+G. Harvested wood products ,-0.03021967952793,,,,,,Summary1.As2,ICELAND,2009,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,9.7117687594,,,,,Summary1.As2,ICELAND,2009,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.050951696,0.0030571018,,,,Summary1.As2,ICELAND,2009,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),6.25784200348128,0.014687395854,0.00087532894217,,,,Summary1.As2,ICELAND,2009,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,1.82297556375,0.0180903454,,,,Summary1.As2,ICELAND,2009,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.5700701761685,,,,,Summary1.As2,ICELAND,2010,Subsector,3.  Agriculture
+B.  Manure management,,2.41837652810815,0.05199717810417,,,,Summary1.As2,ICELAND,2010,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.78751263012174,,,,Summary1.As2,ICELAND,2010,Subsector,3.  Agriculture
+G. Liming,1.931091704667,,,,,,Summary1.As2,ICELAND,2010,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.29229176510425,,,,,,Summary1.As2,ICELAND,2010,Subsector,3.  Agriculture
+A. Forest land (4),-294.7206747730415,0.02720224185193,0.0025502014167,,,,Summary1.As2,ICELAND,2010,Subsector,3.  Agriculture
+B. Cropland (4),1891.3808715156467,3.81102460207027,,,,,Summary1.As2,ICELAND,2010,Subsector,3.  Agriculture
+C. Grassland (4),5288.342916056476,16.39441163282431,0.00038291533387,,,,Summary1.As2,ICELAND,2010,Subsector,3.  Agriculture
+D. Wetlands (4),-1066.5109029765624,114.52869184478824,1.0977679e-07,,,,Summary1.As2,ICELAND,2010,Subsector,3.  Agriculture
+G. Harvested wood products ,-0.03262015458812,,,,,,Summary1.As2,ICELAND,2010,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,9.7075957527,,,,,Summary1.As2,ICELAND,2010,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.0609781528,0.0036586892,,,,Summary1.As2,ICELAND,2010,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),6.0738090799514,0.01402263639999,0.00084349155977,,,,Summary1.As2,ICELAND,2010,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,1.7335055322,0.0179994187,,,,Summary1.As2,ICELAND,2010,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.51707682353809,,,,,Summary1.As2,ICELAND,2011,Subsector,3.  Agriculture
+B.  Manure management,,2.45991824027293,0.05165852875863,,,,Summary1.As2,ICELAND,2011,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.78057569572203,,,,Summary1.As2,ICELAND,2011,Subsector,3.  Agriculture
+G. Liming,2.418461736167,,,,,,Summary1.As2,ICELAND,2011,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.14475577708,,,,,,Summary1.As2,ICELAND,2011,Subsector,3.  Agriculture
+A. Forest land (4),-321.94173890804905,0.02779806183224,0.00260605700565,,,,Summary1.As2,ICELAND,2011,Subsector,3.  Agriculture
+B. Cropland (4),1891.83945623796,3.81188577629357,,,,,Summary1.As2,ICELAND,2011,Subsector,3.  Agriculture
+C. Grassland (4),5289.225572079973,16.42928634504087,0.00036987459727,,,,Summary1.As2,ICELAND,2011,Subsector,3.  Agriculture
+D. Wetlands (4),-1065.4842238088054,114.42221796988602,,,,,Summary1.As2,ICELAND,2011,Subsector,3.  Agriculture
+G. Harvested wood products ,-0.06058088778018,,,,,,Summary1.As2,ICELAND,2011,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,8.8549418452,,,,,Summary1.As2,ICELAND,2011,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.057123556,0.0034274134,,,,Summary1.As2,ICELAND,2011,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),6.78152557947515,0.013375681,0.00086398463272,,,,Summary1.As2,ICELAND,2011,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,1.81743587825,0.0180534638,,,,Summary1.As2,ICELAND,2011,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.24847615525769,,,,,Summary1.As2,ICELAND,2012,Subsector,3.  Agriculture
+B.  Manure management,,2.31757383723099,0.05027073490602,,,,Summary1.As2,ICELAND,2012,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.80620172672184,,,,Summary1.As2,ICELAND,2012,Subsector,3.  Agriculture
+G. Liming,3.515284158344,,,,,,Summary1.As2,ICELAND,2012,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.38627983499,,,,,,Summary1.As2,ICELAND,2012,Subsector,3.  Agriculture
+A. Forest land (4),-332.9292073017156,0.02839388181254,0.0026619125946,,,,Summary1.As2,ICELAND,2012,Subsector,3.  Agriculture
+B. Cropland (4),1892.296706515996,3.81274435651662,,,,,Summary1.As2,ICELAND,2012,Subsector,3.  Agriculture
+C. Grassland (4),5294.446295073532,16.46614120245487,0.00040681961088,,,,Summary1.As2,ICELAND,2012,Subsector,3.  Agriculture
+D. Wetlands (4),-1064.4202913077152,114.30880396396778,,,,,Summary1.As2,ICELAND,2012,Subsector,3.  Agriculture
+G. Harvested wood products ,-0.0665430321533,,,,,,Summary1.As2,ICELAND,2012,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,7.8370258466,,,,,Summary1.As2,ICELAND,2012,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.044717,0.00268302,,,,Summary1.As2,ICELAND,2012,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),6.54273839831866,0.013038193,0.00077501087104,,,,Summary1.As2,ICELAND,2012,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.11595399675,0.0181060089,,,,Summary1.As2,ICELAND,2012,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,11.97862292678059,,,,,Summary1.As2,ICELAND,2013,Subsector,3.  Agriculture
+B.  Manure management,,2.22464377196106,0.0491100831828,,,,Summary1.As2,ICELAND,2013,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.78963852194712,,,,Summary1.As2,ICELAND,2013,Subsector,3.  Agriculture
+G. Liming,2.802102966667,,,,,,Summary1.As2,ICELAND,2013,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.20758766322,,,,,,Summary1.As2,ICELAND,2013,Subsector,3.  Agriculture
+A. Forest land (4),-350.6201946945731,0.02857213125309,0.00267861968162,,,,Summary1.As2,ICELAND,2013,Subsector,3.  Agriculture
+B. Cropland (4),1892.7526264108656,3.81360035063373,,,,,Summary1.As2,ICELAND,2013,Subsector,3.  Agriculture
+C. Grassland (4),5298.947278472339,16.50259742187198,0.0004778449064,,,,Summary1.As2,ICELAND,2013,Subsector,3.  Agriculture
+D. Wetlands (4),-1063.379055473292,114.19758195804954,,,,,Summary1.As2,ICELAND,2013,Subsector,3.  Agriculture
+G. Harvested wood products ,-0.06523816388002,,,,,,Summary1.As2,ICELAND,2013,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,8.3242981503,,,,,Summary1.As2,ICELAND,2013,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.059868,0.00359208,,,,Summary1.As2,ICELAND,2013,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),5.49582974915334,0.013277089,0.000828217,,,,Summary1.As2,ICELAND,2013,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,2.0087302129,0.0182320134,,,,Summary1.As2,ICELAND,2013,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.65741498482391,,,,,Summary1.As2,ICELAND,2014,Subsector,3.  Agriculture
+B.  Manure management,,2.41292647628979,0.05220430682788,,,,Summary1.As2,ICELAND,2014,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.8596150209799,,,,Summary1.As2,ICELAND,2014,Subsector,3.  Agriculture
+G. Liming,2.04638016,,,,,,Summary1.As2,ICELAND,2014,Subsector,3.  Agriculture
+H. Urea application,0.0066,,,,,,Summary1.As2,ICELAND,2014,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.62698075529,,,,,,Summary1.As2,ICELAND,2014,Subsector,3.  Agriculture
+A. Forest land (4),-374.2435757814797,0.02903829205341,0.00272231933001,,,,Summary1.As2,ICELAND,2014,Subsector,3.  Agriculture
+B. Cropland (4),1893.207219965168,3.81445376650323,,,,,Summary1.As2,ICELAND,2014,Subsector,3.  Agriculture
+C. Grassland (4),5302.674345492478,16.54006448954102,0.00051036665636,,,,Summary1.As2,ICELAND,2014,Subsector,3.  Agriculture
+E. Settlements (4),3.54141408486214,,2.706785026e-05,,,,Summary1.As2,ICELAND,2014,Subsector,"4.  Land use, land-use change and forestry  (4)"
+G. Harvested wood products ,-0.12415273687563,,,,,,Summary1.As2,ICELAND,2014,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,8.1835616197,,,,,Summary1.As2,ICELAND,2014,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.08056,0.0048336,,,,Summary1.As2,ICELAND,2014,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),7.48946531511704,0.01351983084,0.00138227719856,,,,Summary1.As2,ICELAND,2014,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,1.548174505924,0.0184632605,,,,Summary1.As2,ICELAND,2014,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.76772736528678,,,,,Summary1.As2,ICELAND,2015,Subsector,3.  Agriculture
+B.  Manure management,,2.45598702356326,0.05213166182639,,,,Summary1.As2,ICELAND,2015,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.80680284180222,,,,Summary1.As2,ICELAND,2015,Subsector,3.  Agriculture
+G. Liming,3.284317666667,,,,,,Summary1.As2,ICELAND,2015,Subsector,3.  Agriculture
+H. Urea application,0.0066,,,,,,Summary1.As2,ICELAND,2015,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.05469546715,,,,,,Summary1.As2,ICELAND,2015,Subsector,3.  Agriculture
+A. Forest land (4),-399.1699304067108,0.02913054899396,0.00273096435989,,,,Summary1.As2,ICELAND,2015,Subsector,3.  Agriculture
+B. Cropland (4),1893.7662012031049,3.81530461194769,,,,,Summary1.As2,ICELAND,2015,Subsector,3.  Agriculture
+C. Grassland (4),5304.136135263171,16.5814704291603,0.00096212384061,,,,Summary1.As2,ICELAND,2015,Subsector,3.  Agriculture
+E. Settlements (4),3.7326230023712,,2.886981526e-05,,,,Summary1.As2,ICELAND,2015,Subsector,"4.  Land use, land-use change and forestry  (4)"
+G. Harvested wood products ,-0.03824493293901,,,,,,Summary1.As2,ICELAND,2015,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,8.0059192095,,,,,Summary1.As2,ICELAND,2015,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.0852056,0.005112336,,,,Summary1.As2,ICELAND,2015,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),6.92267389567021,0.01358738855,0.00100194544183,,,,Summary1.As2,ICELAND,2015,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,1.752425864476,0.0186570691,,,,Summary1.As2,ICELAND,2015,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.8521821557068,,,,,Summary1.As2,ICELAND,2016,Subsector,3.  Agriculture
+B.  Manure management,,2.48991832221355,0.05235950498376,,,,Summary1.As2,ICELAND,2016,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.79386361895156,,,,Summary1.As2,ICELAND,2016,Subsector,3.  Agriculture
+G. Liming,2.8184046,,,,,,Summary1.As2,ICELAND,2016,Subsector,3.  Agriculture
+H. Urea application,0.2449333333,,,,,,Summary1.As2,ICELAND,2016,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,1.83597669009,,,,,,Summary1.As2,ICELAND,2016,Subsector,3.  Agriculture
+A. Forest land (4),-422.9210727981003,0.02930879843451,0.00274767144691,,,,Summary1.As2,ICELAND,2016,Subsector,3.  Agriculture
+B. Cropland (4),1893.8986774639243,3.81615289475414,,,,,Summary1.As2,ICELAND,2016,Subsector,3.  Agriculture
+C. Grassland (4),5299.977864926691,16.60785247545571,0.00036937799039,,,,Summary1.As2,ICELAND,2016,Subsector,3.  Agriculture
+E. Settlements (4),3.72457414925725,,2.886981526e-05,,,,Summary1.As2,ICELAND,2016,Subsector,"4.  Land use, land-use change and forestry  (4)"
+G. Harvested wood products ,-0.09436319945853,,,,,,Summary1.As2,ICELAND,2016,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,7.6788601993,,,,,Summary1.As2,ICELAND,2016,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.09123716,0.0054742296,,,,Summary1.As2,ICELAND,2016,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),7.46883523807303,0.013826598058,0.00109835831816,,,,Summary1.As2,ICELAND,2016,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,1.516587426232,0.0188528903,,,,Summary1.As2,ICELAND,2016,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.57889953050473,,,,,Summary1.As2,ICELAND,2017,Subsector,3.  Agriculture
+B.  Manure management,,2.44707579834361,0.05148607051349,,,,Summary1.As2,ICELAND,2017,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.83106042744786,,,,Summary1.As2,ICELAND,2017,Subsector,3.  Agriculture
+G. Liming,2.317588533333,,,,,,Summary1.As2,ICELAND,2017,Subsector,3.  Agriculture
+H. Urea application,0.5400266667,,,,,,Summary1.As2,ICELAND,2017,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.12503742613,,,,,,Summary1.As2,ICELAND,2017,Subsector,3.  Agriculture
+A. Forest land (4),-461.0225264455299,0.02948704787506,0.00276437853392,,,,Summary1.As2,ICELAND,2017,Subsector,3.  Agriculture
+B. Cropland (4),1894.5630827353643,3.81699862267426,,,,,Summary1.As2,ICELAND,2017,Subsector,3.  Agriculture
+C. Grassland (4),5298.319203638287,16.64412218494395,0.00048443159712,,,,Summary1.As2,ICELAND,2017,Subsector,3.  Agriculture
+E. Settlements (4),3.71579638220179,,2.917014276e-05,,,,Summary1.As2,ICELAND,2017,Subsector,"4.  Land use, land-use change and forestry  (4)"
+G. Harvested wood products ,-0.15021242781801,,,,,,Summary1.As2,ICELAND,2017,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,7.3921940335,,,,,Summary1.As2,ICELAND,2017,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.086820112,0.0052092067,,,,Summary1.As2,ICELAND,2017,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),7.84148153102629,0.0142471534788,0.00121034148096,,,,Summary1.As2,ICELAND,2017,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,1.626429084266,0.0191779034,,,,Summary1.As2,ICELAND,2017,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,12.18258550000108,,,,,Summary1.As2,ICELAND,2018,Subsector,3.  Agriculture
+B.  Manure management,,2.39227296336256,0.04985769469577,,,,Summary1.As2,ICELAND,2018,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.79536087636614,,,,Summary1.As2,ICELAND,2018,Subsector,3.  Agriculture
+G. Liming,3.1456524,,,,,,Summary1.As2,ICELAND,2018,Subsector,3.  Agriculture
+H. Urea application,0.7204266667,,,,,,Summary1.As2,ICELAND,2018,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,1.82916183841,,,,,,Summary1.As2,ICELAND,2018,Subsector,3.  Agriculture
+A. Forest land (4),-490.2755789564235,0.02966529731561,0.00278108562094,,,,Summary1.As2,ICELAND,2018,Subsector,3.  Agriculture
+B. Cropland (4),1895.0124109870972,3.8178418034246,,,,,Summary1.As2,ICELAND,2018,Subsector,3.  Agriculture
+C. Grassland (4),5301.608569266103,16.6785513343232,0.00036918147858,,,,Summary1.As2,ICELAND,2018,Subsector,3.  Agriculture
+E. Settlements (4),3.72580248259076,,2.917014276e-05,,,,Summary1.As2,ICELAND,2018,Subsector,"4.  Land use, land-use change and forestry  (4)"
+G. Harvested wood products ,-0.07709611831927,,,,,,Summary1.As2,ICELAND,2018,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,7.7132700869,,,,,Summary1.As2,ICELAND,2018,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.096021636,0.0057612982,,,,Summary1.As2,ICELAND,2018,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),6.8871358794614,0.0139810312111,0.0010947719015,,,,Summary1.As2,ICELAND,2018,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,1.686444406752,0.0197315489,,,,Summary1.As2,ICELAND,2018,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,11.80965647570475,,,,,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+B.  Manure management,,2.35900811704472,0.04795535361234,,,,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.76109558107237,,,,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+G. Liming,5.610593413333,,,,,,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+H. Urea application,3.1885993333,,,,,,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,1.54566421708,,,,,,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+A. Forest land (4),-491.2668600181036,0.02984354675617,0.00279779270795,,,,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+B. Cropland (4),1895.4604328375049,3.81868244468686,,,,,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+C. Grassland (4),5304.358941924432,16.70714829189238,0.00036908367371,,,,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+E. Settlements (4),3.72859709376653,,2.917014276e-05,,,,Summary1.As2,ICELAND,2019,Subsector,"4.  Land use, land-use change and forestry  (4)"
+G. Harvested wood products ,-0.04066522412166,,,,,,Summary1.As2,ICELAND,2019,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,6.3995946154,,,,,Summary1.As2,ICELAND,2019,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.0954596924,0.0057275815,,,,Summary1.As2,ICELAND,2019,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),9.11651196130979,0.016020102829,0.0016144790678,,,,Summary1.As2,ICELAND,2019,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,1.513751644925,0.0202015562,,,,Summary1.As2,ICELAND,2019,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,11.61201676411474,,,,,Summary1.As2,ICELAND,2020,Subsector,3.  Agriculture
+B.  Manure management,,2.30492749208857,0.04685001725688,,,,Summary1.As2,ICELAND,2020,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.77772816676893,,,,Summary1.As2,ICELAND,2020,Subsector,3.  Agriculture
+G. Liming,5.265879226667,,,,,,Summary1.As2,ICELAND,2020,Subsector,3.  Agriculture
+H. Urea application,1.667765,,,,,,Summary1.As2,ICELAND,2020,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,1.88801191338,,,,,,Summary1.As2,ICELAND,2020,Subsector,3.  Agriculture
+A. Forest land (4),-494.52103905238295,0.03057696100779,0.00285842385052,,,,Summary1.As2,ICELAND,2020,Subsector,3.  Agriculture
+B. Cropland (4),1895.9071522204524,3.82034122815592,7.493110873e-05,,,,Summary1.As2,ICELAND,2020,Subsector,3.  Agriculture
+C. Grassland (4),5307.455636573648,16.72920257281298,0.00042873398916,,,,Summary1.As2,ICELAND,2020,Subsector,3.  Agriculture
+E. Settlements (4),13.90139467398471,,3.001706631e-05,,,,Summary1.As2,ICELAND,2020,Subsector,"4.  Land use, land-use change and forestry  (4)"
+G. Harvested wood products ,-0.04069921069763,,,,,,Summary1.As2,ICELAND,2020,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,7.411455011,,,,,Summary1.As2,ICELAND,2020,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.128019568,0.0076059941,,,,Summary1.As2,ICELAND,2020,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),6.63275100512603,0.004196329136,0.00086584183796,,,,Summary1.As2,ICELAND,2020,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,1.43111402163,0.0206787548,,,,Summary1.As2,ICELAND,2020,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Enteric fermentation,,11.54782612392446,,,,,Summary1.As2,ICELAND,2021,Subsector,3.  Agriculture
+B.  Manure management,,2.31987242080908,0.04669484798894,,,,Summary1.As2,ICELAND,2021,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.79325109415169,,,,Summary1.As2,ICELAND,2021,Subsector,3.  Agriculture
+G. Liming,5.768915533333,,,,,,Summary1.As2,ICELAND,2021,Subsector,3.  Agriculture
+H. Urea application,1.4764933333,,,,,,Summary1.As2,ICELAND,2021,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,1.94476906662,,,,,,Summary1.As2,ICELAND,2021,Subsector,3.  Agriculture
+A. Forest land (4),-510.6317404315821,0.03184550935698,0.00293544968277,,,,Summary1.As2,ICELAND,2021,Subsector,3.  Agriculture
+B. Cropland (4),1896.3507464604436,3.82035242340764,,,,,Summary1.As2,ICELAND,2021,Subsector,3.  Agriculture
+C. Grassland (4),5304.2543446608615,16.75786297550196,0.00040261249665,,,,Summary1.As2,ICELAND,2021,Subsector,3.  Agriculture
+E. Settlements (4),8.79664444135624,,4.437272081e-05,,,,Summary1.As2,ICELAND,2021,Subsector,"4.  Land use, land-use change and forestry  (4)"
+G. Harvested wood products ,-0.01412751265272,,,,,,Summary1.As2,ICELAND,2021,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,7.3993230566,,,,,Summary1.As2,ICELAND,2021,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,0.1334736128,0.0066314714,,,,Summary1.As2,ICELAND,2021,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),6.61431586027997,0.003642392003,0.00086986246284,,,,Summary1.As2,ICELAND,2021,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D.  Wastewater treatment and discharge,,1.546751323083,0.0209314409,,,,Summary1.As2,ICELAND,2021,Subsector,"4.  Land use, land-use change and forestry  (4)"
+Navigation,27.8051817605,0.0026393976,0.0007541136,,,,Summary1.As3,ICELAND,1990,Subsector,International bunkers
+Navigation,13.8665906717,0.001318079,0.000376594,,,,Summary1.As3,ICELAND,1991,Subsector,International bunkers
+Navigation,20.278523656,0.0019185642,0.0005481612,,,,Summary1.As3,ICELAND,1992,Subsector,International bunkers
+Navigation,29.5698101341,0.0027974786,0.0007992796,,,,Summary1.As3,ICELAND,1993,Subsector,International bunkers
+Navigation,33.6532843912,0.003164133,0.000904038,,,,Summary1.As3,ICELAND,1994,Subsector,International bunkers
+Navigation,3.3344416482,0.000316953,9.0558e-05,,,,Summary1.As3,ICELAND,1995,Subsector,International bunkers
+Navigation,19.0157973241,0.001806532,0.000516152,,,,Summary1.As3,ICELAND,1996,Subsector,International bunkers
+Navigation,38.116320352,0.0035877058,0.0010250588,,,,Summary1.As3,ICELAND,1997,Subsector,International bunkers
+Navigation,51.5238265284,0.0048676964,0.0013907704,,,,Summary1.As3,ICELAND,1998,Subsector,International bunkers
+Navigation,38.9176074633,0.0036904322,0.0010544092,,,,Summary1.As3,ICELAND,1999,Subsector,International bunkers
+Navigation,53.8645984386,0.005091527,0.001454722,,,,Summary1.As3,ICELAND,2000,Subsector,International bunkers
+Navigation,59.0095880409,0.0055913648,0.0015975328,,,,Summary1.As3,ICELAND,2001,Subsector,International bunkers
+Navigation,84.9927598489,0.0080593604,0.0023026744,,,,Summary1.As3,ICELAND,2002,Subsector,International bunkers
+Navigation,19.2191321304,0.0018150468,0.0005185848,,,,Summary1.As3,ICELAND,2003,Subsector,International bunkers
+Navigation,20.8443338054,0.0019753076,0.0005643736,,,,Summary1.As3,ICELAND,2004,Subsector,International bunkers
+Navigation,1.7363455452,0.0001587824,4.53664e-05,,,,Summary1.As3,ICELAND,2005,Subsector,International bunkers
+Navigation,17.164724096,0.001584667,0.000452762,,,,Summary1.As3,ICELAND,2006,Subsector,International bunkers
+Navigation,11.9420761515,0.0011022774,0.0003149364,,,,Summary1.As3,ICELAND,2007,Subsector,International bunkers
+Navigation,47.5334642802,0.0043424192,0.0012406912,,,,Summary1.As3,ICELAND,2008,Subsector,International bunkers
+Navigation,8.1483001968,0.0007382872,0.0002109392,,,,Summary1.As3,ICELAND,2009,Subsector,International bunkers
+Navigation,0.2500490667,2.2624e-05,6.464e-06,,,,Summary1.As3,ICELAND,2010,Subsector,International bunkers
+Navigation,49.6194504833,0.0045857126,0.0013102036,,,,Summary1.As3,ICELAND,2011,Subsector,International bunkers
+Navigation,23.7497766331,0.0021570542,0.0006163012,,,,Summary1.As3,ICELAND,2012,Subsector,International bunkers
+Navigation,78.0786219063,0.0072337244,0.0020667784,,,,Summary1.As3,ICELAND,2013,Subsector,International bunkers
+Navigation,70.5342089411,0.0065933882,0.0018838252,,,,Summary1.As3,ICELAND,2014,Subsector,International bunkers
+Navigation,147.6637249969,0.0138465712,0.0039561632,,,,Summary1.As3,ICELAND,2015,Subsector,International bunkers
+Navigation,184.4981506851,0.0171911096,0.0049117456,,,,Summary1.As3,ICELAND,2016,Subsector,International bunkers
+Navigation,211.2669224843,0.0196236404,0.0056067544,,,,Summary1.As3,ICELAND,2017,Subsector,International bunkers
+Navigation,240.2070825494,0.0224048916,0.0064013976,,,,Summary1.As3,ICELAND,2018,Subsector,International bunkers
+Navigation,203.524439455,0.0191010414,0.0054574404,,,,Summary1.As3,ICELAND,2019,Subsector,International bunkers
+Navigation,77.190776671,0.0072728907,0.0020779688,,,,Summary1.As3,ICELAND,2020,Subsector,International bunkers
+Navigation,122.5483112171,0.0115828112,0.0033093746,,,,Summary1.As3,ICELAND,2021,Subsector,International bunkers

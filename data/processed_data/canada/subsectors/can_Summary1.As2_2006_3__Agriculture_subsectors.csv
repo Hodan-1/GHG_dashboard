@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,1196.1880496214053,,Summary1.As2,CANADA,2006,Subsector,3.  Agriculture
+B.  Manure management,,155.948701953691,15.59162665545703,Summary1.As2,CANADA,2006,Subsector,3.  Agriculture
+D.  Agricultural soils,,,44.51723655696586,Summary1.As2,CANADA,2006,Subsector,3.  Agriculture
+F.  Field burning of agricultural residues,,1.46248080568178,0.0379161690362,Summary1.As2,CANADA,2006,Subsector,3.  Agriculture
+G. Liming,212.23527599999997,,,Summary1.As2,CANADA,2006,Subsector,3.  Agriculture
+H. Urea application,1097.0666666666666,,,Summary1.As2,CANADA,2006,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,157.52,,,Summary1.As2,CANADA,2006,Subsector,3.  Agriculture
+A. Forest land (4),-135444.34741100014,20.230348,0.977177,Summary1.As2,CANADA,2006,Subsector,3.  Agriculture
+B. Cropland (4),-25169.77126207336,3.809182,0.183754,Summary1.As2,CANADA,2006,Subsector,3.  Agriculture

@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),52666.79139259707,,,,,,Summary1.As1,BELARUS,2008,Subsector,1. Energy
+                                           Sectoral approach(2),56660.998457999995,15.63470820445,2.1536871058,,,,Summary1.As1,BELARUS,2008,Subsector,1. Energy
+1.  Energy industries,32990.0226825,1.25311739,0.167385026,,,,Summary1.As1,BELARUS,2008,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,4300.199265,0.16317054,0.021782026,,,,Summary1.As1,BELARUS,2008,Subsector,1. Energy
+3.  Transport,10546.244227000001,2.06890193445,0.8511889938,,,,Summary1.As1,BELARUS,2008,Subsector,1. Energy
+4.  Other sectors,7217.9469485,11.57368024,1.101459042,,,,Summary1.As1,BELARUS,2008,Subsector,1. Energy
+5.  Other,1606.585335,0.5758381,0.011872018,,,,Summary1.As1,BELARUS,2008,Subsector,1. Energy
+B. Fugitive emissions from fuels,6.54876213913718,114.2100897624312,8.2764e-07,,,,Summary1.As1,BELARUS,2008,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,6.54876213913718,114.2100897624312,8.2764e-07,,,,Summary1.As1,BELARUS,2008,Subsector,1. Energy
+A.  Mineral industry,2807.4559635919272,,,,,,Summary1.As1,BELARUS,2008,Subsector,1. Energy

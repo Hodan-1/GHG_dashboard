@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,382.86274707369074,,Summary1.As2,JAPAN,1993,Subsector,3.  Agriculture
+B.  Manure management,,133.01209723798704,14.36428006360784,Summary1.As2,JAPAN,1993,Subsector,3.  Agriculture
+C.  Rice cultivation,,508.5041391315053,,Summary1.As2,JAPAN,1993,Subsector,3.  Agriculture
+D.  Agricultural soils,,,24.2270226047041,Summary1.As2,JAPAN,1993,Subsector,3.  Agriculture
+F.  Field burning of agricultural residues,,4.41143114841047,0.11437043718103,Summary1.As2,JAPAN,1993,Subsector,3.  Agriculture
+G. Liming,481.5826187333333,,,Summary1.As2,JAPAN,1993,Subsector,3.  Agriculture
+H. Urea application,167.816,,,Summary1.As2,JAPAN,1993,Subsector,3.  Agriculture
+A. Forest land (4),-94681.91663074857,1.14198024717953,0.19176836982052,Summary1.As2,JAPAN,1993,Subsector,3.  Agriculture
+B. Cropland (4),2438.539436920104,1.89668584682687,0.07939042146262,Summary1.As2,JAPAN,1993,Subsector,3.  Agriculture

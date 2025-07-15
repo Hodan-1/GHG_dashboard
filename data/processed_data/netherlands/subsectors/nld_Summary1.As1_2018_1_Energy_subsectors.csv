@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),151288.3082599763,,,,,,Summary1.As1,NETHERLANDS,2018,Subsector,1. Energy
+                                           Sectoral approach(2),150665.12799194292,66.14652618054758,2.07386986267754,,,,Summary1.As1,NETHERLANDS,2018,Subsector,1. Energy
+1.  Energy industries,59275.49449392086,4.2378447363244,0.88845998519045,,,,Summary1.As1,NETHERLANDS,2018,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,27990.468255604657,2.59467487165987,0.14432748315512,,,,Summary1.As1,NETHERLANDS,2018,Subsector,1. Energy
+3.  Transport,30009.003907756214,2.58983003777846,0.86005850480197,,,,Summary1.As1,NETHERLANDS,2018,Subsector,1. Energy
+4.  Other sectors,33238.48973897796,56.71133609854198,0.17322517197488,,,,Summary1.As1,NETHERLANDS,2018,Subsector,1. Energy
+5.  Other,151.671595683232,0.01284043624287,0.00779871755512,,,,Summary1.As1,NETHERLANDS,2018,Subsector,1. Energy
+B. Fugitive emissions from fuels,1101.2094691759823,19.0432832,,,,,Summary1.As1,NETHERLANDS,2018,Subsector,1. Energy
+1.  Solid fuels,74.0167557759824,0.1962212,,,,,Summary1.As1,NETHERLANDS,2018,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,1027.1927134,18.847062,,,,,Summary1.As1,NETHERLANDS,2018,Subsector,1. Energy

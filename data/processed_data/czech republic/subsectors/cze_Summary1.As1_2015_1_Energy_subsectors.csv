@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),93183.17097327716,,,,,,Summary1.As1,CZECH REPUBLIC,2015,Subsector,1. Energy
+                                           Sectoral approach(2),92898.91741669539,39.40569314585806,2.03444754414006,,,,Summary1.As1,CZECH REPUBLIC,2015,Subsector,1. Energy
+1.  Energy industries,53407.12376073054,1.3059798555886,0.83993375852847,,,,Summary1.As1,CZECH REPUBLIC,2015,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,9770.666132982316,1.55175175796424,0.21032540083387,,,,Summary1.As1,CZECH REPUBLIC,2015,Subsector,1. Energy
+3.  Transport,17295.547565208275,1.27003535925027,0.56340233121133,,,,Summary1.As1,CZECH REPUBLIC,2015,Subsector,1. Energy
+4.  Other sectors,12056.726962674262,35.2568867819784,0.40952830560152,,,,Summary1.As1,CZECH REPUBLIC,2015,Subsector,1. Energy
+5.  Other,368.8529951,0.02103939107655,0.01125774796487,,,,Summary1.As1,CZECH REPUBLIC,2015,Subsector,1. Energy
+B. Fugitive emissions from fuels,196.4596175454315,169.16273475725214,7.929350649e-05,,,,Summary1.As1,CZECH REPUBLIC,2015,Subsector,1. Energy
+1.  Solid fuels,191.067976,144.84197527710182,,,,,Summary1.As1,CZECH REPUBLIC,2015,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,5.39164154543152,24.3207594801503,7.929350649e-05,,,,Summary1.As1,CZECH REPUBLIC,2015,Subsector,1. Energy

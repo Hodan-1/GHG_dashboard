@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs (1) (kt CO2 equivalent),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,1136.8194373355077,,,Summary1.As2,NEW ZEALAND,2012,Subsector,3.  Agriculture
+B.  Manure management,,56.07307362866391,0.33306841651584,,Summary1.As2,NEW ZEALAND,2012,Subsector,3.  Agriculture
+D.  Agricultural soils,,,23.52112633407832,,Summary1.As2,NEW ZEALAND,2012,Subsector,3.  Agriculture
+F.  Field burning of agricultural residues,,1.04082712356564,0.01807902648923,,Summary1.As2,NEW ZEALAND,2012,Subsector,3.  Agriculture
+G. Liming,562.544928,,,,Summary1.As2,NEW ZEALAND,2012,Subsector,3.  Agriculture
+H. Urea application,494.2353780078838,,,,Summary1.As2,NEW ZEALAND,2012,Subsector,3.  Agriculture
+A. Forest land (4),-28170.43439868266,0.5519668109521,0.84402910229285,,Summary1.As2,NEW ZEALAND,2012,Subsector,3.  Agriculture
+B. Cropland (4),453.11125496960926,,0.04175908510929,,Summary1.As2,NEW ZEALAND,2012,Subsector,3.  Agriculture
+C. Grassland (4),7974.466870389303,2.45007993628209,0.16308249808172,,Summary1.As2,NEW ZEALAND,2012,Subsector,3.  Agriculture

@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),1103077.8921606666,,,,,,Summary1.As1,JAPAN,1992,Subsector,1. Energy
+                                           Sectoral approach(2),1097934.7386957044,53.33635802718574,23.35525035301918,,,,Summary1.As1,JAPAN,1992,Subsector,1. Energy
+1.  Energy industries,374332.7284248577,16.55427133451854,3.02226830707536,,,,Summary1.As1,JAPAN,1992,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,341232.47345939744,14.1898341569975,4.62214769227494,,,,Summary1.As1,JAPAN,1992,Subsector,1. Energy
+3.  Transport,220526.06623127253,12.09094954592065,13.26774406971849,,,,Summary1.As1,JAPAN,1992,Subsector,1. Energy
+4.  Other sectors,161843.47058017668,10.50130298974905,2.44309028395039,,,,Summary1.As1,JAPAN,1992,Subsector,1. Energy
+B. Fugitive emissions from fuels,208.861044918514,156.96380828776216,0.00738405731,,,,Summary1.As1,JAPAN,1992,Subsector,1. Energy
+1.  Solid fuels,4.83235277697378,147.8965529154492,0.0068256,,,,Summary1.As1,JAPAN,1992,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,204.02869214154023,9.06725537231297,0.00055845731,,,,Summary1.As1,JAPAN,1992,Subsector,1. Energy
+A.  Mineral industry,50515.74217705322,,,,,,Summary1.As1,JAPAN,1992,Subsector,1. Energy

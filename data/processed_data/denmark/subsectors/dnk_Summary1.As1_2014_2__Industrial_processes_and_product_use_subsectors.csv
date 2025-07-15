@@ -1,0 +1,7 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+C.  Metal industry,0.175,,,,,,Summary1.As1,DENMARK,2014,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,183.7850335775389,0.0185495146496,0.000685860816,,,,Summary1.As1,DENMARK,2014,Subsector,2.  Industrial processes and product use
+E.  Electronic industry ,,,,1.736,2.4384,,Summary1.As1,DENMARK,2014,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,641.9022988551553,0.001602,,Summary1.As1,DENMARK,2014,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.1617087225,0.09356313525,0.060655449965,,,0.00678048626883,Summary1.As1,DENMARK,2014,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,DENMARK,2014,Subsector,2.  Industrial processes and product use

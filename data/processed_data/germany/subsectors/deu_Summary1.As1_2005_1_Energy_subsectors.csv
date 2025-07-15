@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),Unspecified mix of HFCs and PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),802219.2554893007,,,,,,,Summary1.As1,GERMANY,2005,Subsector,1. Energy
+                                           Sectoral approach(2),807930.2988582,87.87281807,16.08130857,,,,,Summary1.As1,GERMANY,2005,Subsector,1. Energy
+1.  Energy industries,377426.83636672,33.65266457,8.89235527,,,,,Summary1.As1,GERMANY,2005,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,112500.1312289,9.61854335,2.42225766,,,,,Summary1.As1,GERMANY,2005,Subsector,1. Energy
+3.  Transport,159705.69884529,13.53918103,3.00861842,,,,,Summary1.As1,GERMANY,2005,Subsector,1. Energy
+4.  Other sectors,156593.0264905,30.96820256,1.73265765,,,,,Summary1.As1,GERMANY,2005,Subsector,1. Energy
+5.  Other,1704.60592679,0.09422656,0.02541957,,,,,Summary1.As1,GERMANY,2005,Subsector,1. Energy
+B. Fugitive emissions from fuels,2953.85861636,543.26295989,0.00540058,,,,,Summary1.As1,GERMANY,2005,Subsector,1. Energy
+1.  Solid fuels,741.01048566,304.78556756,,,,,,Summary1.As1,GERMANY,2005,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,2212.8481307,238.47739233,0.00540058,,,,,Summary1.As1,GERMANY,2005,Subsector,1. Energy

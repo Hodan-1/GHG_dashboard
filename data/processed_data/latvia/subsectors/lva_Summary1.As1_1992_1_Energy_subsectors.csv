@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),14035.931420041268,,,Summary1.As1,LATVIA,1992,Subsector,1. Energy
+                                           Sectoral approach(2),13853.586675568693,11.9618825873457,0.90190889178186,Summary1.As1,LATVIA,1992,Subsector,1. Energy
+1.  Energy industries,4924.6352475715,0.15050855,0.030890945,Summary1.As1,LATVIA,1992,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,2493.857183158254,0.118793547,0.12887782,Summary1.As1,LATVIA,1992,Subsector,1. Energy
+3.  Transport,2457.188514176738,0.74745407914418,0.22289997678186,Summary1.As1,LATVIA,1992,Subsector,1. Energy
+4.  Other sectors,3977.9057306622003,10.94512641120152,0.51924015,Summary1.As1,LATVIA,1992,Subsector,1. Energy
+B. Fugitive emissions from fuels,0.010092,8.696685,,Summary1.As1,LATVIA,1992,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,0.010092,8.696685,,Summary1.As1,LATVIA,1992,Subsector,1. Energy
+A.  Mineral industry,226.26111974134636,,,Summary1.As1,LATVIA,1992,Subsector,1. Energy
+C.  Metal industry,43.2595936014048,0.001229175,,Summary1.As1,LATVIA,1992,Subsector,1. Energy

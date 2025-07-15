@@ -1,0 +1,8 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),Unspecified mix of HFCs and PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+B.  Chemical industry,8403.7347466,24.26230141,17.48543634,,,1277.11,0.00900000001,Summary1.As1,GERMANY,2000,Subsector,2.  Industrial processes and product use
+C.  Metal industry,23460.45582133,0.35640218,0.06248155,,371.52,,0.013815,Summary1.As1,GERMANY,2000,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,2328.06436828,,0.00326791,,,,,Summary1.As1,GERMANY,2000,Subsector,2.  Industrial processes and product use
+E.  Electronic industry ,,,,17.8913276,391.5902478263,,0.00235725244,Summary1.As1,GERMANY,2000,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,5637.94688771692,114.570008909,,,Summary1.As1,GERMANY,2000,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,,0.81610098,4.15756213,,,,0.15344607139,Summary1.As1,GERMANY,2000,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,718.6935387999999,,Summary1.As1,GERMANY,2000,Subsector,2.  Industrial processes and product use

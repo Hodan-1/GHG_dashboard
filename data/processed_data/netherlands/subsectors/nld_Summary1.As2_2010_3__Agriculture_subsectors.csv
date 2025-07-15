@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,318.2008309279676,,Summary1.As2,NETHERLANDS,2010,Subsector,3.  Agriculture
+B.  Manure management,,148.41647685939233,2.47223623197368,Summary1.As2,NETHERLANDS,2010,Subsector,3.  Agriculture
+D.  Agricultural soils,,,16.63808514464411,Summary1.As2,NETHERLANDS,2010,Subsector,3.  Agriculture
+G. Liming,59.7156176245163,,,Summary1.As2,NETHERLANDS,2010,Subsector,3.  Agriculture
+H. Urea application,32.3195714285714,,,Summary1.As2,NETHERLANDS,2010,Subsector,3.  Agriculture
+J.  Other ,,,,Summary1.As2,NETHERLANDS,2010,Subsector,3.  Agriculture
+A. Forest land (4),-2349.131026997335,0.14780585,0.02000797115,Summary1.As2,NETHERLANDS,2010,Subsector,3.  Agriculture
+B. Cropland (4),2584.689953860669,2.002581,0.1829507,Summary1.As2,NETHERLANDS,2010,Subsector,3.  Agriculture
+C. Grassland (4),2889.221447092069,7.0236006914,0.01835914413,Summary1.As2,NETHERLANDS,2010,Subsector,3.  Agriculture

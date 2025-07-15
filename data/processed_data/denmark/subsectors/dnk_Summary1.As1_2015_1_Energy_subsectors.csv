@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),33357.653196925734,,,,,,Summary1.As1,DENMARK,2015,Subsector,1. Energy
+                                           Sectoral approach(2),34752.432800446164,11.0976690696178,1.19103515264271,,,,Summary1.As1,DENMARK,2015,Subsector,1. Energy
+1.  Energy industries,12944.188689070805,3.50721825823279,0.27990546861849,,,,Summary1.As1,DENMARK,2015,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,3909.961080693426,0.49908472903792,0.16909737586783,,,,Summary1.As1,DENMARK,2015,Subsector,1. Energy
+3.  Transport,12620.480916286422,0.49144057389768,0.45267293446416,,,,Summary1.As1,DENMARK,2015,Subsector,1. Energy
+4.  Other sectors,5077.133422200238,6.58937126007657,0.28207331015471,,,,Summary1.As1,DENMARK,2015,Subsector,1. Energy
+5.  Other,200.6686921952753,0.01055424837284,0.00728606353752,,,,Summary1.As1,DENMARK,2015,Subsector,1. Energy
+B. Fugitive emissions from fuels,247.4410413617293,4.74363139328767,0.00029716856608,,,,Summary1.As1,DENMARK,2015,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,247.4410413617293,4.74363139328767,0.00029716856608,,,,Summary1.As1,DENMARK,2015,Subsector,1. Energy
+A.  Mineral industry,1048.61834005855,,,,,,Summary1.As1,DENMARK,2015,Subsector,1. Energy

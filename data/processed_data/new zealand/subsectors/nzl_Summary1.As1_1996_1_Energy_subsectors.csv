@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),24489.396988319615,,,,,,Summary1.As1,NEW ZEALAND,1996,Subsector,1. Energy
+                                           Sectoral approach(2),25138.045777043048,7.17187087481742,0.89150363235059,,,,Summary1.As1,NEW ZEALAND,1996,Subsector,1. Energy
+1.  Energy industries,5524.406633814608,0.09427116806614,0.01908328838423,,,,Summary1.As1,NEW ZEALAND,1996,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,6043.968789074786,1.27871416353516,0.19190562633792,,,,Summary1.As1,NEW ZEALAND,1996,Subsector,1. Energy
+3.  Transport,10161.482019728108,2.69502258338449,0.50290877395619,,,,Summary1.As1,NEW ZEALAND,1996,Subsector,1. Energy
+4.  Other sectors,3408.1883344255452,3.10386295983163,0.17760594367225,,,,Summary1.As1,NEW ZEALAND,1996,Subsector,1. Energy
+B. Fugitive emissions from fuels,666.2219053308606,44.96272210639416,0.00022277313,,,,Summary1.As1,NEW ZEALAND,1996,Subsector,1. Energy
+1.  Solid fuels,,18.976480647,,,,,Summary1.As1,NEW ZEALAND,1996,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,666.2219053308606,25.98624145939416,0.00022277313,,,,Summary1.As1,NEW ZEALAND,1996,Subsector,1. Energy
+A.  Mineral industry,646.188931294975,,,,,,Summary1.As1,NEW ZEALAND,1996,Subsector,1. Energy

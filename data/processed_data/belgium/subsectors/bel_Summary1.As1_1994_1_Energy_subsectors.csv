@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),96689.61960416009,,,,,,Summary1.As1,BELGIUM,1994,Subsector,1. Energy
+                                           Sectoral approach(2),105485.86636648167,17.0674748422092,2.08337490824052,,,,Summary1.As1,BELGIUM,1994,Subsector,1. Energy
+1.  Energy industries,29461.64666059591,0.7734950447206,0.64386792729248,,,,Summary1.As1,BELGIUM,1994,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,23037.390668538563,1.2036682463914,0.38132692302355,,,,Summary1.As1,BELGIUM,1994,Subsector,1. Energy
+3.  Transport,22515.466163079225,5.35804496077526,0.71693587824268,,,,Summary1.As1,BELGIUM,1994,Subsector,1. Energy
+4.  Other sectors,30259.99649780289,9.73101850862343,0.33402448059874,,,,Summary1.As1,BELGIUM,1994,Subsector,1. Energy
+5.  Other,211.36637646508774,0.00124808169851,0.00721969908307,,,,Summary1.As1,BELGIUM,1994,Subsector,1. Energy
+B. Fugitive emissions from fuels,84.1822218224984,31.31617315971027,,,,,Summary1.As1,BELGIUM,1994,Subsector,1. Energy
+1.  Solid fuels,0.18739,3.28772,,,,,Summary1.As1,BELGIUM,1994,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,83.99483182249841,28.02845315971027,,,,,Summary1.As1,BELGIUM,1994,Subsector,1. Energy

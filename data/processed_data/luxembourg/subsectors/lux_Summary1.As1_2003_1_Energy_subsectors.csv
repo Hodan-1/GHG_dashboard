@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),9754.823093305384,,,,,Summary1.As1,LUXEMBOURG,2003,Subsector,1. Energy
+                                           Sectoral approach(2),9821.496439987697,0.74476731825883,0.17727171550345,,,Summary1.As1,LUXEMBOURG,2003,Subsector,1. Energy
+1.  Energy industries,1029.635039764319,0.06253487161652,0.0077750229562,,,Summary1.As1,LUXEMBOURG,2003,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,1259.103820486728,0.05955414723644,0.0486933100617,,,Summary1.As1,LUXEMBOURG,2003,Subsector,1. Energy
+3.  Transport,5860.84994463746,0.21318866449498,0.10079187504877,,,Summary1.As1,LUXEMBOURG,2003,Subsector,1. Energy
+4.  Other sectors,1668.6442873948085,0.40924494810684,0.01996023307668,,,Summary1.As1,LUXEMBOURG,2003,Subsector,1. Energy
+5.  Other,3.26334770438313,0.00024468680405,5.12743601e-05,,,Summary1.As1,LUXEMBOURG,2003,Subsector,1. Energy
+B. Fugitive emissions from fuels,0.06531772739571,1.95364491917595,,,,Summary1.As1,LUXEMBOURG,2003,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,0.06531772739571,1.95364491917595,,,,Summary1.As1,LUXEMBOURG,2003,Subsector,1. Energy
+A.  Mineral industry,449.7513065534108,,,,,Summary1.As1,LUXEMBOURG,2003,Subsector,1. Energy

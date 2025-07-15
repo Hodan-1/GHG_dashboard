@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,11.80965647570475,,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+B.  Manure management,,2.35900811704472,0.04795535361234,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.76109558107237,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+G. Liming,5.610593413333,,,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+H. Urea application,3.1885993333,,,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,1.54566421708,,,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+A. Forest land (4),-491.26686001810356,0.02984354675617,0.00279779270795,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+B. Cropland (4),1895.4604328375049,3.81868244468686,,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture
+C. Grassland (4),5304.358941924432,16.70714829189238,0.00036908367371,Summary1.As2,ICELAND,2019,Subsector,3.  Agriculture

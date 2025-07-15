@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),43246.37321291257,,,,,,Summary1.As1,BULGARIA,2014,Subsector,1. Energy
+                                           Sectoral approach(2),40933.510351616926,12.99679479175167,0.98788263793797,,,,Summary1.As1,BULGARIA,2014,Subsector,1. Energy
+1.  Energy industries,28646.298383952137,0.335101893,0.3803823927,,,,Summary1.As1,BULGARIA,2014,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,2548.4274455244504,0.40813215641641,0.08011099979095,,,,Summary1.As1,BULGARIA,2014,Subsector,1. Energy
+3.  Transport,8319.091929875594,1.1006101788831,0.25062296703838,,,,Summary1.As1,BULGARIA,2014,Subsector,1. Energy
+4.  Other sectors,1410.3992007057907,11.1528855747,0.2765063234,,,,Summary1.As1,BULGARIA,2014,Subsector,1. Energy
+5.  Other,9.29339155894963,6.498875216e-05,0.00025995500864,,,,Summary1.As1,BULGARIA,2014,Subsector,1. Energy
+B. Fugitive emissions from fuels,383.9696349134161,46.43832956172615,0.00218418725641,,,,Summary1.As1,BULGARIA,2014,Subsector,1. Energy
+1.  Solid fuels,30.0564736,37.41808135250886,,,,,Summary1.As1,BULGARIA,2014,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,353.9131613134161,9.02024820921729,0.00218418725641,,,,Summary1.As1,BULGARIA,2014,Subsector,1. Energy

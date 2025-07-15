@@ -1,0 +1,8 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Mineral industry,8468.173891109567,,,,,,Summary1.As1,CANADA,2012,Subsector,2.  Industrial processes and product use
+B.  Chemical industry,6196.552555518434,5.04589185440257,1.23925418905694,,,,Summary1.As1,CANADA,2012,Subsector,2.  Industrial processes and product use
+C.  Metal industry,14679.66895829168,0.091161,,,1757.8210097,0.01108535771569,Summary1.As1,CANADA,2012,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,16924.300959111923,,,,,,Summary1.As1,CANADA,2012,Subsector,2.  Industrial processes and product use
+E.  Electronic industry ,,,,,7.265220912,0.00099580728419,Summary1.As1,CANADA,2012,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,9084.090112056809,4.18073455307229,,Summary1.As1,CANADA,2012,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,,,0.89926185970661,,35.62458141338304,0.00814273,Summary1.As1,CANADA,2012,Subsector,2.  Industrial processes and product use

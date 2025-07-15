@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),15704.954348044272,,,,,Summary1.As1,CROATIA,2018,Subsector,1. Energy
+                                           Sectoral approach(2),15406.72158972085,14.33731056883539,0.7109029227763,,,Summary1.As1,CROATIA,2018,Subsector,1. Energy
+1.  Energy industries,3907.8085718946927,0.31365441559869,0.07457355647412,,,Summary1.As1,CROATIA,2018,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,2411.0488058,0.149522642,0.0222391743,,,Summary1.As1,CROATIA,2018,Subsector,1. Energy
+3.  Transport,6340.780213536976,0.41878287340236,0.20489434448112,,,Summary1.As1,CROATIA,2018,Subsector,1. Energy
+4.  Other sectors,2747.08399848918,13.45535063783434,0.40919584752106,,,Summary1.As1,CROATIA,2018,Subsector,1. Energy
+B. Fugitive emissions from fuels,284.6346906254613,7.10177211994187,0.00062853768139,,,Summary1.As1,CROATIA,2018,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,284.6346906254613,7.10177211994187,0.00062853768139,,,Summary1.As1,CROATIA,2018,Subsector,1. Energy
+A.  Mineral industry,1358.4157713302573,,,,,Summary1.As1,CROATIA,2018,Subsector,1. Energy
+B.  Chemical industry,513.0565614493336,,0.16815147870725,,,Summary1.As1,CROATIA,2018,Subsector,1. Energy

@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),16155.087844195748,,,,,Summary1.As1,ESTONIA,2019,Subsector,1. Energy
+                                           Sectoral approach(2),11919.179182329683,1.31783077346537,0.21650292199044,,,Summary1.As1,ESTONIA,2019,Subsector,1. Energy
+1.  Energy industries,8115.257285864285,0.46825942632139,0.0843224328811,,,Summary1.As1,ESTONIA,2019,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,711.7363343322367,0.08933172621469,0.01384109444221,,,Summary1.As1,ESTONIA,2019,Subsector,1. Energy
+3.  Transport,2387.923043115758,0.14808248191198,0.08977465001253,,,Summary1.As1,ESTONIA,2019,Subsector,1. Energy
+4.  Other sectors,704.2625190174032,0.61215713901731,0.0285647446546,,,Summary1.As1,ESTONIA,2019,Subsector,1. Energy
+B. Fugitive emissions from fuels,0.03024827475619,0.7966442678604,,,,Summary1.As1,ESTONIA,2019,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,0.03024827475619,0.7966442678604,,,,Summary1.As1,ESTONIA,2019,Subsector,1. Energy
+A.  Mineral industry,359.2247993079453,,,,,Summary1.As1,ESTONIA,2019,Subsector,1. Energy
+C.  Metal industry,3.29263313031224,,,,,Summary1.As1,ESTONIA,2019,Subsector,1. Energy

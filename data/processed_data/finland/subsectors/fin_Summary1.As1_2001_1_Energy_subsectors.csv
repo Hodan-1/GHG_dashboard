@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),55587.60176438805,,,,,,Summary1.As1,FINLAND,2001,Subsector,1. Energy
+                                           Sectoral approach(2),58097.50732608637,11.603664017,2.13132561,,,,Summary1.As1,FINLAND,2001,Subsector,1. Energy
+1.  Energy industries,27306.913496471,0.917897985,0.825180168,,,,Summary1.As1,FINLAND,2001,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,11294.121805016375,0.69625817,0.592082759,,,,Summary1.As1,FINLAND,2001,Subsector,1. Energy
+3.  Transport,12006.78225,2.191241062,0.415445962,,,,Summary1.As1,FINLAND,2001,Subsector,1. Energy
+4.  Other sectors,5985.968969199,7.63678929,0.262898111,,,,Summary1.As1,FINLAND,2001,Subsector,1. Energy
+5.  Other,1503.7208054,0.16147751,0.03571861,,,,Summary1.As1,FINLAND,2001,Subsector,1. Energy
+B. Fugitive emissions from fuels,52.95544,3.110408618,0.00188838,,,,Summary1.As1,FINLAND,2001,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,52.95544,3.110408618,0.00188838,,,,Summary1.As1,FINLAND,2001,Subsector,1. Energy
+A.  Mineral industry,1084.4865140469906,,,,,,Summary1.As1,FINLAND,2001,Subsector,1. Energy

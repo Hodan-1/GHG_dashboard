@@ -1,0 +1,8 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+B. Cropland (4),2088.6398907765865,0.18517233195075,0.08996381898094,Summary1.As2,ITALY,2012,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C. Grassland (4),-4850.408169477799,23.30472932387023,0.73243435017878,Summary1.As2,ITALY,2012,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D. Wetlands (4),129.5693644679747,,,Summary1.As2,ITALY,2012,Subsector,"4.  Land use, land-use change and forestry  (4)"
+E. Settlements (4),4414.259969524898,,0.96825185553499,Summary1.As2,ITALY,2012,Subsector,"4.  Land use, land-use change and forestry  (4)"
+G. Harvested wood products ,201.81573167327343,,,Summary1.As2,ITALY,2012,Subsector,"4.  Land use, land-use change and forestry  (4)"
+H. Other  (4),,,,Summary1.As2,ITALY,2012,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,604.1116846339556,,Summary1.As2,ITALY,2012,Subsector,"4.  Land use, land-use change and forestry  (4)"

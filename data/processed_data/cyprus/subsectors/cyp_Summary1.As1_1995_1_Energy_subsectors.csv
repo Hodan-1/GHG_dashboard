@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),5111.709054833338,,,,,Summary1.As1,CYPRUS,1995,Subsector,1. Energy
+                                           Sectoral approach(2),5059.480484573869,0.53597736504372,0.1214198593023,,,Summary1.As1,CYPRUS,1995,Subsector,1. Energy
+1.  Energy industries,2166.1439,0.09534,0.018032,,,Summary1.As1,CYPRUS,1995,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,755.4995509819922,0.03124490911972,0.00596811293505,,,Summary1.As1,CYPRUS,1995,Subsector,1. Energy
+3.  Transport,1518.1318668860863,0.26470843518849,0.09272199290089,,,Summary1.As1,CYPRUS,1995,Subsector,1. Energy
+4.  Other sectors,602.5395364241001,0.14236747143974,0.00455876050861,,,Summary1.As1,CYPRUS,1995,Subsector,1. Energy
+5.  Other,17.16563028169014,0.00231654929577,0.00013899295775,,,Summary1.As1,CYPRUS,1995,Subsector,1. Energy
+B. Fugitive emissions from fuels,,0.02108691588785,,,,Summary1.As1,CYPRUS,1995,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,,0.02108691588785,,,,Summary1.As1,CYPRUS,1995,Subsector,1. Energy
+A.  Mineral industry,794.4629,,,,,Summary1.As1,CYPRUS,1995,Subsector,1. Energy

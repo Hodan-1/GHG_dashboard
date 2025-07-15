@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),2346.709310000002,,,,,Summary1.As1,MALTA,1999,Subsector,1. Energy
+                                           Sectoral approach(2),2568.708435905349,0.20316560015878,0.0320556231426,,,Summary1.As1,MALTA,1999,Subsector,1. Energy
+1.  Energy industries,1709.5157399999998,0.0664638,0.01329276,,,Summary1.As1,MALTA,1999,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,63.4621764331532,0.00242410619885,0.000477266465,,,Summary1.As1,MALTA,1999,Subsector,1. Energy
+3.  Transport,491.6124245303615,0.09698925199636,0.01498348134672,,,Summary1.As1,MALTA,1999,Subsector,1. Energy
+4.  Other sectors,302.99471352600926,0.03723085006968,0.00327100845379,,,Summary1.As1,MALTA,1999,Subsector,1. Energy
+5.  Other,1.12338141582489,5.759189389e-05,3.110687709e-05,,,Summary1.As1,MALTA,1999,Subsector,1. Energy
+B. Fugitive emissions from fuels,,,,,,Summary1.As1,MALTA,1999,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,,,,,,Summary1.As1,MALTA,1999,Subsector,1. Energy
+A.  Mineral industry,0.275321375,,,,,Summary1.As1,MALTA,1999,Subsector,1. Energy

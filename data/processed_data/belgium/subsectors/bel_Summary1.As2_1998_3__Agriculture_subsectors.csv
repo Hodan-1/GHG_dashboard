@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,184.74025801114448,,Summary1.As2,BELGIUM,1998,Subsector,3.  Agriculture
+B.  Manure management,,52.53751196006524,2.92651383790376,Summary1.As2,BELGIUM,1998,Subsector,3.  Agriculture
+D.  Agricultural soils,,,14.60566874605364,Summary1.As2,BELGIUM,1998,Subsector,3.  Agriculture
+G. Liming,154.07389010873004,,,Summary1.As2,BELGIUM,1998,Subsector,3.  Agriculture
+H. Urea application,23.33677655622393,,,Summary1.As2,BELGIUM,1998,Subsector,3.  Agriculture
+J.  Other ,,,,Summary1.As2,BELGIUM,1998,Subsector,3.  Agriculture
+A. Forest land (4),-1982.6866806455491,0.00346831337714,0.00029031264773,Summary1.As2,BELGIUM,1998,Subsector,3.  Agriculture
+B. Cropland (4),389.64923032285236,,0.06400446651777,Summary1.As2,BELGIUM,1998,Subsector,3.  Agriculture
+C. Grassland (4),-23.58039390975268,0.000187795,0.00771883213165,Summary1.As2,BELGIUM,1998,Subsector,3.  Agriculture

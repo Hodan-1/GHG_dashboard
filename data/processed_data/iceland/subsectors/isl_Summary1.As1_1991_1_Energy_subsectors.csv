@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),1550.1751100000015,,,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+                                           Sectoral approach(2),1652.8108870883332,0.32056737801107,0.08653582184536,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+1.  Energy industries,15.0540898592,0.0005924376,0.0001184875,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,221.3049505102,0.0123046824,0.0229622403,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+3.  Transport,613.2420966902711,0.23243753693107,0.02835331202536,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+4.  Other sectors,803.072223041962,0.07522738828,0.03510071542,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+5.  Other,0.1375269867,5.3328e-06,1.0666e-06,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+B. Fugitive emissions from fuels,69.949995725808,0.023798030749,,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,69.949995725808,0.023798030749,,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy
+A.  Mineral industry,48.6277779459,,,,,,Summary1.As1,ICELAND,1991,Subsector,1. Energy

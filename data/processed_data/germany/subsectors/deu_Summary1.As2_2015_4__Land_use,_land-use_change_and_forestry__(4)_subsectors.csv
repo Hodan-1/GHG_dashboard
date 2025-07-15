@@ -1,0 +1,8 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+D. Wetlands (4),3853.0262905603367,194.603837875,0.138217913,Summary1.As2,GERMANY,2015,Subsector,"4.  Land use, land-use change and forestry  (4)"
+E. Settlements (4),-462.06892084466705,0.929067289,0.464901189,Summary1.As2,GERMANY,2015,Subsector,"4.  Land use, land-use change and forestry  (4)"
+G. Harvested wood products ,-2229.462801108593,,,Summary1.As2,GERMANY,2015,Subsector,"4.  Land use, land-use change and forestry  (4)"
+H. Other  (4),,,0.373554085,Summary1.As2,GERMANY,2015,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,185.423,,Summary1.As2,GERMANY,2015,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,27.61038,0.6782765,Summary1.As2,GERMANY,2015,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),,,,Summary1.As2,GERMANY,2015,Subsector,"4.  Land use, land-use change and forestry  (4)"

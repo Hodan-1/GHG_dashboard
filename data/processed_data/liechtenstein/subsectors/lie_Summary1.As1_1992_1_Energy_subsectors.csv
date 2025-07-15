@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),206.73666795587013,,,,,Summary1.As1,LIECHTENSTEIN,1992,Subsector,1. Energy
+                                           Sectoral approach(2),206.69834821730802,0.03478561902477,0.00554281645239,,,Summary1.As1,LIECHTENSTEIN,1992,Subsector,1. Energy
+1.  Energy industries,1.81764,0.0009136820736,0.0001933238016,,,Summary1.As1,LIECHTENSTEIN,1992,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,36.21225529202473,0.0006585145573,0.00029061303165,,,Summary1.As1,LIECHTENSTEIN,1992,Subsector,1. Energy
+3.  Transport,87.75001099924133,0.02319738918841,0.0042349119277,,,Summary1.As1,LIECHTENSTEIN,1992,Subsector,1. Energy
+4.  Other sectors,80.91844192604196,0.01001603320546,0.00082396769144,,,Summary1.As1,LIECHTENSTEIN,1992,Subsector,1. Energy
+B. Fugitive emissions from fuels,0.00015053450237,0.01914876067267,,,,Summary1.As1,LIECHTENSTEIN,1992,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,0.00015053450237,0.01914876067267,,,,Summary1.As1,LIECHTENSTEIN,1992,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,0.18179077436928,,,,,Summary1.As1,LIECHTENSTEIN,1992,Subsector,1. Energy
+F.  Product uses as substitutes for ODS,,,,0.06572200758347,0.00023316690472,Summary1.As1,LIECHTENSTEIN,1992,Subsector,1. Energy

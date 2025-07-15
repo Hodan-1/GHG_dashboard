@@ -1,0 +1,8 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+C. Grassland (4),-109.08076329568684,0.03249192971584,0.00296665445232,Summary1.As2,HUNGARY,2020,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D. Wetlands (4),63.52431324085199,,0.00162642857143,Summary1.As2,HUNGARY,2020,Subsector,"4.  Land use, land-use change and forestry  (4)"
+E. Settlements (4),170.23534280076666,,0.03731899366797,Summary1.As2,HUNGARY,2020,Subsector,"4.  Land use, land-use change and forestry  (4)"
+G. Harvested wood products ,-618.3643351904308,,,Summary1.As2,HUNGARY,2020,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,116.01119755872409,,Summary1.As2,HUNGARY,2020,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,4.07821850626566,0.14563296,Summary1.As2,HUNGARY,2020,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),25.31012595833333,0.00360512421856,0.0012451211748,Summary1.As2,HUNGARY,2020,Subsector,"4.  Land use, land-use change and forestry  (4)"

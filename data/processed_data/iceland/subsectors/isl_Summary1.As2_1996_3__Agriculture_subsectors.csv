@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,12.87365550143648,,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+B.  Manure management,,2.62726933259209,0.04896803625976,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.77861845417991,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+G. Liming,0.3471204,,,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,2.63347387654,,,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+A. Forest land (4),-57.58116496728915,0.01198836417426,0.00112391506301,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+B. Cropland (4),1886.4636207841338,3.79869128454779,,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+C. Grassland (4),4991.343890508738,15.0771695382862,0.00028454483577,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture
+D. Wetlands (4),-1105.253556263594,118.50513006998526,,Summary1.As2,ICELAND,1996,Subsector,3.  Agriculture

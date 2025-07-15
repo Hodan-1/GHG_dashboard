@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),74.52569222013992,,,,,,Summary1.As1,MONACCO,2018,Subsector,1. Energy
+                                           Sectoral approach(2),74.39128591524133,0.0057174810703,0.00784911827334,,,,Summary1.As1,MONACCO,2018,Subsector,1. Energy
+1.  Energy industries,21.5194185033143,6.723885118e-05,0.0040412931007,,,,Summary1.As1,MONACCO,2018,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,6.47435590145491,0.00033195391287,0.00215190766937,,,,Summary1.As1,MONACCO,2018,Subsector,1. Energy
+3.  Transport,23.75713304177972,0.00500230663903,0.00136843547564,,,,Summary1.As1,MONACCO,2018,Subsector,1. Energy
+4.  Other sectors,22.6403784686924,0.00031598166722,0.00028748202763,,,,Summary1.As1,MONACCO,2018,Subsector,1. Energy
+B. Fugitive emissions from fuels,0.0003519,0.0220534661,,,,,Summary1.As1,MONACCO,2018,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,0.0003519,0.0220534661,,,,,Summary1.As1,MONACCO,2018,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,0.04871184127499,8.98788936e-06,1.94559495e-06,,,,Summary1.As1,MONACCO,2018,Subsector,1. Energy
+F.  Product uses as substitutes for ODS,,,,7.62579342220342,0.000357615,,Summary1.As1,MONACCO,2018,Subsector,1. Energy

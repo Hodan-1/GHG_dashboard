@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),7125.991997419971,,,,,Summary1.As1,LATVIA,2003,Subsector,1. Energy
+                                           Sectoral approach(2),7438.306942624547,12.20609794879829,0.46108974707823,,,Summary1.As1,LATVIA,2003,Subsector,1. Energy
+1.  Energy industries,2259.7474114146526,0.20264695390561,0.02778929539056,,,Summary1.As1,LATVIA,2003,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,1123.7069801453906,0.15044136378603,0.0531493808586,,,Summary1.As1,LATVIA,2003,Subsector,1. Energy
+3.  Transport,2779.641266985081,0.54193076896342,0.17554389280923,,,Summary1.As1,LATVIA,2003,Subsector,1. Energy
+4.  Other sectors,1268.8635924534226,11.31061607043823,0.20443411125984,,,Summary1.As1,LATVIA,2003,Subsector,1. Energy
+5.  Other,6.347691626,0.000462791705,0.00017306676,,,Summary1.As1,LATVIA,2003,Subsector,1. Energy
+B. Fugitive emissions from fuels,0.005528,4.7631117,,,,Summary1.As1,LATVIA,2003,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,0.005528,4.7631117,,,,Summary1.As1,LATVIA,2003,Subsector,1. Energy
+A.  Mineral industry,163.38858519617972,,,,,Summary1.As1,LATVIA,2003,Subsector,1. Energy

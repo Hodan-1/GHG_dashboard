@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,161.0573752095779,,Summary1.As2,GREECE,2008,Subsector,3.  Agriculture
+B.  Manure management,,30.32925282421343,1.14711447227067,Summary1.As2,GREECE,2008,Subsector,3.  Agriculture
+C.  Rice cultivation,,5.00084,,Summary1.As2,GREECE,2008,Subsector,3.  Agriculture
+D.  Agricultural soils,,,12.17980680709721,Summary1.As2,GREECE,2008,Subsector,3.  Agriculture
+F.  Field burning of agricultural residues,,0.94318445115072,0.02445293021501,Summary1.As2,GREECE,2008,Subsector,3.  Agriculture
+H. Urea application,28.63771428571428,,,Summary1.As2,GREECE,2008,Subsector,3.  Agriculture
+A. Forest land (4),-2145.6493068792834,1.20082369235517,0.00825566288494,Summary1.As2,GREECE,2008,Subsector,3.  Agriculture
+B. Cropland (4),-943.3469422726033,,0.00796043027736,Summary1.As2,GREECE,2008,Subsector,3.  Agriculture
+C. Grassland (4),-444.78335012697613,0.54118338752,0.00534771861503,Summary1.As2,GREECE,2008,Subsector,3.  Agriculture

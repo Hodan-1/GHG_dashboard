@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,494.1289796329284,,Summary1.As2,IRELAND,1997,Subsector,3.  Agriculture
+B.  Manure management,,65.07910245178267,2.28257380289447,Summary1.As2,IRELAND,1997,Subsector,3.  Agriculture
+D.  Agricultural soils,,,19.12204353492158,Summary1.As2,IRELAND,1997,Subsector,3.  Agriculture
+G. Liming,423.4868,,,Summary1.As2,IRELAND,1997,Subsector,3.  Agriculture
+H. Urea application,82.63391304347826,,,Summary1.As2,IRELAND,1997,Subsector,3.  Agriculture
+J.  Other ,,,,Summary1.As2,IRELAND,1997,Subsector,3.  Agriculture
+A. Forest land (4),-2293.9750015257127,2.40550250090514,0.67035383535004,Summary1.As2,IRELAND,1997,Subsector,3.  Agriculture
+B. Cropland (4),-132.0860285928,0.00151318036784,3.923060213e-05,Summary1.As2,IRELAND,1997,Subsector,3.  Agriculture
+C. Grassland (4),6266.931317975135,9.13648442934231,0.10376643984158,Summary1.As2,IRELAND,1997,Subsector,3.  Agriculture

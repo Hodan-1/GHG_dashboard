@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,128.72320406115875,,Summary1.As2,CZECH REPUBLIC,2000,Subsector,3.  Agriculture
+B.  Manure management,,35.03299975459501,2.23673525486784,Summary1.As2,CZECH REPUBLIC,2000,Subsector,3.  Agriculture
+D.  Agricultural soils,,,10.8299187162094,Summary1.As2,CZECH REPUBLIC,2000,Subsector,3.  Agriculture
+G. Liming,117.89177399999997,,,Summary1.As2,CZECH REPUBLIC,2000,Subsector,3.  Agriculture
+H. Urea application,115.88052560386474,,,Summary1.As2,CZECH REPUBLIC,2000,Subsector,3.  Agriculture
+A. Forest land (4),-8080.235639189752,1.63980227695179,0.09071246638457,Summary1.As2,CZECH REPUBLIC,2000,Subsector,3.  Agriculture
+B. Cropland (4),128.6899050911145,,0.01699044881621,Summary1.As2,CZECH REPUBLIC,2000,Subsector,3.  Agriculture
+C. Grassland (4),-364.8009694847885,,,Summary1.As2,CZECH REPUBLIC,2000,Subsector,3.  Agriculture
+D. Wetlands (4),37.83660717796908,,,Summary1.As2,CZECH REPUBLIC,2000,Subsector,3.  Agriculture

@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),160535.64483441837,,,,,,Summary1.As1,NETHERLANDS,1994,Subsector,1. Energy
+                                           Sectoral approach(2),164272.96718888226,42.19057556840447,1.60908661946528,,,,Summary1.As1,NETHERLANDS,1994,Subsector,1. Energy
+1.  Energy industries,60180.18209885922,3.30812865200616,0.54089778700772,,,,Summary1.As1,NETHERLANDS,1994,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,33300.05013892493,2.83534424711979,0.11010904637001,,,,Summary1.As1,NETHERLANDS,1994,Subsector,1. Energy
+3.  Transport,29720.17000135713,5.6092162027884,0.76890774419088,,,,Summary1.As1,NETHERLANDS,1994,Subsector,1. Energy
+4.  Other sectors,40793.784835040984,30.41153731649012,0.17336507249667,,,,Summary1.As1,NETHERLANDS,1994,Subsector,1. Energy
+5.  Other,278.7801147,0.02634915,0.0158069694,,,,Summary1.As1,NETHERLANDS,1994,Subsector,1. Energy
+B. Fugitive emissions from fuels,619.3961421409119,77.33512546,,,,,Summary1.As1,NETHERLANDS,1994,Subsector,1. Energy
+1.  Solid fuels,110.980416328412,0.4394,,,,,Summary1.As1,NETHERLANDS,1994,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,508.4157258125,76.89572546,,,,,Summary1.As1,NETHERLANDS,1994,Subsector,1. Energy

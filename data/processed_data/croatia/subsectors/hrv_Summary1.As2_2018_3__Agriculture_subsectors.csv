@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,39.9879994699708,,Summary1.As2,CROATIA,2018,Subsector,3.  Agriculture
+B.  Manure management,,16.47156548546266,0.42897016958172,Summary1.As2,CROATIA,2018,Subsector,3.  Agriculture
+D.  Agricultural soils,,,3.63753787596503,Summary1.As2,CROATIA,2018,Subsector,3.  Agriculture
+G. Liming,4.62088,,,Summary1.As2,CROATIA,2018,Subsector,3.  Agriculture
+H. Urea application,67.621972,,,Summary1.As2,CROATIA,2018,Subsector,3.  Agriculture
+A. Forest land (4),-5493.243711439894,0.033706332,0.03668611071509,Summary1.As2,CROATIA,2018,Subsector,3.  Agriculture
+B. Cropland (4),271.84881545545994,0.0003230093,0.07165582852375,Summary1.As2,CROATIA,2018,Subsector,3.  Agriculture
+C. Grassland (4),-315.52709129674906,0.0180214844,0.00164543988,Summary1.As2,CROATIA,2018,Subsector,3.  Agriculture
+D. Wetlands (4),10.84341887959481,,0.004957886319,Summary1.As2,CROATIA,2018,Subsector,3.  Agriculture

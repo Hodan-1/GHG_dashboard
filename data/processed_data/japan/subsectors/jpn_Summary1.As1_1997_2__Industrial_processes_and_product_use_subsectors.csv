@@ -1,0 +1,7 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+C.  Metal industry,6903.864862196263,0.87266101248,,,145.385279368329,0.008,Summary1.As1,JAPAN,1997,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,2625.9809496582247,,,,,,Summary1.As1,JAPAN,1997,Subsector,2.  Industrial processes and product use
+E.  Electronic industry ,,,,295.2957508327267,5959.392522087635,0.04673453396298,Summary1.As1,JAPAN,1997,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,5123.736991343977,12251.37705950668,,Summary1.As1,JAPAN,1997,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,,,1.422163,8.06935921386252,16.92748011664753,0.47369268,Summary1.As1,JAPAN,1997,Subsector,2.  Industrial processes and product use
+H.  Other(3),86.35687900000005,,,,,,Summary1.As1,JAPAN,1997,Subsector,2.  Industrial processes and product use

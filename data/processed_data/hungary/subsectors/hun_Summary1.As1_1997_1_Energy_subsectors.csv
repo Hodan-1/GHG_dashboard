@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),56816.31959477324,,,,,,Summary1.As1,HUNGARY,1997,Subsector,1. Energy
+                                           Sectoral approach(2),55639.178620770304,20.21418723778172,0.85838415937431,,,,Summary1.As1,HUNGARY,1997,Subsector,1. Energy
+1.  Energy industries,24998.073333621192,0.543175715,0.2476090025,,,,Summary1.As1,HUNGARY,1997,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,6293.090622064769,0.23742408174632,0.04015989997464,,,,Summary1.As1,HUNGARY,1997,Subsector,1. Energy
+3.  Transport,7815.532475123755,2.15952528044697,0.35394513707992,,,,Summary1.As1,HUNGARY,1997,Subsector,1. Energy
+4.  Other sectors,16517.98081603009,17.27396242304843,0.21627116965975,,,,Summary1.As1,HUNGARY,1997,Subsector,1. Energy
+5.  Other,14.50137393049576,9.973754e-05,0.00039895016,,,,Summary1.As1,HUNGARY,1997,Subsector,1. Energy
+B. Fugitive emissions from fuels,211.26027993634204,125.30595859657167,0.0017341859851,,,,Summary1.As1,HUNGARY,1997,Subsector,1. Energy
+1.  Solid fuels,,21.769908,,,,,Summary1.As1,HUNGARY,1997,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,211.26027993634204,103.53605059657167,0.0017341859851,,,,Summary1.As1,HUNGARY,1997,Subsector,1. Energy

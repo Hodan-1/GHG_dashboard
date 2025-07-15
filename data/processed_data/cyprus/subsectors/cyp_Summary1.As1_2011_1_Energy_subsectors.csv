@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),6933.349905933006,,,,,Summary1.As1,CYPRUS,2011,Subsector,1. Energy
+                                           Sectoral approach(2),7211.375796118599,0.60639825553472,0.08325736218219,,,Summary1.As1,CYPRUS,2011,Subsector,1. Energy
+1.  Energy industries,3710.04,0.14535,0.02918,,,Summary1.As1,CYPRUS,2011,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,572.4397871428572,0.0312761857143,0.00543854714286,,,Summary1.As1,CYPRUS,2011,Subsector,1. Energy
+3.  Transport,2289.155978975742,0.16994656982042,0.04266071503933,,,Summary1.As1,CYPRUS,2011,Subsector,1. Energy
+4.  Other sectors,613.11433,0.2527955,0.00575255,,,Summary1.As1,CYPRUS,2011,Subsector,1. Energy
+5.  Other,26.6257,0.00703,0.00022555,,,Summary1.As1,CYPRUS,2011,Subsector,1. Energy
+A.  Mineral industry,571.8265,,,,,Summary1.As1,CYPRUS,2011,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,3.525421313,,,,,Summary1.As1,CYPRUS,2011,Subsector,1. Energy
+F.  Product uses as substitutes for ODS,,,,216.37043054933056,,Summary1.As1,CYPRUS,2011,Subsector,1. Energy

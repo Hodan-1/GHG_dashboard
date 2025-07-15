@@ -1,0 +1,9 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,552.47,,Summary1.As2,KAZAKHSTAN,2005,Subsector,3.  Agriculture
+B.  Manure management,,24.26741,6.71857,Summary1.As2,KAZAKHSTAN,2005,Subsector,3.  Agriculture
+C.  Rice cultivation,,17.83,,Summary1.As2,KAZAKHSTAN,2005,Subsector,3.  Agriculture
+D.  Agricultural soils,,,78.68,Summary1.As2,KAZAKHSTAN,2005,Subsector,3.  Agriculture
+H. Urea application,0.25,,,Summary1.As2,KAZAKHSTAN,2005,Subsector,3.  Agriculture
+A. Forest land (4),-14532.50666666668,0.85,0.227,Summary1.As2,KAZAKHSTAN,2005,Subsector,3.  Agriculture
+B. Cropland (4),121773.11666666677,,,Summary1.As2,KAZAKHSTAN,2005,Subsector,3.  Agriculture
+C. Grassland (4),-24389.133333333357,4.2,0.38,Summary1.As2,KAZAKHSTAN,2005,Subsector,3.  Agriculture

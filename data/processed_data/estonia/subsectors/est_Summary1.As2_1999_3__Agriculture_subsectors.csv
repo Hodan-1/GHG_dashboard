@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,21.2370665796206,,Summary1.As2,ESTONIA,1999,Subsector,3.  Agriculture
+B.  Manure management,,2.42624710194333,0.15286046718526,Summary1.As2,ESTONIA,1999,Subsector,3.  Agriculture
+D.  Agricultural soils,,,1.59653882761907,Summary1.As2,ESTONIA,1999,Subsector,3.  Agriculture
+G. Liming,25.83654599700158,,,Summary1.As2,ESTONIA,1999,Subsector,3.  Agriculture
+H. Urea application,0.46326597831967,,,Summary1.As2,ESTONIA,1999,Subsector,3.  Agriculture
+A. Forest land (4),-5061.812717784521,2.65824807229541,0.90111815939655,Summary1.As2,ESTONIA,1999,Subsector,3.  Agriculture
+B. Cropland (4),286.88811537976864,,,Summary1.As2,ESTONIA,1999,Subsector,3.  Agriculture
+C. Grassland (4),55.49289458921103,0.00138989902923,0.00012690382441,Summary1.As2,ESTONIA,1999,Subsector,3.  Agriculture
+D. Wetlands (4),1174.448319000001,0.00402352,0.00750817571429,Summary1.As2,ESTONIA,1999,Subsector,3.  Agriculture

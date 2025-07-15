@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),12415.614146456011,,,,,Summary1.As1,LITHUANIA,2010,Subsector,1. Energy
+                                           Sectoral approach(2),12250.866635436312,8.62411548752884,0.43174385577253,,,Summary1.As1,LITHUANIA,2010,Subsector,1. Energy
+1.  Energy industries,5301.2988239999995,0.433878,0.0587819,,,Summary1.As1,LITHUANIA,2010,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,1273.6604097266809,0.15546366211552,0.03686831040515,,,Summary1.As1,LITHUANIA,2010,Subsector,1. Energy
+3.  Transport,4321.704541709632,0.44777522541332,0.18156064536738,,,Summary1.As1,LITHUANIA,2010,Subsector,1. Energy
+4.  Other sectors,1338.31006,7.5868886,0.154093,,,Summary1.As1,LITHUANIA,2010,Subsector,1. Energy
+5.  Other,15.8928,0.00011,0.00044,,,Summary1.As1,LITHUANIA,2010,Subsector,1. Energy
+B. Fugitive emissions from fuels,257.94419406001174,9.57905026993924,9.520234467e-05,,,Summary1.As1,LITHUANIA,2010,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,257.94419406001174,9.57905026993924,9.520234467e-05,,,Summary1.As1,LITHUANIA,2010,Subsector,1. Energy
+A.  Mineral industry,327.5426919012616,,,,,Summary1.As1,LITHUANIA,2010,Subsector,1. Energy

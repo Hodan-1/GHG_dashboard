@@ -1,0 +1,8 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+C. Grassland (4),2076.8299801418184,4.3214849470225,0.0016283414636,Summary1.As2,DENMARK,2016,Subsector,"4.  Land use, land-use change and forestry  (4)"
+D. Wetlands (4),41.82072493646414,0.90676905287,0.00037704496788,Summary1.As2,DENMARK,2016,Subsector,"4.  Land use, land-use change and forestry  (4)"
+E. Settlements (4),282.77206114157786,,0.0636085469135,Summary1.As2,DENMARK,2016,Subsector,"4.  Land use, land-use change and forestry  (4)"
+G. Harvested wood products ,-174.00425764303,,,Summary1.As2,DENMARK,2016,Subsector,"4.  Land use, land-use change and forestry  (4)"
+A.  Solid waste disposal (5),,18.72763469764425,,Summary1.As2,DENMARK,2016,Subsector,"4.  Land use, land-use change and forestry  (4)"
+B.  Biological treatment of solid waste (5),,9.5977034,0.22186296,Summary1.As2,DENMARK,2016,Subsector,"4.  Land use, land-use change and forestry  (4)"
+C.  Incineration and open burning of waste (5),3.36070127656908,0.07672592606547,0.00278947560153,Summary1.As2,DENMARK,2016,Subsector,"4.  Land use, land-use change and forestry  (4)"

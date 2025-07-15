@@ -1,0 +1,6 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+C.  Metal industry,397.9327486291,0.07141,,,62.37562987269,,Summary1.As1,ICELAND,1995,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,7.90661340568273,,,,,,Summary1.As1,ICELAND,1995,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,3.148353757446,,,Summary1.As1,ICELAND,1995,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,0.00610633775,0.001830521176,0.015038644917,,,5.455e-05,Summary1.As1,ICELAND,1995,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,ICELAND,1995,Subsector,2.  Industrial processes and product use

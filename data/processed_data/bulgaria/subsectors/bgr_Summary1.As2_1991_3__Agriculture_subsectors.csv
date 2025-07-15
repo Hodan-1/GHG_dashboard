@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,181.27960768599485,,Summary1.As2,BULGARIA,1991,Subsector,3.  Agriculture
+B.  Manure management,,41.94967775642498,2.85646139376002,Summary1.As2,BULGARIA,1991,Subsector,3.  Agriculture
+C.  Rice cultivation,,2.95507907689965,,Summary1.As2,BULGARIA,1991,Subsector,3.  Agriculture
+D.  Agricultural soils,,,13.63956227404776,Summary1.As2,BULGARIA,1991,Subsector,3.  Agriculture
+F.  Field burning of agricultural residues,,1.30991712161512,0.03127283773983,Summary1.As2,BULGARIA,1991,Subsector,3.  Agriculture
+G. Liming,28.316963640915,,,Summary1.As2,BULGARIA,1991,Subsector,3.  Agriculture
+H. Urea application,21.26250634692802,,,Summary1.As2,BULGARIA,1991,Subsector,3.  Agriculture
+A. Forest land (4),-14999.056952417637,0.04755366,0.60591077106335,Summary1.As2,BULGARIA,1991,Subsector,3.  Agriculture
+B. Cropland (4),-781.711694615277,,0.02983290576431,Summary1.As2,BULGARIA,1991,Subsector,3.  Agriculture

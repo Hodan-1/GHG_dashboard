@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,69.91243184457115,,Summary1.As2,HUNGARY,2011,Subsector,3.  Agriculture
+B.  Manure management,,24.04035118102217,1.41150671444826,Summary1.As2,HUNGARY,2011,Subsector,3.  Agriculture
+C.  Rice cultivation,,0.73171637845859,,Summary1.As2,HUNGARY,2011,Subsector,3.  Agriculture
+D.  Agricultural soils,,,9.9397111036596,Summary1.As2,HUNGARY,2011,Subsector,3.  Agriculture
+F.  Field burning of agricultural residues,,0.007549419024,0.0001957256784,Summary1.As2,HUNGARY,2011,Subsector,3.  Agriculture
+G. Liming,17.590745247856,,,Summary1.As2,HUNGARY,2011,Subsector,3.  Agriculture
+H. Urea application,57.93883150764083,,,Summary1.As2,HUNGARY,2011,Subsector,3.  Agriculture
+I.  Other carbon-contining fertilizers,53.90411686554801,,,Summary1.As2,HUNGARY,2011,Subsector,3.  Agriculture
+A. Forest land (4),-3586.405261053494,0.65729068751895,0.06480236148447,Summary1.As2,HUNGARY,2011,Subsector,3.  Agriculture

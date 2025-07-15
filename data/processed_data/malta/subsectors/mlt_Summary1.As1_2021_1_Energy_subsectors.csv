@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),1591.0624279000015,,,,,,Summary1.As1,MALTA,2021,Subsector,1. Energy
+                                           Sectoral approach(2),1601.5396610575292,0.09258131333501,0.01890736837385,,,,Summary1.As1,MALTA,2021,Subsector,1. Energy
+1.  Energy industries,771.63141,0.0153037473,0.0016650591255,,,,Summary1.As1,MALTA,2021,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,54.2560675,0.0019693,0.0003799,,,,Summary1.As1,MALTA,2021,Subsector,1. Energy
+3.  Transport,621.8172180584448,0.03734174905013,0.01333484670728,,,,Summary1.As1,MALTA,2021,Subsector,1. Energy
+4.  Other sectors,150.64711928021768,0.03783781180486,0.00343955684429,,,,Summary1.As1,MALTA,2021,Subsector,1. Energy
+5.  Other,3.18784621886669,0.00012870518002,8.800569678e-05,,,,Summary1.As1,MALTA,2021,Subsector,1. Energy
+A.  Mineral industry,0.151729215,,,,,,Summary1.As1,MALTA,2021,Subsector,1. Energy
+B.  Chemical industry,1.375e-06,,,,,,Summary1.As1,MALTA,2021,Subsector,1. Energy
+D.  Non-energy products from fuels and solvent use ,4.59764378221872,,,,,,Summary1.As1,MALTA,2021,Subsector,1. Energy

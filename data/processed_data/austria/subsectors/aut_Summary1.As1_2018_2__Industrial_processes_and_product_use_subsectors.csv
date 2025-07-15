@@ -1,0 +1,7 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+C.  Metal industry,9459.265180518541,0.141090912,,,,0.00024516385542,Summary1.As1,AUSTRIA,2018,Subsector,2.  Industrial processes and product use
+D.  Non-energy products from fuels and solvent use ,145.17651829243482,,,,,,Summary1.As1,AUSTRIA,2018,Subsector,2.  Industrial processes and product use
+E.  Electronic industry ,,,,4.3028,29.39778,0.001245,Summary1.As1,AUSTRIA,2018,Subsector,2.  Industrial processes and product use
+F.  Product uses as substitutes for ODS,,,,1941.5468578500777,,,Summary1.As1,AUSTRIA,2018,Subsector,2.  Industrial processes and product use
+G.  Other product manufacture and use ,,,0.12812096929374,,,0.01545384157171,Summary1.As1,AUSTRIA,2018,Subsector,2.  Industrial processes and product use
+H.  Other(3),,,,,,,Summary1.As1,AUSTRIA,2018,Subsector,2.  Industrial processes and product use

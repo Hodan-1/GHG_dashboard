@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,9.64575,,Summary1.As2,CYPRUS,2011,Subsector,3.  Agriculture
+B.  Manure management,,4.03438070728396,0.25869041522405,Summary1.As2,CYPRUS,2011,Subsector,3.  Agriculture
+D.  Agricultural soils,,,0.20053907305155,Summary1.As2,CYPRUS,2011,Subsector,3.  Agriculture
+F.  Field burning of agricultural residues,,0.023774231268,0.0006163689588,Summary1.As2,CYPRUS,2011,Subsector,3.  Agriculture
+H. Urea application,0.9086,,,Summary1.As2,CYPRUS,2011,Subsector,3.  Agriculture
+J.  Other ,,,,Summary1.As2,CYPRUS,2011,Subsector,3.  Agriculture
+A. Forest land (4),-169.0299922462528,0.02181639785472,0.00120686456218,Summary1.As2,CYPRUS,2011,Subsector,3.  Agriculture
+B. Cropland (4),-139.63044030990824,,0.000628182088,Summary1.As2,CYPRUS,2011,Subsector,3.  Agriculture
+C. Grassland (4),-27.53380103273564,,,Summary1.As2,CYPRUS,2011,Subsector,3.  Agriculture

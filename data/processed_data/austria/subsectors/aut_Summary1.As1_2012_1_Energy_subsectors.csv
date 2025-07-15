@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),53374.29165908376,,,,,,Summary1.As1,AUSTRIA,2012,Subsector,1. Energy
+                                           Sectoral approach(2),53348.348436676584,14.91170985544486,2.09086927818643,,,,Summary1.As1,AUSTRIA,2012,Subsector,1. Energy
+1.  Energy industries,11847.129048995053,1.03110560969535,0.37386439662298,,,,Summary1.As1,AUSTRIA,2012,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,10840.326232635623,0.8977344671938,0.48015369535893,,,,Summary1.As1,AUSTRIA,2012,Subsector,1. Energy
+3.  Transport,21540.697689636236,0.68612293741996,0.65052567378327,,,,Summary1.As1,AUSTRIA,2012,Subsector,1. Energy
+4.  Other sectors,9079.097675377046,12.2954272645358,0.58355362838894,,,,Summary1.As1,AUSTRIA,2012,Subsector,1. Energy
+5.  Other,41.09779003262219,0.00131957659995,0.00277188403231,,,,Summary1.As1,AUSTRIA,2012,Subsector,1. Energy
+B. Fugitive emissions from fuels,183.60476922260904,11.6431484426283,,,,,Summary1.As1,AUSTRIA,2012,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,183.60476922260904,11.6431484426283,,,,,Summary1.As1,AUSTRIA,2012,Subsector,1. Energy
+A.  Mineral industry,2725.068917547046,,,,,,Summary1.As1,AUSTRIA,2012,Subsector,1. Energy

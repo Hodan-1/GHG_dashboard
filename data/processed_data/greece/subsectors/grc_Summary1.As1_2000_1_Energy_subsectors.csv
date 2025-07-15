@@ -1,0 +1,11 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),HFCs(1) (kt CO2 equivalent),PFCs(1),SF6 (kt),Sheet,Country,Year,Level,Parent_Sector
+A. Fuel combustion     Reference approach(2),92315.70373354739,,,,,,Summary1.As1,GREECE,2000,Subsector,1. Energy
+                                           Sectoral approach(2),94000.59208463723,15.70578469363443,3.07324973827515,,,,Summary1.As1,GREECE,2000,Subsector,1. Energy
+1.  Energy industries,54739.00993237252,0.73001134198,0.58669021226086,,,,Summary1.As1,GREECE,2000,Subsector,1. Energy
+2.  Manufacturing industries and construction                          ,9847.742038109489,0.53471989756554,0.23979078356854,,,,Summary1.As1,GREECE,2000,Subsector,1. Energy
+3.  Transport,18364.23775613882,4.91864433678889,1.16443662954575,,,,Summary1.As1,GREECE,2000,Subsector,1. Energy
+4.  Other sectors,11049.602358016402,9.5224091173,1.0823321129,,,,Summary1.As1,GREECE,2000,Subsector,1. Energy
+B. Fugitive emissions from fuels,13.96643335685362,57.92793310179187,0.00019397684018,,,,Summary1.As1,GREECE,2000,Subsector,1. Energy
+1.  Solid fuels,,55.645577,,,,,Summary1.As1,GREECE,2000,Subsector,1. Energy
+2.  Oil and natural gas and other emissions from energy production,13.96643335685362,2.28235610179187,0.00019397684018,,,,Summary1.As1,GREECE,2000,Subsector,1. Energy
+A.  Mineral industry,7492.716181298132,,,,,,Summary1.As1,GREECE,2000,Subsector,1. Energy

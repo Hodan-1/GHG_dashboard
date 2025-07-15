@@ -1,0 +1,10 @@
+GREENHOUSE GAS SOURCE AND SINK CATEGORIES,Net CO2 emissions/removals (kt),CH4 (kt),N2O (kt),Sheet,Country,Year,Level,Parent_Sector
+A.  Enteric fermentation,,88.73434745239429,,Summary1.As2,LITHUANIA,1995,Subsector,3.  Agriculture
+B.  Manure management,,14.66453508447367,0.93332409088534,Summary1.As2,LITHUANIA,1995,Subsector,3.  Agriculture
+D.  Agricultural soils,,,5.07145574932253,Summary1.As2,LITHUANIA,1995,Subsector,3.  Agriculture
+G. Liming,4.030899543,,,Summary1.As2,LITHUANIA,1995,Subsector,3.  Agriculture
+H. Urea application,11.246307974391,,,Summary1.As2,LITHUANIA,1995,Subsector,3.  Agriculture
+A. Forest land (4),-5275.660539187953,0.05184667210317,0.0969728375081,Summary1.As2,LITHUANIA,1995,Subsector,3.  Agriculture
+B. Cropland (4),2193.2461204097744,0.002061072,0.20166098585253,Summary1.As2,LITHUANIA,1995,Subsector,3.  Agriculture
+C. Grassland (4),-1492.2786221908805,0.0985501953,0.00899806131,Summary1.As2,LITHUANIA,1995,Subsector,3.  Agriculture
+D. Wetlands (4),438.7717197398035,,0.02099801314286,Summary1.As2,LITHUANIA,1995,Subsector,3.  Agriculture
