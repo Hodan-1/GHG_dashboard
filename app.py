@@ -37,8 +37,8 @@ def filter_by_hierarchy(df, level):
 df_long, df_wide = load_data()
 
 # Title
-st.title("🌍 Greenhouse Gas Emissions Dashboard")
-st.markdown("### Interactive Analysis of Emissions by Sector and Gas Type")
+st.title(" Greenhouse Gas Emissions Dashboard")
+st.markdown("###  Analysis of Emissions by Sector and Gas Type")
 
 # Sidebar filters
 st.sidebar.header("Filters")
