@@ -4,6 +4,9 @@ import plotly.express as px
 import plotly.graph_objects as go
 import os
 import glob
+import folium
+from streamlit_folium import st_folium
+import json
 
 # Set page configuration
 st.set_page_config(
@@ -15,11 +18,12 @@ st.set_page_config(
 
 def load_country_data(country_code):
     """Load data for a specific country with hierarchy levels"""
-    country_path = f"data/processed_data/{country_code.lower()}"
+    country_path = f"data/processed_data/{country_code}"
     data_dict = {
         'Total': None,
         'Sectors': None,
-        'Subsectors': None
+        'Subsectors': None,
+        'Sub-subsectors': None
     }
     
     for level in data_dict.keys():
@@ -36,7 +40,6 @@ def load_weather_data():
     """Load extreme weather events data"""
     try:
         weather_data = pd.read_csv('data/EM-DATA/summary_extreme_weather_all_countries.csv')
-        weather_data['Country'] = weather_data['Country'].str.title()
         return weather_data
     except:
         return None
@@ -60,6 +63,15 @@ def load_global_emission():
     except:
         return None
 
+def load_geojson():
+    """Load the GeoJSON data for world countries"""
+    try:
+        with open('countries.geo.json') as f:
+            geojson = json.load(f)
+        return geojson
+    except:
+        return None
+    
 data_root = "data/processed_data"
 country_folders = sorted([
     name for name in os.listdir(data_root)
@@ -67,7 +79,7 @@ country_folders = sorted([
 ])
 
 # Display uppercase in the sidebar
-country_labels = [name.title() for name in country_folders]
+country_labels = [name for name in country_folders]
 
 # Sidebar country selector
 selected_label = st.sidebar.selectbox(
@@ -76,7 +88,7 @@ selected_label = st.sidebar.selectbox(
 )
 
 # Map label back to folder name
-selected_country_folder = selected_label.lower()
+selected_country_folder = selected_label
 
 # Load data for selected country
 data_dict = load_country_data(selected_country_folder)
@@ -86,7 +98,7 @@ total_emissions_df = data_dict['Total']
 
 #  level selector (for Tab 2 only)
 # Removed Total since it's not needed for sector 
-hierarchy_options = ['Sectors', 'Subsectors']  
+hierarchy_options = ['Sectors', 'Subsectors', 'Sub-subsectors']  
 selected_hierarchy = st.sidebar.radio(
     "Select Detail Level for Sector Analysis",
     options=hierarchy_options
@@ -106,13 +118,155 @@ if total_emissions_df is not None:
     )
 
     # Get chosen gases
-    co2_column = [col for col in total_emissions_df.columns if 'Net CO2' in col][0]
+    co2_column = [col for col in total_emissions_df.columns if 'CO2' in col][0]
     other_gas_columns = [col for col in total_emissions_df.columns if any(gas in col for gas in ['CH4', 'N2O', 'SF6', 'HFC', 'PFC'])]
 
-    # Create tabs
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["Emissions Trends", "Sector Distribution", "Extreme Weather", "temp", "Data View"])
+    def get_ghg_data(country_code, sector=None, subsector=None):
+        """Get the GHG data for a specific country and sector/subsector"""
+        data = total_emissions_df[total_emissions_df['Country'] == country_code]
+        if sector:
+            data = data[data['Sector'] == sector]
+        if subsector:
+            data = data[data['Subsector'] == subsector]
+        
+        # Calculate the total emissions for the filtered data
+        total_emissions = data[co2_column].sum()
+        
+        return total_emissions
 
+    import math
+
+    def get_color(emissions):
+        """Get the color for a country based on its emission value"""
+        if emissions == 0:
+            return '#ffffff'  # White for no emissions
+        else:
+            # Calculate a color intensity based on the log of the emissions value
+            intensity = math.log(emissions) / math.log(max(1, total_emissions_df[co2_column].max()))
+            
+            # Use a colormap to get the color based on the intensity
+            colormap = ['#ffffb2', '#fed976', '#feb24c', '#fd8d3c', '#f03b20', '#bd0026']
+            color_index = int(intensity * (len(colormap) - 1))
+            return colormap[color_index]
+    
+    # Create tabs
+    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["GHG Map", "Emissions Trends", "Sector Distribution", "Extreme Weather", "Temperature change", "Data View"])
     with tab1:
+        st.header("Global GHG Emissions Map")
+        
+        # Load GeoJSON data
+        geojson = load_geojson()
+        
+        if geojson is not None and total_emissions_df is not None:
+            # 1. Prepare emissions data for ALL countries (not just selected)
+            # Get list of all available country folders
+            all_country_folders = [name for name in os.listdir("data/processed_data") 
+                                if os.path.isdir(os.path.join("data/processed_data", name))]
+            
+            # 2. Create a dictionary to store all gases for each country
+            country_emissions = {}
+            gas_columns = [co2_column] + other_gas_columns  # All gas columns
+            
+            for country_folder in all_country_folders:
+                # Load each country's total emissions data
+                country_path = f"data/processed_data/{country_folder}/total"
+                if os.path.exists(country_path):
+                    files = glob.glob(os.path.join(country_path, "*.csv"))
+                    if files:
+                        df = pd.concat([pd.read_csv(f) for f in files])
+                        country_name = country_folder
+                        # Sum emissions across all years for each gas
+                        emissions = {gas: df[gas].sum() for gas in gas_columns if gas in df.columns}
+                        country_emissions[country_name] = emissions
+            
+            # 3. Convert to DataFrame for Plotly
+            emissions_df = pd.DataFrame.from_dict(country_emissions, orient='index').reset_index()
+            emissions_df = emissions_df.rename(columns={'index': 'Country'})
+            
+            # 4. Create the choropleth map with custom hover data
+            fig = px.choropleth(
+                emissions_df,
+                geojson=geojson,
+                locations='Country',
+                featureidkey="properties.name",
+                color=co2_column,  # Default to CO2 for coloring
+                color_continuous_scale="YlOrRd",
+                range_color=(0, emissions_df[co2_column].max()),
+                labels={co2_column: 'CO2 Emissions (kt)'},
+                hover_data={gas: ':.2f' for gas in gas_columns},  # Show all gases in tooltip
+                hover_name='Country',
+                title="Global GHG Emissions by Country (All Gases)"
+            )
+            
+            # 5. Customize map appearance
+            fig.update_geos(
+                showcountries=True,
+                countrycolor="Black",
+                showocean=True,
+                oceancolor="LightBlue",
+                projection_type="natural earth"
+            )
+            
+            fig.update_layout(
+                margin={"r":0,"t":40,"l":0,"b":0},
+                coloraxis_colorbar=dict(
+                    title="CO2 Emissions (kt)",
+                    thickness=15,
+                    len=0.5
+                )
+            )
+            
+            # 6. Add dropdown to change which gas determines the color
+            fig.update_layout(
+                updatemenus=[{
+                    "buttons": [
+                        {
+                            "args": [{"color": [emissions_df[gas]]}],
+                            "label": gas,
+                            "method": "restyle"
+                        } for gas in gas_columns
+                    ],
+                    "direction": "down",
+                    "showactive": True,
+                    "x": 0.1,
+                    "xanchor": "left",
+                    "y": 1.1,
+                    "yanchor": "top"
+                }]
+            )
+            
+            st.plotly_chart(fig, use_container_width=True)
+            
+            # Introduction for GHG emissions
+            st.markdown("""
+            ### Introduction to Greenhouse Gas (GHG) Emissions
+
+            Greenhouse gases (GHGs) are gases in Earth's atmosphere that trap heat, contributing to global warming and climate change. 
+            The most commonly reported GHGs include:
+
+            - **Carbon dioxide (CO₂)**
+            - **Methane (CH₄)**
+            - **Nitrous oxide (N₂O)**
+            - **Sulfur hexafluoride (SF₆)**
+            - **Hydrofluorocarbons (HFCs)**
+            - **Perfluorocarbons (PFCs)**
+
+            These gases are reported in national inventories under the **Common Reporting Format (CRF) tables**, a structured reporting framework developed by the UNFCCC.
+
+            ### History
+
+            Since the adoption of the **UNFCCC (United Nations Framework Convention on Climate Change)** in 1992 and the **Kyoto Protocol (1997)** and **Paris Agreement (2015)**,  **Annex I Parties** (developed nations) are required to submit 
+            annual greenhouse gas inventories. These inventories follow strict guidelines and provide detailed emissions by sector and gas type.
+
+            This tab visualises total reported emissions for these gases across countries, using **Annex I inventory data**, where available.
+            You can explore emissions for each gas using the dropdown menu below.
+            """)
+
+
+        else:
+            st.error("Required data not available")
+
+    with tab2:
         st.header("Emissions Trends")
 
         # Filter total emissions data by year
@@ -149,7 +303,7 @@ if total_emissions_df is not None:
         )
         st.plotly_chart(fig_other, use_container_width=True, key='Other gases graph')
 
-    with tab2:
+    with tab3:
         st.header("Sector Distribution")
 
         if sector_df is not None:
@@ -230,7 +384,52 @@ if total_emissions_df is not None:
             )
             st.plotly_chart(fig_area, use_container_width=True)
 
-    with tab3:
+            st.markdown("---")
+            st.header("Global Climate Commitments & Policies by Sector")
+
+            sector_goals = {
+                "Energy Supply": """
+                    - Coal phase-out by 2030 (EU pledge)
+                    - Net-zero energy sector by 2050 (EU pledge)
+                    - 100% clean electricity target in many NDCs
+                    """,
+                "Transport": """
+                    - Phase-out of internal combustion engine cars (2035 in EU)
+                    - 100% EV sales by 2035 in some countries
+                    - CORSIA (aviation carbon offsetting)) agreement for aviation (2021). Although weekly enforced.
+                    """,
+                "Industry": """
+                    - EU ETS (carbon market), with stricter caps post-2020
+                    - Clean industrial strategy (e.g. hydrogen, CCUS)
+                    """,
+                "Agriculture": """
+                    - Global Methane Pledge (30% reduction) by 2030
+                    - Climate-smart farming & soil carbon programs
+                    - Sustainable livestock and fertilizer practices
+                    """,
+                "Residential & Commercial": """
+                    - All new buildings to be net-zero carbon by 2030 (many NDCs)
+                    - Renovation wave across EU
+                    """,
+                "Waste": """
+                    - Landfill bans, methane capture regulations
+                    - Circular economy frameworks in most Annex I countries
+                    """
+            }
+
+            # Filter to sectors currently selected, or all if none selected
+            goals_sectors = selected_sectors if selected_sectors else list(sector_goals.keys())
+
+            selected_sector_goal = st.selectbox(
+                "Select a sector to view global climate commitments:",
+                options=goals_sectors
+            )
+
+            if selected_sector_goal in sector_goals:
+                st.markdown(f"### Global Climate Commitments for {selected_sector_goal}")
+                st.markdown(sector_goals[selected_sector_goal])
+
+    with tab4:
         st.header("Extreme Weather Events Analysis")
         
         # Load weather data
@@ -362,7 +561,7 @@ if total_emissions_df is not None:
         else:
             st.error("Weather data not available")
     
-    with tab4:
+    with tab5:
         st.header("Global Temperature Analysis")
         
         # Load temperature data
@@ -463,74 +662,61 @@ if total_emissions_df is not None:
 
         else:
             st.error("Temperature data not available")
-    with tab5:
-        st.header("Data Explorer and Download")
-        
-        # Create a dictionary of available datasets
-        datasets = {
-            "Total Emissions": total_emissions_df if total_emissions_df is not None else None,
-            "Filtered Emissions": filtered_total_df if 'filtered_total_df' in locals() else None,
-            "Sector Emissions": sector_df if sector_df is not None else None,
-            "Filtered Sector Emissions": filtered_sector_df if 'filtered_sector_df' in locals() else None,
-            "Weather Events": country_weather if 'country_weather' in locals() else None,
-            "Temperature Data": filtered_temp_data if 'filtered_temp_data' in locals() else None
+    with tab6:
+        st.header(" Data Explorer & Download")
+
+        st.markdown("Browse and download datasets including GHG emissions, gas species, temperature anomalies, and extreme weather events.")
+
+        dataset_options = {
+            "Total Emissions": os.path.join(data_root, selected_country_folder, "total", f"{selected_country_folder}_total_combined.csv"),
+            "Sector Emissions": os.path.join(data_root, selected_country_folder, "sectors", f"{selected_country_folder}_sectors_combined.csv"),
+            "Subsector Emissions": os.path.join(data_root, selected_country_folder, "subsectors", f"{selected_country_folder}_subsectors_combined.csv"),
+            "Sub-subsector Emissions": os.path.join(data_root, selected_country_folder, "sub_subsectors", f"{selected_country_folder}_sub_subsectors_combined.csv"),
+            "Extreme Weather": "data/EM-DATA/summary_extreme_weather_all_countries.csv",
+            "Temperature Anomalies": "data/EM-DATA/global_temp_anomalies.csv"
         }
 
-        # Dataset selector
-        selected_dataset = st.selectbox(
-            "Select Dataset to View",
-            options=list(datasets.keys())
-        )
+        # Add gas versions of each hierarchy level
+        gas_species_folder = os.path.join(data_root, selected_country_folder)
+        for gas_folder in os.listdir(gas_species_folder):
+            gas_path = os.path.join(gas_species_folder, gas_folder)
+            if not os.path.isdir(gas_path):
+                continue
 
-        # Display selected dataset and download button
-        if datasets[selected_dataset] is not None:
-            # Show info about the dataset
-            st.info(f"Showing {len(datasets[selected_dataset])} rows and {len(datasets[selected_dataset].columns)} columns")
-            
-            # Create columns for download button and additional options
-            col1, col2 = st.columns([3, 1])
-            
-            with col1:
-                # Show the first few rows by default
-                st.dataframe(datasets[selected_dataset])
-            
-            with col2:
-                # Download button
-                csv = datasets[selected_dataset].to_csv(index=False)
-                st.download_button(
-                    label="Download Data",
-                    data=csv,
-                    file_name=f'{selected_label}_{selected_dataset.lower().replace(" ", "_")}.csv',
-                    mime='text/csv'
-                )
-                
-                # Show basic statistics
-                st.write("Dataset Info:")
-                st.write(f"Time Period: {datasets[selected_dataset]['Year'].min()} - {datasets[selected_dataset]['Year'].max()}")
+            gas = gas_folder.upper()
+            for level in ["total", "sectors", "subsectors", "sub_subsectors"]:
+                combined_file = os.path.join(gas_path, level, f"{selected_country_folder}_{level}_{gas.lower()}_combined.csv")
+                if os.path.exists(combined_file):
+                    key = f"{gas} - {level.capitalize()} Emissions"
+                    dataset_options[key] = combined_file
+
+        selected_dataset_name = st.selectbox("Select a dataset to explore", list(dataset_options.keys()))
+        dataset_path = dataset_options[selected_dataset_name]
+
+        if os.path.exists(dataset_path):
+            df = pd.read_csv(dataset_path)
+
+            if 'Year' in df.columns:
+                years = sorted(df['Year'].dropna().unique())
+                year_filter = st.slider("Filter by Year", min_value=int(min(years)), max_value=int(max(years)),
+                                        value=(int(min(years)), int(max(years))))
+                df = df[df['Year'].between(year_filter[0], year_filter[1])]
+
+            st.write(f"Preview of **{selected_dataset_name}**")
+            st.dataframe(df.head(100))
+
+            csv = df.to_csv(index=False).encode('utf-8')
+            st.download_button(
+                label=f" Download {selected_dataset_name} as CSV",
+                data=csv,
+                file_name=f"{selected_dataset_name.replace(' ', '_').lower()}.csv",
+                mime='text/csv'
+            )
         else:
-            st.warning("This dataset is not available for the selected country.")
+            st.warning("Dataset not found.")
 
-        # Add description section
         st.markdown("---")
-        st.subheader("Dataset Descriptions")
-        
-        descriptions = {
-            "Total Emissions": "Complete yearly emissions data for all greenhouse gases.",
-            "Filtered Emissions": f"Emissions data filtered for years {year_range[0]} to {year_range[1]}.",
-            "Sector Emissions": "Emissions data broken down by sectors and categories.",
-            "Filtered Sector Emissions": f"Sector emissions data filtered for years {year_range[0]} to {year_range[1]}.",
-            "Weather Events": "Historical extreme weather events and their impacts.",
-            "Temperature Data": "Global temperature anomaly data."
-        }
-
-        # Create a description table
-        desc_df = pd.DataFrame({
-            'Dataset': descriptions.keys(),
-            'Description': descriptions.values()
-        })
-        
-        st.table(desc_df)
-
+        st.subheader(" Dataset Descriptions")
 
 
     # Metrics summary (move to top later)
