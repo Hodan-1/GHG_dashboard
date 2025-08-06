@@ -158,47 +158,51 @@ if total_emissions_df is not None:
         geojson = load_geojson()
         
         if geojson is not None and total_emissions_df is not None:
-            # 1. Prepare emissions data for ALL countries (not just selected)
             # Get list of all available country folders
             all_country_folders = [name for name in os.listdir("data/processed_data") 
                                 if os.path.isdir(os.path.join("data/processed_data", name))]
             
-            # 2. Create a dictionary to store all gases for each country
-            country_emissions = {}
-            gas_columns = [co2_column] + other_gas_columns  # All gas columns
-            
+            # Create emissions dataframe using the selected year from the sidebar slider
+            emissions_df = pd.DataFrame()
             for country_folder in all_country_folders:
-                # Load each country's total emissions data
                 country_path = f"data/processed_data/{country_folder}/total"
                 if os.path.exists(country_path):
                     files = glob.glob(os.path.join(country_path, "*.csv"))
                     if files:
                         df = pd.concat([pd.read_csv(f) for f in files])
-                        country_name = country_folder
-                        # Sum emissions across all years for each gas
-                        emissions = {gas: df[gas].sum() for gas in gas_columns if gas in df.columns}
-                        country_emissions[country_name] = emissions
-            
-            # 3. Convert to DataFrame for Plotly
-            emissions_df = pd.DataFrame.from_dict(country_emissions, orient='index').reset_index()
-            emissions_df = emissions_df.rename(columns={'index': 'Country'})
-            
-            # 4. Create the choropleth map with custom hover data
+                        # Filter for selected year from the sidebar slider
+                        year_data = df[df['Year'] == year_range[1]]  # Using the end year from the range
+                        if not year_data.empty:
+                            emissions = {
+                                'Country': country_folder,
+                                co2_column: year_data[co2_column].sum()
+                            }
+                            emissions_df = pd.concat([emissions_df, pd.DataFrame([emissions])], 
+                                                ignore_index=True)
+
+            # Create the choropleth map
             fig = px.choropleth(
                 emissions_df,
                 geojson=geojson,
                 locations='Country',
                 featureidkey="properties.name",
-                color=co2_column,  # Default to CO2 for coloring
+                color=co2_column,
                 color_continuous_scale="YlOrRd",
                 range_color=(0, emissions_df[co2_column].max()),
                 labels={co2_column: 'CO2 Emissions (kt)'},
-                hover_data={gas: ':.2f' for gas in gas_columns},  # Show all gases in tooltip
+                hover_data={co2_column: ':.2f'},
                 hover_name='Country',
-                title="Global GHG Emissions by Country (All Gases)"
+                title=f"Global CO2 Emissions by Country ({year_range[1]})"  # Using the end year from the range
             )
-            
-            # 5. Customize map appearance
+
+            # Update hover template
+            fig.update_traces(
+                hovertemplate="<b>%{hovertext}</b><br>" +
+                "CO2 Emissions: %{customdata[0]:,.2f} kt<br>" +
+                "<i>Click for more information</i><extra></extra>"
+            )
+
+            # Update map appearance
             fig.update_geos(
                 showcountries=True,
                 countrycolor="Black",
@@ -206,7 +210,8 @@ if total_emissions_df is not None:
                 oceancolor="LightBlue",
                 projection_type="natural earth"
             )
-            
+
+            # Update layout
             fig.update_layout(
                 margin={"r":0,"t":40,"l":0,"b":0},
                 coloraxis_colorbar=dict(
@@ -215,53 +220,27 @@ if total_emissions_df is not None:
                     len=0.5
                 )
             )
-            
-            # 6. Add dropdown to change which gas determines the color
-            fig.update_layout(
-                updatemenus=[{
-                    "buttons": [
-                        {
-                            "args": [{"color": [emissions_df[gas]]}],
-                            "label": gas,
-                            "method": "restyle"
-                        } for gas in gas_columns
-                    ],
-                    "direction": "down",
-                    "showactive": True,
-                    "x": 0.1,
-                    "xanchor": "left",
-                    "y": 1.1,
-                    "yanchor": "top"
-                }]
-            )
-            
+
             st.plotly_chart(fig, use_container_width=True)
-            
+
             # Introduction for GHG emissions
             st.markdown("""
             ### Introduction to Greenhouse Gas (GHG) Emissions
 
             Greenhouse gases (GHGs) are gases in Earth's atmosphere that trap heat, contributing to global warming and climate change. 
-            The most commonly reported GHGs include:
+            The most significant greenhouse gas is:
 
-            - **Carbon dioxide (CO₂)**
-            - **Methane (CH₄)**
-            - **Nitrous oxide (N₂O)**
-            - **Sulfur hexafluoride (SF₆)**
-            - **Hydrofluorocarbons (HFCs)**
-            - **Perfluorocarbons (PFCs)**
+            - **Carbon dioxide (CO₂)**: The primary greenhouse gas emitted through human activities.
 
-            These gases are reported in national inventories under the **Common Reporting Format (CRF) tables**, a structured reporting framework developed by the UNFCCC.
+            This map shows CO₂ emissions by country, based on national inventory data reported under the UNFCCC framework.
 
             ### History
 
             Since the adoption of the **UNFCCC (United Nations Framework Convention on Climate Change)** in 1992 and the **Kyoto Protocol (1997)** and **Paris Agreement (2015)**,  **Annex I Parties** (developed nations) are required to submit 
-            annual greenhouse gas inventories. These inventories follow strict guidelines and provide detailed emissions by sector and gas type.
+            annual greenhouse gas inventories. These inventories follow strict guidelines and provide detailed emissions data.
 
-            This tab visualises total reported emissions for these gases across countries, using **Annex I inventory data**, where available.
-            You can explore emissions for each gas using the dropdown menu below.
+            Click on any country to explore more detailed information about their emissions.
             """)
-
 
         else:
             st.error("Required data not available")
