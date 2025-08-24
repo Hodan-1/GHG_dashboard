@@ -9,8 +9,6 @@ from streamlit_folium import st_folium
 import statsmodels.api as sm  
 import json
 
-
-
 # Set page configuration
 st.set_page_config(
     page_title="GHG Emissions Dashboard",
@@ -19,10 +17,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-if 'current_tab' not in st.session_state:
-    st.session_state.current_tab = "GHG Map"
-
-@st.cache_data    
 def load_country_data(country_code):
     """Load data for a specific country with hierarchy levels"""
     country_path = f"data/processed_data/{country_code}"
@@ -58,9 +52,8 @@ def load_temperature_data():
         temp_data = pd.read_csv('data/EM-DATA/global_temp_anomalies.csv')
         return temp_data
     except:
-        return None  
-     
-@st.cache_data
+        return None   
+
 def load_global_emission():
     """
     Load global emissions data
@@ -70,8 +63,7 @@ def load_global_emission():
         return global_emissions
     except:
         return None
-    
-@st.cache_data
+
 def load_geojson():
     """Load the GeoJSON data for world countries"""
     try:
@@ -80,7 +72,29 @@ def load_geojson():
         return geojson
     except:
         return None
-   
+    
+@st.cache_data
+def load_all_total_emissions():
+    all_country_folders = [
+        name for name in os.listdir("data/processed_data")
+        if os.path.isdir(os.path.join("data/processed_data", name))
+    ]
+    
+    all_data = []
+    for country_folder in all_country_folders:
+        country_path = f"data/processed_data/{country_folder}/total"
+        if os.path.exists(country_path):
+            files = glob.glob(os.path.join(country_path, "*.csv"))
+            for f in files:
+                df = pd.read_csv(f)
+                df = df[df['Year'] >= 1990]  
+                df["Country"] = country_folder  # Keep track of country
+                all_data.append(df)
+
+    if all_data:
+        return pd.concat(all_data, ignore_index=True)
+    else:
+        return None    
 data_root = "data/processed_data"
 country_folders = sorted([
     name for name in os.listdir(data_root)
@@ -90,216 +104,158 @@ country_folders = sorted([
 # Display uppercase in the sidebar
 country_labels = [name for name in country_folders]
 
-def conditional_sidebar():
-    """
-    Conditionally render sidebar based on current tab
-    """
+# Add this after country_folders definition
+country_labels = [name for name in country_folders]  # Or format as needed
 
-    # Sidebar country selector with unique key for each tab
-    if st.session_state.current_tab == 'Emissions Trends':
-        selected_label = st.sidebar.selectbox(
-            "Select Country",
-            options=country_labels,
-            key="country_selectbox_map"
-        )
+def get_sidebar(country_labels, key_prefix=""):
+    """Sidebar that always loads datasets but hides country selector for GHG Map."""
+    sidebar_data = {
+        'selected_country_folder': None,
+        'year_range': None,
+        'data_dict': None,
+        'total_emissions_df': None,
+        'co2_df': None,
+        'other_gases_df': None
+    }
 
-    elif st.session_state.current_tab == 'Emissions Trends':
+    # Default selected country
+    if st.session_state.get("current_tab") != "GHG Map":
+        # Country selector only for tabs 2–5
         selected_label = st.sidebar.selectbox(
             "Select Country",
             options=country_labels,
-            key="country_selectbox_trends"
+            key=f"{key_prefix}_country_selector"
         )
-    elif st.session_state.current_tab == 'Sector Distribution':
-        selected_label = st.sidebar.selectbox(
-            "Select Country",
-            options=country_labels,
-            key="country_selectbox_sector"
-        )
-    elif st.session_state.current_tab == 'Climate Change Impact':
-        selected_label = st.sidebar.selectbox(
-            "Select Country",
-            options=country_labels,
-            key="country_selectbox_impact"
-        )
-    elif st.session_state.current_tab == 'Data View':
-        selected_label = st.sidebar.selectbox(
-            "Select Country",
-            options=country_labels,
-            key="country_selectbox_view"
-        )
+    else:
+        # Default to first country if no selection
+        selected_label = country_labels[0]
+
+    # Store selected country folder
+    sidebar_data['selected_country_folder'] = selected_label
+
+    # Load all datasets for selected country
+    sidebar_data['data_dict'] = load_country_data(selected_label)
+    total_df = sidebar_data['data_dict']['Total']
+    sidebar_data['total_emissions_df'] = total_df
+
+    # Filter CO₂-only and other gases
+    co2_column = [col for col in total_df.columns if "CO2" in col][0]
+    sidebar_data['co2_df'] = total_df[['Year', 'Country', co2_column]]
+    other_gas_columns = [col for col in total_df.columns if col != co2_column and col not in ['Year', 'Country']]
+    sidebar_data['other_gases_df'] = total_df[['Year', 'Country'] + other_gas_columns]
+
+    # Year slider
+    years = sorted(total_df['Year'].unique())
+    sidebar_data['year_range'] = st.sidebar.slider(
+        "Select Year Range",
+        min_value=min(years),
+        max_value=max(years),
+        value=(min(years), max(years)),
+        key=f"{key_prefix}_year_range"
+    )
+
+    return sidebar_data
+
+
+def get_ghg_data(country_code, sector=None, subsector=None):
+    """Get the GHG data for a specific country and sector/subsector"""
+    data = total_emissions_df[total_emissions_df['Country'] == country_code]
+    if sector:
+        data = data[data['Sector'] == sector]
+    if subsector:
+        data = data[data['Subsector'] == subsector]
     
-    # Map label back to folder name
-    selected_country_folder = selected_label
-
-    # Load data for selected country
-    data_dict = load_country_data(selected_country_folder)
-
-    # Total emissions data (for Tab 1)
-    total_emissions_df = data_dict['Total']
-
-    if st.session_state.current_tab == 'GHG Map':
-        if total_emissions_df is not None:
-            # Year range selector
-            years = sorted(total_emissions_df['Year'].unique())
-            year_range = st.sidebar.slider(
-                "Select Year Range",
-                min_value=min(years),
-                max_value=max(years),
-                value=(min(years), max(years)),
-                key="year_range_map"
-            )
-        return selected_country_folder, year_range, data_dict, total_emissions_df, None, None, None
-
-    elif st.session_state.current_tab == 'Emissions Trends':
-        if total_emissions_df is not None:
-            # Year range selector
-            years = sorted(total_emissions_df['Year'].unique())
-            year_range = st.sidebar.slider(
-                "Select Year Range",
-                min_value=min(years),
-                max_value=max(years),
-                value=(min(years), max(years)),
-                key="year_range_trends"
-            )
-        return selected_country_folder, year_range, data_dict, total_emissions_df, None, None, None
-
-    elif st.session_state.current_tab == 'Sector Distribution':
-        hierarchy_options = ['Sectors', 'Subsectors', 'Sub-subsectors (Energy)']
-        selected_hierarchy = st.sidebar.radio(
-            "Select Detail Level for Sector Analysis",
-            options=hierarchy_options,
-            key="hierarchy_radio"
-        )
-
-        # Get the correct dataset for sector analysis
-        sector_df = data_dict.get(selected_hierarchy)
-
-        if total_emissions_df is not None:
-            # Year range selector
-            years = sorted(total_emissions_df['Year'].unique())
-            year_range = st.sidebar.slider(
-                "Select Year Range",
-                min_value=min(years),
-                max_value=max(years),
-                value=(min(years), max(years)),
-                key="year_range_sector"
-            )
-
-        if sector_df is not None:
-            # Sector selector for Tab 2
-            available_sectors = sector_df['GREENHOUSE GAS SOURCE AND SINK CATEGORIES'].unique()
-            selected_sectors = st.sidebar.multiselect(
-                "Select Sectors for Sector Analysis",
-                options=available_sectors,
-                default=available_sectors,
-                key="sector_multiselect"
-            )
-
-        return selected_country_folder, year_range, data_dict, total_emissions_df, sector_df, selected_hierarchy, selected_sectors
+    # Calculate the total emissions for the filtered data
+    total_emissions = data[co2_column].sum()
     
-    elif st.session_state.current_tab == 'Climate Change Impact':
-        if total_emissions_df is not None:
-            # Year range selector
-            years = sorted(total_emissions_df['Year'].unique())
-            year_range = st.sidebar.slider(
-                "Select Year Range",
-                min_value=min(years),
-                max_value=max(years),
-                value=(min(years), max(years)),
-                key="year_range_impact"
-            )
-        return selected_country_folder, year_range, data_dict, total_emissions_df, None, None, None
+    return total_emissions
 
-    elif st.session_state.current_tab == 'Data View':
-        if total_emissions_df is not None:
-            # Year range selector
-            years = sorted(total_emissions_df['Year'].unique())
-            year_range = st.sidebar.slider(
-                "Select Year Range",
-                min_value=min(years),
-                max_value=max(years),
-                value=(min(years), max(years)),
-                key="year_range_view"
-            )
-        return selected_country_folder, year_range, data_dict, None, None, None, None
+import math
 
-
-
-
+def get_color(emissions):
+    """Get the color for a country based on its emission value"""
+    if emissions == 0:
+        return '#ffffff'  # White for no emissions
+    else:
+        # Calculate a color intensity based on the log of the emissions value
+        intensity = math.log(emissions) / math.log(max(1, total_emissions_df[co2_column].max()))
+        
+        # Use a colormap to get the color based on the intensity
+        colormap = ['#ffffb2', '#fed976', '#feb24c', '#fd8d3c', '#f03b20', '#bd0026']
+        color_index = int(intensity * (len(colormap) - 1))
+        return colormap[color_index]
 
 # Create tabs
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["GHG Map", "Emissions Trends", "Sector Distribution", " Climate Change Impact", "Data View"])
+
+# Track current tab in session state
+if "current_tab" not in st.session_state:
+    st.session_state.current_tab = "GHG Map"
+
+# Map tab objects to names
+tabs_map = {
+    "GHG Map": tab1,
+    "Emissions Trends": tab2,
+    "Sector Distribution": tab3,
+    "Climate Change Impact": tab4,
+    "Data View": tab5
+}
+
+# Si
+sidebar_data = get_sidebar(country_labels, "main")
+
 with tab1:
     st.session_state.current_tab = "GHG Map"
-    year_range, data_dict, total_emissions_df = conditional_sidebar()
-
-    st.header("Introduction to CO₂ Emissions by Country")
     
-    st.write(
-        "This interactive map displays carbon dioxide (CO₂) emissions over time "
-        "for UNFCCC Annex I countries. Emissions are measured in kilotonnes (kt) "
-        "and sourced from the Common Reporting Tables 2025, which reflect " 
-        "standardised national greenhouse gas inventories submitted under international climate agreements." 
-        " Hover over a country to explore emissions at a specific point in time."
-    )
-    # Get chosen gases
-    co2_column = [col for col in total_emissions_df.columns if 'CO2' in col][0]
-    other_gas_columns = [col for col in total_emissions_df.columns if any(gas in col for gas in ['CH4', 'N2O', 'SF6', 'HFC', 'PFC'])]
+    # Load data for ALL countries (not using sidebar selection)
+    all_emissions_df = load_all_total_emissions()
+    
+    # Get year range from sidebar
+
+    year_range = sidebar_data['year_range']
+    
+    if all_emissions_df is not None:
+        # Get chosen gases from the combined dataset
+        co2_column = [col for col in all_emissions_df.columns if 'CO2' in col][0]
+        
+    st.header("Introduction to CO₂ Emissions by Country")
+    st.write("This interactive map displays carbon dioxide (CO₂) emissions over time...")
 
     # Load GeoJSON data
     geojson = load_geojson()
     
-    if geojson is not None and total_emissions_df is not None:
+    if geojson is not None:
         # Create frames for animation
         frames = []
         
-        # Get all years in the range
+        # Get all years in the selected range
         years = range(year_range[0], year_range[1] + 1)
-        
-        # Get list of all available country folders
-        all_country_folders = [name for name in os.listdir("data/processed_data") 
-                            if os.path.isdir(os.path.join("data/processed_data", name))]
         
         # Create frames for each year
         for year in years:
-            emissions_df = pd.DataFrame()
-            for country_folder in all_country_folders:
-                country_path = f"data/processed_data/{country_folder}/total"
-                if os.path.exists(country_path):
-                    files = glob.glob(os.path.join(country_path, "*.csv"))
-                    if files:
-                        df = pd.concat([pd.read_csv(f) for f in files])
-                        year_data = df[df['Year'] == year]
-                        if not year_data.empty:
-                            emissions = {
-                                'Country': country_folder,
-                                co2_column: year_data[co2_column].sum()
-                            }
-                            emissions_df = pd.concat([emissions_df, pd.DataFrame([emissions])], 
-                                                ignore_index=True)
+            # Filter the pre-loaded all_country data for this year
+            year_data = all_emissions_df[all_emissions_df['Year'] == year]
             
-            frame = go.Frame(
-                data=[go.Choropleth(
-                    locations=emissions_df['Country'],
-                    z=emissions_df[co2_column],
-                    geojson=geojson,
-                    featureidkey="properties.name",
-                    colorscale="YlOrRd",
-                    zmin=0,
-                    zmax=emissions_df[co2_column].max(),
-                    colorbar=dict(
-                        title="CO2 Emissions (kt)",
-                        thickness=15,
-                        len=0.5
-                    ),
-                    hovertemplate="<b>%{location}</b><br>" +
-                                "CO2 Emissions: %{z:,.2f} kt<br>" +
-                                "<i>Click for more information</i><extra></extra>"
-                )],
-                name=str(year)
-            )
-            frames.append(frame)
-
+            if not year_data.empty:
+                # Aggregate by country
+                emissions_df = year_data.groupby('Country')[co2_column].sum().reset_index()
+                
+                frame = go.Frame(
+                    data=[go.Choropleth(
+                        locations=emissions_df['Country'],
+                        z=emissions_df[co2_column],
+                        geojson=geojson,
+                        featureidkey="properties.name",
+                        colorscale="YlOrRd",
+                        zmin=0,
+                        zmax=emissions_df[co2_column].max(),
+                        colorbar=dict(title="CO2 Emissions (kt)"),
+                        hovertemplate="<b>%{location}</b><br>CO2: %{z:,.0f} kt<extra></extra>"
+                    )],
+                    name=str(year)
+                )
+                frames.append(frame)
+        
         # Create the base choropleth map (initial frame)
         fig = go.Figure()
         fig.add_trace(go.Choropleth(
@@ -413,8 +369,14 @@ with tab1:
 
 with tab2:
     st.session_state.current_tab = "Emissions Trends"
-    selected_country_folder, year_range, data_dict, total_emissions_df = conditional_sidebar()
-
+    
+    # Access the returned values
+    total_emissions_df = sidebar_data['total_emissions_df']
+    data_dict = sidebar_data['data_dict']
+    selected_country_folder = sidebar_data['selected_country_folder']
+    year_range = sidebar_data['year_range']
+    co2_column = [col for col in total_emissions_df.columns if 'CO2' in col][0]
+    other_gas_columns = [col for col in total_emissions_df.columns if any(gas in col for gas in ['CH4', 'N2O', 'SF6', 'HFC', 'PFC'])]
     st.header("National Emissions Trends")
 
     st.write("Greenhouse gases (GHGs) differ in how they're produced and how strongly they warm the planet."
@@ -431,10 +393,7 @@ with tab2:
         total_emissions_df['Year'].between(year_range[0], year_range[1])
     ]
 
-    # Get chosen gases
-    co2_column = [col for col in total_emissions_df.columns if 'CO2' in col][0]
-    other_gas_columns = [col for col in total_emissions_df.columns if any(gas in col for gas in ['CH4', 'N2O', 'SF6', 'HFC', 'PFC'])]
-
+    
 
     # First plot - CO2 Emissions
     st.subheader("CO2 Emissions Over Time")
@@ -565,8 +524,45 @@ with tab2:
 
 with tab3:
     st.session_state.current_tab = "Sector Distribution"
-    selected_country_folder, year_range, data_dict, total_emissions_df, sector_df, selected_hierarchy, selected_sectors = conditional_sidebar()
 
+   
+    # Access returned values
+    total_emissions_df = sidebar_data['total_emissions_df']
+    data_dict = sidebar_data['data_dict']
+    year_range = sidebar_data['year_range']
+    selected_country_folder = sidebar_data['selected_country_folder']
+    
+    if total_emissions_df is not None:
+        # Get CO2 column
+        co2_column = [col for col in total_emissions_df.columns if 'CO2' in col][0]
+        other_gas_columns = [col for col in total_emissions_df.columns if any(gas in col for gas in ['CH4', 'N2O', 'SF6', 'HFC', 'PFC'])]
+        # Hierarchy level selector
+        hierarchy_options = ['Sectors', 'Subsectors', 'Sub-subsectors']  
+        selected_hierarchy = st.sidebar.radio(
+            "Select Detail Level",
+            options=hierarchy_options,
+            key="sector_hierarchy"
+        )
+    
+        # Get sector data
+        sector_df = data_dict.get(selected_hierarchy)
+        
+        if sector_df is not None:
+            # Sector selection
+            available_sectors = sector_df['GREENHOUSE GAS SOURCE AND SINK CATEGORIES'].unique()
+            selected_sectors = st.multiselect(
+                "Select Sectors",
+                options=available_sectors,
+                default=available_sectors,
+                key="sector_selection"
+            )
+            
+            # Filter sector data
+            filtered_sector_df = sector_df[
+                (sector_df['Year'].between(year_range[0], year_range[1])) &
+                (sector_df['GREENHOUSE GAS SOURCE AND SINK CATEGORIES'].isin(selected_sectors))
+            ]
+            
     chart_explanations = {
     'United States': (
         "The United States has a diverse economy where **energy and transportation** are major contributors "
@@ -872,130 +868,119 @@ with tab3:
     st.header("Sector Distribution")
     st.write("Here, you can explore a detailed breakdown of greenhouse gas emissions by sector over time. Below the charts, you'll find an overview of the specific climate policies implemented in the selected country to address these emissions.")
 
-    if sector_df is not None:
-        # Sector selector for Tab 2
-        available_sectors = sector_df['GREENHOUSE GAS SOURCE AND SINK CATEGORIES'].unique()
-        selected_sectors = st.multiselect(
-            "Select Sectors for Sector Analysis",
-            options=available_sectors,
-            default=available_sectors
-        )
+    
 
-        # Gas selector for Bar Chart (Checkboxes)
-        available_gases_tab2_bar = [co2_column] + other_gas_columns
-        selected_gases_tab2_bar = st.multiselect(
-            "Select Gases for Bar Chart",
-            options=available_gases_tab2_bar,
-            default=[co2_column]  # Default to CO2
-        )
+    # Gas selector for Bar Chart (Checkboxes)
+    available_gases_tab2_bar = [co2_column] + other_gas_columns
+    selected_gases_tab2_bar = st.multiselect(
+        "Select Gases for Bar Chart",
+        options=available_gases_tab2_bar,
+        default=[co2_column]  # Default to CO2
+    )
 
-        
+    
 
-        # Filter sector data
-        filtered_sector_df = sector_df[
-            (sector_df['Year'].between(year_range[0], year_range[1])) &
-            (sector_df['GREENHOUSE GAS SOURCE AND SINK CATEGORIES'].isin(selected_sectors))
-        ]
+    
 
-        # Bar chart of emissions by gas type for each sector
-        st.subheader("Emissions by Sector and Gas Type")
-        latest_year = filtered_sector_df['Year'].max()
-        latest_data = filtered_sector_df[filtered_sector_df['Year'] == latest_year]
+    # Bar chart of emissions by gas type for each sector
+    st.subheader("Emissions by Sector and Gas Type")
+    latest_year = filtered_sector_df['Year'].max()
+    latest_data = filtered_sector_df[filtered_sector_df['Year'] == latest_year]
 
-        # Melt the data for the selected gases
-        latest_data_melted = latest_data.melt(
-            id_vars=['GREENHOUSE GAS SOURCE AND SINK CATEGORIES'],
-            value_vars=selected_gases_tab2_bar,
-            var_name='Gas',
-            value_name='Emissions_kt'
-        )
+    # Melt the data for the selected gases
+    latest_data_melted = latest_data.melt(
+        id_vars=['GREENHOUSE GAS SOURCE AND SINK CATEGORIES'],
+        value_vars=selected_gases_tab2_bar,
+        var_name='Gas',
+        value_name='Emissions_kt'
+    )
 
-        fig_bar = px.bar(
-            latest_data_melted,
-            x='GREENHOUSE GAS SOURCE AND SINK CATEGORIES',
-            y='Emissions_kt',
-            color='Gas',
-            title=f'Emissions by Sector and Gas Type ({latest_year})',
-            labels={'Emissions_kt': 'Emissions (kt)',
-                    'GREENHOUSE GAS SOURCE AND SINK CATEGORIES': 'Sector'}
-        )
-        fig_bar.update_layout(xaxis_tickangle=-45)
-        st.plotly_chart(fig_bar, use_container_width=True, key='Sector bar chart')
+    fig_bar = px.bar(
+        latest_data_melted,
+        x='GREENHOUSE GAS SOURCE AND SINK CATEGORIES',
+        y='Emissions_kt',
+        color='Gas',
+        title=f'Emissions by Sector and Gas Type ({latest_year})',
+        labels={'Emissions_kt': 'Emissions (kt)',
+                'GREENHOUSE GAS SOURCE AND SINK CATEGORIES': 'Sector'}
+    )
+    fig_bar.update_layout(xaxis_tickangle=-45)
+    st.plotly_chart(fig_bar, use_container_width=True, key='Sector bar chart')
 
-        if selected_label in chart_explanations:
-            st.write(chart_explanations[selected_label])
+    if selected_country_folder in chart_explanations:
+        st.write(chart_explanations[selected_country_folder])
 
-        # Gas selector for Pie Chart (Dropdown)
-        available_gases_tab2_pie = [co2_column] + other_gas_columns
-        selected_gas_tab2_pie = st.selectbox(
-            "Select Gas for Pie Chart",
-            options=available_gases_tab2_pie,
-            index=0  # Default to the first gas (CO2)
-        )
-        # Pie chart of emissions distribution by sector
-        st.subheader("Distribution of Emissions by Sector")
-        fig_pie = px.pie(
-            latest_data,
-            values=selected_gas_tab2_pie,
-            names='GREENHOUSE GAS SOURCE AND SINK CATEGORIES',
-            title=f'Distribution of {selected_gas_tab2_pie} by Sector ({latest_year})'
-        )
-        st.plotly_chart(fig_pie, use_container_width=True, key='Sector pie chart')
+    # Gas selector for Pie Chart (Dropdown)
+    available_gases_tab2_pie = [co2_column] + other_gas_columns
+    selected_gas_tab2_pie = st.selectbox(
+        "Select Gas for Pie Chart",
+        options=available_gases_tab2_pie,
+        index=0  # Default to the first gas (CO2)
+    )
+    # Pie chart of emissions distribution by sector
+    st.subheader("Distribution of Emissions by Sector")
+    fig_pie = px.pie(
+        latest_data,
+        values=selected_gas_tab2_pie,
+        names='GREENHOUSE GAS SOURCE AND SINK CATEGORIES',
+        title=f'Distribution of {selected_gas_tab2_pie} by Sector ({latest_year})'
+    )
+    st.plotly_chart(fig_pie, use_container_width=True, key='Sector pie chart')
 
-        # Display the explanation for the selected gas
-        if selected_gas_tab2_pie in gas_explanations:
-            st.write(gas_explanations[selected_gas_tab2_pie])
+    # Display the explanation for the selected gas
+    if selected_gas_tab2_pie in gas_explanations:
+        st.write(gas_explanations[selected_gas_tab2_pie])
 
-        st.markdown("---")
-        
-        # Stacked area chart showing emissions by sector over time
-        t1, t2 = st.tabs(['Area Chart', 'Line Chart'])
-        st.subheader("Emissions by Sector Over Time")
-        with t1:
-            fig_area = px.area(
-            filtered_sector_df,
-            x='Year',
-            y=selected_gas_tab2_pie,
-            color='GREENHOUSE GAS SOURCE AND SINK CATEGORIES',
-            title=f'{selected_gas_tab2_pie} Emissions by Sector Over Time',
-            labels={'value': 'Emissions (kt)'}
-        )
-            st.plotly_chart(fig_area, use_container_width=True, key='area  chart')
+    st.markdown("---")
+    
+    # Stacked area chart showing emissions by sector over time
+    t1, t2 = st.tabs(['Area Chart', 'Line Chart'])
+    st.subheader("Emissions by Sector Over Time")
+    with t1:
+        fig_area = px.area(
+        filtered_sector_df,
+        x='Year',
+        y=selected_gas_tab2_pie,
+        color='GREENHOUSE GAS SOURCE AND SINK CATEGORIES',
+        title=f'{selected_gas_tab2_pie} Emissions by Sector Over Time',
+        labels={'value': 'Emissions (kt)'}
+    )
+        st.plotly_chart(fig_area, use_container_width=True, key='area  chart')
 
-        with t2:
-            fig_line = px.line(
-            filtered_sector_df,
-            x='Year',
-            y=selected_gas_tab2_pie,
-            color='GREENHOUSE GAS SOURCE AND SINK CATEGORIES',
-            title=f'{selected_gas_tab2_pie} Emissions by Sector Over Time',
-            labels={'value': 'Emissions (kt)'}
-        )
-            st.plotly_chart(fig_line, use_container_width=True, key='line_chart')
+    with t2:
+        fig_line = px.line(
+        filtered_sector_df,
+        x='Year',
+        y=selected_gas_tab2_pie,
+        color='GREENHOUSE GAS SOURCE AND SINK CATEGORIES',
+        title=f'{selected_gas_tab2_pie} Emissions by Sector Over Time',
+        labels={'value': 'Emissions (kt)'}
+    )
+        st.plotly_chart(fig_line, use_container_width=True, key='line_chart')
 
     if selected_hierarchy == 'Sectors':
         st.markdown("### Sector-Level Policies")
-        if selected_label in policy_data and 'Sectors' in policy_data[selected_label]:
-            for sector, details in policy_data[selected_label]['Sectors'].items():
+        if selected_country_folder in policy_data and 'Sectors' in policy_data[selected_country_folder]:
+            for sector, details in policy_data[selected_country_folder]['Sectors'].items():
                 with st.expander(f"**{sector}**"):
                     st.write(details['description'])
                     st.markdown("##### Key Policies:")
                     for policy in details['policies']:
                         st.markdown(f"- {policy}")
         else:
-            st.write(f"No sector-level policy data available for {selected_label}.")
+            st.write(f"No sector-level policy data available for {selected_country_folder}.")
 
     elif selected_hierarchy == 'Subsectors':
         st.markdown("### Subsector-Level Policies")
-        if selected_label in policy_data and 'Subsectors' in policy_data[selected_label]:
-            for subsector, details in policy_data[selected_label]['Subsectors'].items():
+        if selected_country_folder in policy_data and 'Subsectors' in policy_data[selected_country_folder]:
+            for subsector, details in policy_data[selected_country_folder]['Subsectors'].items():
                 with st.expander(f"**{subsector}**"):
                     st.write(details['description'])
                     st.markdown("##### Key Policies:")
                     for policy in details['policies']:
                         st.markdown(f"- {policy}")
         else:
-            st.write(f"No subsector-level policy data available for {selected_label}.")
+            st.write(f"No subsector-level policy data available for {selected_country_folder}.")
     
     elif selected_hierarchy == 'Sub-subsectors':
         st.warning(
@@ -1050,25 +1035,21 @@ with tab3:
 
 with tab4:  
     st.session_state.current_tab = "Climate Change Impact"
-    selected_country_folder, year_range, data_dict, total_emissions_df = conditional_sidebar()
-
-    st.header("Climate Change Impact Analysis")
     
-    # Load all required data
+    # Access returned values
+    total_emissions_df = sidebar_data['total_emissions_df']
+    year_range = sidebar_data['year_range']
+    selected_country_folder = sidebar_data['selected_country_folder']
+    
+    # Load additional datasets
     weather_data = load_weather_data()
     temp_data = load_temperature_data()
     emissions_data = load_global_emission()
     
     if all(data is not None for data in [weather_data, temp_data, total_emissions_df]):
-        # 1. Global Temperature Changes
-        st.subheader("Global Temperature Changes")
-        st.markdown("""
-        Global temperature changes are one of the primary indicators of climate change. 
-        The temperature anomaly shows how much warmer or cooler a period is compared to the baseline period (1951-1980).
-        """)
-        
+        # Temperature Analysis 
         filtered_temp_data = temp_data[temp_data['Year'].between(year_range[0], year_range[1])]
-        
+
         # Temperature metrics
         col1, col2, col3 = st.columns(3)
         with col1:
@@ -1147,15 +1128,15 @@ with tab4:
         st.markdown("---")
 
         # 3. National Level Impacts
-        st.subheader(f"Local Impact: Extreme Weather Events in {selected_label}")
+        st.subheader(f"Local Impact: Extreme Weather Events in {selected_country_folder}")
         st.markdown("""
         As global temperatures rise, countries experience increased frequency and intensity of extreme weather events. 
         Here we examine the relationship between national emissions and extreme weather events.
         """)
         
         # Filter for selected country
-        country_weather = weather_data[weather_data['Country'] == selected_label]
-        country_emissions = total_emissions_df  # Your UNFCCC data for the selected country
+        country_weather = weather_data[weather_data['Country'] == selected_country_folder]
+        country_emissions = total_emissions_df  
         
         # National overview metrics
         col1, col2, col3 = st.columns(3)
@@ -1181,7 +1162,7 @@ with tab4:
                 yearly_events,
                 x='Year',
                 y='Number of Events',
-                title=f'Annual Extreme Weather Events in {selected_label}'
+                title=f'Annual Extreme Weather Events in {selected_country_folder}'
             )
             st.plotly_chart(fig_events, use_container_width=True)
         else:
@@ -1191,7 +1172,7 @@ with tab4:
                 x='Year',
                 y='count',
                 color='Disaster Type',
-                title=f'Types of Extreme Weather Events in {selected_label}',
+                title=f'Types of Extreme Weather Events in {selected_country_folder}',
                 barmode='stack'
             )
             st.plotly_chart(fig_dist, use_container_width=True)
@@ -1215,7 +1196,7 @@ with tab4:
             y='Disaster Type',
             size='Total Affected',
             hover_data=['Year', 'Total Deaths'],
-            title=f'Relationship between CO2 Emissions and Extreme Weather Events in {selected_label}'
+            title=f'Relationship between CO2 Emissions and Extreme Weather Events in {selected_country_folder}'
         )
         st.plotly_chart(fig_national, use_container_width=True)
 
@@ -1227,10 +1208,10 @@ with tab4:
         st.info(f"""
         Analysis Summary:
         * Global temperature-emissions correlation: {global_correlation:.2f}
-        * {selected_label}'s emissions-extreme events correlation: {national_correlation:.2f}
-        * Most common disaster type in {selected_label}: {country_weather['Disaster Type'].mode().iloc[0]}
+        * {selected_country_folder}'s emissions-extreme events correlation: {national_correlation:.2f}
+        * Most common disaster type in {selected_country_folder}: {country_weather['Disaster Type'].mode().iloc[0]}
         * Global temperature increase: {temp_change:.2f}°C
-        * Total affected people in {selected_label}: {total_affected:,}
+        * Total affected people in {selected_country_folder}: {total_affected:,}
         """)
 
     else:
@@ -1239,9 +1220,13 @@ with tab4:
 
 with tab5:
     st.session_state.current_tab = "Data View"
-    selected_country_folder, year_range, data_dict = conditional_sidebar()
-
-    st.header(" Data Explorer & Download")
+    
+    
+    # Access returned values
+    selected_country_folder = sidebar_data['selected_country_folder']
+    year_range = sidebar_data['year_range']
+    
+    st.header("Data Explorer & Download")
 
     st.markdown("Browse and download datasets including GHG emissions, gas species, temperature anomalies, and extreme weather events.")
 
