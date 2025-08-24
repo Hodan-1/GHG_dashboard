@@ -1,4 +1,22 @@
 def get_category(category_str):
+    """
+    Parse a category string into hierarchical levels.
+
+    Args:
+        category_str (str): The category string to parse, which includes sector subsector etc
+    
+    Returns:
+        dict: A dictionary containing:
+            - 'sector': The main sector
+            - 'subsector': The subsector
+            - 'sub_subsector': The sub-subsector (Energy)
+            - 'sub_sub_subsector': The sub-sub-subsector (if applicable)
+            - 'label': Original label of category
+            - 'is_memo': Boolean indicating if category is a memo item
+
+    """
+
+    # Ensure the input is a string and remove leading/trailing whitespace
     category_str = str(category_str).strip()
 
     # Special case for total and memo items header
@@ -23,18 +41,22 @@ def get_category(category_str):
         # Try to split on space, if that fails, use the whole string
         split_parts = category_str.split(" ", 1)
         if len(split_parts) == 2:
+            #if split is successful assign level and label
             level, label = split_parts
         else:
             # If no space found, try to find where numbers/dots end
             for i, character in enumerate(category_str):
                 if not (character.isdigit() or character == '.' or character == 'A'):
+                    # Extract level and label
                     level = category_str[:i].strip()
                     label = category_str[i:].strip()
                     break
             else:
+                # If no split treat whole string as a level
                 level = category_str
                 label = category_str
     
+        # Split the level by dots to get hierarchical components
         parts = level.strip('.').split(".")
         sector = parts[0] if len(parts) > 0 else None
         subsector = parts[1] if len(parts) > 1 else None
@@ -62,6 +84,22 @@ def get_category(category_str):
 
 
 def process_hierarchical_data(df):
+    """
+    Process a DataFrame to extract hierarchical data from GHG categories
+
+    Args:
+        df (pd.DataFrame): DataFrame containing GHG data with a category column.
+
+    Returns:
+        tuple: Five DataFrames containing:
+        - total_df: DataFrame for total catgories
+        - sector_df: DataFrame for sector catgories
+        - subsector_df: DataFrame for subsector catgories
+        - sub_subsector_df: DataFrame for sub-subsector catgories
+        - memo_df: DataFrame for memo items
+    """
+
+    # Identify the category column in the DataFrame
     category_col = None
     for col in df.columns:
         if 'GREENHOUSE GAS SOURCE AND SINK CATEGORIES' in col:
@@ -70,23 +108,29 @@ def process_hierarchical_data(df):
     if not category_col:
         raise ValueError("Category column not found")
 
+    # Initialise lists to hold parsed category data
     sectors, subsectors, sub_subsectors, labels, levels, is_memo = [], [], [], [],[],[]
     
+    # Identify the starting index for memo items
     memo_start_idx = None
     for idx, value in enumerate(df[category_col]):
         if 'Memo items:' in str(value):
             memo_start_idx = idx
             break
     
+    # Process each category string in the DataFrame
     for cat_str in df[category_col].astype(str):
+        #Parse category string
         categories = get_category(cat_str)
 
+        # Upadte parsed components to their list
         sectors.append(categories['sector'])
         subsectors.append(categories['subsector'])
         sub_subsectors.append(categories['sub_subsector'])
         labels.append(categories['label'])
         is_memo.append(categories['is_memo'])
 
+        # Determine the levl of category
         if categories['label'].startswith('Total'):
             levels.append('Total')
         elif categories['sector'] and not categories['subsector']:
@@ -98,7 +142,9 @@ def process_hierarchical_data(df):
         else:
             levels.append('Unknown')
 
+    # Create a copy of the DataFrame to avoid modifying orginal
     df = df.copy()
+    # Add new columns for the parsed data
     df['Sector'] = sectors
     df['Subsector'] = subsectors
     df['Sub_subsector'] = sub_subsectors
@@ -106,9 +152,11 @@ def process_hierarchical_data(df):
     df['Level'] = levels
     df['Is_Memo'] = is_memo
 
+    # Seperate main data from memo items
     main_df = df[~df['Is_Memo']]
     memo_df = df[df['Is_Memo']]
-                    
+
+    # Create seperate DataFrames for each level                
     total_df = main_df[main_df['Level'] == 'Total']
     sector_df = main_df[main_df['Level'] == 'Sector']
     subsector_df = main_df[main_df['Level'] == 'Subsector']
