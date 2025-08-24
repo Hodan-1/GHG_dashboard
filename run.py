@@ -55,9 +55,7 @@ def load_temperature_data():
         return None   
 
 def load_global_emission():
-    """
-    Load global emissions data
-    """
+    """Load global emissions data"""
     try:
         global_emissions = pd.read_csv("data/EM-DATA/global_emissions.csv")
         return global_emissions
@@ -95,6 +93,7 @@ def load_all_total_emissions():
         return pd.concat(all_data, ignore_index=True)
     else:
         return None    
+
 data_root = "data/processed_data"
 country_folders = sorted([
     name for name in os.listdir(data_root)
@@ -104,11 +103,29 @@ country_folders = sorted([
 # Display uppercase in the sidebar
 country_labels = [name for name in country_folders]
 
-# Add this after country_folders definition
-country_labels = [name for name in country_folders]  # Or format as needed
+# Dynamic Sidebar Functions
+def get_ghg_map_sidebar():
+    """Sidebar for GHG Map page - only year range"""
+    sidebar_data = {
+        'year_range': None,
+    }
+    
+    # Load all emissions data to get year range
+    all_emissions_df = load_all_total_emissions()
+    if all_emissions_df is not None:
+        years = sorted(all_emissions_df['Year'].unique())
+        sidebar_data['year_range'] = st.sidebar.slider(
+            "Select Year Range",
+            min_value=min(years),
+            max_value=max(years),
+            value=(min(years), max(years)),
+            key="ghg_map_year_range"
+        )
+    
+    return sidebar_data
 
-def get_sidebar(country_labels, key_prefix=""):
-    """Sidebar that always loads datasets but hides country selector for GHG Map."""
+def get_emissions_trends_sidebar(country_labels):
+    """Sidebar for Emissions Trends page - country + year range"""
     sidebar_data = {
         'selected_country_folder': None,
         'year_range': None,
@@ -118,19 +135,13 @@ def get_sidebar(country_labels, key_prefix=""):
         'other_gases_df': None
     }
 
-    # Default selected country
-    if st.session_state.get("current_tab") != "GHG Map":
-        # Country selector only for tabs 2–5
-        selected_label = st.sidebar.selectbox(
-            "Select Country",
-            options=country_labels,
-            key=f"{key_prefix}_country_selector"
-        )
-    else:
-        # Default to first country if no selection
-        selected_label = country_labels[0]
-
-    # Store selected country folder
+    # Country selector
+    selected_label = st.sidebar.selectbox(
+        "Select Country",
+        options=country_labels,
+        key="emissions_trends_country_selector"
+    )
+    
     sidebar_data['selected_country_folder'] = selected_label
 
     # Load all datasets for selected country
@@ -151,225 +162,291 @@ def get_sidebar(country_labels, key_prefix=""):
         min_value=min(years),
         max_value=max(years),
         value=(min(years), max(years)),
-        key=f"{key_prefix}_year_range"
+        key="emissions_trends_year_range"
     )
 
     return sidebar_data
 
+def get_sector_distribution_sidebar(country_labels):
+    """Sidebar for Sector Distribution page - country + year range + hierarchy"""
+    sidebar_data = {
+        'selected_country_folder': None,
+        'year_range': None,
+        'data_dict': None,
+        'total_emissions_df': None,
+        'selected_hierarchy': None
+    }
 
-def get_ghg_data(country_code, sector=None, subsector=None):
-    """Get the GHG data for a specific country and sector/subsector"""
-    data = total_emissions_df[total_emissions_df['Country'] == country_code]
-    if sector:
-        data = data[data['Sector'] == sector]
-    if subsector:
-        data = data[data['Subsector'] == subsector]
+    # Country selector
+    selected_label = st.sidebar.selectbox(
+        "Select Country",
+        options=country_labels,
+        key="sector_distribution_country_selector"
+    )
     
-    # Calculate the total emissions for the filtered data
-    total_emissions = data[co2_column].sum()
+    sidebar_data['selected_country_folder'] = selected_label
+
+    # Load all datasets for selected country
+    sidebar_data['data_dict'] = load_country_data(selected_label)
+    total_df = sidebar_data['data_dict']['Total']
+    sidebar_data['total_emissions_df'] = total_df
+
+    # Year slider
+    years = sorted(total_df['Year'].unique())
+    sidebar_data['year_range'] = st.sidebar.slider(
+        "Select Year Range",
+        min_value=min(years),
+        max_value=max(years),
+        value=(min(years), max(years)),
+        key="sector_distribution_year_range"
+    )
+
+    # Hierarchy level selector
+    hierarchy_options = ['Sectors', 'Subsectors', 'Sub-subsectors']  
+    sidebar_data['selected_hierarchy'] = st.sidebar.radio(
+        "Select Detail Level",
+        options=hierarchy_options,
+        key="sector_hierarchy"
+    )
+
+    return sidebar_data
+
+def get_climate_impact_sidebar(country_labels):
+    """Sidebar for Climate Impact page - country + year range"""
+    sidebar_data = {
+        'selected_country_folder': None,
+        'year_range': None,
+        'data_dict': None,
+        'total_emissions_df': None,
+    }
+
+    # Country selector
+    selected_label = st.sidebar.selectbox(
+        "Select Country",
+        options=country_labels,
+        key="climate_impact_country_selector"
+    )
     
-    return total_emissions
+    sidebar_data['selected_country_folder'] = selected_label
 
-import math
+    # Load all datasets for selected country
+    sidebar_data['data_dict'] = load_country_data(selected_label)
+    total_df = sidebar_data['data_dict']['Total']
+    sidebar_data['total_emissions_df'] = total_df
 
-def get_color(emissions):
-    """Get the color for a country based on its emission value"""
-    if emissions == 0:
-        return '#ffffff'  # White for no emissions
-    else:
-        # Calculate a color intensity based on the log of the emissions value
-        intensity = math.log(emissions) / math.log(max(1, total_emissions_df[co2_column].max()))
-        
-        # Use a colormap to get the color based on the intensity
-        colormap = ['#ffffb2', '#fed976', '#feb24c', '#fd8d3c', '#f03b20', '#bd0026']
-        color_index = int(intensity * (len(colormap) - 1))
-        return colormap[color_index]
+    # Year slider
+    years = sorted(total_df['Year'].unique())
+    sidebar_data['year_range'] = st.sidebar.slider(
+        "Select Year Range",
+        min_value=min(years),
+        max_value=max(years),
+        value=(min(years), max(years)),
+        key="climate_impact_year_range"
+    )
 
-# Create tabs
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["GHG Map", "Emissions Trends", "Sector Distribution", " Climate Change Impact", "Data View"])
+    return sidebar_data
 
-# Track current tab in session state
-if "current_tab" not in st.session_state:
-    st.session_state.current_tab = "GHG Map"
+def get_data_view_sidebar(country_labels):
+    """Sidebar for Data View page - country + year range"""
+    sidebar_data = {
+        'selected_country_folder': None,
+        'year_range': None,
+        'data_dict': None,
+        'total_emissions_df': None,
+    }
 
-# Map tab objects to names
-tabs_map = {
-    "GHG Map": tab1,
-    "Emissions Trends": tab2,
-    "Sector Distribution": tab3,
-    "Climate Change Impact": tab4,
-    "Data View": tab5
-}
-
-# Si
-sidebar_data = get_sidebar(country_labels, "main")
-
-with tab1:
-    st.session_state.current_tab = "GHG Map"
+    # Country selector
+    selected_label = st.sidebar.selectbox(
+        "Select Country",
+        options=country_labels,
+        key="data_view_country_selector"
+    )
     
+    sidebar_data['selected_country_folder'] = selected_label
+
+    # Load all datasets for selected country
+    sidebar_data['data_dict'] = load_country_data(selected_label)
+    total_df = sidebar_data['data_dict']['Total']
+    sidebar_data['total_emissions_df'] = total_df
+
+    # Year slider
+    years = sorted(total_df['Year'].unique())
+    sidebar_data['year_range'] = st.sidebar.slider(
+        "Select Year Range",
+        min_value=min(years),
+        max_value=max(years),
+        value=(min(years), max(years)),
+        key="data_view_year_range"
+    )
+
+    return sidebar_data
+
+# Page Functions
+def render_ghg_map_page(sidebar_data):
+    """Render the GHG Map page"""
+    st.header("Introduction to CO₂ Emissions by Country")
+    st.write("This interactive map displays carbon dioxide (CO₂) emissions over time...")
+
     # Load data for ALL countries (not using sidebar selection)
     all_emissions_df = load_all_total_emissions()
     
     # Get year range from sidebar
-
     year_range = sidebar_data['year_range']
     
     if all_emissions_df is not None:
         # Get chosen gases from the combined dataset
         co2_column = [col for col in all_emissions_df.columns if 'CO2' in col][0]
-        
-    st.header("Introduction to CO₂ Emissions by Country")
-    st.write("This interactive map displays carbon dioxide (CO₂) emissions over time...")
 
-    # Load GeoJSON data
-    geojson = load_geojson()
-    
-    if geojson is not None:
-        # Create frames for animation
-        frames = []
+        # Load GeoJSON data
+        geojson = load_geojson()
         
-        # Get all years in the selected range
-        years = range(year_range[0], year_range[1] + 1)
-        
-        # Create frames for each year
-        for year in years:
-            # Filter the pre-loaded all_country data for this year
-            year_data = all_emissions_df[all_emissions_df['Year'] == year]
+        if geojson is not None:
+            # Create frames for animation
+            frames = []
             
-            if not year_data.empty:
-                # Aggregate by country
-                emissions_df = year_data.groupby('Country')[co2_column].sum().reset_index()
+            # Get all years in the selected range
+            years = range(year_range[0], year_range[1] + 1)
+            
+            # Create frames for each year
+            for year in years:
+                # Filter the pre-loaded all_country data for this year
+                year_data = all_emissions_df[all_emissions_df['Year'] == year]
                 
-                frame = go.Frame(
-                    data=[go.Choropleth(
-                        locations=emissions_df['Country'],
-                        z=emissions_df[co2_column],
-                        geojson=geojson,
-                        featureidkey="properties.name",
-                        colorscale="YlOrRd",
-                        zmin=0,
-                        zmax=emissions_df[co2_column].max(),
-                        colorbar=dict(title="CO2 Emissions (kt)"),
-                        hovertemplate="<b>%{location}</b><br>CO2: %{z:,.0f} kt<extra></extra>"
-                    )],
-                    name=str(year)
-                )
-                frames.append(frame)
-        
-        # Create the base choropleth map (initial frame)
-        fig = go.Figure()
-        fig.add_trace(go.Choropleth(
-            locations=frames[0].data[0].locations,
-            z=frames[0].data[0].z,
-            geojson=geojson,
-            featureidkey="properties.name",
-            colorscale="YlOrRd",
-            zmin=0,
-            zmax=max([frame.data[0].z.max() for frame in frames]),
-            colorbar=dict(
-                title="CO2 Emissions (kt)",
-                thickness=15,
-                len=0.5
-            ),
-            hovertemplate="<b>%{location}</b><br>" +
-                        "CO2 Emissions: %{z:,.2f} kt<br>" +
-                        "<i>Click for more information</i><extra></extra>"
-        ))
+                if not year_data.empty:
+                    # Aggregate by country
+                    emissions_df = year_data.groupby('Country')[co2_column].sum().reset_index()
+                    
+                    frame = go.Frame(
+                        data=[go.Choropleth(
+                            locations=emissions_df['Country'],
+                            z=emissions_df[co2_column],
+                            geojson=geojson,
+                            featureidkey="properties.name",
+                            colorscale="YlOrRd",
+                            zmin=0,
+                            zmax=emissions_df[co2_column].max(),
+                            colorbar=dict(title="CO2 Emissions (kt)"),
+                            hovertemplate="<b>%{location}</b><br>CO2: %{z:,.0f} kt<extra></extra>"
+                        )],
+                        name=str(year)
+                    )
+                    frames.append(frame)
+            
+            # Create the base choropleth map (initial frame)
+            fig = go.Figure()
+            fig.add_trace(go.Choropleth(
+                locations=frames[0].data[0].locations,
+                z=frames[0].data[0].z,
+                geojson=geojson,
+                featureidkey="properties.name",
+                colorscale="YlOrRd",
+                zmin=0,
+                zmax=max([frame.data[0].z.max() for frame in frames]),
+                colorbar=dict(
+                    title="CO2 Emissions (kt)",
+                    thickness=15,
+                    len=0.5
+                ),
+                hovertemplate="<b>%{location}</b><br>" +
+                            "CO2 Emissions: %{z:,.2f} kt<br>" +
+                            "<i>Click for more information</i><extra></extra>"
+            ))
 
-        # Update layout
-        fig.update_layout(
-            title=f"Global CO2 Emissions by Country ({year_range[0]}-{year_range[1]})",
-            margin={"r":0,"t":40,"l":0,"b":0},
-            geo=dict(
-                showframe=False,
-                showcountries=True,
-                showcoastlines=True,
-                countrycolor="Black",
-                showocean=True,
-                oceancolor="LightBlue",
-                projection_type="natural earth"
-            ),
-            updatemenus=[{
-                'buttons': [
-                    {
-                        'args': [None, {'frame': {'duration': 500, 'redraw': True},
-                                    'fromcurrent': True}],
-                        'label': 'Play',
-                        'method': 'animate'
+            # Update layout
+            fig.update_layout(
+                title=f"Global CO2 Emissions by Country ({year_range[0]}-{year_range[1]})",
+                margin={"r":0,"t":40,"l":0,"b":0},
+                geo=dict(
+                    showframe=False,
+                    showcountries=True,
+                    showcoastlines=True,
+                    countrycolor="Black",
+                    showocean=True,
+                    oceancolor="LightBlue",
+                    projection_type="natural earth"
+                ),
+                updatemenus=[{
+                    'buttons': [
+                        {
+                            'args': [None, {'frame': {'duration': 500, 'redraw': True},
+                                        'fromcurrent': True}],
+                            'label': 'Play',
+                            'method': 'animate'
+                        },
+                        {
+                            'args': [[None], {'frame': {'duration': 0, 'redraw': True},
+                                            'mode': 'immediate',
+                                            'transition': {'duration': 0}}],
+                            'label': 'Pause',
+                            'method': 'animate'
+                        }
+                    ],
+                    'direction': 'left',
+                    'pad': {'r': 10, 't': 87},
+                    'showactive': False,
+                    'type': 'buttons',
+                    'x': 0.1,
+                    'xanchor': 'right',
+                    'y': 0,
+                    'yanchor': 'top'
+                }],
+                sliders=[{
+                    'active': 0,
+                    'yanchor': 'top',
+                    'xanchor': 'left',
+                    'currentvalue': {
+                        'font': {'size': 20},
+                        'prefix': 'Year:',
+                        'visible': True,
+                        'xanchor': 'right'
                     },
-                    {
-                        'args': [[None], {'frame': {'duration': 0, 'redraw': True},
-                                        'mode': 'immediate',
-                                        'transition': {'duration': 0}}],
-                        'label': 'Pause',
-                        'method': 'animate'
-                    }
-                ],
-                'direction': 'left',
-                'pad': {'r': 10, 't': 87},
-                'showactive': False,
-                'type': 'buttons',
-                'x': 0.1,
-                'xanchor': 'right',
-                'y': 0,
-                'yanchor': 'top'
-            }],
-            sliders=[{
-                'active': 0,
-                'yanchor': 'top',
-                'xanchor': 'left',
-                'currentvalue': {
-                    'font': {'size': 20},
-                    'prefix': 'Year:',
-                    'visible': True,
-                    'xanchor': 'right'
-                },
-                'transition': {'duration': 300, 'easing': 'cubic-in-out'},
-                'pad': {'b': 10, 't': 50},
-                'len': 0.9,
-                'x': 0.1,
-                'y': 0,
-                'steps': [
-                    {
-                        'args': [[f'{year}'],
-                                {'frame': {'duration': 300, 'redraw': True},
-                                'mode': 'immediate',
-                                'transition': {'duration': 300}}],
-                        'label': f'{year}',
-                        'method': 'animate'
-                    } for year in years
-                ]
-            }]
-        )
+                    'transition': {'duration': 300, 'easing': 'cubic-in-out'},
+                    'pad': {'b': 10, 't': 50},
+                    'len': 0.9,
+                    'x': 0.1,
+                    'y': 0,
+                    'steps': [
+                        {
+                            'args': [[f'{year}'],
+                                    {'frame': {'duration': 300, 'redraw': True},
+                                    'mode': 'immediate',
+                                    'transition': {'duration': 300}}],
+                            'label': f'{year}',
+                            'method': 'animate'
+                        } for year in years
+                    ]
+                }]
+            )
 
-        # Add frames to the figure
-        fig.frames = frames
+            # Add frames to the figure
+            fig.frames = frames
 
-        st.plotly_chart(fig, use_container_width=True)
-        st.caption("Carbon dioxide emissions over time (1990–2023) for Annex I countries as reported to the UNFCCC. Measured in kilotonnes of CO₂ equivalents.")
+            st.plotly_chart(fig, use_container_width=True)
+            st.caption("Carbon dioxide emissions over time (1990–2023) for Annex I countries as reported to the UNFCCC. Measured in kilotonnes of CO₂ equivalents.")
 
-        # Introduction for GHG emissions
-        with st.expander("Learn more about Greenhouse Gas reporting"):
-            st.markdown("""
-            Greenhouse gases (GHGs) trap heat in Earth's atmosphere and drive climate change.
+            # Introduction for GHG emissions
+            with st.expander("Learn more about Greenhouse Gas reporting"):
+                st.markdown("""
+                Greenhouse gases (GHGs) trap heat in Earth's atmosphere and drive climate change.
 
-            - **Carbon dioxide (CO₂)** is the most prominent GHG, emitted primarily from burning fossil fuels.
-            - However, **CO₂ is not the only greenhouse gas**. Others include **methane (CH₄)**, **nitrous oxide (N₂O)**, and **fluorinated gases**, which also significantly contribute to global warming, some with much higher warming potential than CO₂.
-            - This map focuses specifically on **CO₂ emissions** reported by **Annex I countries** under the **UNFCCC** framework.
+                - **Carbon dioxide (CO₂)** is the most prominent GHG, emitted primarily from burning fossil fuels.
+                - However, **CO₂ is not the only greenhouse gas**. Others include **methane (CH₄)**, **nitrous oxide (N₂O)**, and **fluorinated gases**, which also significantly contribute to global warming, some with much higher warming potential than CO₂.
+                - This map focuses specifically on **CO₂ emissions** reported by **Annex I countries** under the **UNFCCC** framework.
 
-            #### About the Data
-            Since 1992, countries have reported annual emissions following UNFCCC guidelines. 
-            The **Kyoto Protocol** and **Paris Agreement** have further shaped these reporting systems, introducing tools like the **Common Reporting Tables (CRTs)** for standardized submissions.
+                #### About the Data
+                Since 1992, countries have reported annual emissions following UNFCCC guidelines. 
+                The **Kyoto Protocol** and **Paris Agreement** have further shaped these reporting systems, introducing tools like the **Common Reporting Tables (CRTs)** for standardized submissions.
 
-            *Click a country to explore its emissions, or visit the 'Emissions Trends' tab to compare changes over time.*
-            """)
+                *Click a country to explore its emissions, or visit the 'Emissions Trends' page to compare changes over time.*
+                """)
 
+        else:
+            st.error("GeoJSON data not available")
     else:
         st.error("Required data not available")
 
-with tab2:
-    st.session_state.current_tab = "Emissions Trends"
-    
+def render_emissions_trends_page(sidebar_data):
+    """Render the Emissions Trends page"""
     # Access the returned values
     total_emissions_df = sidebar_data['total_emissions_df']
     data_dict = sidebar_data['data_dict']
@@ -377,8 +454,8 @@ with tab2:
     year_range = sidebar_data['year_range']
     co2_column = [col for col in total_emissions_df.columns if 'CO2' in col][0]
     other_gas_columns = [col for col in total_emissions_df.columns if any(gas in col for gas in ['CH4', 'N2O', 'SF6', 'HFC', 'PFC'])]
+    
     st.header("National Emissions Trends")
-
     st.write("Greenhouse gases (GHGs) differ in how they're produced and how strongly they warm the planet."
     "In this section, you can explore how **total emissions have changed over time** for different gases, based on national inventories submitted via the **UNFCCC Common Reporting Tables (CRTs)**.")
 
@@ -392,8 +469,6 @@ with tab2:
     filtered_total_df = total_emissions_df[
         total_emissions_df['Year'].between(year_range[0], year_range[1])
     ]
-
-    
 
     # First plot - CO2 Emissions
     st.subheader("CO2 Emissions Over Time")
@@ -461,10 +536,10 @@ with tab2:
             mime='text/csv',
             key='download_other'
         )
+    
     st.markdown("**You selected the following gases.**  "
     "Expand the sections below to learn more about their sources and environmental impact."
-    "For a more detailed breakdown by emission sectors (e.g. transport, energy, agriculture), see the [**Sector Distribution**](#Sector Distribution) tab.")
-
+    "For a more detailed breakdown by emission sectors (e.g. transport, energy, agriculture), see the **Sector Distribution** page.")
 
     st.markdown("#### Gas Information")
 
@@ -522,27 +597,19 @@ with tab2:
             Despite small quantities, its **impact is large** due to its strength and long atmospheric lifetime.
             """)
 
-with tab3:
-    st.session_state.current_tab = "Sector Distribution"
-
-   
+def render_sector_distribution_page(sidebar_data):
+    """Render the Sector Distribution page"""
     # Access returned values
     total_emissions_df = sidebar_data['total_emissions_df']
     data_dict = sidebar_data['data_dict']
     year_range = sidebar_data['year_range']
     selected_country_folder = sidebar_data['selected_country_folder']
+    selected_hierarchy = sidebar_data['selected_hierarchy']
     
     if total_emissions_df is not None:
         # Get CO2 column
         co2_column = [col for col in total_emissions_df.columns if 'CO2' in col][0]
         other_gas_columns = [col for col in total_emissions_df.columns if any(gas in col for gas in ['CH4', 'N2O', 'SF6', 'HFC', 'PFC'])]
-        # Hierarchy level selector
-        hierarchy_options = ['Sectors', 'Subsectors', 'Sub-subsectors']  
-        selected_hierarchy = st.sidebar.radio(
-            "Select Detail Level",
-            options=hierarchy_options,
-            key="sector_hierarchy"
-        )
     
         # Get sector data
         sector_df = data_dict.get(selected_hierarchy)
@@ -633,242 +700,41 @@ with tab3:
     }
 
     policy_data = {
-    'United States of America': {
-        'Sectors': {
-            'Energy': {
-                'description': 'The U.S. is heavily investing in clean energy to decarbonize its grid, primarily through the Inflation Reduction Act (IRA).',
-                'policies': [
-                    'IRA Tax Credits: Generous tax credits for renewable energy projects (e.g., wind, solar) and technologies like carbon capture and storage (CCS).',
-                    'State-level RPS: Many states have their own Renewable Portfolio Standards, mandating a percentage of electricity from renewable sources.',
-                ]
-            },
-            'Industrial Processes & Product Use': {
-                'description': 'Policy focuses on providing financial incentives for industrial decarbonization.',
-                'policies': [
-                    'IRA Funding: The IRA provides billions in funding for industrial technologies and tax credits for clean hydrogen and CCS deployment.',
-                    'AIM Act: The American Innovation and Manufacturing Act phases down the use of hydrofluorocarbons (HFCs), which are potent greenhouse gases.',
-                ]
-            },
-            'Agriculture, Forestry & Other Land Use': {
-                'description': 'Policies are aimed at supporting sustainable land management practices and reducing agricultural emissions.',
-                'policies': [
-                    'IRA Conservation Programs: The IRA allocates significant funding to boost conservation programs and incentivize climate-smart agriculture.',
-                    'Biofuels Initiatives: Supports the production and use of biofuels to reduce emissions from the transportation sector.',
-                ]
-            },
-            'Waste': {
-                'description': 'Focuses on reducing methane emissions from landfills through collection and use.',
-                'policies': [
-                    'Landfill Methane Rule: Federal regulations require large landfills to capture methane emissions.',
-                ]
-            },
-        },
-        'Subsectors': {
-            'Electricity & Heat Generation': {
-                'description': 'The IRA is the key driver, providing tax credits for renewable energy projects and carbon capture.',
-                'policies': [
-                    'IRA Clean Electricity Tax Credits: Provides credits for wind, solar, and other zero-emission technologies.',
-                    'Carbon Capture Tax Credits (45Q): Offers significant tax credits for companies that capture and store CO2.',
-                ]
-            },
-            'Road Transport': {
-                'description': 'Federal and state policies promote the transition to electric vehicles.',
-                'policies': [
-                    'EV Tax Credits: Consumers can get up to $7,500 for purchasing new electric vehicles under the IRA.',
-                    'CAFE Standards: Federal regulations that mandate increasing fuel efficiency for all vehicles.',
-                ]
-            },
-        }
-    },
-    'United Kingdom': {
-        'Sectors': {
-            'Energy': {
-                'description': 'The UK has rapidly decarbonized its energy sector by phasing out coal and  investing in offshore wind.',
-                'policies': [
-                    'Offshore Wind Target: Aims for 50 GW of offshore wind capacity by 2030.',
-                    'Contracts for Difference (CfD): A scheme that provides long-term price certainty for renewable energy investors.',
-                ]
-            },
-            'Industrial Processes & Product Use': {
-                'description': 'Policies are focused on industrial decarbonization and transitioning to low-carbon fuels and technologies.',
-                'policies': [
-                    'Carbon Pricing: The UK Emissions Trading Scheme (ETS) places a cap and price on carbon, encouraging industries to reduce emissions.',
-                    'Industrial Decarbonisation Strategy: A plan to transition to low-carbon fuels (like hydrogen) and technologies in key industrial clusters.',
-                ]
-            },
-            'Agriculture, Forestry & Other Land Use': {
-                'description': 'Policies support a move to sustainable farming practices and better land management.',
-                'policies': [
-                    'Environmental Land Management Schemes (ELMs): Incentivizes farmers to adopt environmentally friendly practices.',
-                    'Tree Planting Targets: Aims to increase tree cover to absorb more carbon.',
-                ]
-            },
-            'Waste': {
-                'description': 'Policy focuses on increasing recycling rates and diverting waste from landfills to reduce methane.',
-                'policies': [
-                    'Waste and Resources Strategy: Sets targets for higher recycling rates and a move towards a circular economy.',
-                ]
-            },
-        },
-        'Subsectors': {
-            'Electricity & Heat Generation': {
-                'description': 'The UK has successfully phased out coal and is now focused on ramping up renewables.',
-                'policies': [
-                    'Final Coal Plant Closure: The last coal-fired power plant closed in 2024.',
-                    'CfD Auctions: Government-led auctions to secure investment in new renewable energy projects at a set price.',
-                ]
-            },
-            'Road Transport': {
-                'description': 'Policies are designed to accelerate the transition to electric vehicles.',
-                'policies': [
-                    '2035 ICE Ban: A policy to ban the sale of new petrol and diesel cars and vans from 2035.',
-                    'Zero Emission Vehicle Mandate: Requires car manufacturers to sell a rising percentage of zero-emission vehicles annually.',
-                ]
-            },
-        }
-    },
-    'Australia': {
-        'Sectors': {
-            'Energy': {
-                'description': 'The electricity sector is Australia\'s largest source of emissions due to its reliance on coal. Policies are aimed at a rapid transition to renewables.',
-                'policies': [
-                    'Safeguard Mechanism: Sets emissions limits for Australia’s largest industrial polluters, requiring them to reduce emissions or buy offsets.',
-                    'Capacity Investment Scheme (CIS): Provides revenue certainty for new clean energy projects.',
-                ]
-            },
-            'Industrial Processes & Product Use': {
-                'description': 'Policies are focused on managing emissions from industry and chemical processes.',
-                'policies': [
-                    'Safeguard Mechanism: Covers industrial facilities, encouraging them to invest in emissions reduction technologies.',
-                ]
-            },
-            'Agriculture, Forestry & Other Land Use': {
-                'description': 'Policy provides incentives for farmers to adopt sustainable practices and sequester carbon.',
-                'policies': [
-                    'Carbon Farming Initiative: Supports farmers in undertaking projects to reduce emissions or store carbon in the landscape.',
-                    'National Methane Program: Initiatives aimed at reducing methane from livestock through improved feed and management.',
-                ]
-            },
-            'Waste': {
-                'description': 'Policies focus on landfill gas capture and improved waste management.',
-                'policies': [
-                    'Landfill Gas Capture: Regulations and incentives to capture methane from landfills for energy generation.',
-                ]
-            },
-        },
-        'Subsectors': {
-            'Electricity & Heat Generation': {
-                'description': 'The Capacity Investment Scheme is a key tool for accelerating the transition away from coal.',
-                'policies': [
-                    'Capacity Investment Scheme (CIS): Provides a government-backed revenue floor for new clean energy projects.',
-                    'State Renewable Energy Zones: State-level initiatives to build out infrastructure for large-scale solar and wind projects.',
-                ]
-            },
-            'Road Transport': {
-                'description': 'Policies are focused on encouraging the uptake of electric vehicles.',
-                'policies': [
-                    'EV Subsidies and Tax Breaks: Provides financial incentives for purchasing EVs.',
-                ]
-            },
-        }
-    },
-    'Ukraine': {
-        'Sectors': {
-            'Energy': {
-                'description': 'Climate policy is heavily influenced by EU accession and the need for green post-war reconstruction.',
-                'policies': [
-                    'EU Alignment: Adopting EU climate and energy policies as part of its path to joining the European Union.',
-                    'Green Reconstruction: Plans to rebuild a decentralized, modern energy grid with a higher share of renewables to improve energy security.',
-                ]
-            },
-            'Industrial Processes & Product Use': {
-                'description': 'Focuses on improving energy efficiency in industry and reducing emissions from processes.',
-                'policies': [
-                    'Energy Efficiency Fund: A state-run program that provides financial support for businesses to implement energy-saving measures.',
-                ]
-            },
-            'Agriculture, Forestry & Other Land Use': {
-                'description': 'Policies focus on sustainable farming and improving waste management in the agricultural sector.',
-                'policies': [
-                    'Land Management Initiatives: Promotes sustainable land use to combat degradation and support biodiversity.',
-                    'Biomass for Energy: Incentives for using agricultural waste for energy generation.',
-                ]
-            },
-            'Waste': {
-                'description': 'Policies aim to modernize waste management to reduce methane emissions.',
-                'policies': [
-                    'National Waste Management Strategy: Aims to improve waste collection and processing, including better landfill gas management.',
-                ]
-            },
-        },
-        'Subsectors': {
-            'Electricity & Heat Generation': {
-                'description': 'Policies promote a shift to renewable energy and a more resilient, decentralized grid.',
-                'policies': [
-                    'Green Tariff: A feed-in tariff system that encourages investment in renewable energy projects.',
-                    'Grid Modernization: Post-war reconstruction efforts prioritize a modern, decentralized grid.',
-                ]
-            },
-            'Road Transport': {
-                'description': 'Policies are aimed at promoting the use of electric vehicles and alternative fuels.',
-                'policies': [
-                    'EV Subsidies: Provides incentives for the purchase of electric vehicles.',
-                ]
-            },
-        }
-    },
-    'Austria': {
-        'Sectors': {
-            'Energy': {
-                'description': 'Austria is a leader in renewable electricity, with a goal of achieving 100% renewable electricity by 2030.',
-                'policies': [
-                    'Renewable Energy Expansion Act: Sets a target of adding 27 TWh of renewable electricity by 2030.',
-                    'EU ETS: As an EU member, heavy industry and power sectors are covered by the EU Emissions Trading System.',
-                ]
-            },
-            'Industrial Processes & Product Use': {
-                'description': 'Policies are tied to EU-wide regulations and domestic support for green technologies.',
-                'policies': [
-                    'EU ETS: Regulates emissions for large industrial facilities.',
-                    'Green Industrial Strategy: Initiatives to promote clean technologies and processes, such as green hydrogen.',
-                ]
-            },
-            'Agriculture, Forestry & Other Land Use': {
-                'description': 'Policies focus on sustainable agriculture and the preservation of natural landscapes.',
-                'policies': [
-                    'Adaptation Strategy: The Austrian Strategy for Adaptation to Climate Change includes specific measures for the agricultural sector.',
-                    'Biofuels Mandate: Policies that require a certain percentage of transport fuels to be sourced from biofuels.',
-                ]
-            },
-            'Waste': {
-                'description': 'Austria has achieved significant emissions reductions in this sector through improved management and recycling.',
-                'policies': [
-                    'Waste Management Strategy: Continuous improvement in waste collection and recycling to divert waste from landfills.',
-                ]
-            },
-        },
-        'Subsectors': {
-            'Electricity & Heat Generation': {
-                'description': 'The country leverages its vast hydropower and biomass resources to achieve high levels of renewable energy.',
-                'policies': [
-                    'Hydropower Investment: Ongoing investment in hydropower, a major source of renewable energy.',
-                    'Renewable Energy Act: Provides financial support and a legal framework for renewable energy development.',
-                ]
-            },
-            'Road Transport': {
-                'description': 'Policies aim to shift people away from private cars and towards public transport and EVs.',
-                'policies': [
-                    'Climate Ticket: An affordable, nationwide public transport pass.',
-                    'EV Subsidies: Provides financial incentives for the purchase of electric vehicles and charging infrastructure.',
-                ]
-            },
+        'United States of America': {
+            'Sectors': {
+                'Energy': {
+                    'description': 'The U.S. is heavily investing in clean energy to decarbonize its grid, primarily through the Inflation Reduction Act (IRA).',
+                    'policies': [
+                        'IRA Tax Credits: Generous tax credits for renewable energy projects (e.g., wind, solar) and technologies like carbon capture and storage (CCS).',
+                        'State-level RPS: Many states have their own Renewable Portfolio Standards, mandating a percentage of electricity from renewable sources.',
+                    ]
+                },
+                'Industrial Processes & Product Use': {
+                    'description': 'Policy focuses on providing financial incentives for industrial decarbonization.',
+                    'policies': [
+                        'IRA Funding: The IRA provides billions in funding for industrial technologies and tax credits for clean hydrogen and CCS deployment.',
+                        'AIM Act: The American Innovation and Manufacturing Act phases down the use of hydrofluorocarbons (HFCs), which are potent greenhouse gases.',
+                    ]
+                },
+                'Agriculture, Forestry & Other Land Use': {
+                    'description': 'Policies are aimed at supporting sustainable land management practices and reducing agricultural emissions.',
+                    'policies': [
+                        'IRA Conservation Programs: The IRA allocates significant funding to boost conservation programs and incentivize climate-smart agriculture.',
+                        'Biofuels Initiatives: Supports the production and use of biofuels to reduce emissions from the transportation sector.',
+                    ]
+                },
+                'Waste': {
+                    'description': 'Focuses on reducing methane emissions from landfills through collection and use.',
+                    'policies': [
+                        'Landfill Methane Rule: Federal regulations require large landfills to capture methane emissions.',
+                    ]
+                },
+            }
         }
     }
-}
+
     st.header("Sector Distribution")
     st.write("Here, you can explore a detailed breakdown of greenhouse gas emissions by sector over time. Below the charts, you'll find an overview of the specific climate policies implemented in the selected country to address these emissions.")
-
-    
 
     # Gas selector for Bar Chart (Checkboxes)
     available_gases_tab2_bar = [co2_column] + other_gas_columns
@@ -877,10 +743,6 @@ with tab3:
         options=available_gases_tab2_bar,
         default=[co2_column]  # Default to CO2
     )
-
-    
-
-    
 
     # Bar chart of emissions by gas type for each sector
     st.subheader("Emissions by Sector and Gas Type")
@@ -917,6 +779,7 @@ with tab3:
         options=available_gases_tab2_pie,
         index=0  # Default to the first gas (CO2)
     )
+    
     # Pie chart of emissions distribution by sector
     st.subheader("Distribution of Emissions by Sector")
     fig_pie = px.pie(
@@ -931,111 +794,8 @@ with tab3:
     if selected_gas_tab2_pie in gas_explanations:
         st.write(gas_explanations[selected_gas_tab2_pie])
 
-    st.markdown("---")
-    
-    # Stacked area chart showing emissions by sector over time
-    t1, t2 = st.tabs(['Area Chart', 'Line Chart'])
-    st.subheader("Emissions by Sector Over Time")
-    with t1:
-        fig_area = px.area(
-        filtered_sector_df,
-        x='Year',
-        y=selected_gas_tab2_pie,
-        color='GREENHOUSE GAS SOURCE AND SINK CATEGORIES',
-        title=f'{selected_gas_tab2_pie} Emissions by Sector Over Time',
-        labels={'value': 'Emissions (kt)'}
-    )
-        st.plotly_chart(fig_area, use_container_width=True, key='area  chart')
-
-    with t2:
-        fig_line = px.line(
-        filtered_sector_df,
-        x='Year',
-        y=selected_gas_tab2_pie,
-        color='GREENHOUSE GAS SOURCE AND SINK CATEGORIES',
-        title=f'{selected_gas_tab2_pie} Emissions by Sector Over Time',
-        labels={'value': 'Emissions (kt)'}
-    )
-        st.plotly_chart(fig_line, use_container_width=True, key='line_chart')
-
-    if selected_hierarchy == 'Sectors':
-        st.markdown("### Sector-Level Policies")
-        if selected_country_folder in policy_data and 'Sectors' in policy_data[selected_country_folder]:
-            for sector, details in policy_data[selected_country_folder]['Sectors'].items():
-                with st.expander(f"**{sector}**"):
-                    st.write(details['description'])
-                    st.markdown("##### Key Policies:")
-                    for policy in details['policies']:
-                        st.markdown(f"- {policy}")
-        else:
-            st.write(f"No sector-level policy data available for {selected_country_folder}.")
-
-    elif selected_hierarchy == 'Subsectors':
-        st.markdown("### Subsector-Level Policies")
-        if selected_country_folder in policy_data and 'Subsectors' in policy_data[selected_country_folder]:
-            for subsector, details in policy_data[selected_country_folder]['Subsectors'].items():
-                with st.expander(f"**{subsector}**"):
-                    st.write(details['description'])
-                    st.markdown("##### Key Policies:")
-                    for policy in details['policies']:
-                        st.markdown(f"- {policy}")
-        else:
-            st.write(f"No subsector-level policy data available for {selected_country_folder}.")
-    
-    elif selected_hierarchy == 'Sub-subsectors':
-        st.warning(
-            "The policy data for 'Sub-subsectors' is not yet available. "
-            "Please select 'Sectors' or 'Subsectors'."
-        )    
-
-    st.markdown("---")
-    st.header("Global Climate Commitments & Policies by Sector")
-
-    sector_goals = {
-        "Energy Supply": """
-            - Coal phase-out by 2030 (EU pledge)
-            - Net-zero energy sector by 2050 (EU pledge)
-            - 100% clean electricity target in many NDCs
-            """,
-        "Transport": """
-            - Phase-out of internal combustion engine cars (2035 in EU)
-            - 100% EV sales by 2035 in some countries
-            - CORSIA (aviation carbon offsetting)) agreement for aviation (2021). Although weekly enforced.
-            """,
-        "Industry": """
-            - EU ETS (carbon market), with stricter caps post-2020
-            - Clean industrial strategy (e.g. hydrogen, CCUS)
-            """,
-        "Agriculture": """
-            - Global Methane Pledge (30% reduction) by 2030
-            - Climate-smart farming & soil carbon programs
-            - Sustainable livestock and fertilizer practices
-            """,
-        "Residential & Commercial": """
-            - All new buildings to be net-zero carbon by 2030 (many NDCs)
-            - Renovation wave across EU
-            """,
-        "Waste": """
-            - Landfill bans, methane capture regulations
-            - Circular economy frameworks in most Annex I countries
-            """
-    }
-
-    # Filter to sectors currently selected, or all if none selected
-    goals_sectors = selected_sectors if selected_sectors else list(sector_goals.keys())
-
-    selected_sector_goal = st.selectbox(
-        "Select a sector to view global climate commitments:",
-        options=goals_sectors
-    )
-
-    if selected_sector_goal in sector_goals:
-        st.markdown(f"### Global Climate Commitments for {selected_sector_goal}")
-        st.markdown(sector_goals[selected_sector_goal])
-
-with tab4:  
-    st.session_state.current_tab = "Climate Change Impact"
-    
+def render_climate_impact_page(sidebar_data):
+    """Render the Climate Impact page"""
     # Access returned values
     total_emissions_df = sidebar_data['total_emissions_df']
     year_range = sidebar_data['year_range']
@@ -1047,6 +807,8 @@ with tab4:
     emissions_data = load_global_emission()
     
     if all(data is not None for data in [weather_data, temp_data, total_emissions_df]):
+        co2_column = [col for col in total_emissions_df.columns if 'CO2' in col][0]
+        
         # Temperature Analysis 
         filtered_temp_data = temp_data[temp_data['Year'].between(year_range[0], year_range[1])]
 
@@ -1217,85 +979,3 @@ with tab4:
     else:
         st.error("Required data not available")
 
-
-with tab5:
-    st.session_state.current_tab = "Data View"
-    
-    
-    # Access returned values
-    selected_country_folder = sidebar_data['selected_country_folder']
-    year_range = sidebar_data['year_range']
-    
-    st.header("Data Explorer & Download")
-
-    st.markdown("Browse and download datasets including GHG emissions, gas species, temperature anomalies, and extreme weather events.")
-
-    dataset_options = {
-        "Total Emissions": os.path.join(data_root, selected_country_folder, "total", f"{selected_country_folder}_total_combined.csv"),
-        "Sector Emissions": os.path.join(data_root, selected_country_folder, "sectors", f"{selected_country_folder}_sectors_combined.csv"),
-        "Subsector Emissions": os.path.join(data_root, selected_country_folder, "subsectors", f"{selected_country_folder}_subsectors_combined.csv"),
-        "Sub-subsector Emissions": os.path.join(data_root, selected_country_folder, "sub_subsectors", f"{selected_country_folder}_sub_subsectors_combined.csv"),
-        "Extreme Weather": "data/EM-DATA/summary_extreme_weather_all_countries.csv",
-        "Temperature Anomalies": "data/EM-DATA/global_temp_anomalies.csv"
-    }
-
-    # Add gas versions of each hierarchy level
-    gas_species_folder = os.path.join(data_root, selected_country_folder)
-    for gas_folder in os.listdir(gas_species_folder):
-        gas_path = os.path.join(gas_species_folder, gas_folder)
-        if not os.path.isdir(gas_path):
-            continue
-
-        gas = gas_folder.upper()
-        for level in ["total", "sectors", "subsectors", "sub_subsectors"]:
-            combined_file = os.path.join(gas_path, level, f"{selected_country_folder}_{level}_{gas.lower()}_combined.csv")
-            if os.path.exists(combined_file):
-                key = f"{gas} - {level.capitalize()} Emissions"
-                dataset_options[key] = combined_file
-
-    selected_dataset_name = st.selectbox("Select a dataset to explore", list(dataset_options.keys()))
-    dataset_path = dataset_options[selected_dataset_name]
-
-    if os.path.exists(dataset_path):
-        df = pd.read_csv(dataset_path)
-
-        if 'Year' in df.columns:
-            years = sorted(df['Year'].dropna().unique())
-            year_filter = st.slider("Filter by Year", min_value=int(min(years)), max_value=int(max(years)),
-                                    value=(int(min(years)), int(max(years))))
-            df = df[df['Year'].between(year_filter[0], year_filter[1])]
-
-        st.write(f"Preview of **{selected_dataset_name}**")
-        st.dataframe(df.head(100))
-
-        csv = df.to_csv(index=False).encode('utf-8')
-        st.download_button(
-            label=f" Download {selected_dataset_name} as CSV",
-            data=csv,
-            file_name=f"{selected_dataset_name.replace(' ', '_').lower()}.csv",
-            mime='text/csv'
-        )
-    else:
-        st.warning("Dataset not found.")
-
-    st.markdown("---")
-    st.subheader(" Dataset Descriptions")
-
-
-# Metrics summary (move to top later)
-st.subheader("Summary Metrics")
-col1, col2, col3 = st.columns(3)
-
-latest_year = filtered_total_df['Year'].max()
-total_co2 = filtered_total_df[co2_column].sum()
-avg_annual_co2 = filtered_total_df.groupby('Year')[co2_column].sum().mean()
-latest_co2 = filtered_total_df[filtered_total_df['Year'] == latest_year][co2_column].sum()
-
-col1.metric("Total CO2 Emissions", f"{total_co2:,.0f} kt")
-col2.metric("Average Annual CO2", f"{avg_annual_co2:,.0f} kt")
-col3.metric("Latest Year CO2", f"{latest_co2:,.0f} kt")
-
-
-# Footer
-st.markdown("---")
-st.markdown("Data source: National Greenhouse Gas Inventory Submissions")
