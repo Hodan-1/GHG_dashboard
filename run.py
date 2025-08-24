@@ -94,6 +94,24 @@ def load_all_total_emissions():
     else:
         return None    
 
+@st.cache_data
+def preload_all_data():
+    """Pre-load all data to trigger caching at startup"""
+    data = {}
+    
+    # Load global datasets
+    data['all_emissions'] = load_all_total_emissions()
+    data['weather'] = load_weather_data()
+    data['temperature'] = load_temperature_data()
+    data['global_emissions'] = load_global_emission()
+    data['geojson'] = load_geojson()
+    
+    # Pre-load data for all countries
+    for country in country_labels:
+        data[f'country_{country}'] = load_country_data(country)
+    
+    return data
+
 data_root = "data/processed_data"
 country_folders = sorted([
     name for name in os.listdir(data_root)
@@ -435,7 +453,7 @@ def render_ghg_map_page(sidebar_data):
 
                 #### About the Data
                 Since 1992, countries have reported annual emissions following UNFCCC guidelines. 
-                The **Kyoto Protocol** and **Paris Agreement** have further shaped these reporting systems, introducing tools like the **Common Reporting Tables (CRTs)** for standardized submissions.
+                The **Kyoto Protocol** and **Paris Agreement** have further shaped these reporting systems, introducing tools like the **Common Reporting Tables (CRTs)** for standardised submissions.
 
                 *Click a country to explore its emissions, or visit the 'Emissions Trends' page to compare changes over time.*
                 """)
@@ -681,7 +699,7 @@ def render_sector_distribution_page(sidebar_data):
         ),
         'N2O (kt)': (
             "**Nitrous Oxide ($N_2O$)** primarily comes from the **agriculture sector**, particularly from soil "
-            "management and fertilizer use. It can also be a byproduct of some industrial processes."
+            "management and fertiliser use. It can also be a byproduct of some industrial processes."
         ),
         'HFCs (kt)': (
             "**Hydrofluorocarbons (HFCs)** are a type of F-gas. They are not naturally occurring and are primarily "
@@ -703,7 +721,7 @@ def render_sector_distribution_page(sidebar_data):
         'United States of America': {
             'Sectors': {
                 'Energy': {
-                    'description': 'The U.S. is heavily investing in clean energy to decarbonize its grid, primarily through the Inflation Reduction Act (IRA).',
+                    'description': 'The U.S. is heavily investing in clean energy to decarbonise its grid, primarily through the Inflation Reduction Act (IRA).',
                     'policies': [
                         'IRA Tax Credits: Generous tax credits for renewable energy projects (e.g., wind, solar) and technologies like carbon capture and storage (CCS).',
                         'State-level RPS: Many states have their own Renewable Portfolio Standards, mandating a percentage of electricity from renewable sources.',
@@ -719,7 +737,7 @@ def render_sector_distribution_page(sidebar_data):
                 'Agriculture, Forestry & Other Land Use': {
                     'description': 'Policies are aimed at supporting sustainable land management practices and reducing agricultural emissions.',
                     'policies': [
-                        'IRA Conservation Programs: The IRA allocates significant funding to boost conservation programs and incentivize climate-smart agriculture.',
+                        'IRA Conservation Programs: The IRA allocates significant funding to boost conservation programs and incentivise climate-smart agriculture.',
                         'Biofuels Initiatives: Supports the production and use of biofuels to reduce emissions from the transportation sector.',
                     ]
                 },
