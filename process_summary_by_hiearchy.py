@@ -1,28 +1,58 @@
+import os
+
 def process_summary_sheet(sheet_name, folder_path, output_folder):
     """
     Process a specific summary sheet from all Excel files in the folder
+
+    Args:
+        sheet_name(str): Name of Excel sheet to process.
+        folder_path(str): Path to folder contaning files for a specific county
+        output_folder(str): Path where processed parquet files will be saved
+
+    Returns:
+        None: Saves processed data to parquet files and prints progress messages
     """
     print(f"Processing {sheet_name}...")
     
     # Get country name from the folder path
-    country_name = os.path.basename(folder_path).lower()
+    country_name = os.path.basename(folder_path)
 
+    # Define gas types with Unicode subscripts for better display
+    GAS_STANDARD_NAMES = {
+        'CO2 (1) CO2 equivalents (kt ) (2)': 'CO\u2082 (kt)',
+        'CO2': 'CO\u2082 (kt)',
+        'CH4': 'CH\u2084 (kt)',
+        'N2O': 'N\u2082O (kt)',
+        'HFCs': 'HFCs (kt)',
+        'PFCs': 'PFCs (kt)',
+        'Unspecified mix of HFCs and PFCs': 'HFC+PFC Mix (kt)',
+        'SF6': 'SF\u2086 (kt)',
+        'NF3': 'NF\u2083 (kt)',
+    }
+
+    # Define hierarchical levels for organising emissions data
+    levels = ['total', 'sectors', 'subsectors', 'sub_subsectors', 'memo_items']
+    
+    # Create main country directories (no gas-specific subdirectories)
+    country_output = os.path.join(output_folder, country_name)
+    for level in levels:
+        os.makedirs(os.path.join(country_output, level), exist_ok=True)
+    
+    # Process each file in the country's folder
     for filepath in glob.glob(os.path.join(folder_path, "*.xlsx")):
         try:
-            # Read the specific summary sheet
+            # Read summary sheet
+            # Anchor locates data table within sheet (Change depending on sheet)
             df = read_excel_with_detected_header(filepath, sheet_name, anchor='GREENHOUSE GAS SOURCE AND', flatten=True)
             
             # Standardise column names
+            # Apply Unicode subscript column names
             new_columns = []
             for col in df.columns:
-                # Standardise CO2 column names
-                if col == 'CO2' or col == 'CO2 (kt)' or col == 'Net CO2 (kt)':
-                    new_columns.append('Net CO2 emissions/removals (kt)')
-                #other gases just in case
-                elif col == 'CH4' or col == 'CH4 (kt)':
-                    new_columns.append('CH4 (kt)')
-                elif col == 'N2O' or col == 'N2O (kt)':
-                    new_columns.append('N2O (kt)')
+                # Remove whitespace
+                col_clean = col.strip()
+                if col_clean in GAS_STANDARD_NAMES:
+                    new_columns.append(GAS_STANDARD_NAMES[col_clean])
                 else:
                     new_columns.append(col)
             df.columns = new_columns
@@ -37,7 +67,7 @@ def process_summary_sheet(sheet_name, folder_path, output_folder):
             if not category_col:
                 raise ValueError("Category column not found")
 
-            # Keep the category column
+            # Keep the category column and seperate from numeric data
             categories = df[category_col]
 
             # Convert other columns to numeric, coercing errors to NaN
@@ -52,9 +82,10 @@ def process_summary_sheet(sheet_name, folder_path, output_folder):
             # Drop columns that are completely empty
             df = df.dropna(axis=1, how='all')
 
-            # Define years and GHG keywords
+            # Define years and GHG keywords (with subscript)
             years_table10s6 = [str(year) for year in range(1990, 2023+1)]
-            ghg_keywords = ['CO2', 'CH4', 'N2O', 'SF6', 'HFC', 'PFC',
+            # Use new column names
+            ghg_keywords = ['CO\u2082', 'CH\u2084', 'N\u2082O', 'SF\u2086', 'HFC', 'PFC', 'NF\u2083',
                           'Base year (1)', 'Change from base to latest'] + years_table10s6
 
             # Keep category column containing any GHG keywords
@@ -63,7 +94,7 @@ def process_summary_sheet(sheet_name, folder_path, output_folder):
 
             df = df[cols_to_keep]
             
-            # Extract year
+            # Extract year, country code from filename
             country_code, year = extract_year_from_filename(os.path.basename(filepath))
             if not country_code or not year:
                 print(f"Skipping {filepath}: Could not extract country code or year")
@@ -71,56 +102,94 @@ def process_summary_sheet(sheet_name, folder_path, output_folder):
             
             # Add sheet name to DataFrame
             df['Sheet'] = sheet_name
-
-            # Create directories using country name from folder
-            country_output = os.path.join(output_folder, country_name)
-            os.makedirs(os.path.join(country_output, 'total'), exist_ok=True)
-            os.makedirs(os.path.join(country_output, 'sectors'), exist_ok=True)
-            os.makedirs(os.path.join(country_output, 'subsectors'), exist_ok=True)
-            os.makedirs(os.path.join(country_output, 'sub_subsectors'), exist_ok=True)
-            os.makedirs(os.path.join(country_output, 'memo_items'), exist_ok=True)
-
             df['Country'] = country_name.upper()
             df['Year'] = year
+
             
-            # Process into hierarchical structure
+            #  Process the flat data into hierarchical structure based on UNFCCC categories
+            # This separates totals, sectors, subsectors, etc. into different DataFrames
             total_df, sector_df, subsector_df, sub_subsector_df, memo_df = process_hierarchical_data(df)
 
-            # Create filename with sheet name and year
+            # Create filename using country name with sheet name and year
             base_filename = f"{country_code.lower()}_{sheet_name}_{year}"
             
-            # Save files
-            if not total_df.empty:
-                total_df.to_csv(
-                    os.path.join(country_output, 'total', f"{base_filename}_total.csv"), 
-                    index=False
-                )
-            
-            if not sector_df.empty:
-                sector_df.to_csv(
-                    os.path.join(country_output, 'sectors', f"{base_filename}_sectors.csv"), 
-                    index=False
-                )
-            
-            if not subsector_df.empty:
-                subsector_df.to_csv(
-                    os.path.join(country_output, 'subsectors', f"{base_filename}_subsectors.csv"),
-                    index=False
-                )
+            # Option 1: Save combined files as Parquet
+            # groups all gas types together within each organisation
+            level_dfs = {
+                'total': total_df,
+                'sectors': sector_df,
+                'subsectors': subsector_df,
+                'sub_subsectors': sub_subsector_df,
+                'memo_items': memo_df
+            }
 
-            if not sub_subsector_df.empty:
-                sub_subsector_df.to_csv(
-                    os.path.join(country_output, 'sub_subsectors', f"{base_filename}_sub_subsectors.csv"),
-                    index=False
-                )
+            # Save each hierarchical level as a separate parquet file
+            for level, df_to_save in level_dfs.items():
+                if not df_to_save.empty:
+                    output_path = os.path.join(
+                        country_output,
+                        level,
+                        f"{base_filename}_{level}.parquet"
+                    )
+                    df_to_save.to_parquet(output_path, index=False)
 
-            if not memo_df.empty:
-                memo_df.to_csv(
-                    os.path.join(country_output, 'memo_items', f"{base_filename}_memo_items.csv"),
-                    index=False
-                )
+            # Option 2: Save species-specific files as Parquet
+            for original_name, standardized_gas in GAS_STANDARD_NAMES.items():
+                gas_type = standardized_gas.split()[0].lower()
                 
+                # Define paths for each level
+                level_paths = {
+                    'total': os.path.join(output_folder, country_name, gas_type, 'total', f"{base_filename}_total.parquet"),
+                    'sectors': os.path.join(output_folder, country_name, gas_type, 'sectors', f"{base_filename}_sectors.parquet"),
+                    'subsectors': os.path.join(output_folder, country_name, gas_type, 'subsectors', f"{base_filename}_subsectors.parquet"),
+                    'sub_subsectors': os.path.join(output_folder, country_name, gas_type, 'sub_subsectors', f"{base_filename}_sub_subsectors.parquet"),
+                    'memo_items': os.path.join(output_folder, country_name, gas_type, 'memo_items', f"{base_filename}_memo_items.parquet")
+                }
+
+                # Save each level for this gas type
+                save_gas_level_parquet(total_df, standardized_gas, level_paths['total'])
+                save_gas_level_parquet(sector_df, standardized_gas, level_paths['sectors'])
+                save_gas_level_parquet(subsector_df, standardized_gas, level_paths['subsectors'])
+                save_gas_level_parquet(sub_subsector_df, standardized_gas, level_paths['sub_subsectors'])
+                save_gas_level_parquet(memo_df, standardized_gas, level_paths['memo_items'])
+
             print(f"Processed {sheet_name} for year {year}")
             
         except Exception as e:
             print(f"Error processing {sheet_name} in {filepath}: {e}")
+
+    # After processing all files, combine years for both approaches
+    
+    # APPROACH 1: Combine files for the hierarchical level approach
+    # This creates time series datasets for each organisational level
+    for level in levels:
+        level_path = os.path.join(country_output, level)
+        parquet_files = glob.glob(os.path.join(level_path, "*.parquet"))
+        if parquet_files:
+            combined_df = pd.concat([pd.read_parquet(f) for f in parquet_files])
+            combined_path = os.path.join(level_path, f"{country_name}_{level}_combined.parquet")
+            combined_df.to_parquet(combined_path, index=False)
+            
+            #  Remove individual year files 
+            # (optional - if user wants to keep remove these two lines below)
+            for f in parquet_files:
+                os.remove(f)
+
+    # APPROACH 2: Combine files for the gas-specific approach
+    # This creates time series datasets for each gas type at each level
+    for gas in GAS_STANDARD_NAMES.values():
+        gas_type = gas.split()[0].lower()
+        for level in levels:
+            level_path = os.path.join(output_folder, country_name, gas_type, level)
+            parquet_files = glob.glob(os.path.join(level_path, f"*_{gas_type}.parquet"))
+            
+            if parquet_files:
+                combined_df = pd.concat([pd.read_parquet(f) for f in parquet_files])
+                combined_path = os.path.join(level_path, f"{country_name}_{level}_{gas_type}_combined.parquet")
+                combined_df.to_parquet(combined_path, index=False)
+                
+                # Optionally remove individual year files
+                for f in parquet_files:
+                    os.remove(f)
+
+    print(f"Completed processing {sheet_name} for {country_name}")
