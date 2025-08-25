@@ -2,7 +2,7 @@ import os
 import glob
 import pandas as pd
 
-def save_gas_level_parquet(df, gas_col, output_path, index_col='Year', column_col='Label', value_col=None):
+def save_gas_level_parquet(df, gas_col, output_path, index_col='Year', column_col='Label', value_col=None, save_csv=False):
     """
     Converts the dataframe into year x sector format and saves to Parquet for specific gas types.
     This function takes emissions data in long format and converts it to wide format where:
@@ -17,6 +17,8 @@ def save_gas_level_parquet(df, gas_col, output_path, index_col='Year', column_co
         index_col (str): Column to use as index in table. Defaults to 'Year'
         column_col (str): Column to use as columns in table. Defaults to 'Label'
         value_col (str): Column to use as values in  table. Defaults to gas_col if None
+        save_csv (Boolean): Option on wheather csv version is saved alongside output. Default is 
+        false
     
     Returns:
         None: Function saves data to file and prints confimation message.    
@@ -63,3 +65,11 @@ def save_gas_level_parquet(df, gas_col, output_path, index_col='Year', column_co
     # Save to parquet format
     pivot_df.to_parquet(new_output_path)
     print(f"Saved {gas_type} data to {new_output_path}")
+
+    if save_csv:
+        # Create CSV path in csv_view directory
+        csv_output_path = new_output_path.replace('processed_data', 'csv_view').replace('.parquet', '.csv')
+        csv_output_dir = os.path.dirname(csv_output_path)
+        os.makedirs(csv_output_dir, exist_ok=True)
+        pivot_df.to_csv(csv_output_path)
+        print(f"Saved {gas_type} CSV data to {csv_output_path}")

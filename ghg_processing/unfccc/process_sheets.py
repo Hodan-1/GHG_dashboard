@@ -5,7 +5,7 @@ from .header_detector import read_excel_with_detected_header, extract_year_from_
 from .process_hierarchy import process_hierarchical_data
 from .save_gases import save_gas_level_parquet
 
-def process_summary_sheet(sheet_name, folder_path, output_folder):
+def process_summary_sheet(sheet_name, folder_path, output_folder, save_csv=False):
     """
     Process a specific summary sheet from all Excel files in the folder
 
@@ -13,6 +13,8 @@ def process_summary_sheet(sheet_name, folder_path, output_folder):
         sheet_name(str): Name of Excel sheet to process.
         folder_path(str): Path to folder contaning files for a specific county
         output_folder(str): Path where processed parquet files will be saved
+        save_csv (Boolean): Option on wheather csv version is saved alongside output. Default is 
+        false
 
     Returns:
         None: Saves processed data to parquet files and prints progress messages
@@ -43,6 +45,14 @@ def process_summary_sheet(sheet_name, folder_path, output_folder):
     for level in levels:
         os.makedirs(os.path.join(country_output, level), exist_ok=True)
     
+
+    if save_csv:
+        # Create CSV output directory ( outside processed_data)
+        csv_output_folder = os.path.join(os.path.dirname(output_folder), 'csv_view')
+        csv_country_output = os.path.join(csv_output_folder, country_name)
+        for level in levels:
+            os.makedirs(os.path.join(csv_country_output, level), exist_ok=True)
+
     # Process each file in the country's folder
     for filepath in glob.glob(os.path.join(folder_path, "*.xlsx")):
         try:
@@ -138,6 +148,17 @@ def process_summary_sheet(sheet_name, folder_path, output_folder):
                     )
                     df_to_save.to_parquet(output_path, index=False)
 
+                    # If save_csv is True
+                    if save_csv:
+                        # Save CSV too - good for users to view output
+                        csv_output_path = os.path.join(
+                            csv_country_output,
+                            level,
+                            f"{base_filename}_{level}.csv"
+                        )
+                        df_to_save.to_csv(csv_output_path, index=False)
+
+
             # Option 2: Save species-specific files as Parquet
             for original_name, standardized_gas in GAS_STANDARD_NAMES.items():
                 gas_type = standardized_gas.split()[0].lower()
@@ -152,11 +173,11 @@ def process_summary_sheet(sheet_name, folder_path, output_folder):
                 }
 
                 # Save each level for this gas type
-                save_gas_level_parquet(total_df, standardized_gas, level_paths['total'])
-                save_gas_level_parquet(sector_df, standardized_gas, level_paths['sectors'])
-                save_gas_level_parquet(subsector_df, standardized_gas, level_paths['subsectors'])
-                save_gas_level_parquet(sub_subsector_df, standardized_gas, level_paths['sub_subsectors'])
-                save_gas_level_parquet(memo_df, standardized_gas, level_paths['memo_items'])
+                save_gas_level_parquet(total_df, standardized_gas, level_paths['total'], save_csv=save_csv)
+                save_gas_level_parquet(sector_df, standardized_gas, level_paths['sectors'], save_csv=save_csv)
+                save_gas_level_parquet(subsector_df, standardized_gas, level_paths['subsectors'], save_csv=save_csv)
+                save_gas_level_parquet(sub_subsector_df, standardized_gas, level_paths['sub_subsectors'], save_csv=save_csv)
+                save_gas_level_parquet(memo_df, standardized_gas, level_paths['memo_items'], save_csv=save_csv)
 
             print(f"Processed {sheet_name} for year {year}")
             
@@ -175,6 +196,12 @@ def process_summary_sheet(sheet_name, folder_path, output_folder):
             combined_path = os.path.join(level_path, f"{country_name}_{level}_combined.parquet")
             combined_df.to_parquet(combined_path, index=False)
             
+            # Save combined CSV too
+            if save_csv:
+                csv_level_path = os.path.join(csv_country_output, level)
+                csv_combined_path = os.path.join(csv_level_path, f"{country_name}_{level}_combined.csv")
+                combined_df.to_csv(csv_combined_path, index=False)
+
             #  Remove individual year files 
             # (optional - if user wants to keep remove these two lines below)
             for f in parquet_files:
@@ -193,6 +220,13 @@ def process_summary_sheet(sheet_name, folder_path, output_folder):
                 combined_path = os.path.join(level_path, f"{country_name}_{level}_{gas_type}_combined.parquet")
                 combined_df.to_parquet(combined_path, index=False)
                 
+                # Save combined CSV too. If true
+                if save_csv:
+                    csv_level_path = os.path.join(csv_output_folder, country_name, gas_type, level)
+                    os.makedirs(csv_level_path, exist_ok=True)
+                    csv_combined_path = os.path.join(csv_level_path, f"{country_name}_{level}_{gas_type}_combined.csv")
+                    combined_df.to_csv(csv_combined_path, index=False)
+            
                 # Optionally remove individual year files
                 for f in parquet_files:
                     os.remove(f)
