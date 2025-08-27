@@ -11,12 +11,10 @@ def get_category(category_str):
     
     Returns:
         dict: A dictionary containing:
-            - 'sector': The main sector
-            - 'subsector': The subsector
-            - 'sub_subsector': The sub-subsector (Energy)
-            - 'sub_sub_subsector': The sub-sub-subsector (if applicable)
+            - 'levels': Different hierarchical sectors.
             - 'label': Original label of category
             - 'is_memo': Boolean indicating if category is a memo item
+            - 'is_numbered': Boolean indicating if the UNFCCC labelling in place.
 
     """
 
@@ -26,12 +24,10 @@ def get_category(category_str):
     # Special case for total and memo items header
     if category_str.startswith('Total'):
         return {
-            'sector': None,
-            'subsector': None,
-            'sub_subsector': None,
-            'sub_sub_subsector': None,
+            'levels':[],
             'label': category_str,
-            'is_memo': False
+            'is_memo': False,
+            'is_numbered': False
         }
     
     # Check if this is a memo item
@@ -41,49 +37,37 @@ def get_category(category_str):
                category_str.startswith('Indirect N2O') or 
                category_str.startswith('Indirect CO2'))
 
-    try:
+    # Check if category is numbered (starts with digit followed by period)
+    if category_str and category_str[0].isdigit() and '.' in category_str:
+        
         # Try to split on space, if that fails, use the whole string
         split_parts = category_str.split(" ", 1)
         if len(split_parts) == 2:
             #if split is successful assign level and label
             level, label = split_parts
         else:
-            # If no space found, try to find where numbers/dots end
-            for i, character in enumerate(category_str):
-                if not (character.isdigit() or character == '.' or character == 'A'):
-                    # Extract level and label
-                    level = category_str[:i].strip()
-                    label = category_str[i:].strip()
-                    break
-            else:
-                # If no split treat whole string as a level
-                level = category_str
-                label = category_str
+            # If no split treat whole string as a level
+            level = category_str
+            label = category_str
     
         # Split the level by dots to get hierarchical components
         parts = level.strip('.').split(".")
-        sector = parts[0] if len(parts) > 0 else None
-        subsector = parts[1] if len(parts) > 1 else None
-        sub_subsector = parts[2] if len(parts) > 2 else None
-        sub_sub_subsector = parts[3] if len(parts) > 3 else None
-
         return {
-            'sector': sector,
-            'subsector': subsector,
-            'sub_subsector': sub_subsector,
-            'sub_sub_subsector': sub_sub_subsector,
+            # e.g ['1','A','1','a','i']
+            'levels': parts,
             'label': label.strip(),
-            'is_memo': is_memo
+            'is_memo': is_memo,
+            'is_numbered': True
         }
-    except Exception as e:
-        # If anything goes wrong, return a default structure
+    else:
+        # This is a non-numbered item (contextual relationship)
         return {
-            'sector': None,
-            'subsector': None,
-            'sub_subsector': None,
-            'sub_sub_subsector': None,
+            # Fill based on context
+            'levels': [],
             'label': category_str,
-            'is_memo': is_memo
+            'is_memo': is_memo,
+            'is_numbered': False
+            
         }
 
 
@@ -112,49 +96,70 @@ def process_hierarchical_data(df):
     if not category_col:
         raise ValueError("Category column not found")
 
-    # Initialise lists to hold parsed category data
-    sectors, subsectors, sub_subsectors, labels, levels, is_memo = [], [], [], [],[],[]
-    
-    # Identify the starting index for memo items
-    memo_start_idx = None
-    for idx, value in enumerate(df[category_col]):
-        if 'Memo items:' in str(value):
-            memo_start_idx = idx
-            break
-    
     # Process each category string in the DataFrame
-    for cat_str in df[category_col].astype(str):
-        #Parse category string
-        categories = get_category(cat_str)
+    parsed = [get_category(cat_str) for cat_str in df[category_col].astype(str)]
 
-        # Upadte parsed components to their list
-        sectors.append(categories['sector'])
-        subsectors.append(categories['subsector'])
-        sub_subsectors.append(categories['sub_subsector'])
-        labels.append(categories['label'])
-        is_memo.append(categories['is_memo'])
+    current_context = []
 
+    # Process each parsed item and assign context to non-numbered items
+    for i, p in enumerate(parsed):
+        if p['is_numbered'] and p['levels']:
+            # Update context with this numbered item
+            current_context = p['levels'].copy()
+        elif not p['is_numbered'] and not p['label'].startswith('Total') and not p['is_memo']:
+            # This is a non-numbered item, assign to current level
+            if current_context:
+                # Make it one level deeper than current 
+                p['levels'] = current_context + ['child']
+            else:
+                # No context available, treat as top level
+                p['levels'] = ['1']
+
+    
+    # Determine max categories
+    max_len = max(len(p['levels']) for p in parsed if p['levels'])
+
+    # Extend level names to handle deeper hierarchies
+    level_names = ['Sector', 'Subsector', 'Sub_subsector', 'Sub_sub_subsector', 'Level_5', 'Level_6', 'Level_7', 'Level_8']
+    if max_len > len(level_names):
+        for i in range(len(level_names)+1, max_len+1):
+            # stop naming at 8
+            level_names.append(f'Level_{i}')  
+
+    # Build  DataFrame
+    df = df.copy()
+    for i, name in enumerate(level_names):
+        df[name] = [p['levels'][i] if i < len(p['levels']) else None for p in parsed]
+
+    df['Label'] = [p['label'] for p in parsed]
+    df['Is_Memo'] = [p['is_memo'] for p in parsed]
+
+    # Add more classification into categories
+    levels = []
+    for i, row in df.iterrows():
         # Determine the levl of category
-        if categories['label'].startswith('Total'):
+        if row['Label'].startswith('Total'):
             levels.append('Total')
-        elif categories['sector'] and not categories['subsector']:
+        elif row['Sector'] and not row['Subsector']:
             levels.append('Sector')
-        elif categories['subsector'] and not categories['sub_subsector']:
+        elif row['Subsector'] and not row['Sub_subsector']:
             levels.append('Subsector')
-        elif categories['sub_subsector']:
+        elif row['Sub_subsector'] and not row['Sub_sub_subsector']:
             levels.append('Sub-subsector')
+        elif row['Sub_sub_subsector'] and not row.get('Level_5'):
+            levels.append('Sub-sub-subsector')
+        elif row.get('Level_5') and not row.get('Level_6'):
+            levels.append('Level-5')
+        elif row.get('Level_6') and not row.get('Level_7'):
+            levels.append('Level-6')
+        elif row.get('Level_7') and not row.get('Level_8'):
+            levels.append('Level-7')
+        elif row.get('Level_8'):
+            levels.append('Level-8')
         else:
             levels.append('Unknown')
 
-    # Create a copy of the DataFrame to avoid modifying orginal
-    df = df.copy()
-    # Add new columns for the parsed data
-    df['Sector'] = sectors
-    df['Subsector'] = subsectors
-    df['Sub_subsector'] = sub_subsectors
-    df['Label'] = labels
     df['Level'] = levels
-    df['Is_Memo'] = is_memo
 
     # Seperate main data from memo items
     main_df = df[~df['Is_Memo']]
@@ -165,6 +170,11 @@ def process_hierarchical_data(df):
     sector_df = main_df[main_df['Level'] == 'Sector']
     subsector_df = main_df[main_df['Level'] == 'Subsector']
     sub_subsector_df = main_df[main_df['Level'] == 'Sub-subsector']
+    sub_sub_subsector_df = main_df[main_df['Level'] == 'Sub-sub-subsector']
+    level_5_df = main_df[main_df['Level'] == 'Level-5']
+    level_6_df = main_df[main_df['Level'] == 'Level-6']
+    level_7_df = main_df[main_df['Level'] == 'Level-7']
+    level_8_df = main_df[main_df['Level'] == 'Level-8']
 
     # Processing Summary
     print(f"\nProcessing Summary:")
@@ -172,6 +182,11 @@ def process_hierarchical_data(df):
     print(f"Found {0 if sector_df.empty else len(sector_df)} sector rows")
     print(f"Found {0 if subsector_df.empty else len(subsector_df)} subsector rows")
     print(f"Found {0 if sub_subsector_df.empty else len(sub_subsector_df)} sub-subsector rows")
+    print(f"Found {0 if sub_sub_subsector_df.empty else len(sub_sub_subsector_df)} sun-sub-subsector rows")
+    print(f"Found {0 if level_5_df.empty else len(level_5_df)} level 5 rows")
+    print(f"Found {0 if level_6_df.empty else len(level_6_df)} level 6 rows")
+    print(f"Found {0 if level_7_df.empty else len(level_7_df)} level 7 rows")
+    print(f"Found {0 if level_8_df.empty else len(level_8_df)} level 8 rows")
     print(f"Found {0 if memo_df.empty else len(memo_df)} memo items")
 
     # Detailed breakdown
@@ -204,10 +219,22 @@ def process_hierarchical_data(df):
                 if not detailed.empty:
                     print(f"\nDetailed breakdowns for {sector_num}.{subsector_code}:")
                     print(detailed[category_col].tolist())
+    
+    if not sub_sub_subsector_df.empty:
+        print(f"\nSub-sub-subsectors:")
+        print(sub_sub_subsector_df[category_col].tolist())
+
+    if not level_5_df.empty:
+        print(f"\nLevel-5 items:")
+        print(level_5_df[category_col].tolist())
+
+    if not level_6_df.empty:
+        print(f"\nLevel-6 items:")
+        print(level_6_df[category_col].tolist())
 
     if not memo_df.empty:
         print("\nMemo Items:")
         print(memo_df[category_col].tolist())
 
-    return total_df, sector_df, subsector_df, sub_subsector_df, memo_df
+    return total_df, sector_df, subsector_df, sub_subsector_df, sub_sub_subsector_df, level_5_df, level_6_df, level_7_df, level_8_df, memo_df
 

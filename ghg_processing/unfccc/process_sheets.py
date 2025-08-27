@@ -19,11 +19,12 @@ def process_summary_sheet(sheet_name, folder_path, output_folder, save_csv=False
     Returns:
         None: Saves processed data to parquet files and prints progress messages
     """
-    print(f"Processing {sheet_name}...")
     
     # Get country name from the folder path
     country_name = os.path.basename(folder_path)
 
+    print(f"Processing {sheet_name} for {country_name}...")
+    
     # Define gas types with Unicode subscripts for better display
     GAS_STANDARD_NAMES = {
         'CO2 (1) CO2 equivalents (kt ) (2)': 'CO\u2082 (kt)',
@@ -38,7 +39,7 @@ def process_summary_sheet(sheet_name, folder_path, output_folder, save_csv=False
     }
 
     # Define hierarchical levels for organising emissions data
-    levels = ['total', 'sectors', 'subsectors', 'sub_subsectors', 'memo_items']
+    levels = ['total', 'sectors', 'subsectors', 'sub_subsectors', 'sub_sub_subsectors', 'level_5', 'level_6', 'level_7', 'level_8', 'memo_items']
     
     # Create main country directories (no gas-specific subdirectories)
     country_output = os.path.join(output_folder, country_name)
@@ -58,7 +59,7 @@ def process_summary_sheet(sheet_name, folder_path, output_folder, save_csv=False
         try:
             # Read summary sheet
             # Anchor locates data table within sheet (Change depending on sheet)
-            df = read_excel_with_detected_header(filepath, sheet_name, anchor='GREENHOUSE GAS SOURCE AND', flatten=True)
+            df = read_excel_with_detected_header(filepath, sheet_name, anchor='GREENHOUSE GAS SOURCE', flatten=True)
             
             # Standardise column names
             # Apply Unicode subscript column names
@@ -123,8 +124,17 @@ def process_summary_sheet(sheet_name, folder_path, output_folder, save_csv=False
             
             #  Process the flat data into hierarchical structure based on UNFCCC categories
             # This separates totals, sectors, subsectors, etc. into different DataFrames
-            total_df, sector_df, subsector_df, sub_subsector_df, memo_df = process_hierarchical_data(df)
+            total_df, sector_df, subsector_df, sub_subsector_df, sub_sub_subsector_df, level_5_df, level_6_df, level_7_df, level_8_df, memo_df = process_hierarchical_data(df)
 
+            # Get additional levels by re-processing the data
+            # Extract the deeper levels that aren't returned by the main function
+            category_col_internal = None
+            for col in df.columns:
+                if 'GREENHOUSE GAS SOURCE AND SINK CATEGORIES' in col:
+                    category_col_internal = col
+                    break
+
+            
             # Create filename using country name with sheet name and year
             base_filename = f"{country_code.lower()}_{sheet_name}_{year}"
             
@@ -135,6 +145,11 @@ def process_summary_sheet(sheet_name, folder_path, output_folder, save_csv=False
                 'sectors': sector_df,
                 'subsectors': subsector_df,
                 'sub_subsectors': sub_subsector_df,
+                'sub_sub_subsectors': sub_sub_subsector_df,
+                'level_5': level_5_df,
+                'level_6': level_6_df,
+                'level_7': level_7_df,
+                'level_8': level_8_df,
                 'memo_items': memo_df
             }
 
@@ -160,8 +175,8 @@ def process_summary_sheet(sheet_name, folder_path, output_folder, save_csv=False
 
 
             # Option 2: Save species-specific files as Parquet
-            for original_name, standardized_gas in GAS_STANDARD_NAMES.items():
-                gas_type = standardized_gas.split()[0].lower()
+            for original_name, standardised_gas in GAS_STANDARD_NAMES.items():
+                gas_type = standardised_gas.split()[0].lower()
                 
                 # Define paths for each level
                 level_paths = {
@@ -169,15 +184,25 @@ def process_summary_sheet(sheet_name, folder_path, output_folder, save_csv=False
                     'sectors': os.path.join(output_folder, country_name, gas_type, 'sectors', f"{base_filename}_sectors.parquet"),
                     'subsectors': os.path.join(output_folder, country_name, gas_type, 'subsectors', f"{base_filename}_subsectors.parquet"),
                     'sub_subsectors': os.path.join(output_folder, country_name, gas_type, 'sub_subsectors', f"{base_filename}_sub_subsectors.parquet"),
+                    'sub_sub_subsectors': os.path.join(output_folder, country_name, gas_type, 'sub_sub_subsectors', f"{base_filename}_sub_sub_subsectors.parquet"),
+                    'level_5': os.path.join(output_folder, country_name, gas_type, 'level_5', f"{base_filename}_level_5.parquet"),
+                    'level_6': os.path.join(output_folder, country_name, gas_type, 'level_6', f"{base_filename}_level_6.parquet"),
+                    'level_7': os.path.join(output_folder, country_name, gas_type, 'level_7', f"{base_filename}_level_7.parquet"),
+                    'level_8': os.path.join(output_folder, country_name, gas_type, 'level_8', f"{base_filename}_level_8.parquet"),
                     'memo_items': os.path.join(output_folder, country_name, gas_type, 'memo_items', f"{base_filename}_memo_items.parquet")
                 }
 
                 # Save each level for this gas type
-                save_gas_level_parquet(total_df, standardized_gas, level_paths['total'], save_csv=save_csv)
-                save_gas_level_parquet(sector_df, standardized_gas, level_paths['sectors'], save_csv=save_csv)
-                save_gas_level_parquet(subsector_df, standardized_gas, level_paths['subsectors'], save_csv=save_csv)
-                save_gas_level_parquet(sub_subsector_df, standardized_gas, level_paths['sub_subsectors'], save_csv=save_csv)
-                save_gas_level_parquet(memo_df, standardized_gas, level_paths['memo_items'], save_csv=save_csv)
+                save_gas_level_parquet(total_df, standardised_gas, level_paths['total'], save_csv=save_csv)
+                save_gas_level_parquet(sector_df, standardised_gas, level_paths['sectors'], save_csv=save_csv)
+                save_gas_level_parquet(subsector_df, standardised_gas, level_paths['subsectors'], save_csv=save_csv)
+                save_gas_level_parquet(sub_subsector_df, standardised_gas, level_paths['sub_subsectors'], save_csv=save_csv)
+                save_gas_level_parquet(sub_sub_subsector_df, standardised_gas, level_paths['sub_sub_subsectors'], save_csv=save_csv)
+                save_gas_level_parquet(level_5_df, standardised_gas, level_paths['level_5'], save_csv=save_csv)
+                save_gas_level_parquet(level_6_df, standardised_gas, level_paths['level_6'], save_csv=save_csv)
+                save_gas_level_parquet(level_7_df, standardised_gas, level_paths['level_7'], save_csv=save_csv)
+                save_gas_level_parquet(level_8_df, standardised_gas, level_paths['level_8'], save_csv=save_csv)
+                save_gas_level_parquet(memo_df, standardised_gas, level_paths['memo_items'], save_csv=save_csv)
 
             print(f"Processed {sheet_name} for year {year}")
             

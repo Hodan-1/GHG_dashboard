@@ -54,7 +54,7 @@ def detect_header_rows(filepath, sheet_name, anchor=None, keywords=None, lookahe
 def read_excel_with_detected_header(filepath, sheet_name, anchor=None, keywords=None, flatten=True):
     """
     Reads Excel with auto-detected header rows using an anchor or keywords.
-    Cleans multi-index headers if needed.
+    Cleans multi-index headers if needed and handles units in first dat row.
 
     Args:
         filepath (str): Path to the Excel file to read
@@ -87,16 +87,94 @@ def read_excel_with_detected_header(filepath, sheet_name, anchor=None, keywords=
             # Convert all parts of the column to strings and remove whitespace
             parts = [str(part).strip() for part in col if pd.notna(part)]
 
+            # Common UNFCCC keywords
+            relevant_keywords = [
+                # Categories
+                'SINK CATEGORIES', 'SOURCE', 'EMISSION', 'ACTIVITY', 'FACTOR',
+                
+                # Greenhouse Gases
+                'CO2', 'CH4', 'N2O', 'SF6', 'HFC', 'PFC', 'NF3', 'NF', 
+                'NO', 'NMVOC', 'CO', 'SO',
+                
+                # Energy Content
+                'GCV', 'NCV', 'NCV/GCV', 'NCV/GCV (5)'
+                
+                # Mass Units
+                '(kt)', 'Mt', 't', 'kg',
+                
+                # Energy Units  
+                'PJ', '(TJ)',
+                
+                # Emission Factors
+                '(t/TJ)', '(kg/TJ)', 'kg/t', '(t/TJ)', '(kg/TJ)', '(kg/t)',
+                '(kt)', '(Mt)', '(t)', '(kg)', '(PJ)', '(TJ)',
+                
+                # CO2 Equivalents
+                'CO₂ equivalents', 'CO₂-eq', 'CO2-eq', 'CO2 eq', 
+                't CO₂ eq', 'kt CO₂ eq', 'Mt CO₂ eq',
+                
+                # Other UNFCCC Terms
+                'captured', 'transported', 'injected', 'stored',
+                'Reference year', 'Base year', '1990', 'Change from',
+                'NaN'
+            ]
+
             # Keep only parts that contain relevant greenhouse gas or category keywords
-            keep_parts = [p for p in parts if any(unit in p for unit in 
-                          ['SINK CATEGORIES', 'CO2', 'CH4', 'N2O', 'SF6', 
-                           'HFC', 'PFC', '(kt)', 'NF', 'NO', 'NMVOC', 'CO', 'SO'])]
+            keep_parts = [p for p in parts if any(unit in p for unit in relevant_keywords)]
             
+            if not keep_parts:
+                keep_parts = parts
+
             # Join the kept parts with spaces and clean up
             return ' '.join(keep_parts).strip()
 
         # Apply the cleaning function to all columns
         df.columns = [clean_column(col) for col in df.columns]
+    
+    # Handle units in first data row
+    if len(df) > 0:
+        first_row = df.iloc[0]
+        new_columns = []
+        
+        # Unit patterns for first row detection
+        unit_patterns = [
+            '(TJ)', '(kt)', '(Mt)', '(t)', '(kg)', '(PJ)',
+            '(t/TJ)', '(kg/TJ)', '(kg/t)', 
+            'NCV/GCV', 'GCV', 'NCV',
+            'CO₂-eq', 'CO2-eq', 'CO2 eq',
+            't CO₂ eq', 'kt CO₂ eq', 'Mt CO₂ eq', 'NCV/GCV (5)'
+        ]
+        
+        for i, col_name in enumerate(df.columns):
+            if i < len(first_row):
+                first_val = str(first_row.iloc[i]).strip()
+                
+                # Check if first row value is a unit
+                is_unit = (first_val in unit_patterns or 
+                          any(pattern in first_val for pattern in unit_patterns) or
+                          ('(' in first_val and ')' in first_val and len(first_val) < 20))
+                
+                if is_unit and first_val not in ['NaN', '', 'nan']:
+                    new_col_name = f"{col_name} {first_val}".strip()
+                    new_columns.append(new_col_name)
+                else:
+                    new_columns.append(col_name)
+            else:
+                new_columns.append(col_name)
+        
+        # Update column names
+        df.columns = new_columns
+        
+        # Check if first row is all units (should be in header)
+        first_row_is_units = all(
+            str(val).strip() in unit_patterns + ['NaN', '', 'nan'] or
+            any(pattern in str(val) for pattern in unit_patterns) or
+            ('(' in str(val) and ')' in str(val) and len(str(val)) < 20)
+            for val in first_row if pd.notna(val)
+        )
+        
+        if first_row_is_units:
+            df = df.drop(df.index[0]).reset_index(drop=True)
 
     return df
 
