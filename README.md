@@ -90,18 +90,19 @@ UNFCCC data files are  difficult to work with, due to:
 ## Codebase Structure
 
 ```
+
 GHG_dashboard/
 ├── main.py                 # Main Streamlit application
-├── data_loader.py          # Data loading & caching
-├── utils.py                # Helper functions & UI components
 ├── requirements.txt        # Python dependencies│
-├── countries.geo.json     # Geographic data for mapping
-│
-├── data/                   # Data storage
-│   ├── processed_data/     #  Output from the processing pipeline
-|   ├── csv_view           # Output CSV for preprocessing
-│   ├── crt/               #  Input: Raw UNFCCC files go here
-│   └── EM-DATA/           # Climate impact datasets
+├── helper
+|   ├──data_loader.py          # Data loading & caching
+|   └── utils.py               # Helper functions & UI components
+|
+├── data/                      # Data storage
+│   ├── processed_data/        #  Output from the processing pipeline
+|   ├── countries.geo.json     # Geographic data for mapping           
+│   ├── crt/                   #  Input: Raw UNFCCC files go here
+│   └── EM-DATA/               # Climate impact datasets
 │
 ├── views/                      # Dashboard page modules
 │   ├── ghg_map.py              # Interactive world map
@@ -124,11 +125,10 @@ GHG_dashboard/
 |   └── climate_impact/           # Other data source processors
 |
 ├── images/                     # Screenshots & documentation
-├── example_processing/         # Example preprocessing            
-   ├── example_use.ipynb       # Processing tutorial notebook           
-   ├── Australia/              # Preprocessing demo for Australia
-   ├── Table1_B_2              # Preprocessing ouput for Table1.B.2
-   └── csv_view                # Preprocessing output examples in CSV 
+└── example_processing/         # Example preprocessing            
+    ├── example use.ipynb       # Processing tutorial notebook 
+    └── example_climate         # Preprocessing tutorial for climate impact dat         
+  
 
 ```
 
@@ -322,5 +322,6 @@ Available at: https://ghg-dashboard.streamlit.app/
 ```
 
 ---
+
 
 
