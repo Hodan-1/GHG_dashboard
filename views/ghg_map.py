@@ -5,7 +5,7 @@ Interactive world map showing CO2 emissions over time.
 
 import streamlit as st
 import plotly.express as px
-from utils import create_complete_map_figure, get_co2_column
+from helper.utils import create_complete_map_figure, get_co2_column
 
 
 def render_ghg_map_page(sidebar_data):

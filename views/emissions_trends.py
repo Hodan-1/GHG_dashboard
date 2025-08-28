@@ -8,7 +8,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
-from utils import get_co2_column, get_other_gas_columns
+from helper.utils import get_co2_column, get_other_gas_columns
 
 
 def render_emissions_trends_page(sidebar_data):

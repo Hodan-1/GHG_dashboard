@@ -5,8 +5,8 @@ Handles navigation, session state, and page routing.
 
 import streamlit as st
 import plotly.io as pio
-from data_loader import preload_all_data
-from utils import get_ghg_map_sidebar, get_country_sidebar, get_sector_sidebar
+from helper.data_loader import preload_all_data
+from helper.utils import get_ghg_map_sidebar, get_country_sidebar, get_sector_sidebar
 from views.ghg_map import render_ghg_map_page
 from views.emissions_trends import render_emissions_trends_page
 from views.sector_distribution import render_sector_distribution_page

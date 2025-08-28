@@ -7,7 +7,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-from utils import get_co2_column, get_other_gas_columns
+from helper.utils import get_co2_column, get_other_gas_columns
 from data_content.gas_information import gas_explanations
 from data_content.chart_explanations import chart_explanations
 from data_content.sector_goals import sector_goals

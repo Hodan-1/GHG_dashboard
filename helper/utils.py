@@ -6,7 +6,7 @@ Contains sidebar functions and other utility functions.
 import streamlit as st
 import plotly.graph_objects as go
 import numpy as np
-from data_loader import get_country_folders
+from helper.data_loader import get_country_folders
 
 
 def get_ghg_map_sidebar():
