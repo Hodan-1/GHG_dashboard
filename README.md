@@ -1,8 +1,8 @@
-# 🌍 Welcome to the Global GHG Emissions Dashboard
+# 🌍 Welcome to the Global GHG Emissions Dashboard!
 
 **An interactive journey through three decades of climate action data. Explore, understand, and connect the dots between global greenhouse gas emissions and their impacts, with advanced UNFCCC data processing.**
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](hurl)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ghg-dashboard.streamlit.app/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -14,13 +14,15 @@ Welcome! This is the codebase for an advanced data visualisation dashboard that 
 This project isn't limited to displaying data; it also processes it. A sophicated data pipline that automatical tackles the formatting challenges of UNFCCC files has been built, extracting clean, anlaysis-ready data for over 40 Annex I countries. 
 ##  **Live Dashboard**
 
-** [Explore the Dashboard Here](hurl) **
+**[Explore the Dashboard Here](https://ghg-dashboard.streamlit.app/)**
 
 *Dive into 30+ years of climate data from UNFCCC Annex I countries with interactive visualisations, policy analysis, and climate impact connctions.*
 
 ![GHG Dashboard Overview](images/dashboard.gif)
+
 *Main dashboard interface showing global emissions data with interactive filtering options Explore emission trends, sector contributions, and policy contexts for individual nations.*
 
+---
 ## Dashboard Features
 
 ### Interactive Global Emissions Map
@@ -33,7 +35,7 @@ This project isn't limited to displaying data; it also processes it. A sophicate
 
 *Watch global CO₂ emissions evolve over time with our animated choropleth map*
 
-
+---
 ### Emissions Trends  
 - **Multi-Gas Analysis**: Compare CO₂, CH₄, N₂O, SF₆, HFCs, and PFCs
 - **Trend Detection**: Automatic calculation of emission trajectories
@@ -44,7 +46,7 @@ This project isn't limited to displaying data; it also processes it. A sophicate
 *Deep-dive into individual country emission trajectories and multi-gas analysis*
 
 
-
+---
 ### Sector Distribution: 
 
 - **Hierarchical Breakdown**: Drill down from sectors to sub-subsectors
@@ -55,7 +57,7 @@ This project isn't limited to displaying data; it also processes it. A sophicate
 ![Sector Distribution](images/sectors.png)
 *Breakdown of emissions by economic sectors and sub-sectors.nderstand which economic activities and greenhouse gases are driving emissions.*
 
-
+---
 ### Climate Impact: 
 - Analyse the links between historical emissions and real-world climate impacts like extreme weather events.
 ### Data View: 
@@ -135,9 +137,31 @@ GHG_dashboard/
 ## Requirements
 
 ### To Run the Dashboard Locally
-*   **Python** 3.8 or higher
-*   **pip** (Python package manager)
-*   **Git**
+* **Python** 3.8 or higher
+* **pip** (Python package manager)
+* **Git**
+* **Git LFS** (Large File Storage)
+
+### Git LFS Setup
+This repository uses Git LFS to handle large data files. To clone and use this repository:
+
+1. Install Git LFS:
+```bash
+# For Mac (using Homebrew)
+brew install git-lfs
+
+# For Windows
+# Download from https://git-lfs.github.com
+
+# For Ubuntu/Debian
+sudo apt-get install git-lfs
+```
+
+2. Enable Git LFS:
+```bash
+git lfs install
+```
+
 
 ### To Process New UNFCCC Data
 *   The above, plus raw UNFCCC Common Reporting Format (CRT) `.xlsx` files placed in the `data/crt/` directory.
@@ -147,7 +171,7 @@ GHG_dashboard/
 ##  Installation & Quick Start
 
 ### Option 1: Use the Live Dashboard (Recommended)
-Simply visit **[the live dashboard](https://p)** – no installation required!
+Simply visit **[the live dashboard](https://ghg-dashboard.streamlit.app/)** – no installation required!
 
 ### Option 2: Run a Local Copy
 
@@ -218,7 +242,7 @@ countries = [name for name in os.listdir("data/crt") if os.path.isdir(os.path.jo
 
 for country in countries:
     print(f"Processing {country}...")
-    process_summary_sheet("Summary2", f"data/crt/{country}", "data/processed_data")
+    process_summary_sheet("Summary2", f"data/crt/", "data/processed_data")
 ```
 
 #### **2. Process Climate Impact Data**
@@ -232,39 +256,24 @@ from ghg_processing.climate_impact.temperature import process_temperature_anomal
 process_temperature_anomalies('data/raw/nasa_temp.csv', 'data/EM-DATA/temperature.parquet', (1990, 2024))
 ```
 
-**For a complete tutorial, see the [Processing Examples Notebook](example_processing/example_use.ipynb).**
+**For a complete tutorial, see the [Processing Examples Notebook](example_use.ipynb).**
 
 ---
 ---
 
 ##  **Data Download & Usage**
 
-### **Download Processed Data**
+## Data Access
 
-Processed data is automatically saved in the `data/processed_data/` directory, organised by country and gas
+Due to file size limitations and Git LFS usage, the processed data is not directly downloadable through the dashboard. Instead, you can:
 
-#### **Direct File Access**
-```bash
-# Processed data location
-data/processed_data/
-├── Australia/
-│   ├── total/           # National totals
-│   ├── sectors/         # Sector-level data  
-│   ├── subsectors/      # Detailed sectoral breakdowns
-│   └── co₂/             # CO₂-specific data (if applicable available for all GHG gases)
-│       ├── total/           # National totals
-│       ├── sectors/         # Sector-level data  
-│       └── subsectors/         
-├── United Kingdom/
-└── ...
-```
-You can also download: 
-#### **Through Dashboard Interface**
-- Navigate to **Data View** page
-- Select your desired dataset
-- Filter by year range if needed
-- Click **"Download as CSV"** button
+1. **Use the Live Dashboard**
+   - Access and explore the data through our interactive visualiSations at [https://ghg-dashboard.streamlit.app/](https://ghg-dashboard.streamlit.app/)
 
+2. **Process Data Locally**
+   - Clone the repository with Git LFS support
+   - Follow the data processing instructions in the [Processing Examples Notebook](example_use.ipynb)
+   - Generate your own local copies of the processed datasets
 
 ### **Available Datasets**
 
@@ -309,10 +318,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 If you use this dashboard in your research, please cite:
 ```
 GHG Emissions Dashboard (2024). 
-Available at: url
+Available at: https://ghg-dashboard.streamlit.app/
 ```
 
 ---
-
 
 
