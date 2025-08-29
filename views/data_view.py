@@ -9,13 +9,28 @@ import os
 
 
 def render_data_view_page(sidebar_data):
-    """Render the Data View page"""
+    """Render the Data View page
+    Args:
+        sidebar_data (dict): Dictionary containing:
+            - total_emissions_df (pd.DataFrame): Total emissions data
+            - data_dict (dict): Dictionary of sector-level data
+            - year_range (tuple): Selected year range (start_year, end_year)
+            - selected_country_folder (str): Currently selected country
+            - selected_hierarchy (str): Selected sector hierarchy level
+            - selected_sectors (list): List of selected sectors to display
+
+    Returns:
+        None - Renders content directly to Streamlit page
+    """
+    # Get required data
     selected_country_folder = sidebar_data['selected_country_folder']
     year_range = sidebar_data['year_range']
     
+    # page header and description
     st.header("Data Explorer & Download")
     st.markdown("Browse and download datasets including GHG emissions, gas species, temperature anomalies, and extreme weather events.")
 
+    # root directory
     data_root = "data/processed_data"
     
     dataset_options = {
@@ -23,8 +38,9 @@ def render_data_view_page(sidebar_data):
         "Sector Emissions": os.path.join(data_root, selected_country_folder, "sectors", f"{selected_country_folder}_sectors_combined.parquet"),
         "Subsector Emissions": os.path.join(data_root, selected_country_folder, "subsectors", f"{selected_country_folder}_subsectors_combined.parquet"),
         "Sub-subsector Emissions": os.path.join(data_root, selected_country_folder, "sub_subsectors", f"{selected_country_folder}_sub_subsectors_combined.parquet"),
-        "Extreme Weather": "data/EM-DATA/summary_extreme_weather_all_countries.parquet",
-        "Temperature Anomalies": "data/EM-DATA/global_temp_anomalies.parquet"
+        "Extreme Weather": "data/climate/processed_data/summary_extreme_weather_all_countries.parquet",
+        "Temperature Anomalies": "data/climate/processed_data/global_temp_anomalies.parquet",
+        "Global Emissions": "data/climate/processed_data/global_emissions.parquet"
     }
 
     
@@ -78,12 +94,14 @@ def render_data_view_page(sidebar_data):
         "Subsector Emissions": "More detailed breakdown within each major sector.",
         "Sub-subsector Emissions": "Most granular level of sectoral breakdown available.",
         "Extreme Weather": "Records of extreme weather events including deaths, affected populations, and economic damages.",
-        "Temperature Anomalies": "Global temperature deviations from the 20th century average (1951-1980 baseline)."
+        "Temperature Anomalies": "Global temperature deviations from the 20th century average (1951-1980 baseline).",
+        "Global Emissions": "Global Emissions from Our World in Data."
     }
     
+    # Display expandable sections in description
     for dataset_name, description in descriptions.items():
         if dataset_name in dataset_options:
-            with st.expander(f"📊 {dataset_name}"):
+            with st.expander(f" {dataset_name}"):
                 st.write(description)
                 if dataset_name in ["Total Emissions", "Sector Emissions", "Subsector Emissions", "Sub-subsector Emissions"]:
                     st.write(f"**Country**: {selected_country_folder}")

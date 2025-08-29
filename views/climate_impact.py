@@ -12,7 +12,19 @@ from helper.utils import get_co2_column
 
 
 def render_climate_impact_page(sidebar_data):
-    """Enhanced Climate Impact page with better storytelling"""
+    """
+    Renders the Climate Impact page with interactive visualisations and analysis.
+
+    Args:
+        sidebar_data (dict): Dictionary containing:
+            - total_emissions_df (pd.DataFrame): Emissions data
+            - year_range (tuple): Selected year range (start_year, end_year)
+            - selected_country_folder (str): Currently selected country
+
+    Returns:
+        None - Renders content directly to Streamlit page
+    """
+    # Extract required data from sidebar
     total_emissions_df = sidebar_data['total_emissions_df']
     year_range = sidebar_data['year_range']
     selected_country_folder = sidebar_data['selected_country_folder']
@@ -52,6 +64,7 @@ def render_climate_impact_page(sidebar_data):
         filtered_temp_data['Temperature_Anomaly'] = pd.to_numeric(filtered_temp_data['Temperature_Anomaly'], errors='coerce')
         filtered_temp_data = filtered_temp_data.dropna(subset=['Temperature_Anomaly'])
 
+        # Add metrics for top of page
         try:
             temp_change = filtered_temp_data['Temperature_Anomaly'].iloc[-1] - filtered_temp_data['Temperature_Anomaly'].iloc[0]
             avg_temp = filtered_temp_data['Temperature_Anomaly'].mean()
@@ -113,31 +126,44 @@ def render_climate_impact_page(sidebar_data):
                 color = "normal"
             st.metric("Climate Status", urgency, delta=f"{latest_temp:.2f}°C above baseline", delta_color=color)
 
-        # Enhanced temperature visualization
-        fig_temp = px.line(
-            filtered_temp_data,
-            x='Year',
-            y='Temperature_Anomaly',
-            title=' Global Temperature Anomalies: The Climate Trend',
-            labels={'Temperature_Anomaly': 'Temperature Anomaly (°C)'}
-        )
+        # Enhanced temperature visualisation
+        temp_chart_tab, temp_table_tab = st.tabs('Chart', 'Table')
+        with temp_chart_tab: 
+            fig_temp = px.line(
+                filtered_temp_data,
+                x='Year',
+                y='Temperature_Anomaly',
+                title=' Global Temperature Anomalies: The Climate Trend',
+                labels={'Temperature_Anomaly': 'Temperature Anomaly (°C)'}
+            )
+           
+
+            # Add critical thresholds
+            fig_temp.add_hline(y=0, line_dash="dash", line_color="blue", 
+                            annotation_text="20th Century Average")
+            fig_temp.add_hline(y=1.5, line_dash="dot", line_color="orange", 
+                            annotation_text="Paris Agreement Target: +1.5°C")
+            fig_temp.add_hline(y=2.0, line_dash="dot", line_color="red", 
+                            annotation_text="Dangerous Warming: +2.0°C")
+            
+            # Color the line based on temperature
+            fig_temp.update_traces(
+                line=dict(width=3),
+                marker=dict(size=6)
+            )
+            
+            st.plotly_chart(fig_temp, use_container_width=True)
         
-        # Add critical thresholds
-        fig_temp.add_hline(y=0, line_dash="dash", line_color="blue", 
-                          annotation_text="20th Century Average")
-        fig_temp.add_hline(y=1.5, line_dash="dot", line_color="orange", 
-                          annotation_text="Paris Agreement Target: +1.5°C")
-        fig_temp.add_hline(y=2.0, line_dash="dot", line_color="red", 
-                          annotation_text="Dangerous Warming: +2.0°C")
-        
-        # Color the line based on temperature
-        fig_temp.update_traces(
-            line=dict(width=3),
-            marker=dict(size=6)
-        )
-        
-        st.plotly_chart(fig_temp, use_container_width=True)
-        
+        with temp_table_tab:
+            st.dataframe(filtered_temp_data)
+            csv = filtered_temp_data.to_csv(index=False)
+            st.download_button(
+                label="Download temperature data as CSV",
+                data=csv,
+                file_name=f'global_temperature_data_{year_range[0]}-{year_range[1]}.csv',
+                mime='text/csv',
+            ) 
+            
         # Add interpretation
         if temp_change > 0:
             st.warning(f"""
@@ -165,7 +191,7 @@ def render_climate_impact_page(sidebar_data):
         )
         
         # Create tabs for different views
-        tab1, tab2 = st.tabs([" Time Series", "Correlation"])
+        tab1, tab2, tab3 = st.tabs([" Time Series", "Correlation", "Table"])
 
         with tab1:
             # Time series with dual y-axis
@@ -220,6 +246,15 @@ def render_climate_impact_page(sidebar_data):
             
             st.plotly_chart(fig_correlation, use_container_width=True)
 
+        with tab3:
+            st.dataframe(global_combined)
+            csv = global_combined.to_csv(index=False)
+            st.download_button(
+                label="Download emissions-temperature data as CSV",
+                data=csv,
+                file_name=f'emissions_temperature_data_{year_range[0]}-{year_range[1]}.csv',
+                mime='text/csv',
+            )
 
         # Calculate and display correlation
         correlation = global_combined['Temperature_Anomaly'].corr(global_combined['CO\u2082'])
@@ -260,7 +295,7 @@ def render_climate_impact_page(sidebar_data):
         # Enhanced event analysis
         st.markdown("####  Extreme Weather Analysis")
         
-        analysis_tabs = st.tabs([" Frequency Over Time", " Event Types", " Severity Analysis"])
+        analysis_tabs = st.tabs([" Frequency Over Time", " Event Types", " Severity Analysis", "Data Table"])
         
         with analysis_tabs[0]:
             yearly_events = country_weather.groupby('Year').agg({
@@ -317,7 +352,54 @@ def render_climate_impact_page(sidebar_data):
                     hover_data=['Event Count']
                 )
                 st.plotly_chart(fig_severity, use_container_width=True)
+             
+        with analysis_tabs[3]: 
+            st.dataframe(country_weather)
+    
+            # Provide download options for different aggregations
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                # Raw event data
+                csv_raw = country_weather.to_csv(index=False)
+                st.download_button(
+                    label="Download raw event data",
+                    data=csv_raw,
+                    file_name=f'climate_events_{selected_country_folder}.csv',
+                    mime='text/csv',
+                )
+            
+            with col2:
+                # Aggregated yearly summary
+                yearly_summary = country_weather.groupby('Year').agg({
+                    'Total Deaths': 'sum',
+                    'Total Affected': 'sum',
+                    'Disaster Type': 'count'
+                }).reset_index()
+                csv_summary = yearly_summary.to_csv(index=False)
+                st.download_button(
+                    label="Download yearly summary",
+                    data=csv_summary,
+                    file_name=f'climate_events_summary_{selected_country_folder}.csv',
+                    mime='text/csv',
+                )
 
+            # Add disaster type summary
+            st.subheader("Disaster Type Summary")
+            disaster_summary = country_weather.groupby('Disaster Type').agg({
+                'Total Deaths': 'sum',
+                'Total Affected': 'sum',
+                'Year': 'count'
+            }).reset_index()
+            st.dataframe(disaster_summary)
+            
+            csv_disaster = disaster_summary.to_csv(index=False)
+            st.download_button(
+                label="Download disaster type summary",
+                data=csv_disaster,
+                file_name=f'disaster_type_summary_{selected_country_folder}.csv',
+                mime='text/csv',
+            )
         # Enhanced key insights with actionable information
         st.subheader(" What does this mean")
         

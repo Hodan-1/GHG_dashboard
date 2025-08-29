@@ -12,7 +12,19 @@ from helper.utils import get_co2_column, get_other_gas_columns
 
 
 def render_emissions_trends_page(sidebar_data):
-    """Enhanced emissions trends page with visual storytelling"""
+    """Enhanced emissions trends page with visual storytelling
+    Args:
+        sidebar_data (dict): Dictionary containing:
+            - total_emissions_df (pd.DataFrame): Total emissions data
+            - data_dict (dict): Dictionary of sector-level data
+            - year_range (tuple): Selected year range (start_year, end_year)
+            - selected_country_folder (str): Currently selected country
+            - selected_hierarchy (str): Selected sector hierarchy level
+            - selected_sectors (list): List of selected sectors to display
+
+    Returns:
+        None - Renders content directly to Streamlit page
+    """
     
     # Access data
     total_emissions_df = sidebar_data['total_emissions_df']
@@ -47,7 +59,7 @@ def render_emissions_trends_page(sidebar_data):
     slope = z[0]
     
     
-    
+    # Summary metrics increase ir decrease
     if co2_change > 0:
         st.markdown(f"""
         <strong style="color: #ff6b6b;">🔥 Emissions have increased by {co2_change:.1f}%</strong> since {earliest_year}, 
@@ -109,7 +121,8 @@ def render_emissions_trends_page(sidebar_data):
     This line chart shows the trend in net CO₂ emissions (including removals where land-use changes absorb CO₂) across the selected time range.
     """)
     d1, d2 = st.tabs(["Graph", "Table"])
-    with d1: # Create enhanced plot with annotations
+    # Create  plot with annotations
+    with d1: 
         fig = go.Figure()
         
         # Add CO2 trend line

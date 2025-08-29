@@ -9,7 +9,20 @@ from helper.utils import create_complete_map_figure, get_co2_column
 
 
 def render_ghg_map_page(sidebar_data):
-    """Enhanced GHG Map page with better storytelling"""
+    """Enhanced GHG Map page with better storytelling
+    
+    Args:
+        sidebar_data (dict): Dictionary containing:
+            - total_emissions_df (pd.DataFrame): Total emissions data
+            - data_dict (dict): Dictionary of sector-level data
+            - year_range (tuple): Selected year range (start_year, end_year)
+            - selected_country_folder (str): Currently selected country
+            - selected_hierarchy (str): Selected sector hierarchy level
+            - selected_sectors (list): List of selected sectors to display
+
+    Returns:
+        None - Renders content directly to Streamlit page
+    """
     
     # Enhanced header with context
     st.markdown("""
@@ -37,7 +50,7 @@ def render_ghg_map_page(sidebar_data):
         ###  **The Data Story**
         - **33+ years** of official climate reporting
         - **Annex I countries**: Developed nations with binding targets
-        - **Standardized reporting** through UNFCCC protocols
+        - **Standardised reporting** through UNFCCC protocols
         - **Real policy impacts** reflected in the numbers
         """)
     
