@@ -10,7 +10,7 @@ import plotly.graph_objects as go
 from helper.utils import get_co2_column, get_other_gas_columns
 from data_content.gas_information import gas_explanations
 from data_content.chart_explanations import chart_explanations
-from data_content.sector_goals import sector_goals
+from data_content.sector_goals import global_climate_policies
 from data_content.policy_data import policy_data
 
 
@@ -226,16 +226,24 @@ def render_sector_distribution_page(sidebar_data):
 
             st.markdown("---")
             st.header("Global Climate Commitments & Policies by Sector")
-
+            
             # Create sector selector for climate commitments
             selected_sector_goal = st.selectbox(
                 "Select a sector to view global climate commitments:",
-                options=list(sector_goals.key())
+                options=list(global_climate_policies.keys())
             )
 
-            #Display commitments
-            if selected_sector_goal in sector_goals:
+            # Display commitments
+            if selected_sector_goal in global_climate_policies:
                 st.markdown(f"### Global Climate Commitments for {selected_sector_goal}")
-                st.markdown(sector_goals[selected_sector_goal])
+                
+                # Get policies for selected sector
+                policies = global_climate_policies[selected_sector_goal]
+                
+                # Display each policy as a bullet point
+                for policy in policies:
+                    st.markdown(f"**{policy['policy_name']}**")
+                    st.markdown(f"- {policy['description']}")
+                    st.markdown("---")  # Add a separator between policies
             else:
                 st.warning("No global climate commitment data found for this sector.")

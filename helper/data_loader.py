@@ -35,7 +35,7 @@ def load_country_data(country_code):
 def load_weather_data():
     """Load extreme weather events data"""
     try:
-        weather_data = pd.read_parquet('data/EM-DATA/summary_extreme_weather_all_countries.parquet')
+        weather_data = pd.read_parquet('data/climate/processed/summary_extreme_weather_all_countries.parquet')
         return weather_data
     except:
         return None
@@ -45,7 +45,7 @@ def load_weather_data():
 def load_temperature_data():
     """Load global temperature anomaly data"""
     try:
-        temp_data = pd.read_parquet('data/EM-DATA/global_temp_anomalies.parquet')
+        temp_data = pd.read_parquet('data/climate/processed/global_temp_anomalies.parquet')
         return temp_data
     except:
         return None   
@@ -54,7 +54,7 @@ def load_temperature_data():
 def load_global_emission():
     """Load global emissions data"""
     try:
-        global_emissions = pd.read_parquet("data/EM-DATA/global_emissions.parquet")
+        global_emissions = pd.read_parquet("data/climate/processed/global_emissions.parquet")
         return global_emissions
     except:
         return None

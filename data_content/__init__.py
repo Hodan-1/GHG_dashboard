@@ -5,13 +5,13 @@ Contains dictionaries of policy data, sector goals, gas information, and chart e
 """
 
 from .policy_data import policy_data
-from .sector_goals import sector_goals
+from .sector_goals import global_climate_policies
 from .gas_information import gas_explanations
 from .chart_explanations import chart_explanations
 
 __all__ = [
     'policy_data',
-    'sector_goals', 
+    'global_climate_policies', 
     'gas_explanations',
     'chart_explanations'
 ]
