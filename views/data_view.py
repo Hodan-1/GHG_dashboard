@@ -38,9 +38,9 @@ def render_data_view_page(sidebar_data):
         "Sector Emissions": os.path.join(data_root, selected_country_folder, "sectors", f"{selected_country_folder}_sectors_combined.parquet"),
         "Subsector Emissions": os.path.join(data_root, selected_country_folder, "subsectors", f"{selected_country_folder}_subsectors_combined.parquet"),
         "Sub-subsector Emissions": os.path.join(data_root, selected_country_folder, "sub_subsectors", f"{selected_country_folder}_sub_subsectors_combined.parquet"),
-        "Extreme Weather": "data/climate/processed_data/summary_extreme_weather_all_countries.parquet",
-        "Temperature Anomalies": "data/climate/processed_data/global_temp_anomalies.parquet",
-        "Global Emissions": "data/climate/processed_data/global_emissions.parquet"
+        "Extreme Weather": "data/climate/processed_/summary_extreme_weather_all_countries.parquet",
+        "Temperature Anomalies": "data/climate/processed_/global_temp_anomalies.parquet",
+        "Global Emissions": "data/climate/processed_/global_emissions.parquet"
     }
 
     
