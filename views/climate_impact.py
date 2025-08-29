@@ -127,7 +127,7 @@ def render_climate_impact_page(sidebar_data):
             st.metric("Climate Status", urgency, delta=f"{latest_temp:.2f}°C above baseline", delta_color=color)
 
         # Enhanced temperature visualisation
-        temp_chart_tab, temp_table_tab = st.tabs('Chart', 'Table')
+        temp_chart_tab, temp_table_tab = st.tabs(['Chart', 'Table'])
         with temp_chart_tab: 
             fig_temp = px.line(
                 filtered_temp_data,

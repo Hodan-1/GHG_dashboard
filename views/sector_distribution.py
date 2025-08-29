@@ -226,24 +226,16 @@ def render_sector_distribution_page(sidebar_data):
 
             st.markdown("---")
             st.header("Global Climate Commitments & Policies by Sector")
-            
+
             # Create sector selector for climate commitments
             selected_sector_goal = st.selectbox(
                 "Select a sector to view global climate commitments:",
                 options=list(global_climate_policies.keys())
             )
 
-            # Display commitments
+            #Display commitments
             if selected_sector_goal in global_climate_policies:
                 st.markdown(f"### Global Climate Commitments for {selected_sector_goal}")
-                
-                # Get policies for selected sector
-                policies = global_climate_policies[selected_sector_goal]
-                
-                # Display each policy as a bullet point
-                for policy in policies:
-                    st.markdown(f"**{policy['policy_name']}**")
-                    st.markdown(f"- {policy['description']}")
-                    st.markdown("---")  # Add a separator between policies
+                st.markdown(global_climate_policies[selected_sector_goal])
             else:
                 st.warning("No global climate commitment data found for this sector.")
