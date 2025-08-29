@@ -8,14 +8,14 @@ policy_data = {
     'United States of America': {
         'Sectors': {
             'Energy': {
-                'description': 'The U.S. is heavily investing in clean energy to decarbonize its grid, primarily through the Inflation Reduction Act (IRA).',
+                'description': 'The U.S. is heavily investing in clean energy to decarbonise its grid, primarily through the Inflation Reduction Act (IRA).',
                 'policies': [
                     'IRA Tax Credits: Generous tax credits for renewable energy projects (e.g., wind, solar) and technologies like carbon capture and storage (CCS).',
                     'State-level RPS: Many states have their own Renewable Portfolio Standards, mandating a percentage of electricity from renewable sources.',
                 ]
             },
             'Industrial Processes & Product Use': {
-                'description': 'Policy focuses on providing financial incentives for industrial decarbonization.',
+                'description': 'Policy focuses on providing financial incentives for industrial decarbonisation.',
                 'policies': [
                     'IRA Funding: The IRA provides billions in funding for industrial technologies and tax credits for clean hydrogen and CCS deployment.',
                     'AIM Act: The American Innovation and Manufacturing Act phases down the use of hydrofluorocarbons (HFCs), which are potent greenhouse gases.',
@@ -24,7 +24,7 @@ policy_data = {
             'Agriculture, Forestry & Other Land Use': {
                 'description': 'Policies are aimed at supporting sustainable land management practices and reducing agricultural emissions.',
                 'policies': [
-                    'IRA Conservation Programs: The IRA allocates significant funding to boost conservation programs and incentivize climate-smart agriculture.',
+                    'IRA Conservation Programs: The IRA allocates significant funding to boost conservation programs and incentivise climate-smart agriculture.',
                     'Biofuels Initiatives: Supports the production and use of biofuels to reduce emissions from the transportation sector.',
                 ]
             },
@@ -49,20 +49,28 @@ policy_data = {
                     'EV Tax Credits: Consumers can get up to $7,500 for purchasing new electric vehicles under the IRA.',
                     'CAFE Standards: Federal regulations that mandate increasing fuel efficiency for all vehicles.',
                 ]
+            },    
+            'Buildings': {
+                'description': 'Policy efforts focus on improving energy efficiency and promoting electrification through financial incentives.',
+                'policies': [
+                    'IRA Funding: The IRA provides significant funding for energy efficiency retrofits and rebates for appliances like electric heat pumps.',
+                    'Building Performance Standards (BPS): A growing number of states and cities are implementing BPS to set mandatory emissions limits for existing buildings.',
+                    'Appliance Standards: The Department of Energy regularly updates efficiency standards for household appliances.',
+                ] 
             },
         }
     },
     'United Kingdom': {
         'Sectors': {
             'Energy': {
-                'description': 'The UK has rapidly decarbonized its energy sector by phasing out coal and investing in offshore wind.',
+                'description': 'The UK has rapidly decarbonised its energy sector by phasing out coal and investing in offshore wind.',
                 'policies': [
                     'Offshore Wind Target: Aims for 50 GW of offshore wind capacity by 2030.',
                     'Contracts for Difference (CfD): A scheme that provides long-term price certainty for renewable energy investors.',
                 ]
             },
             'Industrial Processes & Product Use': {
-                'description': 'Policies are focused on industrial decarbonization and transitioning to low-carbon fuels and technologies.',
+                'description': 'Policies are focused on industrial decarbonisation and transitioning to low-carbon fuels and technologies.',
                 'policies': [
                     'Carbon Pricing: The UK Emissions Trading Scheme (ETS) places a cap and price on carbon, encouraging industries to reduce emissions.',
                     'Industrial Decarbonisation Strategy: A plan to transition to low-carbon fuels (like hydrogen) and technologies in key industrial clusters.',
@@ -71,7 +79,7 @@ policy_data = {
             'Agriculture, Forestry & Other Land Use': {
                 'description': 'Policies support a move to sustainable farming practices and better land management.',
                 'policies': [
-                    'Environmental Land Management Schemes (ELMs): Incentivizes farmers to adopt environmentally friendly practices.',
+                    'Environmental Land Management Schemes (ELMs): Incentivises farmers to adopt environmentally friendly practices.',
                     'Tree Planting Targets: Aims to increase tree cover to absorb more carbon.',
                 ]
             },
@@ -142,6 +150,12 @@ policy_data = {
                     'EV Subsidies and Tax Breaks: Provides financial incentives for purchasing EVs.',
                 ]
             },
+            'Heavy Industry': {
+                'description': 'This subsector is a major source of emissions, particularly from mining and mineral processing.',
+                'policies': [
+                    'Strengthened Safeguard Mechanism: Sets declining emissions limits for the country\'s largest industrial emitters.',
+                ]
+            },
         }
     },
     'Ukraine': {
@@ -150,7 +164,7 @@ policy_data = {
                 'description': 'Climate policy is heavily influenced by EU accession and the need for green post-war reconstruction.',
                 'policies': [
                     'EU Alignment: Adopting EU climate and energy policies as part of its path to joining the European Union.',
-                    'Green Reconstruction: Plans to rebuild a decentralized, modern energy grid with a higher share of renewables to improve energy security.',
+                    'Green Reconstruction: Plans to rebuild a decentralised, modern energy grid with a higher share of renewables to improve energy security.',
                 ]
             },
             'Industrial Processes & Product Use': {
@@ -167,7 +181,7 @@ policy_data = {
                 ]
             },
             'Waste': {
-                'description': 'Policies aim to modernize waste management to reduce methane emissions.',
+                'description': 'Policies aim to modernise waste management to reduce methane emissions.',
                 'policies': [
                     'National Waste Management Strategy: Aims to improve waste collection and processing, including better landfill gas management.',
                 ]
@@ -175,10 +189,10 @@ policy_data = {
         },
         'Subsectors': {
             'Electricity & Heat Generation': {
-                'description': 'Policies promote a shift to renewable energy and a more resilient, decentralized grid.',
+                'description': 'Policies promote a shift to renewable energy and a more resilient, decentralised grid.',
                 'policies': [
                     'Green Tariff: A feed-in tariff system that encourages investment in renewable energy projects.',
-                    'Grid Modernization: Post-war reconstruction efforts prioritize a modern, decentralized grid.',
+                    'Grid Modernisation: Post-war reconstruction efforts prioritise a modern, decentralised grid.',
                 ]
             },
             'Road Transport': {
@@ -232,6 +246,94 @@ policy_data = {
                 'policies': [
                     'Climate Ticket: An affordable, nationwide public transport pass.',
                     'EV Subsidies: Provides financial incentives for the purchase of electric vehicles and charging infrastructure.',
+                ]
+            },
+            'Bioeconomy': {
+                'description': 'Policy promotes a transition away from fossil-based products towards a circular economy that uses agricultural and forestry resources sustainably.',
+                'policies': [
+                    'Austrian Bioeconomy Strategy: A national strategy that aims to replace fossil-based materials and products with renewable ones.',
+                ]
+            },
+            'Methane Strategy': {
+                'description': 'Austria has specific policies to address methane emissions, particularly from the agricultural and waste sectors.',
+                'policies': [
+                    'Waste Management Strategy: Continued efforts to divert organic waste from landfills to reduce methane emissions.',
+                    'Methane Reduction Measures in Agriculture: Initiatives to improve livestock management and promote a more sustainable food system.',
+                ]
+            },
+        }
+    },
+
+    'Canada': {
+        'Sectors': {
+            'Energy': {
+                'description': 'Canada\'s energy sector is its largest source of emissions. Policy is focused on carbon pricing, methane regulations, and shifting to a cleaner electricity grid.',
+                'policies': [
+                    'Carbon Pricing: A federal system (or provincial equivalent) places a price on carbon pollution. Revenue from the consumer fuel charge is mostly returned to households through the Canada Carbon Rebate.',
+                    'Oil and Gas Emissions Cap: The federal government is developing a cap-and-trade system to limit and reduce emissions from the oil and gas sector.',
+                ]
+            },
+            'Industrial Processes & Product Use': {
+                'description': 'Policy uses carbon pricing and a cap-and-trade system to drive industrial decarbonisation and encourage investment in clean technologies.',
+                'policies': [
+                    'Output-Based Pricing System (OBPS): A federal system for large industrial emitters that sets emissions limits. Emitters that exceed the limit must pay a charge, while those that emit less can generate credits.',
+                    'Carbon Capture, Utilisation and Storage (CCUS) Tax Credit: A refundable tax credit for capital costs of CCUS projects, incentivising industrial decarbonisation.',
+                ]
+            },
+            'Agriculture, Forestry & Other Land Use': {
+                'description': 'Policies are aimed at supporting farmers in adopting sustainable practices and leveraging land for carbon sequestration.',
+                'policies': [
+                    'Agricultural Clean Technology Program: Funds the adoption of clean technologies and practices to reduce emissions on farms.',
+                    'Two Billion Trees Program: A commitment to plant two billion trees over a decade to help with carbon sequestration.',
+                ]
+            },
+            'Waste': {
+                'description': 'Policy is focused on reducing methane emissions from landfills through regulations and improved waste management.',
+                'policies': [
+                    'Landfill Methane Regulations: Federal regulations to reduce methane emissions from landfills by requiring gas collection and control systems.',
+                ]
+            },
+            'Other': {
+                'description': 'This sector includes emissions from other sources not covered in the main categories.',
+                'policies': []
+            }
+        },
+        'Subsectors': {
+            'Electricity & Heat Generation': {
+                'description': 'The country has a goal to achieve a net-zero electricity grid by 2035 through a mix of regulations and financial incentives.',
+                'policies': [
+                    'Clean Electricity Regulations: Proposed regulations that will limit carbon emissions from electricity generation, effectively requiring the phase-out of fossil fuel-based power plants by 2035.',
+                    'Coal Phase-out: A national phase-out of traditional coal-fired electricity by 2030.',
+                ]
+            },
+            'Road Transport': {
+                'description': 'Policies are designed to increase the use of low-carbon fuels and accelerate the transition to electric vehicles.',
+                'policies': [
+                    'Clean Fuel Regulations: Requires gasoline and diesel suppliers to reduce the carbon intensity of their fuels, providing incentives for the use of cleaner fuels like biofuels, electricity, and hydrogen.',
+                    'EV Sales Mandate: A federal mandate that requires all new light-duty vehicles sold in Canada to be zero-emission vehicles by 2035.',
+                ]
+            },
+            'Oil & Gas': {
+                'description': 'Canada\'s oil and gas sector is the single largest source of the country\'s greenhouse gas emissions. Policies target both methane and carbon dioxide.',
+                'policies': [
+                    'Methane Regulations: Regulations aim to reduce methane emissions from the oil and gas sector by 75% by 2030.',
+                    'Oil and Gas Emissions Cap: Proposed cap-and-trade system to set an absolute limit on emissions from this sector.',
+                    'Carbon Capture, Utilisation and Storage (CCUS) Tax Credit: Incentivises the high capital costs associated with CCUS projects for industrial decarbonisation.',
+                ]
+            },
+            'Buildings': {
+                'description': 'Emissions from heating and cooling residential, commercial, and institutional buildings are a key focus for decarbonisation.',
+                'policies': [
+                    'Green Buildings Strategy: A national strategy to accelerate the transition to net-zero-emissions buildings, including energy efficiency retrofits.',
+                    'Net-Zero-Ready Building Codes: Working with provinces and territories to implement new model building codes that require highly energy-efficient construction.',
+                ]
+            },
+            'Heavy Industry': {
+                'description': 'This subsector includes carbon-intensive industries like mining, smelting, and manufacturing.',
+                'policies': [
+                    'Output-Based Pricing System (OBPS): The core policy for heavy industry that applies a carbon price to emissions above a certain limit.',
+                    'Industrial Decarbonisation Funding: Federal and provincial funds, like the Strategic Innovation Fund, support industrial projects that are deploying clean technologies.',
+                    'Carbon Border Adjustment Mechanism (CBAM): Canada is considering a CBAM to place a levy on high-carbon goods imported from countries with weaker climate policies to protect domestic industries.',
                 ]
             },
         }
